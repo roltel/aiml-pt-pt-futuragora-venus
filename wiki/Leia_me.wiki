@@ -1,0 +1,20 @@
+#summary AIML em Português
+
+= Introdução =
+
+Add your content here.
+
+
+= Detalhes =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+= Avanços =
+
+Setembro 2011 - Java tests
+
+Junho 2010 - Testes em php/mysql 
+
