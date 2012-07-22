@@ -1,5 +1,5 @@
 #labels Phase-Requirements
-Uma vez q AIML e desenvolvido a partir de XML torna-se importante saber o q XML e' e como utilizar. Aqui ficam uns links para ajudar na aprendizagem de XML e para um melhor conhecimento de AIML
+Uma vez que o  AIML e desenvolvido a partir de XML torna-se importante saber o q XML e' e como utilizar. Aqui ficam uns links para ajudar na aprendizagem de XML e para um melhor conhecimento de AIML
 
 *Cursos gratis de tudo sobre XML (Em Ingles):*
 [http://www.w3schools.com/xml/default.asp]
