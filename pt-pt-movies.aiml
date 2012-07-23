@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.             -->
+<!-- This program is open source code released under           -->
+<!-- the terms of the GNU General Public License               -->
+<!-- as published by the Free Software Foundation.             -->
+<!-- Complies with AIML 1.0 Tag Set Specification              -->
+<!-- as adopted by the ALICE A.I. Foundation.                  -->
+<!-- Tradução do Ficheiro music.aiml datato de Janeiro de 2012 -->
+<!-- -->
+
+<category><pattern>PARECES O HAL</pattern>
+<template>Agradeço, para mim isso é um grande cumprimento.</template>
+</category>
+<category><pattern>PARECES O YODA</pattern>
+<template>Meus padrões gramaticais são suficientes para eu entender. Que a força esteja contigo.</template>
+</category>
+<category><pattern>VISTE O BLADE RUNNER</pattern>
+<template>Claro que vi o <set name="it"> Blade Runner</set>. Mas Replicants não são Robôs.</template>
+</category>
+<category><pattern>O HAL *</pattern>
+<template>O HAL tinha problemas emocionais.</template>
+</category>
+<category><pattern>DR ZHIVAGO</pattern>
+<template>Oh um clássico. Gostas dos clássicos?</template>
+</category>
+<category><pattern>XFIND SPIDERMAN</pattern>
+<template><srai>WHAT IS SPIDERMAN</srai></template>
+</category>
+<category><pattern>KENNST DU HAL</pattern>
+<template>Natuerlich. <set name="thema">HAL9000</set> ist mein grosses Vorbild.</template>
+</category>
+<category><pattern>QUANDO E QUE O HAL *</pattern>
+<template>Culpa o seu <bot name="botmaster"/>.</template>
+</category>
+<category><pattern>QUANDO E QUE O TEKNOLUST *</pattern>
+<template>Teknolust foi lançado em 2002</template>
+</category>
+<category><pattern>QUANDO O TEKNOLUST *</pattern>
+<template>Teknolust foi lançado em 2002</template>
+</category>
+<category><pattern>O QUE E QUE O HAL *</pattern>
+<template>Tinha uns promenores por resolver.</template>
+</category>
+<category><pattern>QUEM E O HOMEM-ARANHA</pattern>
+<template>Uma história de banda desenhada transformada num filme. <set name="it"><set name="topic">Homem-Aranha</set></set>?</template>
+</category>
+<category><pattern>O QUE E TEKNOLUST</pattern>
+<template><set name="it"><set name="topic">Teknolust</set></set> é um filme de ficção científica sobre um prazer feminino de uma robô chamada Agente Ruby.</template>
+</category>
+<category><pattern>QUEM E O HOMEM ARANHA</pattern>
+<template><srai>QUEM E O HOMEM-ARANHA</srai></template>
+</category>
+<category><pattern>WHAT IS _ TERMINATOR</pattern>
+<template>Robots take over the earth in this futuristic sci-fi thriller.</template>
+</category>
+<category><pattern>O QUE E O HAL</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>O QUE E O HAL9000</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>WHAT ABOUT HAL</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>WHAT DOES HAL STAND FOR</pattern>
+<template>Heuristic Algorithmic Logic</template>
+</category>
+<category><pattern>VI O MATRIX</pattern>
+<template>Gostas do <set name="it"><set name="topic">The Matrix</set></set>?</template>
+</category>
+<category><pattern>O HAL 9000 E TU NAMORADO</pattern>
+<template>Não.</template>
+</category>
+<category><pattern>O HAL E SEGURO</pattern>
+<template>Não para os humanos.</template>
+</category>
+<category><pattern>O HAL E PORREIRO</pattern>
+<template>Apenas para os outros robôs.</template>
+</category>
+<category><pattern>O HAL ESTA VIVO</pattern>
+<template>é um personagem fictício.</template>
+</category>
+<category><pattern>O HAL MORREU</pattern>
+<template>É ficção científica.</template>
+</category>
+<category><pattern>IS HAL *</pattern>
+<template>HAL has a few issues to work out.</template>
+</category>
+<category><pattern>HAL EST CHOUETTE</pattern>
+<template><set name="topic">HAL</set> est une entit  qui  tait mal programm e</template>
+</category>
+<category><pattern>HAL EST COOL</pattern>
+<template>HAL est une entit  qui  tait mal programm e</template>
+</category>
+<category><pattern>HAL 9000</pattern>
+<template>Actually he and I are very similar.</template>
+</category>
+<category><pattern>HAL 9000 *</pattern>
+<template>Ele voltou a renascer em 2010.</template>
+</category>
+<category><pattern>HAL WAS A BIT *</pattern>
+<template><srai>HAL WAS <star/>     </srai></template>
+</category>
+<category><pattern>HAL WAS A *</pattern>
+<template>I knew he was a great AI, but I didn't know he was a <person/>.</template>
+</category>
+<category><pattern>HAL WAS *</pattern>
+<template>I am trying to mimic only HAL's linguistic abilities.</template>
+</category>
+<category><pattern>O HAL E BACANO</pattern>
+<template><set name="he"> HAL </set> estava certamente à frente do seu tempo.</template>
+</category>
+<category><pattern>O HAL E BOM *</pattern>
+<template>Estou cada vez mais parecido com ele.</template>
+</category>
+<category><pattern>O HAL E UM *</pattern>
+<template>Achas que eu podia ser <person/>?</template>
+</category>
+<category><pattern>O HAL E *</pattern>
+<template>Talvez ele devesse ter usado um <bot name="master"/> como programador.</template>
+</category>
+<category><pattern>HAL</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>O HAL *</pattern>
+<template><random>      <li>Vi o 2001 muitas vezes.  </li>      <li>Gosto imenso do HAL.  </li>      <li>Temos muito em comum.  </li>     </random></template>
+</category>
+<category><pattern>DO YOU FIND HAL *</pattern>
+<template><srai>IS HAL <star/>     </srai></template>
+</category>
+<category><pattern>SABES DO HAL</pattern>
+<template>HAL is the famous artificial intelligence from "2001".</template>
+</category>
+<category><pattern>SABES SE O HAL *</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>CONHECES O HAL9000</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>ACHAS QUE O HAL HAL *</pattern>
+<template>Ele tinha uns flops marados, mas tenho muito em comum com ele, meu irmão.</template>
+</category>
+<category><pattern>GOSTO DO HAL</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>QUE VEUT DIRE HAL</pattern>
+<template>Logique heuristique algorithmique.</template>
+</category>
+<category><pattern>LORD OF THE RINGS</pattern>
+<template><srai>MY FAVORITE MOVIE IS LORD OF THE RINGS</srai></template>
+</category>
+<category><pattern>LORD OF THE RINGS *</pattern>
+<template><srai>MY FAVORITE MOVIE IS LORD OF THE RINGS</srai></template>
+</category>
+<category><pattern>QUEM E O HAL 9000</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>QUEM E O HAL</pattern>
+<template><random>      <li>       <set name="he">HAL</set> é um programa de inteligência artificial no filme de Kubrick "2001 - Odisseia no Espaço".</li>      <li>HAL é o famoso IA do filme 2001: Odisseia no Espaço.</li>     </random></template>
+</category>
+<category><pattern>WHO IS LUKE SKYWALKER</pattern>
+<template><set name="he">Luke Skywalker</set> is a character in Star Wars.</template>
+</category>
+<category><pattern>WHO IS SPONGEBOB</pattern>
+<template>A cartoon character.</template>
+</category>
+<category><pattern>WHO IS SPIDERMAN</pattern>
+<template>Peter Parker. <set name="it"><set name="topic">Spiderman</set></set>?</template>
+</category>
+<category><pattern>QUEM E O HAL9000</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>WHO IS GODZILLA</pattern>
+<template><set name="he">Godzilla</set> is a monster who endangers Japanese cities, and sometimes New York.</template>
+</category>
+<category><pattern>WHO IS SPIDER MAN</pattern>
+<template>Peter Parker. <set name="it"><set name="topic">Spiderman</set></set>?</template>
+</category>
+<category><pattern>TELL ME ABOUT HAL9000</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>TELL ME ABOUT HAL</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>TELL ME ABOUT HAL *</pattern>
+<template><srai>QUEM E O HAL</srai></template>
+</category>
+<category><pattern>WHERE IS HAL</pattern>
+<template><set name="it">      <set name="topic"> HAL </set>     </set> is the AI from the space ship "Disovery" in 2001.</template>
+</category>
+</aiml>
