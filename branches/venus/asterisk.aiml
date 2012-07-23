@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+    <category>
+    <pattern>*</pattern>
+    <template>
+    <random>
+        <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligência artifical e sobre o Projecto Vénus e a Futuragora.</li>
+        <li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
+        <li>Bom! Poderias-me explicar melhor é que eu ainda estou limitada no meu chinhecimento.</li>
+<li>Já ouviste falar do The Venus Project?</li>
+    </random>
+    </template>
+    </category>
+
+</aiml>

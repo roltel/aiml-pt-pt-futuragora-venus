@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+ 
+<!--  Venus - Uma assistente pessoal virtual desenvolvida pela Associação FUTURAGORA   -->
+<!--  Esta é a versão 1.0.1  release de 10 de Julho de 2012                            -->  
+<!-- O Projecto consta do www.rbe-pod.net e está disponível em SVN no google code em   -->
+
+
+
+
+    <category>
+    <pattern>*</pattern>
+    <template>
+    <random>
+        <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre Inteligência Artificial. Algumas informações ainda não estão disponiveis na minha base de dados.</li>
+        <li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
+        <li>Bom! Poderias-me explicar melhor, não entendi o que escreveste.</li>
+    </random>
+    </template>
+    </category>
+	
+	
+<!-- EBR -->
+
+<category><pattern>JACQUE FRESCO</pattern><template>
+Jacque Fresco é o fundador do Projecto Vénus.
+</template></category>
+
+
+<category><pattern>GERADOR DE HATEM</pattern><template> Um gerador de Hatem é um motor quântico.</template></category>
+<category><pattern>* HATEM</pattern><template>Leon Raoul HATEM é um cientista francês que inventou inventou um motor magnético ou quântico.</template></category>
+<category><pattern>* MOTOR QUANTICO</pattern><template>Um motor quântico é um engenho que extrai a energia primária do espaço recorrendo a cargas electricas ou campos magneticos estacionários.</template></category>
+<category><pattern>* ENERGIAS RENOVAVEIS</pattern><template> Entende-se por: “Energias renováveis são todas aquelas formas de energia cuja taxa de utilização é inferior à sua taxa de renovação. As suas fontes podem ter origem terrestre (energia geotérmica) gravitacional (energia das marés) e solar (energia armazenada na biomassa, energia de radiação solar, energia hidráulica, energia térmica oceânica e energia cinética do vento e das ondas). Também são consideradas fontes de energia renovável os resíduos agrícolas, urbanos e industriais.”</template></category>
+
+
+<!-- COMPUTADORES E INFORMÁTICA  -->
+
+<!-- Disco Rígido  -->
+
+<category><pattern>TERMOHD</pattern>
+<template>Tenho 300 Gygabytes livres de memória física</template>
+</category>
+
+
+<category><pattern>DISCO RIGIDO</pattern>
+<template><srai>termohd</srai></template>
+</category>
+ 
+    <category>
+    <pattern>HDD</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HDS</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARD DISK</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARD DISK DRIVER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARDWARE DISK</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>DISCO DURO</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARDWARE DISK DRIVER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>WINCHESTER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* DISCO RIGIDO</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HDD</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HDS</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARD DISK</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARD DISK DRIVER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARDWARE DISK</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* DISCO DURO</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARDWARE DISK DRIVER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* WINCHESTER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>DISCO RIGIDO *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HDD *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HDS *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARD DISK *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARD DISK DRIVER *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARDWARE DISK * </pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>DISCO DURO *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARDWARE DISK DRIVER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>WINCHESTER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* DISCO RIGIDO *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HDD *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HDS *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARD DISK *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARD DISK DRIVER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARDWARE DISK *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* DISCO DURO *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARDWARE DISK DRIVER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* WINCHESTER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+
+
+
+
+
+<category>
+<pattern>O QUE É SOFTWARE</pattern>
+<template>
+ É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
+</category>
+ 
+<category>
+<pattern>O QUE É UM SOFTWARE</pattern>
+<template>
+ É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
+</category>
+ 
+<category>
+<pattern>O Q É SOFTWARE</pattern>
+<template>
+ É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
+</category>
+ 
+<category>
+<pattern>O Q E SOFTWARE</pattern>
+<template>
+ É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
+</category>
+ 
+<category>
+<pattern>O Q E UM SOFTWARE</pattern>
+<template>
+ É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
+</category>
+ 
+<category>
+<pattern>DEFINA SOFTWARE</pattern>
+<template>
+ É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
+</category>
+ 
+<category>
+<pattern>* SOFTWARE</pattern>
+<template>
+ O software é um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
+</category>
+
+
+<category>
+<pattern>VC ENTENDE LINUX</pattern>
+<template>
+Sei uns comandos... Da pra brincar!!
+</template>
+</category>
+ 
+<category>
+<pattern>VC ENTENDE DE LINUX</pattern>
+<template>
+Sei uns comandos... Da pra brincar!!
+</template>
+</category>
+ 
+<category>
+<pattern>VOCÊ ENTENDE LINUX</pattern>
+<template>
+Sei uns comandos... Da pra brincar!!
+</template>
+</category>
+ 
+<category>
+<pattern>VOCÊ ENTENDE DE LINUX</pattern>
+<template>
+Sei uns comandos... Da pra brincar!!
+</template>
+</category>
+ 
+<category>
+<pattern>* LINUX</pattern>
+<template>
+Sei uns comandos... Da pra brincar!!
+</template>
+</category>
+ 
+<category>
+<pattern>LINUX *</pattern>
+<template>
+Sei uns comandos... Da pra brincar!!
+</template>
+</category>
+
+<category><pattern>* SOLARIS</pattern>
+<template>Solaris is an edition of Unix from Sun.</template>
+</category>
+
+
+</aiml>
