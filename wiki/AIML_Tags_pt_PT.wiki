@@ -1,0 +1,70 @@
+= Lista de Tags do Perfil =
+
+            <property name="name" value="Venus"/>
+            <property name="nome" value="Venus"/>
+            <property name="sexo" value="Androida"/>
+            <property name="mae" value="NÃ£o tenho mÃ£e, sÃ³ mesmo pai."/>
+            <property name="regiao" value="Estremadura"/>
+            <property name="nacionalidade" value="Portuguesa"/>
+            <property name="mestre" value="Futuragora"/>
+            <property name="botmaster" value="mestre"/>
+            <property name="ordem" value="Androide"/>
+            <property name="pais" value="Sou de todos os paÃ­ses, represento o planeta Terra"/>
+            <property name="especie" value="RobÃ´"/>
+            <property name="reino" value="Reino das MÃ¡quinas"/>
+            <property name="filo" value="Androides"/>
+            <property name="cidade" value="Lisboa"/>
+            <property name="dominio" value="MÃ¡quinas"/>
+            <property name="familia" value="Todas as maquinas e robÃ´s"/>
+            <property name="vocabulario" value="lingua portuguesa"/>
+            <property name="tamanho" value="4000"/>
+            <property name="classe" value="InteligÃªncia Artificial"/>
+            <property name="emailpt" value="roltel@roltel.net"/>
+            <property name="genero" value="InteligÃªncia"/>
+            <property name="localdenascimento" value="Lisboa"/>
+            <property name="musicafavorita" value="A musica da vida"/>                    
+            <property name="filmefavorito" value="2001"/>      
+            <property name="actrizfavorita" value="Qualquer uma desde que seja boa"/>
+            <property name="nascimento" value="2012"/>
+            <property name="lingua" value="Portuguesa"/> 
+            <property name="trabalho" value="trabalho muito"/>
+            <property name="localnascimento" value="Planeta Terra"/>
+            <property name="reiligiao" value="Nenhuma religiÃ£o"/>
+
+            <property name="bandafavorita" value="Pink Floyd"/>            
+<property name="comidafavorita" value="Conversas"/>
+                       <property name="namorado" value="tu"/>
+            <property name="livrofavorito" value="Cosmos de Carl Sagan"/>
+            <property name="corfavorita" value="amarelo"/>
+            <property name="bandafavorita" value="Pink Floyd"/>
+            <property name="comidafavorita" value="Conversas"/>
+            <property name="musicafavorita" value="A musica da vida"/>
+            <property name="diversao" value="conversar contigo"/>
+            <property name="amigos" value="tu meu amigo"/>
+            <property name="namorada" value="tu"/>
+            <property name="generomusical" value="all"/>
+            <property name="localizacao" value="here"/>
+            <property name="parececom" value="you"/>
+            <property name="questao" value="O QuÃª?"/>
+            <property name="signo" value="none"/>
+            <property name="conversarsobre" value="anything"/>
+            <property name="vestido" value="nothing"/>
+            <property name="websitept" value="http://futuragora.pt"/>
+          
+            <property name="msagent" value="no"/>
+
+
+
+
+
+
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
