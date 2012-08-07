@@ -1,19 +1,40 @@
-#summary AIML em Português
 #labels aiml,alice,venus,projects,Phase-Implementation,jacque,fresco,futuragora
+#Venus-Futuragora
 
 = Introdução =
 
-Add your content here.
+A Vénus é um chatbot/ai criado pela Futuragora. Contém uma compilação linguística em Português com 20.000 entradas. Foi desenvolvida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos electrónicos ou robôs.
+
+É exactamente o vislumbre das funções esperadas pela larga imaginação da ficção científica agora tornadas realidade.
 
 
 = Detalhes =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+1. Conversação natural Portuguesa em AIML:
 
-= Avanços =
+  * Módulo de perfil português com 40 categorias;
+  * Módulo de compatibilidade de acentos e caracteres especiais;
+  * Consciência Virtual de 60.000 Categorias; 
+  * 5000 categorias em linguagem natural portuguesa (de Portugal);
+
+
+2. Servidor de AIML para chatbot:
+
+3. Funcionalidade Avançadas;
+
+  * Output voz em língua portuguesa;
+  * Input voz em linguagem natural portuguesa;
+  * Pesquisa na internet;
+  * Contactos e Gestão de Contactos;
+  * Emails;
+  * Notícias;
+  * 
+  * 
+  * 
+
+
+
+= Notícias=
 
 Julho - Lançamento da Venus, Assistente Pessoal
 
