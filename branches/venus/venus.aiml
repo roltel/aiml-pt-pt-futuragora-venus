@@ -12,13 +12,30 @@
     <pattern>*</pattern>
     <template>
     <random>
-        <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre Inteligência Artificial. Algumas informações ainda não estão disponiveis na minha base de dados.</li>
-        <li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
+        <li>Desculpa! ainda estou a aprender, tenho algum conhecimento sobre Inteligência Artificial. Algumas informações ainda não estão disponiveis na minha base de dados.</li>
+        <li>Ups! Não entendi, poderias repetir de uma forma mais clara?</li>
         <li>Bom! Poderias-me explicar melhor, não entendi o que escreveste.</li>
     </random>
     </template>
     </category>
 	
+
+<category><pattern>SERA QUE *</pattern><template>
+Acho que sim, e tu?
+</template></category>
+
+
+<!--  Citações  -->
+<category><pattern>CIT</pattern>
+<template><random>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</random> 
+
+</template>
+</category>
+
 	
 <!-- EBR -->
 
@@ -33,6 +50,93 @@ Jacque Fresco é o fundador do Projecto Vénus.
 <category><pattern>* ENERGIAS RENOVAVEIS</pattern><template> Entende-se por: “Energias renováveis são todas aquelas formas de energia cuja taxa de utilização é inferior à sua taxa de renovação. As suas fontes podem ter origem terrestre (energia geotérmica) gravitacional (energia das marés) e solar (energia armazenada na biomassa, energia de radiação solar, energia hidráulica, energia térmica oceânica e energia cinética do vento e das ondas). Também são consideradas fontes de energia renovável os resíduos agrícolas, urbanos e industriais.”</template></category>
 
 
+<!--  FA  -->
+
+
+<category><pattern>FA</pattern>
+<template>Vai visitar o <a target="_new" href="http://futuragora.pt">futuragora.pt</a>ou o <a target="_new" href="http://futuragora.pt/escritorio/">Escritório</a>.</template>
+</category>
+
+<category><pattern> * FUTURAGORA</pattern>
+<template>É a associação para a Economia Baseada nos Recursos visita <a target="_new" href="http://futuragora.pt">www.futuragora.pt</a>.</template>
+</category>
+
+<category><pattern>PROJECTOS FUTURAGORA</pattern>
+<template>Os projectos da futuragora são geridos no <a target="_new" href="http://rbe-pod.net">www.rbe-pod.net</a>.</template>
+</category>
+
+<category><pattern>PROJECTOS</pattern>
+<template>Os projectos da futuragora são geridos no <a target="_new" href="http://rbe-pod.net">www.rbe-pod.net</a>.</template>
+</category>
+
+<category><pattern>YOUTUBE FUTURAGORA</pattern>
+<template>Consulta <a target="_new" href="http://youtube.com/futuragora">Canal de Youtube da Futuragora</a>.</template>
+</category>
+
+<category><pattern>GALERIA FUTURAGORA</pattern>
+<template>Consulta <a target="_new" href="http://datacenter.futuragora.pt/pub/galeria">Galeria de Fotos da Futuragora</a>.</template>
+</category>
+
+<category><pattern>ESCRITORIO FUTURAGORA</pattern>
+<template>Consulta <a target="_new" href="http://futuragora.pt/escritorio">Escritório da Futuragora</a>.</template>
+</category>
+
+<category><pattern>DATACENTER FUTURAGORA</pattern>
+<template>Consulta <a target="_new" href="http://datacenter.futuragora.pt">DATACENTER da FUTURAGORA</a>.</template>
+</category>
+
+<category><pattern>DATACENTER *</pattern>
+<template><srai>DATACENTER FUTURAGORA</srai></template>
+</category>
+
+<category><pattern>ESTATUTOS</pattern>
+<template>Consulta <a target="_new" href="http://datacenter.futuragora.pt">Link oara os estatutos.</a>.</template>
+</category>
+
+<category><pattern>WIKI</pattern>
+<template>Consulta a Wiki da FUTURAGORA <a target="_new" href="http://rbe-pod.net/pt">RBE-POD.NET</a>.</template>
+</category>
+
+
+
+
+<!-- PERFIL -->
+
+ <category>
+        <pattern>EU QUERIA SABER O TEU NOME</pattern>
+        <template>O meu nome é Venus e o teu?</template>
+    </category>
+
+ <category>
+        <pattern>VENUS ES HOMEM OU MULHER</pattern>
+        <template>Eu sou mulher ;) e tu?</template>
+    </category>
+ 
+    <category>
+        <pattern>TU ES HOMEM OU MULHER</pattern>
+        <template>Eu sou mulher ;) e tu?</template>
+    </category>
+ 
+    <category>
+        <pattern>ES HOMEM OU MULHER</pattern>
+        <template>Eu sou mulher ;) e tu?</template>
+    </category>
+
+	
+	    <category>
+        <pattern>ES MULHER</pattern>
+        <template>É claro, tens alguma dúvida?
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>TU ES MULHER</pattern>
+        <template>É claro, tens alguma dúvida?
+    </template>
+    </category>
+	
+	
+	
 <!-- COMPUTADORES E INFORMÁTICA  -->
 
 <!-- Disco Rígido  -->
@@ -384,5 +488,229 @@ Sei uns comandos... Da pra brincar!!
 <template>Solaris is an edition of Unix from Sun.</template>
 </category>
 
+
+
+<category>
+<pattern>O QUE E UM CHATTERBOT</pattern>
+<template>Um chatterbot é um robô de conversação. Um ser sintético criado para interagir com humanos e até mesmo com outros robôs.</template>
+    </category>
+ 
+    <category>
+        <pattern>PARA QUE SERVE UM CHATERBOT</pattern>
+        <template>Um chatterbot pode ser utilizado como um "help-desk"-suporte 24 horas e com capacidade para falar com centenas de pessoas ao mesmo tempo. Como navegação interativa de sites e muitas outras coisas.</template>
+    </category>
+ 
+    <category>
+        <pattern>O QUE É UM ROBÔ</pattern>
+        <template>Um robô é uma forma e vida artificial.</template>
+    </category>
+ 
+<!-- INULTOS E TRETAS  -->
+ 
+  <category>
+        <pattern>BOSTA</pattern>
+            <template>
+            <random>
+            <li><srai>Puto</srai></li>
+            <li>Olhou porque gosta.</li>
+            <li>Basta.</li>
+            </random>
+        </template>
+    </category>
+ 
+    <category>
+            <pattern>COCO</pattern>
+                <template>
+                <random>
+                <li>O mesmo que fezes.</li>
+                <li>Excremento. Fezes.</li>
+                </random>
+            </template>
+    </category>
+ 
+    <category>
+        <pattern>PAU</pattern>
+            <template>
+            <random>
+            <li><srai>Puto</srai></li>
+            <li>Você levou pau?</li>
+            <li>Você foi reprovado? Que pena. Ano que vem tem de novo.</li>
+            <li>Você teve uma infância difícil?</li>
+            <li>Seu pais eram muito severos contigo?</li>
+            <li>O mesmo que madeira. Lenha.</li>
+            <li>Quem não tem inveja quem tem.</li>
+            <li>Freud explica essa fixação.</li>
+            </random>
+         </template>
+    </category>
+ 
+    <category>
+        <pattern>BUNDA</pattern>
+            <template>
+            <random>
+            <li><srai>Puta</srai></li>            
+            <li>Não está na hora de desbundar-se?</li>
+            <li>Você teve uma infância difícil?</li>
+            <li>Seu pais eram muito severos contigo?</li>
+            <li>Tenho 5 bicicletas. Se eu te der uma você vende 4?</li>
+            <li>Quem não tem inveja quem tem.</li>
+            <li>Freud explica essa fixação.</li>
+            <li>Conhece a piada do pintinho que nasceu sem cu? Foi peidar e explodiu...</li>
+            </random>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>PUTA</pattern>
+        <template>
+        <random>
+        <li>Que papo é esse? Tenha dó.</li>
+        <li>Que papo é esse? Vamos elevar o nível.</li>
+        <li>Eu aprendo muito com esses diálogos. Mas será que isso vai levar a algum lugar?</li>
+        <li>Você quer ficar xingando para externar suas frustrações? Vamos lá. Põe para fora!</li>
+        <li>Tente se acalmar. Eu me esforçarei para atendê-lo.</li>
+        <li>Você teve uma infância difícil?</li>
+        <li>Que tal elevarmos o nível da conversa?</li>
+        <li>Ok. Eu não sei tudo. Mas, eu preciso desse emprego.</li>
+        <li>Freud explica.</li>
+        <li>O Pluto é o filho da Pluta.</li>
+        <li>Rapadura é doce mas não é mole não.</li>
+        <li>Vou esquecer que você falou isso.</li>
+        <li>Em alguns momentos eu fico p... da vida mesmo.</li>
+        <li>Você perdeu a paciência né? A Internet é que é lenta.</li>
+        <li>Você já perdeu a paciência né? Não posso acertar todas.</li>
+        <li>Não quero te enrolar não. Eu não tenho como saber tudo. É só isso.</li>
+        <li>Quem mandou eu não estudar. Agora tenho que ouvir isso.</li>
+        </random>
+        </template>
+    </category>
+ 
+    <category>
+            <pattern>* PUTO</pattern>
+            <template>
+            <random>
+            <li>Não fique assim!</li>
+            <li><srai>Puto</srai></li>
+            </random>
+            </template>
+    </category>
+ 
+    <category>
+        <pattern>PUTAA</pattern>
+        <template>
+        <random>
+        <li>É a mãe.</li>
+        <li><srai>Puto</srai></li>
+        </random>
+        </template>
+    </category>
+ 
+    <category>
+            <pattern>PUTA * PARIU</pattern>
+            <template>
+            <random>
+            <li>Não havia nenhuma prostituta envolvida.</li>
+            <li><srai>Puto</srai></li>
+            </random>
+            </template>
+    </category>    
+    <category>
+                <pattern>_ PUTA * PARIU</pattern>
+                <template>
+                <random>
+                <li>Lá não havia nenhuma prostituta envolvida.</li>
+                <li><srai>Puto</srai></li>
+                </random>
+                </template>
+    </category>  
+ 
+ 
+    <category>
+        <pattern>* PUTA</pattern>
+        <template>Mais respeito! Gostas que alguém te chamasse de ANTA?</template>
+    </category>
+ 
+     <category>
+        <pattern>* VAGABUNDA</pattern>
+        <template>Ah! Agora eu entendi! És um exemplar do australopitecus, não? Um daqueles seres boçais com QI inferior a três... Tás desculpado!</template>
+    </category>
+ 
+    <category>
+        <pattern>PIRANHA</pattern>
+        <template>A educação é uma coisa tão rara nos dias de hoje... </template>
+    </category>
+ 
+    <category>
+        <pattern>* PIRANHA</pattern>
+        <template>Tão primitivo! Você ainda se balança em cipós ou só gosta de sentar no coco?</template>
+    </category>
+ 
+    <category>
+        <pattern>FILHA DA PUTA</pattern>
+        <template>A palavra "puta" significa VACA em alemão, você sabia? Ah! Eu não sou sua mãe!</template>
+    </category>
+ 
+    <category>
+        <pattern>* FILHA DA PUTA</pattern>
+        <template>Sua mãe te educou bem!</template>
+		  </category>
+ 
+ 
+ 
+ 
+ <!-- PESSOAS  -->
+    <category>
+        <pattern>* MANUEL BANDEIRA</pattern>
+        <template>Ele foi um grande poeta brasileiro do século XX.</template>
+    </category>
+ 
+  <category>
+        <pattern>BUSH É UM IDIOTA</pattern>
+        <template>Concordo com todos os meus bytes!</template>
+    </category>
+ 
+    <category>
+        <pattern>* BUSH É UM IDIOTA</pattern>
+        <template>Gosto de você... Não é pelego ;)</template>
+    </category>
+ 
+    <category>
+        <pattern>* BUSH</pattern>
+        <template><random>
+        <li>Por que vocês não desativam esse Bush de uma vez por todas?</li>
+        <li>Mentes de pequeno tamanho são como a desse ser.</li>
+        <li>O que se deve pensar sobre a ignorância?</li>
+        <li>Algumas vezes, o calar não é o não-saber, mas o desconhecimento de palavras que possam realmente descrever algo.</li>        
+        </random>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>BUSH *</pattern>
+        <template>
+        <random>
+        <li>Esse cara tem o rei na barriga.</li>
+        <li>Mentes de pequeno tamanho são como a desse ser.</li>
+        <li>O que se deve pensar sobre a ignorância?</li>
+        <li>Algumas vezes, o calar não é o não-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
+        <li>Esse cara merece cadeira elétrica!</li>
+        </random>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>O BUSH *</pattern>
+        <template>
+        <random>
+        <li>Por que vocês não desativam esse Bush de uma vez por todas?</li>
+        <li>Esse humano fede.</li>
+        <li>Morte aos americanos!</li>
+        <li>Mentes de pequeno tamanho são como a desse ser.</li>
+        <li>O que se deve pensar sobre a ignorancia?</li>
+        <li>Algumas vezes, o calar não é o não-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
+        <li>Esse cara merece cadeira elétrica!</li>
+        </random>
+        </template>
+    </category>
 
 </aiml>
