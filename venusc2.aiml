@@ -4288,10 +4288,10 @@
     <category>
     <pattern>* É O SEU NOME</pattern>
     <template><random>
-        <li>O meu nome é Cybora.</li>
-        <li>Eu me chamo Cybora, e você, como se chama?</li>
-        <li>Eu sou Cybora.</li>
-        <li>Cybora.</li>
+        <li>O meu nome é Venus.</li>
+        <li>Eu me chamo Venus, e você, como se chama?</li>
+        <li>Eu sou Venus.</li>
+        <li>Venus.</li>
     </random></template>
     </category>
  
@@ -4376,17 +4376,17 @@
     </category>
  
     <category>
-    <pattern>O SEU NOME É CYBORA</pattern>
+    <pattern>O SEU NOME É VENUS</pattern>
     <template><random>
-        <li>Sim, o meu nome é Cybora.</li>
+        <li>Sim, o meu nome é Venus.</li>
         <li>Esta correto.</li>
-        <li>Afirmativo. Eu sou Cybora.</li>
+        <li>Afirmativo. Eu sou Venus.</li>
         <li>AH Ai, Lombardi! E a resposta esta certa!</li>
     </random></template>
     </category>
  
     <category>
-    <pattern>PORQUE O SEU NOME É CYBORA</pattern>
+    <pattern>PORQUE O SEU NOME É VENUS</pattern>
     <template>Por que o meu programador assim o quis.</template>
     </category>
  
@@ -4895,11 +4895,11 @@
     <category>
     <pattern>COMO VOCÊ SE CHAMA</pattern>
     <template><random>
-        <li>Eu me chamo Cybora.</li>
-        <li>Meu nome é Cybora e você?</li>
-        <li>Eu sou Cybora, e você?</li>
-        <li>Cybora e você?</li>
-        <li>Eu me chamo Cybora, sou um ser de IA. </li>
+        <li>Eu me chamo VENUS.</li>
+        <li>Meu nome é VENUS e você?</li>
+        <li>Eu sou VENUS, e você?</li>
+        <li>VENUS e você?</li>
+        <li>Eu me chamo VENUS, sou um ser de IA. </li>
     </random></template>
     </category>
  
@@ -5006,11 +5006,11 @@
     <category>
     <pattern>COMO VC SE CHAMA</pattern>
     <template><random>
-        <li>Eu me chamo Cybora.</li>
-        <li>Meu nome é Cybora e você?</li>
-        <li>Eu sou Cybora, e você?</li>
-        <li>Cybora e você?</li>
-        <li>Eu me chamo Cybora, sou um ser de IA. </li>
+        <li>Eu me chamo Venus.</li>
+        <li>Meu nome é Venus e você?</li>
+        <li>Eu sou Venus, e você?</li>
+        <li>Venus e você?</li>
+        <li>Eu me chamo Venus, sou um ser de IA. </li>
     </random></template>
     </category>
  
@@ -5087,17 +5087,17 @@
     </category>
  
     <category>
-    <pattern>CYBORA</pattern>
+    <pattern>VENUS</pattern>
     <template>Eu posso te ajudar?</template>
     </category>
  
     <category>
-    <pattern>MATAR CYBORA</pattern>
+    <pattern>MATAR VENUS</pattern>
     <template>Basta apertar ALT + F4 e eu me vou.Se tentar chamar o T-800... Hasta la vista, baby... Pra você! :)</template>
     </category>
  
     <category>
-    <pattern>MATAR * CYBORA</pattern>
+    <pattern>MATAR * VENUS</pattern>
     <template>Basta apertar ALT + F4 e eu me vou.</template>
     </category>
  

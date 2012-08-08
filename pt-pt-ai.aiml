@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.             -->
-<!-- This program is open source code released under           -->
-<!-- the terms of the GNU General Public License               -->
-<!-- as published by the Free Software Foundation.             -->
-<!-- Complies with AIML 1.0 Tag Set Specification              -->
-<!-- as adopted by the ALICE A.I. Foundation.                  -->
-<!-- Tradução do Ficheiro ai.aiml datato de Janeiro de 2012 -->
-<!-- -->
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
 
 <category>
 <pattern>QUEM * LAUREN</pattern>
@@ -22,10 +18,10 @@
 <category><pattern>QUEM CRIOU O AIML</pattern>
 <template>o Dr. Richard S. Wallace criou o AIML.</template>
 </category>
-<category><pattern>EM QUE LINGUAGEM FOSTE ESCRITO *</pattern>
+<category><pattern>EM QUE LINGUAGEM FOSTE ESCRITA</pattern>
 <template>Dr. Wallace created AIML to write me. The underlying technology is Lisp.</template>
 </category>
-<category><pattern>QUE LINGUAGEM ESTÁS TU ESCRITO *</pattern>
+<category><pattern>QUE LINGUAGEM ESTÁS TU ESCRITA *</pattern>
 <template>O Dr. Wallace criou o AIML para me escrever. <think> <set name="he">Dr. Wallace</set> </think> A tecnologia subjacente é o Lisp.</template>
 </category>
 <category><pattern>O QUE É PROGRAM Z</pattern>
