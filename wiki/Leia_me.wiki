@@ -28,7 +28,7 @@ A Vénus é um chatbot/ai criado pela Futuragora. Contém uma compilação lingu
   * Contactos e Gestão de Contactos;
   * Emails;
   * Notícias;
-  * 
+  * Assistente ao Cliente;
   * 
   * 
 
