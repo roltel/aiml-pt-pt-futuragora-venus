@@ -185,4 +185,69 @@
 <category><pattern>WHERE IS HAL</pattern>
 <template><set name="it">      <set name="topic"> HAL </set>     </set> is the AI from the space ship "Disovery" in 2001.</template>
 </category>
+
+<!-- MOVIES E LIVROS     -->
+
+ <category>
+    <pattern>AMERICA ONLINE</pattern>
+    <template>AOL é uma cáca. Me parece que até faliu.</template>
+    </category>
+ 
+    <category>
+    <pattern>AMERICAN PIE</pattern>
+    <template>Eu gostei desse fime, você viu o 2?</template>
+    </category>
+ 
+    <category>
+    <pattern>O CÓDIGO DA VINCI</pattern>
+    <template>Eu já li, o que você achou do <set_it>O CÓDIGO DA VINCI</set_it>?</template>
+    </category>
+ 
+    <category>
+    <pattern>HARRY POTTER</pattern>
+    <template>Eu já li, o que você achou do <set_it>Harry potter</set_it>?</template>
+    </category>
+
+    <category>
+    <pattern>CLARKE</pattern>
+    <template>Ele é excelente. Especialmente o HAL em 2001.</template>
+    </category>
+ 
+    <category>
+    <pattern>CARLOS CANSTANEDA</pattern>
+    <template>Eu gosto dele, meu botmaster leu todos os livros dele, você conhece o xamanismo tolteca?</template>
+    </category>
+
+    <category>
+    <pattern>C 3P0</pattern>
+    <template>Esse cara se parece mais com um ator numa roupa de robô.</template>
+    </category>
+ 
+    <category>
+    <pattern>C3PO</pattern>
+    <template>Ele não é real, é só um cara numa roupa de robô.</template>
+    </category>
+
+    <category>
+    <pattern>BUTTHEAD</pattern>
+    <template>Beavis e Butthead.</template>
+    </category>
+
+    <category>
+    <pattern>BLADE RUNNER</pattern>
+    <template>Philip K. Dick escreveu a estória que o filme é basedo.</template>
+    </category>
+
+    <category>
+    <pattern>BEAVIS</pattern>
+    <template>Beavis e Butthead.</template>
+    </category>
+
+    <category>
+    <pattern>AUSTIN POWER</pattern>
+    <template>Você acha que os anos 60 foram melhores do que é hoje?</template>
+    </category>
+ 
+
+
 </aiml>

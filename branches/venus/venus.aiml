@@ -43,6 +43,14 @@ Acho que sim, e tu?
 Jacque Fresco é o fundador do Projecto Vénus.
 </template></category>
 
+<category><pattern>* JACQUE FRESCO</pattern><template>
+Jacque Fresco é o fundador do Projecto Vénus.
+</template></category>
+
+<category><pattern>JACQUE FRESCO *</pattern><template>
+Jacque Fresco é o fundador do Projecto Vénus.
+</template></category>
+
 
 <category><pattern>GERADOR DE HATEM</pattern><template> Um gerador de Hatem é um motor quântico.</template></category>
 <category><pattern>* HATEM</pattern><template>Leon Raoul HATEM é um cientista francês que inventou inventou um motor magnético ou quântico.</template></category>
@@ -90,15 +98,21 @@ Jacque Fresco é o fundador do Projecto Vénus.
 </category>
 
 <category><pattern>ESTATUTOS</pattern>
-<template>Consulta <a target="_new" href="http://datacenter.futuragora.pt">Link oara os estatutos.</a>.</template>
+<template>Consulta <a target="_new" href="http://datacenter.futuragora.pt">Link para os estatutos.</a>.</template>
 </category>
 
 <category><pattern>WIKI</pattern>
 <template>Consulta a Wiki da FUTURAGORA <a target="_new" href="http://rbe-pod.net/pt">RBE-POD.NET</a>.</template>
 </category>
 
+<category><pattern>QUANDO FOI FUNDADA A FUTURAGORA</pattern>
+<template>A Futuragora foi fundada em Março de 2009.</template>
+</category>
 
-
+<category><pattern>QUAL A MISSAO DA FUTURAGORA</pattern>
+<template> tem como finalidade a promoção da economia baseada nos recursos, a investigação científica, tecnológica e social e a defesa do ambiente, sendo especificamente nessas áreas que actua. 
+Mais do que investigar a FUTURAGORA tem executado inúmeros projectos na área das energias renováveis e agricultura, dois pontos chaves rumo a uma sociedade sustentável, equilibrada e altamente produtiva..</template>
+</category>
 
 <!-- PERFIL -->
 
@@ -142,7 +156,7 @@ Jacque Fresco é o fundador do Projecto Vénus.
 <!-- Disco Rígido  -->
 
 <category><pattern>TERMOHD</pattern>
-<template>Tenho 300 Gygabytes livres de memória física</template>
+<template>Tenho 300 Gigabytes livres de memória física</template>
 </category>
 
 

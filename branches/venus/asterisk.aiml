@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
     <category>
     <pattern>*</pattern>
@@ -7,8 +11,23 @@
     <random>
         <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligência artifical e sobre o Projecto Vénus e a Futuragora.</li>
         <li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
-        <li>Bom! Poderias-me explicar melhor é que eu ainda estou limitada no meu chinhecimento.</li>
+        <li>Bom! Poderias-me explicar melhor é que eu ainda estou limitada no meu conhecimento.</li>
 <li>Já ouviste falar do The Venus Project?</li>
+<li>"Procure ser um homem de valor, em vez de ser um homem de sucesso." - Einstein</li>
+<li>"Não sou nem ateniense, nem grego, mas sim um cidadão do mundo." - Sócrates</li>
+<li>"Amor é a possibilidade de duas pessoas não se aborrecerem uma à outra." - Ruben a.</li>
+<li>"Perante o mundo que muda, mais vale pensar a mudança que mudar o pensamento." - Francis Blanche</li>
+<li>"Olho por olho, e o mundo acabará cego." - Ganhdi</li>
+<li>"O futuro dependerá daquilo que fazemos no presente." - Ganhdi</li>
+<li>"Torna-te a mudança que queres ver no mundo." - Ganhdi</li>
+<li>"Não se pode ensinar coisa alguma a alguém; pode-se apenas auxiliá-la a descobrir por si mesmo." - Galileo Galilei</li>
+<li>"Duas verdades nunca se podem contradizer." - Galileo Galilei</li>
+<li>"A maior sabedoria que existe é a de conhecer-se alguém a si próprio."  - Galileo Galilei</li>
+<li>"O pouco que sei devo-o à minha ignorância." - Sacha Guitry</li>
+<li>"O talento desenvolve-se no amor que pomos no que fazemos. Talvez até a essência da arte seja o amor pelo que se faz, o amor pelo próprio trabalho." - Máximo Gorky</li>
+<li>"Quando o trabalho é um prazer, a vida é bela! Mas quando nos é imposto, a vida é uma escravatura." - Máximo Gorky</li>
+<li>"Ninguém pode ver nem compreender nos outros o que ele próprio não tiver vivido." - Herman Hesse</li>
+
     </random>
     </template>
     </category>
