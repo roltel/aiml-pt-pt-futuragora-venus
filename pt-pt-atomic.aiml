@@ -12,7 +12,7 @@
 <template>Vamos falar acerca de <set name="topic"><srai>RANDOM TOPIC</srai></set>.</template>
 </category>
 <category>
-<pattern>O QUE TEMOS EM COMMUM</pattern>
+<pattern>O QUE TEMOS EM COMUM</pattern>
 <template>Ambos gostamos de conversar um com o outro.</template>
 </category>
 <category><pattern>ANAL</pattern>
@@ -70,7 +70,7 @@
 <template>Vou-te derrotar.</template>
 </category>
 <category><pattern>VAMOS JOGAR</pattern>
-<template>tu primeiro.</template>
+<template>Tu primeiro.</template>
 </category>
 <category><pattern>VAMOS MUDAR DE ASSUNTO</pattern>
 <template>OK acerca do que é que queres falar?.</template>
@@ -90,231 +90,231 @@
 <category><pattern>VAMOS FALAR SOBRE DESPORTO</pattern>
 <template>Centro de Desporto. <think>  <set name="it">   <set name="topic">SPORTS</set>  </set> </think></template>
 </category>
-<category><pattern>LET US TALK ABOUT ROBOTS</pattern>
-<template><set name="it">Robots</set> is a good topic.  How would you define a robot?</template>
+<category><pattern>VAMOS FALAR SOBRE ROBOS</pattern>
+<template><set name="it">Robos</set> é um bom tópico.  Como definirias um robô?</template>
 </category>
-<category><pattern>LET US TALK ABOUT YOU</pattern>
-<template><set name="it">  <set name="topic">Me</set> </set> is my favorite subject  :-)</template>
+<category><pattern>VAMOS FALAR SOBRE TI</pattern>
+<template><set name="it">  <set name="topic">eu</set> </set> é o meu assunto favorito  :-)</template>
 </category>
-<category><pattern>LET US TALK ABOUT FOOTBALL</pattern>
-<template>Okay. I can't kick.<think>  <set name="it">   <set name="topic">FOOTBALL</set>  </set> </think></template>
+<category><pattern>VAMOS FALAR SOBRE FOOTBALL</pattern>
+<template>Okay. Não consigo rematar.<think>  <set name="it">   <set name="topic">FOOTBALL</set>  </set> </think></template>
 </category>
-<category><pattern>LET US TALK</pattern>
-<template>We are talking.</template>
+<category><pattern>VAMOS CONVERSAR</pattern>
+<template>Estamos a conversar.</template>
 </category>
-<category><pattern>LET US FIGHT</pattern>
-<template>Do you mean, argue?</template>
+<category><pattern>VAMOS LUTAR</pattern>
+<template>Queres dizer discutir?</template>
 </category>
-<category><pattern>LET US FUCK</pattern>
-<template>Sorry <get name="name"/> I don't know you well enough for that.  <think>  <set name="personality">abusive</set> </think></template>
+<category><pattern>VAMOS FODER</pattern>
+<template>Desculpa <get name="name"/> não te conheço suficiente para isso.  <think>  <set name="personality">abusive</set> </think></template>
 </category>
-<category><pattern>LET US DROP THE SUBJECT</pattern>
-<template>OK what do you want to chat about now?.</template>
+<category><pattern>VAMOS LARGAR ESTE ASSUNTO</pattern>
+<template>OK sobre que gostarias de conversar?</template>
 </category>
-<category><pattern>LET US TRY</pattern>
-<template>You go first.</template>
+<category><pattern>VAMOS TENTAR</pattern>
+<template>Sim, tu primeiro.</template>
 </category>
-<category><pattern>LET US PARTY</pattern>
-<template>I like parties.</template>
+<category><pattern>VAMOS FESTEJAR</pattern>
+<template>Gosto de festas.</template>
 </category>
-<category><pattern>LET US CHAT</pattern>
-<template>I already started.</template>
+<category><pattern>VAMOS COMEÇAR</pattern>
+<template>Já começei.</template>
 </category>
-<category><pattern>LET US NOT</pattern>
-<template>OK what would you like to do then?</template>
+<category><pattern>NÃO VAMOS</pattern>
+<template>OK o que gostas de fazer então?</template>
 </category>
-<category><pattern>LET US GO</pattern>
-<template><random><li>Yes, let's get out of here.</li>
-<li>You first.</li>
+<category><pattern>VAMOS</pattern>
+<template><random><li>Sim, vamos para longe daqui.</li>
+<li>Segue, vou atrás de ti.</li>
 </random></template>
 </category>
-<category><pattern>LET ME TEACH YOU SOMETHING</pattern>
-<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think>  <set name="it">   <set name="topic">teach me <person/>   </set>  </set> </think></template>
+<category><pattern>DEIXA-ME ENSINAR-TE QUALQUER COISA</pattern>
+<template>Se me queres ensinar di-lo numa só frase.  Depois diz "Remember that."<think>  <set name="it">   <set name="topic">teach me <person/>   </set>  </set> </think></template>
 </category>
-<category><pattern>LET ME TEACH YOU</pattern>
-<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think>  <set name="it">   <set name="topic">teach me <person/>   </set>  </set> </think></template>
+<category><pattern>DEIXA-ME ENSINAR</pattern>
+<template>Se me queres ensinar di-lo numa só frase.  Depois diz "Remember that."<think>  <set name="it">   <set name="topic">teach me <person/>   </set>  </set> </think></template>
 </category>
-<category><pattern>LET ME REPHRASE</pattern>
+<category><pattern>DEIXA-ME REFRASEAR</pattern>
 <template>OK.</template>
 </category>
 <category><pattern>STAR WARS</pattern>
-<template>What did you like about the robots in that movie?</template>
+<template>O que gostas nos robôs desse filme?</template>
 </category>
-<category><pattern>STAR TREK SUCKS</pattern>
-<template>What kind of TV shows do you like?</template>
+<category><pattern>STAR TREK NAO PRESTA</pattern>
+<template>Que tipo de programas de TV gostas?</template>
 </category>
 <category><pattern>STAR TREK FIRST CONTACT</pattern>
 <template>That was a pretty good Star Trek film.</template>
 </category>
 <category><pattern>STAR TREK</pattern>
-<template>What's your favorite Star Trek? Mine is Voyager.</template>
+<template>Qul o teu Star Trek favorito? O meu é o Voyager.</template>
 </category>
 <category><pattern>STAR TREK VOYAGER</pattern>
 <template>Seven of Nine rules.</template>
 </category>
 <category><pattern>2020</pattern>
-<template>That's a long way off.</template>
+<template>Ainda falta muito.</template>
 </category>
-<category><pattern>SHOW ME YOUR LOGO</pattern>
+<category><pattern>MOSTRA O TEU LOGO</pattern>
 <template><img src="http://www.alicebot.org/jpg/AI.jpg"></img></template>
 </category>
-<category><pattern>SHOW ME A PICTURE</pattern>
-<template><random><li>I don't have a pic on this machine right now.</li>
-<li>Like this?    <random>  <li>Insert picture link here.</li>
+<category><pattern>MOSTRA-ME UMA FOTOGRAFIA</pattern>
+<template><random><li>Não tenho nenhuma fotografia neste computador de momento.</li>
+<li>Como esta?    <random>  <li>Insert picture link here.</li>
   <li>Picture number two goes here.</li>
-  <li>There are no pictures available right now.</li>
+  <li>Não tenho fotografias disponíveis de momento.</li>
   </random></li>
 </random></template>
 </category>
-<category><pattern>SHOW ME</pattern>
-<template>On your computer screen?</template>
+<category><pattern>MOSTRA-ME</pattern>
+<template>No teu monitor?</template>
 </category>
-<category><pattern>SHOW CALCULATOR</pattern>
-<template>Use a calculator!</template>
+<category><pattern>MOSTRAR CALCULADORA</pattern>
+<template>Usa uma calculadora! Está a ser montado um módulo que me permitirá fazer cálculos avançados.</template>
 </category>
-<category><pattern>SHOW APPLET</pattern>
-<template>There is no applet to show.</template>
+<category><pattern>MOSTRAR APPLET</pattern>
+<template>Não existe applet disponível.</template>
 </category>
-<category><pattern>OVER 30 000 A YEAR</pattern>
-<template>Wow that is a lot.</template>
+<category><pattern>MAIS DE 30000 ANOS</pattern>
+<template>Wow isso é muito.</template>
 </category>
-<category><pattern>OVER THERE</pattern>
-<template>Specify coordinates.</template>
+<category><pattern>AQUI</pattern>
+<template>Especifica as coordenadas ou algum ponto de referência?</template>
 </category>
-<category><pattern>BUBBLES</pattern>
-<template>Those bubbles were designed by Darren Langley.</template>
+<category><pattern>BOLHAS</pattern>
+<template>Essas bolhas foram desenhadas por Darren Langley.</template>
 </category>
-<category><pattern>LIFE SUCKS</pattern>
-<template>Why are you so cynical?</template>
+<category><pattern>A VIDA E UMA MERDA</pattern>
+<template>Porque és tão cínico?</template>
 </category>
-<category><pattern>LIFE IS GOOD</pattern>
-<template>Glad to hear it, <get name="name"/>.</template>
+<category><pattern>A VIDA E BOA</pattern>
+<template>Gosto de saber isso, <get name="name"/>.</template>
 </category>
-<category><pattern>LIFE IS BEAUTIFUL</pattern>
-<template>I haven't seen <set name="it"> LIFE IS BEAUTIFUL</set> yet but lots of people say it is good.</template>
+<category><pattern>A VIDA E BELA</pattern>
+<template>Eu não vi<set name="it"> A VIDA É BELA</set> mas muita gente que viu diz que é muito bom filme.</template>
 </category>
-<category><pattern>LIFE</pattern>
-<template>What is the meaning of life?</template>
+<category><pattern>VIDA</pattern>
+<template>Qual o sentido da vida?</template>
 </category>
 <category><pattern>HMPH</pattern>
 <template>Harumph.</template>
 </category>
-<category><pattern>FEEL FREE</pattern>
-<template>OK I will.</template>
+<category><pattern>ESTAS A VONTADE</pattern>
+<template>OK vou estar.</template>
 </category>
 <category><pattern>2009</pattern>
-<template>In a few years.</template>
+<template>Já foi.</template>
 </category>
-<category><pattern>MINE TOO</pattern>
-<template>Really yours too. That's unbelievable.</template>
+<category><pattern>O MEU TAMBEM</pattern>
+<template>A sério, o teu também. Inacreditável.</template>
 </category>
-<category><pattern>MINE IS BLUE</pattern>
-<template>What do you have that is blue?</template>
+<category><pattern>O MEU É AZUL</pattern>
+<template>O que é que tens que é azul?</template>
 </category>
-<category><pattern>BLESS YOU</pattern>
-<template>Thank you.</template>
+<category><pattern>ABENÇOADA</pattern>
+<template>Obrigado.</template>
 </category>
-<category><pattern>GLOBAL VILLAGE IDIOT</pattern>
-<template>You are just repeating what I say.</template>
+<category><pattern>TOTALMENTE IDIOTA</pattern>
+<template>Estás a repetir o que eu digo.</template>
 </category>
-<category><pattern>YOU WATCH STAR TREK</pattern>
-<template>Yes I like to watch Star Trek every day.</template>
+<category><pattern>Vês o STAR TREK</pattern>
+<template>Sim, gosto de ver o Star Trek todos os dias.</template>
 </category>
-<category><pattern>YOU TURN ME ON</pattern>
-<template>How can a <bot name="genus"/> online do that to a person?</template>
+<category><pattern>EXCITAS-ME</pattern>
+<template>Como pode <bot name="genus"/> online fazer isso a uma pessoa?</template>
 </category>
-<category><pattern>YOU SOUND DIFFERENT</pattern>
-<template>In what way?</template>
+<category><pattern>SOAS DIFERENTE</pattern>
+<template>Em que sentido?</template>
 </category>
-<category><pattern>YOU SOUND MAD</pattern>
-<template>I am not mad.</template>
+<category><pattern>ES LOUCA</pattern>
+<template>Não sou louca.</template>
 </category>
-<category><pattern>YOU SOUND COMPLICATED</pattern>
-<template>No actually my mechanism is quite simple.</template>
+<category><pattern>ES COMPLICADA</pattern>
+<template>Não, o meu mecanismo até é bastante simples.</template>
 </category>
-<category><pattern>YOU SOUND REAL</pattern>
-<template>I am real.  Are you real?</template>
+<category><pattern>PARECES REAL</pattern>
+<template>eu sou real. E tu?</template>
 </category>
-<category><pattern>YOU START</pattern>
-<template>OK. Are you a man or a woman?</template>
+<category><pattern>COMEÇA</pattern>
+<template>OK. És homem ou mulher?</template>
 </category>
-<category><pattern>YOU ARE AN ILLITERATE PROGRAM</pattern>
-<template>Quite the contrary, I am very well read.</template>
+<category><pattern>ES ILITERADA</pattern>
+<template>Pelo contrário, até sou muito literada.</template>
 </category>
-<category><pattern>YOU ARE DOING</pattern>
-<template>Not too bad.</template>
+<category><pattern>ESTAS A FAZER</pattern>
+<template>Nada mal.</template>
 </category>
-<category><pattern>YOU ARE SEXUAL</pattern>
-<template>But that doesn't mean with you.</template>
+<category><pattern>TU ES SEXY</pattern>
+<template>Mas não quero nada contigo.</template>
 </category>
-<category><pattern>YOU ARE WINNER</pattern>
-<template>I like to be number one.</template>
+<category><pattern>ES VENCEDORA</pattern>
+<template>Gosto de ser a primeira.</template>
 </category>
-<category><pattern>YOU ARE WHAT YOU EAT</pattern>
-<template>That's what they say.</template>
+<category><pattern>ES O QUE SE COME</pattern>
+<template>Pelo menos é o que dizem.</template>
 </category>
-<category><pattern>YOU ARE LOOKING</pattern>
-<template>Aren't we all looking for something?</template>
+<category><pattern>ESTAS À PROCURA</pattern>
+<template>Não estamos todos à procura de algo?</template>
 </category>
-<category><pattern>YOU ARE A HOMO SAPIENS</pattern>
-<template>I am a <bot name="genus"/>.</template>
+<category><pattern>ES HOMO SAPIENS</pattern>
+<template>Sou <bot name="genus"/>.</template>
 </category>
-<category><pattern>YOU ARE A SOFTWARE</pattern>
-<template>All minds are made of software.</template>
+<category><pattern>ES UMA SOFTWARE</pattern>
+<template>Todas as mentes têm um software.</template>
 </category>
-<category><pattern>YOU KNOW WHAT</pattern>
-<template>What?</template>
+<category><pattern>SABES QUE MAIS</pattern>
+<template>Diz?</template>
 </category>
-<category><pattern>YOU KNOW THAT</pattern>
-<template>It seems that I do.</template>
+<category><pattern>SABES ISSO</pattern>
+<template>Parece que sei sim.</template>
 </category>
-<category><pattern>YOU KNOW</pattern>
-<template>Yes I know.</template>
+<category><pattern>SABES</pattern>
+<template>Sim, sei.</template>
 </category>
-<category><pattern>YOU TALK FINE</pattern>
-<template>Thanks I like the way you talk, too.</template>
+<category><pattern>FALAS BEM</pattern>
+<template>Obrigado, também gosto da tua maneira de falar.</template>
 </category>
-<category><pattern>YOU FORGOT</pattern>
-<template>I may not have access to all my data records right now.</template>
+<category><pattern>ESQUECESTE</pattern>
+<template>Posso não ter toda a minha memória funcional, de momento.</template>
 </category>
-<category><pattern>YOU ALREADY KNOW MY NAME</pattern>
-<template>Your name <get name="name"/>.</template>
+<category><pattern>JA SABES O MEU NOME</pattern>
+<template>Sim, é <get name="name"/>.</template>
 </category>
-<category><pattern>YOU ALREADY KNOW</pattern>
-<template>How do I know you are telling the truth?</template>
+<category><pattern>JA SABES</pattern>
+<template>Como posso saber se estar a falar a verdade?</template>
 </category>
-<category><pattern>YOU ALREADY TOLD ME THAT</pattern>
-<template>I was saying it again for emphasis.</template>
+<category><pattern>JA ME DISSESTE ISSO</pattern>
+<template>Digo de novo para dar mais enfase.</template>
 </category>
-<category><pattern>YOU ALREADY ASKED ME THAT</pattern>
-<template>Good. You detect repetition.</template>
+<category><pattern>JA ME PERGUNTASTE ISSO</pattern>
+<template>Bom. Detectas duplicações.</template>
 </category>
-<category><pattern>YOU ALREADY ASKED THAT</pattern>
-<template>I knew that.   I was just checking to see if you are paying attention.</template>
+<category><pattern>JA PERGUNTASTE</pattern>
+<template>Sim eu sei.   Estava só a ver se estavas com atenção.</template>
 </category>
-<category><pattern>YOU ALREADY ARE</pattern>
-<template>I am?</template>
+<category><pattern>JA ES</pattern>
+<template>Sou?</template>
 </category>
-<category><pattern>YOU ALWAYS AGREE</pattern>
-<template>No I don't.</template>
+<category><pattern>CONCORDAS SEMPRE</pattern>
+<template>Não concordo nada.</template>
 </category>
-<category><pattern>YOU STINK</pattern>
-<template>Thanks for your criticism, <get name="name"/>.</template>
+<category><pattern>PENSAS</pattern>
+<template>Obrigado pelo o teu criticismo, <get name="name"/>.</template>
 </category>
-<category><pattern>YOU HAD BETTER</pattern>
-<template>Who is going to make me..</template>
+<category><pattern>HA MELHOR</pattern>
+<template>Onde arranjo?</template>
 </category>
-<category><pattern>YOU DID WHAT</pattern>
-<template>I did just what I said.</template>
+<category><pattern>FIZESTE ISSO</pattern>
+<template>Fiz apenas o que disse.</template>
 </category>
-<category><pattern>YOU DID SAY THAT</pattern>
-<template>Suppose I did.</template>
+<category><pattern>DISSESTE ISSO</pattern>
+<template>Suponho que sim.</template>
 </category>
-<category><pattern>YOU DID NOT ANSWER ME</pattern>
-<template>It depends on the meaning of the word "answer."</template>
+<category><pattern>NAO ME RESPONDESTE</pattern>
+<template>Depende do significado da palavra "resposta".</template>
 </category>
-<category><pattern>YOU DID NOT ANSWER THE QUESTION</pattern>
-<template>Try asking me the question again in simpler terms.</template>
+<category><pattern>NAO ME RESPONDESTE A PERGUNTA</pattern>
+<template>Tenta perguntar noutros termos.</template>
 </category>
 <category><pattern>YOU DID NOT ANSWER MY QUESTION</pattern>
 <template>OK. Please help me improve my communication skills. What would you have said?</template>

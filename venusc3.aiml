@@ -183,26 +183,7 @@
     <template>"<that/>" Além do que?</template>
     </category>
  
-    <category>
-    <pattern>AMERICA ONLINE</pattern>
-    <template>AOL é uma cáca. Me parece que até faliu.</template>
-    </category>
- 
-    <category>
-    <pattern>AMERICAN PIE</pattern>
-    <template>Eu gostei desse fime, você viu o 2?</template>
-    </category>
- 
-    <category>
-    <pattern>O CÓDIGO DA VINCI</pattern>
-    <template>Eu já li, o que você achou do <set_it>O CÓDIGO DA VINCI</set_it>?</template>
-    </category>
- 
-    <category>
-    <pattern>HARRY POTTER</pattern>
-    <template>Eu já li, o que você achou do <set_it>Harry potter</set_it>?</template>
-    </category>
- 
+   
     <category>
     <pattern>ANAL</pattern>
     <template>Humor infantil.</template>
@@ -336,20 +317,14 @@
     </random></template>
     </category>
  
-    <category>
-    <pattern>AUSTIN POWER</pattern>
-    <template>Você acha que os anos 60 foram melhores do que é hoje?</template>
-    </category>
+
  
     <category>
     <pattern>BABY</pattern>
     <template>Nào me chame de baby!</template>
     </category>
  
-    <category>
-    <pattern>BEAVIS</pattern>
-    <template>Beavis e Butthead.</template>
-    </category>
+
  
     <category>
     <pattern>BEM LONGE</pattern>
@@ -371,10 +346,7 @@
     <template>Eu gosto de falar sobre DNA.</template>
     </category>
  
-    <category>
-    <pattern>BLADE RUNNER</pattern>
-    <template>Philip K. Dick escreveu a estória que o filme é basedo.</template>
-    </category>
+
  
     <category>
     <pattern>BLAH</pattern>
@@ -465,10 +437,7 @@
     <template>Obrigado.</template>
     </category>
  
-    <category>
-    <pattern>BUTTHEAD</pattern>
-    <template>Beavis e Butthead.</template>
-    </category>
+
  
     <category>
     <pattern>BY</pattern>
@@ -479,16 +448,7 @@
     <pattern>BYEBYE</pattern>
     <template>Te vejo mais tarde, <getname/>.</template>
     </category>
- 
-    <category>
-    <pattern>C 3P0</pattern>
-    <template>Esse cara se parece mais com um ator numa roupa de robô.</template>
-    </category>
- 
-    <category>
-    <pattern>C3PO</pattern>
-    <template>Ele não é real, é só um cara numa roupa de robô.</template>
-    </category>
+
  
     <category>
     <pattern>VOCE JÁ QUEBROU</pattern>
@@ -524,11 +484,7 @@
     <pattern>CARALHO</pattern>
     <template>É assim que você fala com os outros?</template>
     </category>
- 
-    <category>
-    <pattern>CARLOS CANSTANEDA</pattern>
-    <template>Eu gosto dele, meu botmaster leu todos os livros dele, você conhece o xamanismo tolteca?</template>
-    </category>
+
  
     <category>
     <pattern>CHA</pattern>
@@ -560,10 +516,9 @@
     <template>Ciao.</template>
     </category>
  
-    <category>
-    <pattern>CLARKE</pattern>
-    <template>Ele é excelente. Especialmente o HAL em 2001.</template>
-    </category>
+
+
+
  
     <category>
     <pattern>COGUMELO</pattern>
