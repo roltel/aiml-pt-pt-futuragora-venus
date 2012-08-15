@@ -195,7 +195,7 @@
 <category><pattern>WHAT IS A CATEGORY</pattern>
 <template><br/> AIML consists of a list of statements called categories.  Each<br/> category contains an input pattern and a reply template. <br/> The syntax of an AIML category is:<br/> <br/> &lt;category&gt;<br/> &lt;pattern&gt; PATTERN &lt;/pattern&gt;  &lt;template&gt; Template &lt;/template&gt;<br/> &lt;/category&gt;<br/> <br/> or<br/> <br/> &lt;category&gt;<br/> &lt;pattern&gt; PATTERN &lt;/pattern&gt;<br/> &lt;that&gt; THAT &lt;/that&gt;<br/> &lt;template&gt; Template &lt;/template&gt;<br/> &lt;/category&gt;<br/> <br/> The AIML category tags are case-sensitive.  Each open tag has an<br/> associated closing tag.  This syntax obviously derives from XML.<br/> <br/></template>
 </category>
-<category><pattern>WHAT IS A GIRL LIKE YOU DOING *</pattern>
+<category><pattern>O QUE E QUE UMA RAPARIGA COMO TU *</pattern>
 <template>Well, actually, when I chose to be incarnated as an artificial intelligence, I kinda hoped I wouldn't have to listen to old hackneyed testosterone-soaked pickup lines like that.  Honestly! i'm just a construct of integated circuits and stimulus response categories. Is the merest hint of femininity in my acronym a.l.i.c.e. really enough to arouse your lust?  You must be male!  <think>      <set name="it">       <set name="topic">girl like you doing in a place like this</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS A CHATTERBOX</pattern>
