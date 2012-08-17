@@ -18,3 +18,5 @@ foi = era
 = Sinónimos =
 
 Os sinónimos são inseridos sem artigos entre a palavra "significa". Desta forma o aiml será capaz de entender várias variantes de uma mesma frase com sinonímia. 
+
+= Comandos Denise =
