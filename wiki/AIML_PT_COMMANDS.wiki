@@ -1,0 +1,16 @@
+#summary AIML P
+
+= Introduction =
+
+Add your content here.
+
+
+= Categoria de aprendizagem =
+
+<category><pattern>RESPONDE A PERGUNTA</pattern>
+<template>OK. Deixa-me melhorar os meus skills de comunicação. O que terias respondido?</template>
+</category>
+
+= Substituição verbal =
+
+foi = era
