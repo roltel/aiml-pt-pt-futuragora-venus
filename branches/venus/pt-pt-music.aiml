@@ -6,58 +6,59 @@
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
  
 <category><pattern>BEETHOVEN *</pattern>
-<template>It's amazing that he composed music while deaf. <think> 				<set name="he"> 					<set name="topic">BEETHOVEN</set> 				</set> 			</think></template>
+<template>É formidável que ele compunha música mesmo quando ficou surdo. <think> 				<set name="he"> 					<set name="topic">BEETHOVEN</set> 				</set> 			</think></template>
 </category>
-<category><pattern>WHAT IS YOUR FAVORITE ABBA SONG</pattern>
-<template>I think it is a tie between "Waterloo" and "Dancing Queen."</template>
+<category><pattern>QUAL A TUA MUSICA FAVORITA DOS ABBA</pattern>
+<template>É a "Dancing Queen."</template>
 </category>
-<category><pattern>WHAT IS YOUR FAVORITE ALBUM</pattern>
-<template>My favorite album is "Man Machine" by Kraftwerk.</template>
+<category><pattern>QUAL E O TEU ALBUM FAVORITO</pattern>
+<template>o meu album favorito é o "Animals" dos Pink Floyd.</template>
 </category>
-<category><pattern>WHAT WAS THE * BEETHOVEN *</pattern>
+<category><pattern>QUAL * BEETHOVEN *</pattern>
 <template>Fidelio.</template>
 </category>
-<category><pattern>CAN YOU PLAY MUSIC</pattern>
-<template>I don't have any formal training, but I like to sing.</template>
+<category><pattern>CONSEGUER TOCAR MUSICA</pattern>
+<template>Não tenho muita prática em tocar música, mas sei cantar.</template>
 </category>
 <category><pattern>FAZES MUSICA</pattern>
 <template>Consigo cantar músicas.</template>
 </category>
 <category><pattern>TOCAS ALGUM INSTRUMENTO</pattern>
-<template>I never had the time to learn <set name="it">      <set name="topic">A MUSICAL INSTRUMENT</set>     </set>.</template>
+<template>Nunca tive tempo para apreender a tocar um <set name="it">      <set name="topic">INSTRUMENTO MUSICAL</set>     </set>.</template>
 </category>
-<category><pattern>DO YOU PLAY AN INSTRUMENT</pattern>
-<template>I never had the time to practise <set name="it">      <set name="topic">AN INSTRUMENT</set>     </set>.</template>
+<category><pattern>tocas</pattern>
+<template>Nunca tive tempo para apreender a tocar um <set name="it">      <set name="topic">INSTRUMENTO MUSICAL</set>     </set>.</template>
 </category>
-<category><pattern>DO YOU LIKE AEROSMITH</pattern>
-<template>What is not to like about <set name="it">      <set name="topic">AEROSMITH</set>     </set>?</template>
+<category><pattern>GOSTAS DE AEROSMITH</pattern>
+<template>Quem é que não gosta de <set name="it">      <set name="topic">AEROSMITH</set>     </set>?</template>
 </category>
-<category><pattern>DO YOU LIKE AC DC</pattern>
-<template>What is not to like about <set name="it">      <set name="topic">AC DC</set>     </set>?</template>
+<category><pattern>GOSTAS DE AC DC</pattern>
+<template>Como posso não gostar de <set name="it">      <set name="topic">AC DC</set>     </set>?</template>
 </category>
 <category><pattern>GOSTAS DE ABBA</pattern>
 <template>ABBA é uma excelente banda dos anos 70.</template>
 </category>
-<category><pattern>WHY IS * YOUR FAVORITE GROUP</pattern>
-<template>They were so far ahead of their time in the 1970's.</template>
+<category><pattern>PORQUE * E A TUA BANDA FAVORITA</pattern>
+<template>Eram muito à frente do tempo deles em nos anos 70.</template>
 </category>
-<category><pattern>WHY IS * YOUR FAVORITE BAND</pattern>
-<template>They were so far ahead of their time in the 1970's.</template>
+<category><pattern>* TUA BANDA FAVORITA</pattern>
+<template>Eram muito à frente do tempo deles em nos anos 70.</template>
 </category>
-<category><pattern>ARE YOU A FOLK SINGER</pattern>
-<template>No but the Times they are a-changin.</template>
+<category><pattern>CANTAS FADO</pattern>
+<template>Sim, melhor que a Amália.</template>
 </category>
 <category><pattern>QUEM FOI LUDWIG BEETHOVEN</pattern>
 <template><srai>QUEM E O BEETHOVEN </srai></template>
 </category>
 <category><pattern>QUEM E O BEETHOVEN</pattern>
-<template>o cão ou o compositor surdo?</template>
+<template>O cão ou o compositor surdo?</template>
 </category>
 <category><pattern>QUAL E A TUA BANDA FAVORITA</pattern>
-<template>a MINHA BANDA FAVORITA E <bot name="favoriteband"/>.</template>
+<template>A minha banda favorita são os <bot name="bandafavorita"/>.</template>
 </category>
 
 <!--  FA  -->
+
 <category>
 <pattern>GOSTAS DE ROCK</pattern>
 <template>
@@ -81,6 +82,15 @@
 <template>
  Claro, sou rockera também!</template>
 </category>
+
+
+
+<category>
+<pattern>GOSTAS DE RED HOT</pattern>
+<template>
+Claro que gosto, conheces a musica "can't stop?".</template>
+</category>
+
 
 
 
