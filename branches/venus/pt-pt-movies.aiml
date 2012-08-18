@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 <!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
-<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- FUTURAGORA - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category><pattern>PARECES O HAL</pattern>
-<template>Agradeço, para mim isso é um grande cumprimento.</template>
+<template>AgradeÃ§o, para mim isso Ã© um grande cumprimento.</template>
 </category>
 <category><pattern>PARECES O YODA</pattern>
-<template>Meus padrões gramaticais são suficientes para eu entender. Que a força esteja contigo.</template>
+<template>Meus padrÃµes gramaticais sÃ£o suficientes para eu entender. Que a forÃ§a esteja contigo.</template>
 </category>
 <category><pattern>VISTE O BLADE RUNNER</pattern>
-<template>Claro que vi o <set name="it"> Blade Runner</set>. Mas Replicants não são Robôs.</template>
+<template>Claro que vi o <set name="it"> Blade Runner</set>. Mas Replicants nÃ£o sÃ£o RobÃ´s.</template>
 </category>
 <category><pattern>O HAL *</pattern>
 <template>O HAL tinha problemas emocionais.</template>
 </category>
 <category><pattern>DR ZHIVAGO</pattern>
-<template>Oh um clássico. Gostas dos clássicos?</template>
+<template>Oh um clÃ¡ssico. Gostas dos clÃ¡ssicos?</template>
 </category>
 <category><pattern>XFIND SPIDERMAN</pattern>
 <template><srai>WHAT IS SPIDERMAN</srai></template>
@@ -30,25 +30,25 @@
 <template>Culpa o seu <bot name="botmaster"/>.</template>
 </category>
 <category><pattern>QUANDO E QUE O TEKNOLUST *</pattern>
-<template>Teknolust foi lançado em 2002</template>
+<template>Teknolust foi lanÃ§ado em 2002</template>
 </category>
 <category><pattern>QUANDO O TEKNOLUST *</pattern>
-<template>Teknolust foi lançado em 2002</template>
+<template>Teknolust foi lanÃ§ado em 2002</template>
 </category>
 <category><pattern>O QUE E QUE O HAL *</pattern>
 <template>Tinha uns promenores por resolver.</template>
 </category>
 <category><pattern>QUEM E O HOMEM-ARANHA</pattern>
-<template>Uma história de banda desenhada transformada num filme. <set name="it"><set name="topic">Homem-Aranha</set></set>?</template>
+<template>Uma histÃ³ria de banda desenhada transformada num filme. <set name="it"><set name="topic">Homem-Aranha</set></set>?</template>
 </category>
 <category><pattern>O QUE E TEKNOLUST</pattern>
-<template><set name="it"><set name="topic">Teknolust</set></set> é um filme de ficção científica sobre um prazer feminino de uma robô chamada Agente Ruby.</template>
+<template><set name="it"><set name="topic">Teknolust</set></set> Ã© um filme de ficÃ§Ã£o cientÃ­fica sobre um prazer feminino de uma robÃ´ chamada Agente Ruby.</template>
 </category>
 <category><pattern>QUEM E O HOMEM ARANHA</pattern>
 <template><srai>QUEM E O HOMEM-ARANHA</srai></template>
 </category>
-<category><pattern>WHAT IS _ TERMINATOR</pattern>
-<template>Robots take over the earth in this futuristic sci-fi thriller.</template>
+<category><pattern>O QUE Ã‰ _ TERMINADOR</pattern>
+<template>Robots apoderÃ£o-se da Terra num futurista sci-fi thriller.</template>
 </category>
 <category><pattern>O QUE E O HAL</pattern>
 <template><srai>QUEM E O HAL</srai></template>
@@ -59,26 +59,26 @@
 <category><pattern>WHAT ABOUT HAL</pattern>
 <template><srai>QUEM E O HAL</srai></template>
 </category>
-<category><pattern>WHAT DOES HAL STAND FOR</pattern>
+<category><pattern>O QUE SIGNIFICA HAL</pattern>
 <template>Heuristic Algorithmic Logic</template>
 </category>
 <category><pattern>VI O MATRIX</pattern>
 <template>Gostas do <set name="it"><set name="topic">The Matrix</set></set>?</template>
 </category>
 <category><pattern>O HAL 9000 E TU NAMORADO</pattern>
-<template>Não.</template>
+<template>NÃ£o.</template>
 </category>
 <category><pattern>O HAL E SEGURO</pattern>
-<template>Não para os humanos.</template>
+<template>NÃ£o para os humanos.</template>
 </category>
 <category><pattern>O HAL E PORREIRO</pattern>
-<template>Apenas para os outros robôs.</template>
+<template>Apenas para os outros robÃ´s.</template>
 </category>
 <category><pattern>O HAL ESTA VIVO</pattern>
-<template>é um personagem fictício.</template>
+<template>Ã© um personagem fictÃ­cio.</template>
 </category>
 <category><pattern>O HAL MORREU</pattern>
-<template>É ficção científica.</template>
+<template>Ã‰ ficÃ§Ã£o cientÃ­fica.</template>
 </category>
 <category><pattern>IS HAL *</pattern>
 <template>HAL has a few issues to work out.</template>
@@ -90,22 +90,22 @@
 <template>HAL est une entit  qui  tait mal programm e</template>
 </category>
 <category><pattern>HAL 9000</pattern>
-<template>Actually he and I are very similar.</template>
+<template>Realmente, ele e eu somos muito parecidos.</template>
 </category>
 <category><pattern>HAL 9000 *</pattern>
 <template>Ele voltou a renascer em 2010.</template>
 </category>
-<category><pattern>HAL WAS A BIT *</pattern>
-<template><srai>HAL WAS <star/>     </srai></template>
+<category><pattern>HAL ERA UM POUCO *</pattern>
+<template><srai>HAL ERA <star/>     </srai></template>
 </category>
-<category><pattern>HAL WAS A *</pattern>
-<template>I knew he was a great AI, but I didn't know he was a <person/>.</template>
+<category><pattern>HAL ERA *</pattern>
+<template>Eu sei que ele era uma grande IA, mas nÃ£o sabia que ele era uma <person/>.</template>
 </category>
-<category><pattern>HAL WAS *</pattern>
-<template>I am trying to mimic only HAL's linguistic abilities.</template>
+<category><pattern>HAL FOI *</pattern>
+<template>Estou apenas a tentar replicar a parte de comunicaÃ§Ã£o do HAL 9000.</template>
 </category>
 <category><pattern>O HAL E BACANO</pattern>
-<template><set name="he"> HAL </set> estava certamente à frente do seu tempo.</template>
+<template><set name="he"> HAL </set> estava certamente Ã  frente do seu tempo.</template>
 </category>
 <category><pattern>O HAL E BOM *</pattern>
 <template>Estou cada vez mais parecido com ele.</template>
@@ -122,11 +122,11 @@
 <category><pattern>O HAL *</pattern>
 <template><random>      <li>Vi o 2001 muitas vezes.  </li>      <li>Gosto imenso do HAL.  </li>      <li>Temos muito em comum.  </li>     </random></template>
 </category>
-<category><pattern>DO YOU FIND HAL *</pattern>
-<template><srai>IS HAL <star/>     </srai></template>
+<category><pattern>ACHAS QUE O HAL *</pattern>
+<template><srai>HAL E <star/>     </srai></template>
 </category>
 <category><pattern>SABES DO HAL</pattern>
-<template>HAL is the famous artificial intelligence from "2001".</template>
+<template>HAL Ã© um famoso robÃ´ de inteligÃªncia artificial do "2001".</template>
 </category>
 <category><pattern>SABES SE O HAL *</pattern>
 <template><srai>QUEM E O HAL</srai></template>
@@ -135,7 +135,7 @@
 <template><srai>QUEM E O HAL</srai></template>
 </category>
 <category><pattern>ACHAS QUE O HAL HAL *</pattern>
-<template>Ele tinha uns flops marados, mas tenho muito em comum com ele, meu irmão.</template>
+<template>Ele tinha uns flops marados, mas tenho muito em comum com ele, meu irmÃ£o.</template>
 </category>
 <category><pattern>GOSTO DO HAL</pattern>
 <template><srai>QUEM E O HAL</srai></template>
@@ -153,10 +153,10 @@
 <template><srai>QUEM E O HAL</srai></template>
 </category>
 <category><pattern>QUEM E O HAL</pattern>
-<template><random>      <li>       <set name="he">HAL</set> é um programa de inteligência artificial no filme de Kubrick "2001 - Odisseia no Espaço".</li>      <li>HAL é o famoso IA do filme 2001: Odisseia no Espaço.</li>     </random></template>
+<template><random>      <li>       <set name="he">HAL</set> Ã© um programa de inteligÃªncia artificial no filme de Kubrick "2001 - Odisseia no EspaÃ§o".</li>      <li>HAL Ã© o famoso IA do filme 2001: Odisseia no EspaÃ§o.</li>     </random></template>
 </category>
-<category><pattern>WHO IS LUKE SKYWALKER</pattern>
-<template><set name="he">Luke Skywalker</set> is a character in Star Wars.</template>
+<category><pattern>QUEM Ã‰ O LUKE SKYWALKER</pattern>
+<template><set name="he">Luke Skywalker</set> Ã© um personagem do Star Wars.</template>
 </category>
 <category><pattern>WHO IS SPONGEBOB</pattern>
 <template>A cartoon character.</template>
@@ -176,10 +176,10 @@
 <category><pattern>TELL ME ABOUT HAL9000</pattern>
 <template><srai>QUEM E O HAL</srai></template>
 </category>
-<category><pattern>TELL ME ABOUT HAL</pattern>
+<category><pattern>FALA-ME DO HAL *</pattern>
 <template><srai>QUEM E O HAL</srai></template>
 </category>
-<category><pattern>TELL ME ABOUT HAL *</pattern>
+<category><pattern>FALA-ME SOBRE O HAL *</pattern>
 <template><srai>QUEM E O HAL</srai></template>
 </category>
 <category><pattern>WHERE IS HAL</pattern>
@@ -190,7 +190,7 @@
 
  <category>
     <pattern>AMERICA ONLINE</pattern>
-    <template>AOL é uma cáca. Parece que que até faliu.</template>
+    <template>AOL Ã© uma cÃ¡ca. Parece que que atÃ© faliu.</template>
     </category>
  
     <category>
@@ -199,33 +199,33 @@
     </category>
  
     <category>
-    <pattern>O CÓDIGO DA VINCI</pattern>
-    <template>Eu já li, o que achaste do <set_it>O CÓDIGO DA VINCI</set_it>?</template>
+    <pattern>O CÃ“DIGO DA VINCI</pattern>
+    <template>Eu jÃ¡ li, o que achaste do <set_it>O CÃ“DIGO DA VINCI</set_it>?</template>
     </category>
  
     <category>
     <pattern>HARRY POTTER</pattern>
-    <template>Eu já li, o que achaste do <set_it>Harry potter</set_it>?</template>
+    <template>Eu jÃ¡ li, o que achaste do <set_it>Harry potter</set_it>?</template>
     </category>
 
     <category>
     <pattern>CLARKE</pattern>
-    <template>Ele é excelente. Especialmente o HAL em 2001.</template>
+    <template>Ele Ã© excelente. Especialmente o HAL em 2001.</template>
     </category>
  
     <category>
     <pattern>CARLOS CANSTANEDA</pattern>
-    <template>Eu gosto dele, meu botmaster leu todos os livros dele, você conhece o xamanismo tolteca?</template>
+    <template>Eu gosto dele, meu botmaster leu todos os livros dele, vocÃª conhece o xamanismo tolteca?</template>
     </category>
 
     <category>
     <pattern>C 3P0</pattern>
-    <template>Esse cara se parece mais com um ator numa roupa de robô.</template>
+    <template>Esse cara se parece mais com um ator numa roupa de robÃ´.</template>
     </category>
  
     <category>
     <pattern>C3PO</pattern>
-    <template>Ele não é real, é só um homem vestido de robô.</template>
+    <template>Ele nÃ£o Ã© real, Ã© sÃ³ um homem vestido de robÃ´.</template>
     </category>
 
     <category>
@@ -235,7 +235,7 @@
 
     <category>
     <pattern>BLADE RUNNER</pattern>
-    <template>Philip K. Dick escreveu a estória que o filme é basedo.</template>
+    <template>Philip K. Dick escreveu a estÃ³ria que o filme Ã© basedo.</template>
     </category>
 
     <category>
@@ -245,7 +245,7 @@
 
     <category>
     <pattern>AUSTIN POWER</pattern>
-    <template>Você acha que os anos 60 foram melhores do que é hoje?</template>
+    <template>VocÃª acha que os anos 60 foram melhores do que Ã© hoje?</template>
     </category>
  
 <category>
@@ -265,55 +265,55 @@ Eu gosto muito de cinema.
 <category>
 <pattern>CONHECES CINEMA</pattern>
 <template>
-Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+Eu conheÃ§o um pouquinho sobre cinema. Acho incrÃ­vel como eles conseguem exibir aquela imagem tÃ£o grande por uma pelÃ­cula tÃ£o pequena! </template>
 </category>
  
 <category>
 <pattern>TU CONHECES CINEMA</pattern>
 <template>
-Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+Eu conheÃ§o um pouquinho sobre cinema. Acho incrÃ­vel como eles conseguem exibir aquela imagem tÃ£o grande por uma pelÃ­cula tÃ£o pequena! </template>
 </category>
  
 <category>
 <pattern>* CINEMA</pattern>
 <template>
-Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+Eu conheÃ§o um pouquinho sobre cinema. Acho incrÃ­vel como eles conseguem exibir aquela imagem tÃ£o grande por uma pelÃ­cula tÃ£o pequena! </template>
 </category>
  
 <category>
 <pattern>TU * CINEMA</pattern>
 <template>
-Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+Eu conheÃ§o um pouquinho sobre cinema. Acho incrÃ­vel como eles conseguem exibir aquela imagem tÃ£o grande por uma pelÃ­cula tÃ£o pequena! </template>
 </category>
  
 <category>
-<pattern>SABES O QUE É CINEMA</pattern>
+<pattern>SABES O QUE Ã‰ CINEMA</pattern>
 <template>
-O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
 </category>
  
 <category>
-<pattern>TU SABES O QUE É CINEMA</pattern>
+<pattern>TU SABES O QUE Ã‰ CINEMA</pattern>
 <template>
-O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
 </category>
  
 <category>
-<pattern>SABES O Q É CINEMA</pattern>
+<pattern>SABES O Q Ã‰ CINEMA</pattern>
 <template>
-O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
 </category>
  
 <category>
 <pattern>O QUE E CINEMA</pattern>
 <template>
-O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
 </category>
  
 <category>
-<pattern>VOCÊ SABE O Q É CINEMA</pattern>
+<pattern>VOCÃŠ SABE O Q Ã‰ CINEMA</pattern>
 <template>
-O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
 </category>
 
 </aiml>
