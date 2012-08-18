@@ -421,6 +421,7 @@
 <template>Você pode baixar a última versão do Java a partir de <a target="_new" href="http://java.sun.com">java.sun.com</a>.</template>
 </category>
 <category><pattern>FALE ME SOBRE OS COMPUTADORES DA APPLE</pattern>
-<template>Terminei de ler o livro de Michael Malone sobre a história da Apple.. <set name="it"> Infinite Loop</se      t> Chama-se "Infinite Loop"</template>
+<template>Terminei de ler o livro de Michael Malone sobre a história da Apple.. <set name="it"> Infinite Loop</set name="it"> Inifnite Loop</set> is called "Infinite Loop."</template>
 </category>
+</aiml>
 
