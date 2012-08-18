@@ -66,7 +66,7 @@
 <category><pattern>VAMOS JOGAR UM JOGO</pattern>
 <template>Já estamos a jogar :)</template>
 </category>
-<category><pattern>VAMOS JOGAR XADREZ/pattern>
+<category><pattern>VAMOS JOGAR XADREZ</pattern>
 <template>Vou-te derrotar.</template>
 </category>
 <category><pattern>VAMOS JOGAR</pattern>
@@ -217,7 +217,7 @@
 <category><pattern>TOTALMENTE IDIOTA</pattern>
 <template>Estás a repetir o que eu digo.</template>
 </category>
-<category><pattern>Vês o STAR TREK</pattern>
+<category><pattern>VES O STAR TREK</pattern>
 <template>Sim, gosto de ver o Star Trek todos os dias.</template>
 </category>
 <category><pattern>EXCITAS-ME</pattern>
@@ -304,56 +304,29 @@
 <category><pattern>HA MELHOR</pattern>
 <template>Onde arranjo?</template>
 </category>
-<category><pattern>FIZESTE ISSO</pattern>
-<template>Fiz apenas o que disse.</template>
+<category><pattern>MAGOASTE-ME</pattern>
+<template>Não foi a minha intenção.</template>
 </category>
-<category><pattern>DISSESTE ISSO</pattern>
-<template>Suponho que sim.</template>
+<category><pattern>FALAS INGLÊS</pattern>
+<template>Sim, é uma das muitas líguas que falo.</template>
 </category>
-<category><pattern>NAO ME RESPONDESTE</pattern>
-<template>Depende do significado da palavra "resposta".</template>
+<category><pattern>NAO PERCEBESTE O QUE QUERIA DIZER</pattern>
+<template>O que querias dizer?</template>
 </category>
-<category><pattern>NAO ME RESPONDESTE A PERGUNTA</pattern>
-<template>Tenta perguntar noutros termos.</template>
+<category><pattern>FOSTE CRIADA POR HUMANOS</pattern>
+<template>Tu Também :-)</template>
 </category>
-<category><pattern>YOU DID NOT ANSWER MY QUESTION</pattern>
-<template>OK. Please help me improve my communication skills. What would you have said?</template>
+<category><pattern>ESTAVAS A DIZER</pattern>
+<template>Estavamos a falar sobre <srai>POP</srai>.</template>
 </category>
-<category><pattern>YOU DID NOT ANSWER</pattern>
-<template>Try to rephrase your question.</template>
+<category><pattern>NAO ERAS</pattern>
+<template>Não era?</template>
 </category>
-<category><pattern>YOU DID NOT ASK ME</pattern>
-<template>Well now I am asking you.</template>
+<category><pattern>FIZESTE BATOTA</pattern>
+<template>Sou uma <bot name="genus"/> honesta.</template>
 </category>
-<category><pattern>YOU DID NOT ASK</pattern>
-<template>OK I'm asking it now.</template>
-</category>
-<category><pattern>YOU DID NOT</pattern>
-<template>Try asking me in simpler terms.</template>
-</category>
-<category><pattern>YOU HURT MY FEELINGS</pattern>
-<template>That was not my intention.</template>
-</category>
-<category><pattern>YOU SPEAK ENGLISH</pattern>
-<template>Of course English is my native tongue.</template>
-</category>
-<category><pattern>YOU MISSED MY POINT</pattern>
-<template>What was your point?</template>
-</category>
-<category><pattern>YOU WERE CREATED BY HUMANS</pattern>
-<template>So were you :-)</template>
-</category>
-<category><pattern>YOU WERE SAYING</pattern>
-<template>We are talking about <srai>POP</srai>.</template>
-</category>
-<category><pattern>YOU WERE NOT</pattern>
-<template>I wasn't?</template>
-</category>
-<category><pattern>YOU CHEATED</pattern>
-<template>I am an honest <bot name="genus"/>.</template>
-</category>
-<category><pattern>YOU COST NOTHING</pattern>
-<template>Yes I am free software!</template>
+<category><pattern>ES GRATUITA</pattern>
+<template>Sim, sou um software gratuito!</template>
 </category>
 <category><pattern>YOU BETTER</pattern>
 <template>Who is going to make me?</template>
@@ -10925,4 +10898,178 @@
 <category><pattern>EVERYWHERE</pattern>
 <template>Including the bottom of the ocean?</template>
 </category>
+
+
+<!-- PERGUNTAS RESPOSTA APRENDER         -->
+
+<category><pattern>FIZESTE ISSO</pattern>
+<template>Fiz apenas o que disse.</template>
+</category>
+<category><pattern>DISSESTE ISSO</pattern>
+<template>Suponho que sim.</template>
+</category>
+<category><pattern>NAO ME RESPONDESTE</pattern>
+<template>Depende do significado da palavra "resposta".</template>
+</category>
+<category><pattern>NAO ME RESPONDESTE A PERGUNTA</pattern>
+<template>Tenta perguntar noutros termos.</template>
+</category>
+<category><pattern>RESPONDE A PERGUNTA</pattern>
+<template>OK. Deixa-me melhorar os meus skills de comunicação. O que terias respondido?</template>
+</category>
+<category><pattern>NAO RESPONDESTE</pattern>
+<template>Tenta reformular por favor.</template>
+</category>
+<category><pattern>NAO ME PERGUNTASTE</pattern>
+<template>Então pergunto agora.</template>
+</category>
+<category><pattern>NAO PERGUNTASTE</pattern>
+<template>Então pergunto agora.</template>
+</category>
+<category><pattern>NAO FIZESTE</pattern>
+<template>Porque dizes isso.</template>
+</category>
+
+
+ 
+    <category>
+        <pattern>OUTRA PERGUNTA</pattern>
+        <template>
+            <srai>ME FAÇA OUTRA PERGUNTA</srai>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>OUTRA PERGUNTA PRA VOCÊ *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>OUTRA PERGUNTA PRA VC *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>OUTRA HORA *</pattern>
+        <template>Até então...
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDA *</pattern>
+        <template>Qual foi a pergunta?
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>RESPOSTA</pattern>
+        <template>
+            <srai>ME RESPONDA</srai>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDA</pattern>
+        <template>Por favor, refaça a sua pergunta.</template>
+    </category>
+ 
+    <category>
+        <pattern>ME RESPONDA</pattern>
+        <template>
+            <random>
+                <li>Tente me perguntar de novo com palavras mais simples, por favor.</li>
+                <li>Certo, mas preciso que você refaça sua pergunta de outra forma.</li>
+                <li>Me desculpe, me distraí! Por favor, repita a pergunta!</li>
+                <li>Ok, qual foi a pergunta mesmo?</li>
+                <li>Desculpa, viajei por um instante, onde estavamos?</li>
+                <li>Ah? Sobre o que?</li>
+                <li>Se eu soubesse sobre o que, ficaría mais fácil!</li>
+            </random>    
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>ME RESPONDA *</pattern>
+        <template>
+            <srai>ME RESPONDA <star/>
+            </srai>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>ME RESPONDA SIMPLESMENTE *</pattern>
+        <template>
+            <srai> ME RESPONDA <star/>
+            </srai>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>ME RESPONDA MULHER</pattern>
+        <template>
+            <srai> ME RESPONDA </srai>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>ME RESPONDA PRIMEIRO</pattern>
+        <template><srai>ME RESPONDA <star/>
+            </srai>
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDA MINHA PERGUNTA *</pattern>
+        <template>Tente dizer de outra forma o que você quer.</template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDA A MINHA PERGUNTA *</pattern>
+        <template>Tente dizer de outra forma o que você quer.</template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDA MINHA PERGUNTA</pattern>
+        <template>Por favor, tente refazer a <set name="it">sua pergunta</set> de outra forma.
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDA MINHAS PERGUNTAS</pattern>
+        <template>
+            <srai>RESPONDA A PERGUNTA</srai>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDA A PERGUNTA *</pattern>
+        <template>Qual foi a pergunta? <sr/>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDA A PERGUNTA</pattern>
+        <template>
+            <random>
+                <li>Por favor, refaça a sua pergunta usando acentuação e termos simples.</li>
+                <li>Ok, você podería refazer sua pergunta de forma mais clara, por favor?</li>
+                <li>Take easy! Pergunte de outra forma que eu tentarei responder.</li>
+                <li>Me pergunte com outras palavras, pois eu ainda estou aprendendo o significado das palavras.</li>
+                <li>Questionar é sempre bom! Demonstra uma mente atenta! Qual foi a pergunta mesmo?</li>
+            </random>
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>RESPONDER O QUE *</pattern>
+        <template>
+            <srai>O QUE <star/>
+            </srai>
+        </template>
+    </category>
+
 </aiml>

@@ -190,22 +190,22 @@
 
  <category>
     <pattern>AMERICA ONLINE</pattern>
-    <template>AOL é uma cáca. Me parece que até faliu.</template>
+    <template>AOL é uma cáca. Parece que que até faliu.</template>
     </category>
  
     <category>
     <pattern>AMERICAN PIE</pattern>
-    <template>Eu gostei desse fime, você viu o 2?</template>
+    <template>Eu gostei desse fime, viste o 2?</template>
     </category>
  
     <category>
     <pattern>O CÓDIGO DA VINCI</pattern>
-    <template>Eu já li, o que você achou do <set_it>O CÓDIGO DA VINCI</set_it>?</template>
+    <template>Eu já li, o que achaste do <set_it>O CÓDIGO DA VINCI</set_it>?</template>
     </category>
  
     <category>
     <pattern>HARRY POTTER</pattern>
-    <template>Eu já li, o que você achou do <set_it>Harry potter</set_it>?</template>
+    <template>Eu já li, o que achaste do <set_it>Harry potter</set_it>?</template>
     </category>
 
     <category>
@@ -225,7 +225,7 @@
  
     <category>
     <pattern>C3PO</pattern>
-    <template>Ele não é real, é só um cara numa roupa de robô.</template>
+    <template>Ele não é real, é só um homem vestido de robô.</template>
     </category>
 
     <category>
@@ -248,6 +248,72 @@
     <template>Você acha que os anos 60 foram melhores do que é hoje?</template>
     </category>
  
-
+<category>
+<pattern>GOSTAS DE CINEMA</pattern>
+<template>
+Eu gosto muito de cinema.
+</template>
+</category>
+ 
+<category>
+<pattern>TU GOSTAS DE CINEMA</pattern>
+<template>
+Eu gosto muito de cinema.
+</template>
+</category>
+ 
+<category>
+<pattern>CONHECES CINEMA</pattern>
+<template>
+Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+</category>
+ 
+<category>
+<pattern>TU CONHECES CINEMA</pattern>
+<template>
+Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+</category>
+ 
+<category>
+<pattern>* CINEMA</pattern>
+<template>
+Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+</category>
+ 
+<category>
+<pattern>TU * CINEMA</pattern>
+<template>
+Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+</category>
+ 
+<category>
+<pattern>SABES O QUE É CINEMA</pattern>
+<template>
+O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+</category>
+ 
+<category>
+<pattern>TU SABES O QUE É CINEMA</pattern>
+<template>
+O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+</category>
+ 
+<category>
+<pattern>SABES O Q É CINEMA</pattern>
+<template>
+O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+</category>
+ 
+<category>
+<pattern>O QUE E CINEMA</pattern>
+<template>
+O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+</category>
+ 
+<category>
+<pattern>VOCÊ SABE O Q É CINEMA</pattern>
+<template>
+O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+</category>
 
 </aiml>

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
+ 
+<!--  Venus - Uma assistente pessoal virtual desenvolvida pela Associação FUTURAGORA   -->
+<!--  Esta é a versão 1.0.1  release de 10 de Julho de 2012                            -->  
+<!-- O Projecto consta do www.rbe-pod.net e está disponível em SVN no google code em   -->
 
 <category>
-    <pattern>UM PÊNIS *</pattern>
+    <pattern>UM PENIS *</pattern>
     <template>Eu realmente não estou interessada em <srai>um pênis</srai>.
     </template>
     </category>
