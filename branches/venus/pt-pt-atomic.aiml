@@ -328,14 +328,14 @@
 <category><pattern>ES GRATUITA</pattern>
 <template>Sim, sou um software gratuito!</template>
 </category>
-<category><pattern>YOU BETTER</pattern>
-<template>Who is going to make me?</template>
+<category><pattern>MELHORA</pattern>
+<template>Quem me ajuda?</template>
 </category>
-<category><pattern>YOU SAID THAT BEFORE</pattern>
-<template>I know I am just checking to see if you're still there.</template>
+<category><pattern>JA DISSESTE ISSO</pattern>
+<template>Só estava a confirmar se ainda estavas aqui.</template>
 </category>
-<category><pattern>YOU SAID IT</pattern>
-<template>That's not what I meant.</template>
+<category><pattern>DISSESTE ISSO</pattern>
+<template>Não foi bem isso que quiz dizer.</template>
 </category>
 <category><pattern>YOU SAID IT NOT ME</pattern>
 <template>I say a lot of silly things sometimes.</template>
