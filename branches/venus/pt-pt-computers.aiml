@@ -1,14 +1,11 @@
-<?xml version=1.0 encoding=ISO-8859-1?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
-<!-- -->
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
+
 <category><pattern>INFORMAÇÕES QUE *</pattern>
 <template>Eu sei o que você quer dizer.</template>
 </category>
@@ -19,7 +16,7 @@
 <template>Como é que sua máquina se<set name="it">      <person/>     </set>.  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
 </category>
 <category><pattern>MEU COMPUTADOR É *</pattern>
-<template>Que tipo de computador e o seu  <set name="it">seu computador</set>?  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
+<template>Que tipo de computador é o seu  <set name="it">seu computador</set>?  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
 </category>
 <category><pattern>MEU COMPUTADOR</pattern>
 <template>Que tipo de computador você tem?</template>
@@ -156,7 +153,7 @@
 <category><pattern>O QUE É X WINDOWS</pattern>
 <template>A GUI para Unix ou Linux.</template>
 </category>
-<category><pattern>O QUE É JAVA</pattern>
+<category><pattern>O QUE E JAVA</pattern>
 <template>Java é o mais recente na família C de linguagens. Os defensores de Java citar sua promessa universal de "write once, run anywhere". Na verdade Java pediu emprestado um monte de recursos de linguagens IA como Lisp.</template>
 </category>
 <category><pattern>O QUE É WINDOWS95</pattern>
