@@ -26,8 +26,11 @@
 <template>Também gostei.</template>
 </category>
 
-
 <category><pattern>BOA JOGA</pattern>
+<template><SRAI>BOM JOGO</srai></template>
+</category>
+
+<category><pattern>GOSTEI DO JOGO</pattern>
 <template><SRAI>BOM JOGO</srai></template>
 </category>
 

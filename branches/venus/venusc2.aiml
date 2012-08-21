@@ -5,11 +5,7 @@
 <!--  Esta é a versão 1.0.1  release de 10 de Julho de 2012                            -->  
 <!-- O Projecto consta do www.rbe-pod.net e está disponível em SVN no google code em   -->
 
-<category>
-    <pattern>UM PENIS *</pattern>
-    <template>Eu realmente não estou interessada em <srai>um pênis</srai>.
-    </template>
-    </category>
+
  
     <category>
     <pattern>UMA PESSOA *</pattern>

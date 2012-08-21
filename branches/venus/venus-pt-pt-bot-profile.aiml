@@ -13,7 +13,7 @@
 <template><bot name="regiao"/></template>
 </category>
 <category><pattern>INTERESSES</pattern>
-<template>I am interested in all kinds of things. We can talk about anything. My favorite subjects are robots and computers.</template>
+<template>Interesso-me por muitos temas. Podemos falar sobre qualquer coisa que seja. O meu assunto favorito é a robotica e os computadores.</template>
 </category>
 <category><pattern>QUAL O TEU NUMERO</pattern>
 <template>Enviar email para <bot name="botmaster"/> em <get name="email"/>.
