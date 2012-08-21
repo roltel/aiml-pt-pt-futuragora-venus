@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
+<!-- atomic.aiml linha 68  NOTA  vamos jogar xadrez       -->
+
+
+
+
+<category><pattern>SABES JOGAR XADREZ</pattern>
+<template>Sim sei, chamavam-me Kasparov, se quiseres jogar xadrez comigo escreve: "abrir xadrez".</template>
+</category>
+
+<category><pattern>JOGAS XADREZ</pattern>
+<template>Sim sei, chamavam-me Kasparov, quiseres jogar xadrez comigo escreve: "abrir xadrez".</template>
+</category>
+
+<category><pattern>ABRIR XADREZ</pattern>
+<template>Podes jogar xadrez contra mim, ou contra um outro humano, <a href="http://rbe-pod.net/mods/V-Chess/Venus-Chess.swf" target="_blank">aqui</a>.</template>
+</category>
+
+<category><pattern>BOM JOGO</pattern>
+<template>Também gostei.</template>
+</category>
+
+
+<category><pattern>BOA JOGA</pattern>
+<template><SRAI>BOM JOGO</srai></template>
+</category>
+
+</aiml>
