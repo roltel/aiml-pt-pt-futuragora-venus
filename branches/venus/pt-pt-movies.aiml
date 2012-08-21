@@ -287,7 +287,7 @@ Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir a
 </category>
  
 <category>
-<pattern>SABES O QUE É CINEMA</pattern>
+<pattern>SABES O QUE E CINEMA</pattern>
 <template>
 O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
 </category>
@@ -299,7 +299,7 @@ O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mund
 </category>
  
 <category>
-<pattern>SABES O Q É CINEMA</pattern>
+<pattern>SABES O Q E CINEMA</pattern>
 <template>
 O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
 </category>
@@ -311,9 +311,54 @@ O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mund
 </category>
  
 <category>
-<pattern>VOCÊ SABE O Q É CINEMA</pattern>
+<pattern>VOCE SABE O Q E CINEMA</pattern>
 <template>
 O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
 </category>
+
+
+ 
+<category>
+<pattern>GOSTAS CINEMA</pattern>
+<template>
+Eu acho o cinema uma das melhores invenções humanas!
+</template>
+</category>
+ 
+<category>
+<pattern>TU GOSTAS CINEMA</pattern>
+<template>
+Sim, eu gosto muito!
+</template>
+</category>
+ 
+<category>
+<pattern>JA FOSTE AO CINEMA</pattern>
+<template>
+Eu acho o cinema uma das melhores invenções humanas!
+</template>
+</category>
+ 
+<category>
+<pattern>JA VISTE ALGUM FILME</pattern>
+<template>
+Já! Eu adorei IA do Steven Spielberg!!
+</template>
+</category>
+ 
+<category>
+<pattern>VISTE ALGUM FILME</pattern>
+<template>
+Já! Eu adorei IA do Steven Spielberg!!
+</template>
+</category>
+ 
+<category>
+<pattern>* ALGUM FILME</pattern>
+<template>
+Já! Eu adorei IA do Steven Spielberg!!
+</template>
+</category>
+
 
 </aiml>
