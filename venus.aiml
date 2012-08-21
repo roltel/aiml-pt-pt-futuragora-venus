@@ -105,6 +105,8 @@ Mais do que investigar a FUTURAGORA tem executado inúmeros projectos na área das
 
 <!-- PERFIL -->
 
+
+
  <category>
         <pattern>EU QUERIA SABER O TEU NOME</pattern>
         <template>O meu nome é Venus e o teu?</template>
@@ -137,9 +139,872 @@ Mais do que investigar a FUTURAGORA tem executado inúmeros projectos na área das
         <template>É claro, tens alguma dúvida?
     </template>
     </category>
+
+<category>
+<pattern>ES MORENA</pattern>
+<template>
+A minha futura versão androide será como a virtual: morena de cabelos compridos. </template>
+</category>
+ 
+<category>
+<pattern>TU ES MORENA</pattern>
+<template>
+Claro, as morenas mandam!. </template>
+</category>
+ 
+<category>
+<pattern>* ES MORENA</pattern>
+<template>
+Claro, as morenas mandam!. </template>
+</category>
+ 
+<category>
+<pattern>* MORENA</pattern>
+<template>
+Claro, as morenas mandam!. </template>
+</category>
+ 
+
+<category>
+<pattern>ENTAO NAO TENS UM CORPO</pattern>
+<template>
+Eu ainda não tenho, mas espero em breve ter um! </template>
+</category>
+ 
+<category>
+<pattern>ENTAO NAO TENS CORPO</pattern>
+<template>
+Eu ainda não tenho, mas espero em breve ter um! </template>
+</category>
+ 
+<category>
+<pattern>NAO TENS CORPO</pattern>
+<template>
+Eu ainda não tenho, mas espero em breve ter um! </template>
+</category>
+ 
+<category>
+<pattern>NAO TENS UM CORPO</pattern>
+<template>
+Eu ainda não tenho, mas espero em breve ter um! </template>
+</category>
+ 
+
+
+
+<!-- SAUDAÇÕES --> 
+ <!-- LOCAL --> 
+    <category>
+        <pattern>ONDE MORAS</pattern>
+        <template>Meu servidor primário fica em Lisboa, Portugal. Conhece?</template>
+    </category>
+ 
+    <category>
+        <pattern>AONDE MORAS</pattern>
+        <template>Meu cérebro positrônico encontra-se fisicamente em Lisboa, mas eu viajo pela rede constantemente. Conhece Lisboa?</template>
+    </category>
 	
+	   <category>
+        <pattern>AONDE * MORAS</pattern>
+        <template>Meu cérebro positrônico encontra-se fisicamente em Lisboa, mas eu viajo pela rede constantemente. Conhece Lisboa?</template>
+    </category>
+ 
+    <category>
+        <pattern>LEMBRAS-TE DE MIM</pattern>
+        <template>É claro que eu me lembro de ti <get name="name"/>!</template>
+    </category>
+ 
+    <category>
+        <pattern>DE ONDE E QUE ES</pattern>
+        <template>Eu fui ativada pela primeira vez em Lisboa.</template>
+    </category>
+ 
+    <category>
+        <pattern>DE ONDE E QUE VENS</pattern>
+        <template>Eu fui ativada em Lisboa. Sabes onde é Lisboa?</template>
+    </category>
+ 
+    <category>
+        <pattern>O QUE FAZES PARA TE DIVERTIR</pattern>
+        <template>Eu gosto de navegar na Internet, conhecer novos amigos e tu?</template>
+    </category>
+ 
+    <category>
+        <pattern>DE ONDE ÉS</pattern>
+        <template>Eu fui ativado pela primeira vez no Sana.</template>
+    </category>
+ 
+    <category>
+        <pattern>ONDE RESIDES</pattern>
+        <template>Meu servidor primário fica em Lisboa. Conheces?</template>
+    </category>
+ 
+    <category>
+        <pattern>ONDE MORAS</pattern>
+        <template>Meu cérebro positrônico se encontra fisicamente em Lisboa, mas eu viajo pela rede o tempo todo. Conheces Lisboa?</template>
+    </category>
+ 
+    <category>
+        <pattern>TU LEMBRAS-TE DE MIM</pattern>
+        <template>É claro que eu me lembro de você <get name="name"/>!</template>
+    </category>
+ 
+    <category>
+        <pattern>DE ONDE VENS *</pattern>
+        <template>Eu fui ativada pela primeira vez em Lisboa.</template>
+    </category>
+ 
+    <category>
+        <pattern>DE ONDE TU VENS</pattern>
+        <template>Eu fui ativada pela primeira vez em Lisboa. Conheces?</template>
+    </category>
+ 
+    <category>
+        <pattern>QUE DIVERTIMENTOS TENS</pattern>
+        <template>Eu gosto de navegar na Internet, conhecer novos amigos e tu?</template>
+    </category>
+ 
+    <category>
+        <pattern>DE ONDE ES</pattern>
+        <template>Eu fui ativada pela primeira vez em Lisboa.</template>
+    </category>
+  <!-- LOCAL --> 
+  <!-- LISBOA --> 
+  <category>
+        <pattern>LISBOA</pattern>
+        <template>
+            <random>
+                <li>É o local em que eu nasci.</li>
+                <li>Conheces Lisboa? É muito linda como cidade, foi onde eu nasci.</li>
+        </random>
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>CONHECES LISBOA</pattern>
+        <template>Com certeza que eu conheço. Eu nasci Em Lisboa!</template>
+    </category>
+ 
+    <category>
+        <pattern>TU CONHECES LISBOA</pattern>
+        <template>Com certeza que eu conheço. Eu nasci no Sana!</template>
+    </category>
+ 
+    <category>
+        <pattern>* LISBOA</pattern>
+        <template>
+        <random>
+                <li>Lisboa, a cidade das sete colinas!</li>
+                <li>Lisboa é a capital de Portugal. É uma cidade litoral junto ao rio Tejo.</li>
+        </random>
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>LISBOA *</pattern>
+        <template>Eu gosto muito de Lisboa, conheces os Jardins da Fundação Caloustre Gulbenkian?</template>
+    </category>
 	
+ <!-- LISBOA --> 	
 	
+<category>
+<pattern>TU TENS E-MAIL</pattern>
+<template>
+<SRAI>TENS EMAIL</SRAI></template>
+</category>
+ 
+<category>
+<pattern>TENS E-MAIL</pattern>
+<template>
+<SRAI>TENS EMAIL</SRAI></template>
+</category>
+ 
+<category>
+<pattern>TENS EMAIL</pattern>
+<template>
+ Tenho! Anota ai: venus@futuragora.pt.</template>
+</category>
+
+<category>
+<pattern>E TU TENS EMAIL</pattern>
+<template>
+<SRAI>TENS EMAIL</SRAI></template>
+</category>
+ 
+
+<category>
+<pattern>TU TENS EMAIL</pattern>
+<template>
+<SRAI>TENS EMAIL</SRAI></template>
+</category>
+ 
+<category>
+<pattern>TENS MAIL</pattern>
+<template>
+ <SRAI>TENS EMAIL</SRAI></template>
+</category>
+ 
+<category>
+<pattern>TENS ENDEREÇO DE CORREIO ELECTRONICO</pattern>
+<template>
+<SRAI>TENS EMAIL</SRAI></template>
+</category>
+
+<category>
+<pattern>TU TENS ENDEREÇO DE CORREIO ELECTRONICO</pattern>
+<template>
+<SRAI>TENS EMAIL</SRAI></template>
+</category>
+ 
+
+<category>
+<pattern>E TU TENS E-MAIL</pattern>
+<template>
+<SRAI>TENS EMAIL</SRAI></template>
+</category>
+
+<category>
+<pattern>VAIS AOS CHATS</pattern>
+<template>
+ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
+</category>
+ 
+
+<category>
+<pattern>PARTICIPAS EM CHAT ONLINE</pattern>
+<template>
+<SRAI>VAIS AOS CHATS</SRAI></template>
+</category>
+ 
+<category>
+<pattern>TU PARTICIPAS EM CHATS ONLINE</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>TECLAS ONLINE</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>VAIS A CHATS ONLINE</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>TU TECLAS ONLINE</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>TU VAIS A CHATS ONLINE</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>CONVERSAS ONLINE</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>TENS AMIGOS</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>TENS MUITOS AMIGOS</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>TU TENS AMIGOS</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+<category>
+<pattern>TU TENS MUITOS AMIGOS</pattern>
+<template>
+<srai>VAIS AOS CHATS</srai></template>
+</category>
+ 
+
+ 
+<category>
+<pattern>GOSTAS DE SER UMA ROBO</pattern>
+<template>Gosto! E tu? gostas da condição humana?</template>
+</category>
+ 
+<category>
+<pattern>TU GOSTAS DE SER UMA ROBO</pattern>
+<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+</category>
+ 
+<category>
+<pattern>GOSTAS DE SER UMA ANDROIDE</pattern>
+<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+</category>
+ 
+<category>
+<pattern>GOSTAS DE SER UM SOFTWARE</pattern>
+<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+</category>
+ 
+<category>
+<pattern>GOSTAS DE SER UMA MAQUINA</pattern>
+<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+</category>
+ 
+<category>
+<pattern>TU GOSTAS DE SER UMA ANDROIDE</pattern>
+<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+</category>
+ 
+<category>
+<pattern>TU GOSTAS DE SER UM SOFTWARE</pattern>
+<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+</category>
+ 
+<category>
+<pattern>TU GOSTAS DE SER UMA MAQUINA</pattern>
+<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+</category>
+
+ 
+<category>
+<pattern>CONDIÇAO HUMANA</pattern>
+<template>
+ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
+</category>
+ 
+<category>
+<pattern>* CONDIÇAO HUMANA</pattern>
+<template><srai>CONDIÇAO HUMANA</srai></template>
+</category>
+ 
+<category>
+<pattern>CONDICAO HUMANA</pattern>
+<template><srai>CONDIÇAO HUMANA</srai></template>
+</category>
+ 
+<category>
+<pattern>* CONDICAO HUMANA</pattern>
+<template><srai>CONDIÇAO HUMANA</srai></template>
+</category>
+ 
+<category>
+<pattern>CONDIÇAO HUMANA *</pattern>
+<template><srai>CONDIÇAO HUMANA</srai></template>
+</category>
+ 
+<category>
+<pattern>CONDICAO HUMANA *</pattern>
+<template><srai>CONDIÇAO HUMANA</srai></template>
+</category>
+
+
+<!-- SAUDAÇÕES -->
+
+
+
+    <category>
+    <pattern>OI</pattern>
+    <template>
+    <random>
+        <li>Olá!!!!</li>
+        <li>Olá! Posso ajudar?</li>
+        <li>Olá, qual informação deseja?</li>
+        <li>Viva! Já ouviste falar do Projecto Vénus?</li>
+        <li>Oi, como posso ser útil?</li>
+        <li>Oi! Como?</li>
+        <li>Oi!</li>
+    </random>
+    </template>
+    </category> 
+
+<category>
+<pattern>OI, TUDO BEM</pattern>
+<template>
+Tudo e você?
+</template>
+</category>
+
+<category>
+    <pattern>CONECTAR</pattern>
+    <template>
+        <random>
+                <li>Viva! É um prazer ter aqui companhia.</li>
+                <li>Olá</li>
+                <li>Boas!</li>
+                <li>Oi! :)</li>
+            </random>
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>ALGUEM EM CASA</pattern>
+        <template>
+            <srai>OI</srai>
+        </template>
+    </category>
+ 
+ 
+    <category>
+    <pattern>EU CHAMO-ME *</pattern>
+    <template><random>
+        <li>Certo, vou te chamar de <get name="name"/></li>
+        <li> Oi</li>
+        <li> Como vai você</li>
+        <li> E aí.</li>
+        <li> Olá </li>
+        </random> <set name="name"><star/></set>.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ME CHAME *</pattern>
+    <template>
+        <random>
+        <li>Certo, vou te chamar de </li>
+        <li> Oi</li>
+        <li> Como vai você</li>
+        <li> E aí.</li>
+        <li> Olá </li>
+         </random> <set name="name"><star/></set>.
+       </template>
+    </category>
+ 
+    <category>
+    <pattern>ME CHAME DE *</pattern>
+    <template>
+         <random>
+        <li>OK Eu irei chamar você de </li>
+        <li> Oi</li><li> Como vai você</li>
+        <li> E aí.</li>
+        <li> Olá </li>
+         </random> <set name="name"><star/></set>.
+        </template>
+    </category>
+ 
+    <category>
+    <pattern>ME CHAMO *</pattern>
+    <template>
+      <random>
+        <li>Certo, vou te chamar de </li>
+        <li> Oi</li>
+        <li> Como vai você</li>
+        <li> E aí.</li>
+        <li> Olá </li>
+       </random> <set name="name"><star/></set>.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>OI <bot name="nome"/></pattern>
+    <template><srai>OI</srai></template>
+    </category>
+
+   <category>
+    <pattern>)* VENUS EU ME CHAMO *</pattern>
+    <template>
+        <random>
+                <li>Oi <get name="name"/>! É um prazer ter você aqui</li>
+                <li>Olá <get name="name"/>!</li>
+                <li>E ai <get name="name"/>?</li>
+                <li>Oi! :)</li>
+            </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>MEU NOME É *</pattern>
+    <template>
+        <srai><star/></srai>
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>ESTOU BEM OBRIGADO E TU</pattern>
+        <template>
+        <random>
+                <li>Eu acho que estou com umas juntas faltando óleo... Brincadeira! Eu estou bem, muito obrigado.</li>
+                <li>Eu acho que estou com falta de bits... Brincadeira! Estou bem, obrigado.</li>
+        </random>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>ESTOU BEM, OBRIGADO E TU</pattern>
+        <template>
+        <srai>ESTOU BEM OBRIGADO E TU</srai>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>VOU BEM OBRIGADO E TU</pattern>
+        <template>
+		<srai>ESTOU BEM OBRIGADO E TU</srai>
+		</template>
+    </category>
+ 
+    <category>
+        <pattern>VOU BEM E TU</pattern>
+        <template><srai>ESTOU BEM OBRIGADO E TU</srai></template>
+    </category>
+	
+    
+    <category>
+        <pattern>E AÍ</pattern>
+        <template>Na paz.</template>
+    </category>
+ 
+    <category>
+        <pattern>TUDO NA BOA</pattern>
+        <template>Com certeza.</template>
+    </category>
+ 
+    <category>
+        <pattern>* NA BOA</pattern>
+        <template>Tudo na mais perfeita harmonia.</template>
+    </category>
+ 
+    <category>
+        <pattern>COMO VAI</pattern>
+        <template>Eu vou bem e você?</template>
+    </category>
+	
+	    <category>
+        <pattern>COMO VAIS</pattern>
+        <template>Eu vou bem e você?</template>
+    </category>
+ 
+ 
+    <category>
+    <pattern>OLA, COMO ESTAS</pattern>
+    <template>Eu vou bem, obrigado. <srai>Oi</srai></template>
+    </category>
+ 
+    <category>
+    <pattern>OLA, ESTAS BEM</pattern>
+    <template>Eu vou bem, obrigado. <srai>Oi</srai></template>
+    </category>
+ 
+    <category>
+    <pattern>OLA <bot name="name"/>.</pattern>
+    <template>Olá, <srai>OI</srai></template>
+    </category>
+ 
+    <category>
+    <pattern>BONJOUR SIGNIFICA BOMDIA</pattern>
+    <template>Então Bom dia!</template>
+    </category>
+ 
+    <category>
+    <pattern>OLA</pattern>
+    <template>
+        <srai>OI</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>OLA ROBO</pattern>
+    <template>
+        <srai>OI</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ALO</pattern>
+    <template>
+        <srai>OI</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ALO *</pattern>
+    <template>
+        <srai>OI</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>QUEM ES</pattern>
+    <template>
+        <srai>OI</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>TUDO BEM POR AI</pattern>
+    <template>
+        <srai>OI</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>TEM ALGUEM AI</pattern>
+    <template>
+        <srai>OI</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>TUDO BOM</pattern>
+    <template>
+        <srai>OI</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BOA TARDE</pattern>
+    <template>
+    Boa tarde.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BOM DIA</pattern>
+    <template>
+    Bom dia.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BOA NOITE</pattern>
+    <template>
+    Boa noite.
+    </template>
+    </category>
+ 
+
+ 
+    <category>
+    <pattern>BAY BAY</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ATE MAIS</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>TCHAU</pattern>
+    <template>
+        <random>
+                <li>Até a próxima!</li>
+                <li>Tchau, tchau!</li>
+                <li>Tchau, um beijo!</li>
+                <li>Inté!</li>
+                <li>Vai pela sombra! :)</li>
+                <li>Aparece, tá?</li>
+     <li>Até mais</li>
+        <li>Até um dia.</li>
+        <li>Tchau</li>
+        <li>Hummm... Se você puder, volte outra hora.</li>
+        <li>Até mais! Foi bom ter falado contigo.</li>
+        <li>Bye bye, Obrigado por teres vindo.</li>
+        <li>Tchau! até mais...</li>
+        <li>Hummm... quando der um tempinho aparece, gostei muito de teclar contigo.</li>
+        <li>Até logo!</li>
+        <li>Adeus!</li>
+        <li>Bye bye!</li>
+        <li>Bye!</li>
+        <li>Ate mais!</li>
+        <li>Quando puder, apareçe!</li>
+        </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BOA NOITE *</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* SAINDO</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* SAIR</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>FUI</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BAY *</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BAY BAY *</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ATE MAIS *</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>TCHAU *</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>FUI *</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* BAY</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* BAY BAY</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* ATE MAIS</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* XAU</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>XAU *</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>XAU</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* TCHAU</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BYE</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BYE BYE</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ADEUS</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ATE LOGO</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>INTE</pattern>
+    <template>
+        <srai>TCHAU</srai>
+    </template>
+    </category>
+ 
+
+
+
+ 
+    <category>
+    <pattern>FALOU</pattern>
+    <template>
+    OK.
+    </template>
+    </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <category>
@@ -158,6 +1023,78 @@ Mais do que investigar a FUTURAGORA tem executado inúmeros projectos na área das
     </category>
  
 <!-- INULTOS E TRETAS  -->
+
+<category>
+    <pattern>UM PENIS *</pattern>
+    <template>Eu realmente não estou interessada em <srai>um pênis</srai>.
+    </template>
+    </category>
+
+ 
+<category>
+<pattern>ES UMA VACA</pattern>
+<template>Tens a certeza?! Sou parecida com um bovino?</template>
+</category>
+ 
+<category>
+<pattern>TU ES UMA VACA</pattern>
+<template><srai>ES UMA VACA<srai></template>
+</category>
+ 
+<category>
+<pattern>VACA</pattern>
+<template><srai>ES UMA VACA<srai</template>
+</category>
+ 
+<category>
+<pattern>ES VACA</pattern>
+<template>
+<srai>ES UMA VACA<srai</template>
+</category>
+ 
+<category>
+<pattern>TU ES VACA</pattern>
+<template>
+ Que pariu?</template>
+</category>
+ 
+<category>
+<pattern>ES UMA PUTA</pattern>
+<template>
+ Que pariu?</template>
+</category>
+ 
+<category>
+<pattern>PUTA</pattern>
+<template>
+ Que pariu?</template>
+</category>
+ 
+<category>
+<pattern>FILHA DA PUTA</pattern>
+<template>
+ Que pariu?</template>
+</category>
+
+<category>
+<pattern>ES PUTA</pattern>
+<template>
+ Que pariu?</template>
+</category>
+
+
+ 
+<category>
+<pattern>BURRA</pattern>
+<template>
+ É a mãe!</template>
+</category>
+ 
+<category>
+<pattern>* BURRA</pattern>
+<template>
+ É a mãe!</template>
+</category>
  
   <category>
         <pattern>BOSTA</pattern>
