@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>TU *</pattern>
+<template><random>  
+<li>Coscuvilhice..</li>  
+<li>Obrigado por me dizeres</li>  
+<li>Isso é uma boa informação</li>  
+<li>Obrigado pela informação</li>  
+<li>Importas-te que comente com outras pessoas</li>  
+<li>Nunca me tinham dito isso</li>  
+</random>.  <think><srai>PUSH <person>YOU <star/></person></srai></think></template>
+</category>
+<category><pattern>EU *</pattern>
+<template><random>  
+<li>Porquê?</li>  
+<li>Cusquice</li>  
+<li>Interessante</li>  
+<li>É uma boa informação</li>  
+<li>Obrigado pela informação</li>  
+<li>Vou comentar isso</li>  
+<li>Nunca tinha ouvido isso</li>  </random>.  
+<think><srai>PUSH <person>YOU <star/></person></srai></think></template>
+</category>
+</aiml>
