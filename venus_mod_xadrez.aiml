@@ -19,7 +19,7 @@
 </category>
 
 <category><pattern>ABRIR XADREZ</pattern>
-<template>Podes jogar xadrez contra mim, ou contra um outro humano, <a href="http://rbe-pod.net/mods/V-Chess/Venus-Chess.swf" target="_blank">aqui</a>.</template>
+<template>Podes jogar xadrez contra mim, ou contra um outro humano, <a href="http://xadrez.futuragora.pt" target="_blank">aqui</a>.</template> Este motor está a ser desenvolvido para melhorar as minhas capacidades.
 </category>
 
 <category><pattern>BOM JOGO</pattern>
