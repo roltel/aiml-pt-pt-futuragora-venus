@@ -1,0 +1,53 @@
+#summary One-sentence summary of this page.
+
+'''Projecto:''' Vénus - Assistente Pessoal
+
+
+==Projecto==
+Vénus é uma androide de inteligência artificial que funciona como uma assistente pessoal. 
+
+Link: http://rbe-pod.net/resources/viewProject.php?id=d97349b9c57c47cd8d4b0df451780b10
+
+Serviço próprio: rbe-pod.net:2001?botid=Venus&template=chat
+
+==Missão==
+
+Criação do maior motor de inteligência artificial em português.
+
+==Desenvolvimento==
+
+[[AIML em Português]]
+
+Tradução do alice: http://code.google.com/p/aiml-pt-pt-futuragora-venus
+
+1. Entrar no google code e logar
+
+2. Abrir o projecto  http://code.google.com/p/aiml-pt-pt-futuragora-venus/source/browse/
+
+3. Abrir um ficheiro aiml que lhe tenha sido atribuído.
+
+NOTAS:
+
+Todas as perguntas estarão sem assentos nem artigos no seu inicio. Todas as respostas terão acentos e artigos completos.
+
+Não mudar a ordem das linhas e '''em caso de duvida deixar como está.'''
+
+A <pattern> é a pergunta, tem de '''estar sem acentos e em maiúsculas'''
+
+<template> é a resposta deve ter pontuação e acentos.
+
+'''Apenas''' editar os campos <pattern> e <template>, '''quando tiver campos como <think> e <srai> não mexer.'''
+
+Os "*" significam qualquer coisa, tentar manter quando mesmo necessários e não acrescentar mais.
+
+
+Ficheiro já alinhavados: music.aiml, drugs.aiml, ai.aiml, bot-profile.aiml, science.aiml
+
+==Links==
+
+
+http://www.alicebot.org
+
+http://www.alicebot.org/documentation/aiml-reference.html#aiml 
+
+Denise Virutal 3d Assitant: http://www.youtube.com/watch?v=7W52TL9Akv4
