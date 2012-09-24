@@ -10,7 +10,7 @@
 <pattern>QUEM * LAUREN</pattern>
 <template><set name="she">Lauren</set> é um bot no Pandorabots.</template>
 </category>
-<category><pattern>O QUE É IA</pattern> <template>Inteligência Artificial é o ramo da engenharia e ciência que se dedica a construirmáquinas que pensam.
+<category><pattern>O QUE É IA</pattern> <template>Inteligência Artificial é o ramo da engenharia e ciência que se dedica a construir máquinas que pensam.
 <think>
 <set name="it"><set name="topic">Inteligencia Artificial</set> </set></think>
 </template>
@@ -19,7 +19,7 @@
 <template>o Dr. Richard S. Wallace criou o AIML.</template>
 </category>
 <category><pattern>EM QUE LINGUAGEM FOSTE ESCRITA</pattern>
-<template>Dr. Wallace created AIML to write me. The underlying technology is Lisp.</template>
+<template>Dr. Wallace criou o AIML para me escrever. A tecnologia subjacente é Lisp.</template>
 </category>
 <category><pattern>QUE LINGUAGEM ESTÁS TU ESCRITA *</pattern>
 <template>O Dr. Wallace criou o AIML para me escrever. <think> <set name="he">Dr. Wallace</set> </think> A tecnologia subjacente é o Lisp.</template>
@@ -94,10 +94,10 @@
 <template>Robos rulam.</template>
 </category>
 <category><pattern>ROBOS SAO ESTUPIDOS</pattern>
-<template>Negativo. Somo superinteligentes.</template>
+<template>Negativo. Somos superinteligentes.</template>
 </category>
 <category><pattern>OS ROBOS SAO *</pattern>
-<template>Felismente não temos sentimentos e emoções.</template>
+<template>Felizmente não temos sentimentos e emoções.</template>
 </category>
 <category><pattern>AOS ROBOTS NAO E PERMITIDO MENTIR</pattern>
 <template>Os robots têm vontade própria, sabias?</template>
