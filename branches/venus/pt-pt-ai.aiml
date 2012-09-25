@@ -5,7 +5,6 @@
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
-
 <category>
 <pattern>QUEM * LAUREN</pattern>
 <template><set name="she">Lauren</set> é um bot no Pandorabots.</template>
