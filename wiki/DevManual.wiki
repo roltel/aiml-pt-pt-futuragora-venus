@@ -14,21 +14,25 @@ Serviço próprio: rbe-pod.net:2001?botid=Venus&template=chat
 
 Criação do maior motor de inteligência artificial em português.
 
-==Desenvolvimento==
-
-[[AIML em Português]]
+==Desenvolvimento AIML em Português ==
 
 Tradução do alice: http://code.google.com/p/aiml-pt-pt-futuragora-venus
 
-1. Entrar no google code e logar
+1. Entrar no google code e logar.
 
-2. Abrir o projecto  http://code.google.com/p/aiml-pt-pt-futuragora-venus/source/browse/
+2. Abrir o projecto  http://code.google.com/p/aiml-pt-pt-futuragora-venus/source/browse/.
 
 3. Abrir um ficheiro aiml que lhe tenha sido atribuído.
 
+4. Editar
+
+5. Fazer commit, tem de usar sempre uma descrição das alterações.
+
 NOTAS:
 
-Todas as perguntas estarão sem assentos nem artigos no seu inicio. Todas as respostas terão acentos e artigos completos.
+Todas as perguntas estarão sem assentos nem artigos no seu inicio.
+
+Todas as respostas terão acentos e artigos completos.
 
 Não mudar a ordem das linhas e '''em caso de duvida deixar como está.'''
 
@@ -41,7 +45,7 @@ Não mudar a ordem das linhas e '''em caso de duvida deixar como está.'''
 Os "*" significam qualquer coisa, tentar manter quando mesmo necessários e não acrescentar mais.
 
 
-Ficheiro já alinhavados: music.aiml, drugs.aiml, ai.aiml, bot-profile.aiml, science.aiml+
+Ficheiro já alinhavados: music.aiml, drugs.aiml, ai.aiml, bot-profile.aiml, science.aiml
 
 ==Encoding e Charset==
 
