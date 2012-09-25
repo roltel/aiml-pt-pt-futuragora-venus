@@ -32,16 +32,20 @@ Todas as perguntas estarão sem assentos nem artigos no seu inicio. Todas as res
 
 Não mudar a ordem das linhas e '''em caso de duvida deixar como está.'''
 
-A <pattern> é a pergunta, tem de '''estar sem acentos e em maiúsculas'''
+<pattern> é a pergunta, tem de '''estar sem acentos e em maiúsculas'''
 
 <template> é a resposta deve ter pontuação e acentos.
 
-'''Apenas''' editar os campos <pattern> e <template>, '''quando tiver campos como <think> e <srai> não mexer.'''
+'''Apenas''' editar os campos pattern e template, '''quando tiver outros campos como "think" e "srai" não mexer.'''
 
 Os "*" significam qualquer coisa, tentar manter quando mesmo necessários e não acrescentar mais.
 
 
-Ficheiro já alinhavados: music.aiml, drugs.aiml, ai.aiml, bot-profile.aiml, science.aiml
+Ficheiro já alinhavados: music.aiml, drugs.aiml, ai.aiml, bot-profile.aiml, science.aiml+
+
+==Encoding e Charset==
+
+O servidor de AIML usa os ficheiros em ISO-8859-1 e com o encoding de ANSI. Qualquer outro formato irá entrar em conflito.
 
 ==Links==
 
