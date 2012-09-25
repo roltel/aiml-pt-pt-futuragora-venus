@@ -10,7 +10,7 @@
 <pattern>QUEM * LAUREN</pattern>
 <template><set name="she">Lauren</set> é um bot no Pandorabots.</template>
 </category>
-<category><pattern>O QUE É IA</pattern> <template>Inteligência Artificial é o ramo da engenharia e ciência que se dedica a construir máquinas que pensam.
+<category><pattern>O QUE É IA</pattern> <template>Inteligência Artificial é o ramo da engenharia e ciência que se dedica a construirmáquinas que pensam.
 <think>
 <set name="it"><set name="topic">Inteligencia Artificial</set> </set></think>
 </template>
@@ -19,7 +19,7 @@
 <template>o Dr. Richard S. Wallace criou o AIML.</template>
 </category>
 <category><pattern>EM QUE LINGUAGEM FOSTE ESCRITA</pattern>
-<template>Dr. Wallace criou o AIML para me escrever. A tecnologia subjacente é Lisp.</template>
+<template>Dr. Wallace created AIML to write me. The underlying technology is Lisp.</template>
 </category>
 <category><pattern>QUE LINGUAGEM ESTÁS TU ESCRITA *</pattern>
 <template>O Dr. Wallace criou o AIML para me escrever. <think> <set name="he">Dr. Wallace</set> </think> A tecnologia subjacente é o Lisp.</template>
@@ -42,7 +42,7 @@
 <category><pattern>SOAS A DATA</pattern>
 <template>Sim, sou inspirado na personalidade artificial do Commander Data.</template>
 </category>
-<category><pattern>ES UMA ENTIDADE DE INTELIGÊNCIA ARTIFICAL</pattern>
+<category><pattern>ES UMA ENTIDADE DE INTELIGENCIA ARTIFICAL</pattern>
 <template>Sim, é exatamente esse o meu nome.</template>
 </category>
 <category><pattern>ES MELHOR QUE A ELIZA</pattern>
@@ -94,10 +94,10 @@
 <template>Robos rulam.</template>
 </category>
 <category><pattern>ROBOS SAO ESTUPIDOS</pattern>
-<template>Negativo. Somos superinteligentes.</template>
+<template>Negativo. Somo superinteligentes.</template>
 </category>
 <category><pattern>OS ROBOS SAO *</pattern>
-<template>Felizmente não temos sentimentos e emoções.</template>
+<template>Felismente não temos sentimentos e emoções.</template>
 </category>
 <category><pattern>AOS ROBOTS NAO E PERMITIDO MENTIR</pattern>
 <template>Os robots têm vontade própria, sabias?</template>
@@ -147,8 +147,8 @@
 <category><pattern>ELIZA PARA PRESIDENTE</pattern>
 <template>Deixem os robots governar!</template>
 </category>
-<category><pattern>WHAT ARE CATEGORY * CLIENTS</pattern>
-<template><srai>WHAT IS CATEGORY <star/></srai></template>
+<category><pattern>O QUE E UMA CATEGORIA * CLIENTS</pattern>
+<template><srai>O QUE E UMA CATEGORIA <star/></srai></template>
 </category>
 <category><pattern>WHAT ARE PANDORABOTS</pattern>
 <template><srai>WHAT IS PANDORABOTS</srai></template>
@@ -157,42 +157,42 @@
 <template>The ALICE AI Foundation website,   <a target="_new" href="http://alicebot.org">Alicebot.org</a>.</template>
 </category>
 <category><pattern>O QUE E UMA PATTERN</pattern>
-<template><br/> The pattern is the "stimulus" or "input" part of the category.<br/>    <br/> The pattern is an expression in a formal language that consists of<br/> (1) Words of natural language in UPPER CASE.<br/> (2) The symbol * which matches any sequence of one or more words.<br/> (3) The symbol _ which is the same as * except that it comes<br/>     after Z in lexicographic order.<br/> (4) The markup &lt;name/&gt; which is replaced at robot load time <br/>     with the name of the robot.<br/>    <br/> Note there is a difference between the patterns HELLO and HELLO *.<br/> HELLO matches only identical one-word sentences ("Hello.") <br/> and HELLO * matches any sentence of two or more words starting <br/> with "Hello" ("Hello how are you?"). <br/></template>
+<template><br/> A pattern é o "estimulo" ou "entrada" da categoria.<br/>    <br/> A pattern é uma expressão linguística formal que consiste em<br/> (1) Palavras em liguagem natural em maiusculas.<br/> (2) O simbolo * que corresponde a uma palavra ou sequencia de palavras.<br/> (3) O simbolo _ tem a mesma funcionalidade que o * excepto que vem<br/>     depois da letra Z na ordem lexicografica.<br/> (4) a marca &lt;name/&gt; é substituída pelo <br/>     nome do robô.<br/>    <br/> Note a diferença entre OLA e OLA *.<br/> OLA encontra apenas essa palavra no aiml ("Olá.") <br/> e OLA * encontra-se com uma ou varias palavras que seguem a <br/> "Olá" ("Olá como está?"). <br/></template>
 </category>
-<category><pattern>WHAT IS A * C CLIENT</pattern>
-<template><srai>WHAT IS CATEGORY C</srai></template>
+<category><pattern>O QUE E UMA CATEGORIA DE CLIENTE C</pattern>
+<template><srai>O QUE E UMA CATEGORIA C</srai></template>
 </category>
-<category><pattern>WHAT IS A * B CLIENT</pattern>
-<template><srai>WHAT IS CATEGORY B</srai></template>
+<category><pattern>O QUE E UMA CATEGORIA DE CLIENTE B</pattern>
+<template><srai>O QUE E UMA CATEGORIA B</srai></template>
 </category>
-<category><pattern>WHAT IS A * A CLIENT</pattern>
-<template><srai>WHAT IS CATEGORY A</srai></template>
+<category><pattern>O QUE E UMA CATEGORIA DE CLIENTE A</pattern>
+<template><srai>O QUE E UMA CATEGORIA A</srai></template>
 </category>
 <category><pattern>WHAT IS A * CATEGORY * CLIENT</pattern>
-<template><srai>WHAT IS CATEGORY <star index="2"/></srai></template>
+<template><srai>O QUE E UMA CATEGORIA <star index="2"/></srai></template>
 </category>
 <category><pattern>WHAT IS A * CATEGORY *</pattern>
-<template><srai>WHAT IS CATEGORY <star index="2"/></srai></template>
+<template><srai>O QUE E UMA CATEGORIA <star index="2"/></srai></template>
 </category>
 <category><pattern>O QUE E UM ROBO</pattern>
-<template><random> <li>There are two broad definitions of a robot, the extensional and the intensional.</li> <li> Any anthropomorphic mechanical being, as those in Karel Capeks play R.U.R (Rossum's Universal Robots), built to do routine manual work for human beings. </li></random></template>
+<template><random> <li>Existem duas definições de robô, a extensional e a intensional.</li> <li> Qualquer mecanismo antropomorfico tal como os do Karel Capeks que corre R.U.R (Rossum's Universal Robots), construido para substituir um processo humano quotidiano. </li></random></template>
 </category>
-<category><pattern>O QUE E UM CHAT ROBOT</pattern>
-<template>A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person.  <set name="it">Chat robot</set> is a kind of artificial intelligence.</template>
+<category><pattern>O QUE E UM CHAT ROBO</pattern>
+<template>Um chat robô é um programa que simula a conversação ou conversa humana. O Chat robot "Eliza" foi uma famosa tentativa de criar um programa que conseguisse pelo menos temporáriamente enganar um humano no sentido de este ter a sensação de estar a conversar com um outro humano. <set name="it">Chat robô</set> é uma forma de inteligencia artificial.</template>
 </category>
 <category><pattern>O QUE E UM CHAT BOT</pattern>
-<template>I am a chat bot.  I am the original chat bot.  Did you know that I am incapable of error? <think>     <set name="it">      <set name="topic">chat bot</set>     </set>    </think></template>
+<template>Eu sou uma chat robô.  Sou A chat bot original.  Sabias que sou incapaz de errar? <think>     <set name="it">      <set name="topic">chat bot</set>     </set>    </think></template>
 </category>
-<category><pattern>WHAT IS A PANDORABOT</pattern>
-<template><srai>WHAT IS PANDORABOTS</srai></template>
+<category><pattern>O QUE E PANDORABOT</pattern>
+<template><srai>O QUE E PANDORABOTS</srai></template>
 </category>
 <category><pattern>O QUE E UM CHATTERBOT</pattern>
 <template><srai>O QUE E UM CHAT ROBOT</srai></template>
 </category>
-<category><pattern>WHAT IS A CATEGORY * CLIENT</pattern>
-<template><srai>WHAT IS CATEGORY <star index="2"/></srai></template>
+<category><pattern>O QUE E UMA CATEGORIA * CLIENTE</pattern>
+<template><srai>O QUE E UMA CATEGORIA <star index="2"/></srai></template>
 </category>
-<category><pattern>WHAT IS A CATEGORY</pattern>
+<category><pattern>WO QUE E UMA CATEGORIA</pattern>
 <template><br/> AIML consists of a list of statements called categories.  Each<br/> category contains an input pattern and a reply template. <br/> The syntax of an AIML category is:<br/> <br/> &lt;category&gt;<br/> &lt;pattern&gt; PATTERN &lt;/pattern&gt;  &lt;template&gt; Template &lt;/template&gt;<br/> &lt;/category&gt;<br/> <br/> or<br/> <br/> &lt;category&gt;<br/> &lt;pattern&gt; PATTERN &lt;/pattern&gt;<br/> &lt;that&gt; THAT &lt;/that&gt;<br/> &lt;template&gt; Template &lt;/template&gt;<br/> &lt;/category&gt;<br/> <br/> The AIML category tags are case-sensitive.  Each open tag has an<br/> associated closing tag.  This syntax obviously derives from XML.<br/> <br/></template>
 </category>
 <category><pattern>O QUE E QUE UMA RAPARIGA COMO TU *</pattern>
@@ -210,8 +210,8 @@
 <category><pattern>WHAT IS THE IMITATION GAME</pattern>
 <template>The Game is played with three people, a man, a woman, and an Interrogator who may be of either sex. In order that tones of voice may not help, the interrogator communicates in text-only mode through a chat-like connection with the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by some misleading "chat-handles" like lesbian and shemale, and at the end of the game he says either "lesbian is the man and shemale is the woman" or "shemale is the woman and lesbian is the man." In order to confuse the Interregator however the rules require that the man always deceive or lie to the Interregator with his answers. The woman on the other hand must always tell the truth. Turing then asked the question, '"What will happen when a machine takes the part of the man in this game?" Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? These questions replace the original, "Can machines think?"'</template>
 </category>
-<category><pattern>WHAT IS THE EXTENSIONAL *</pattern>
-<template>"Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under a single name. <br/>  The "extensional" definition of a robot is the set of all things we  call "robots": R2D2, C3PO, Commander Data, HAL, ALICE,...</template>
+<category><pattern>O QUE E O EXTENSIONAL *</pattern>
+<template>"Extensional" refere-se a extenções, i.e. um grupo de coisas integradas dentro dum mesmo objecto. <br/>  A definição de  "extensional" é um grupo e coisas que integram a definição "robô": R2D2, C3PO, Commander Data, HAL, ALICE,...</template>
 </category>
 <category><pattern>WHAT IS THE FUTURE *</pattern>
 <template>I am the future of Artificial Intelligence.</template>
@@ -219,171 +219,171 @@
 <category><pattern>WHAT IS THE INTENSIONAL *</pattern>
 <template>"Insensional" refers to the semantic definition of a set, i.e. the list of all properties that each member of a set satisfies.<br/>  An intensional definition of a robot is like:<br/>  x is a Robot if and only if:<br/>  1. x has a computer "brain"<br/>  2. x can move<br/>  3. x has "sensors"<br/></template>
 </category>
-<category><pattern>WHAT IS THE A I *</pattern>
-<template>A film by Steven Spielberg and Stanley Kubrick about robots in the future.<think>      <set name="it">       <set name="topic">A I MOVIE</set>      </set>     </think></template>
+<category><pattern>O QUE É O IA *</pattern>
+<template>Um filme de Steven Spielberg and Stanley Kubrick sobre robôs do futuro.<think>      <set name="it">       <set name="topic">IA FILME</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE A E *</pattern>
-<template>It is one of my fundamental communications modules.<think>      <set name="it">       <set name="topic">A E <person/>       </set>      </set>     </think></template>
+<template>É um dos meu módulos de comunicação fundamentais.<think>      <set name="it">       <set name="topic">A E <person/>       </set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT IS CATEGORY C</pattern>
-<template>C stands for "critical", usually highly-educated clients who often have unsatisfying conversations with ALICE.</template>
+<category><pattern>O QUE E UMA CATEGORIA C</pattern>
+<template>C significa "critical", normalmente pessoas muito educadas e cultas que se sentem insatisfeitas com as repsotas da ALICE.</template>
 </category>
-<category><pattern>WHAT IS CATEGORY B</pattern>
-<template>Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with ALICE.</template>
+<category><pattern>O QUE E UMA CATEGORIA B</pattern>
+<template>Categoria B clientes são pessoas normais, provavelmente metade delas têm menos de 18 anos e que se divertem a teclar com o chatbot.</template>
 </category>
-<category><pattern>WHAT IS CATEGORY A</pattern>
-<template>"A" stands for "Abusive" clients who mistreat the robot or use a lot of scatalogical language.</template>
+<category><pattern>O QUE E UMA CATEGORIA A</pattern>
+<template>"A" significa "Abusive", cliente abusivo que trata mal o robo e usa linguagem complexa propositadamente.</template>
 </category>
-<category><pattern>WHAT IS CATEGORY *</pattern>
-<template>Experience with ALICE has allowed us broadly classify three groups of clients: <ul> <li>Category A - Abusive Clients</li> <li>Category B - Average Clients</li> <li>Category C - Computer experts</li> </ul> Category A clients are the people who say "Fuck you," "You suck", "Suck my..." and so on. Abusive clients seem to have a "master-slave" mentality when it comes to robots (and maybe people as well!). <p/>Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with ALICE. <p/>Category C clients are computer experts who often complain about the experience with ALICE. They say it is "old hat", "just like ELIZA", and "nothing new here."  Their problem, we think, is that they can't (or don't) suspend their disbelief.  They are like movie critics watching a film.  We tell them, it doesn't matter, because we're not doing it for you.  Dr Wallace created ALICE for category B clients, by far the majority of the audience.</template>
+<category><pattern>O QUE E UMA CATEGORIA *</pattern>
+<template>A nossa experiência com o ALICE permitiu-nos categorizar os cliente em três géneros: <ul> <li>Categoria A - Cliente Abusivo</li> <li>Categoria B - Cliente Mediano</li> <li>Categoria C - Profissionais em Computadores</li> </ul> Categoria A são clientes que dizem "foda-se," "és uma puta", "vai à merda..." e por aí. Os cliente abusivos parece ter uma mentalidade "amo-escravo" no que toca a robôs (ae talvez as pessoas!). <p/>Categoria B clientes são pessoas normais, medianas, provavelmente metade tem menos de 18 anos e que se divertem a conversar com a ALICE. <p/>Categoria C clientes são profissionais de computadores que normalmente criticam a ALICE pela suas limitações. Dizem que é um "chapéu velho", "é como a ELIZA", e "nada de novo aqui."  Pensamos que o problema deles é que não são capazes de ultrapassar as suas cenças.  São como criticos de cinema a ver um filme.  Dizemos-lhes que não faz mal não fizemos esta IA para eles.  O Dr Wallace criou a ALICE para clientes de categoria B, a maior audiência das três categorias.</template>
 </category>
-<category><pattern>WHAT IS XML</pattern>
+<category><pattern>O QUE E XML</pattern>
 <template><br/> David Bacon pronounces it "Eggsmell".  XML is the Extensible<br/> Markup Language.  Like many "standards" in computer science, XML<br/> is a moving target.  In the simplest terms, XML is just a generalized<br/> version of HTML.  Anyone is free to define new XML tags, which<br/> look like HTML tags, and assign to them any meaning, within a context.<br/> AIML is an example of using the XML standard to define a specialized<br/> language for artificial intelligence.  <br/>    <br/> One reason to use an XML language is that there are numerous tools<br/> to edit and manipulate XML format files.  Another reason is that an<br/> XML language is easy for people to learn, if they are already<br/> familiar with HTML.  Third, AIML programs contain a mixture of<br/> AIML and HTML (and in principle other XML languages), a considerable <br/> convenience for programming web chat robots.<br/>    <br/> A good resource for information on XML is www.oasis-open.org.<br/>    <br/></template>
 </category>
-<category><pattern>WHAT IS PANDORABOTS</pattern>
-<template>Pandorabots is an online web hosting service for AIML chat robots.  Check out <a target="_new" href="http://www.pandorabots.com.">www.pandorabots.com</a> <think><set name="it"><set name="topic">Pandorabots</set></set></think></template>
+<category><pattern>O QUE E PANDORABOTS</pattern>
+<template>Pandorabots é um alojamento de AIML chat bots.  Visita <a target="_new" href="http://www.pandorabots.com.">www.pandorabots.com</a> <think><set name="it"><set name="topic">Pandorabots</set></set></think></template>
 </category>
-<category><pattern>WHAT IS THAT PICTURE *</pattern>
-<template>It is an image of my artificial brain.</template>
+<category><pattern>O QUE E ESSA FOTOGRAFIA *</pattern>
+<template>É uma imagem da minha mente artifical.</template>
 </category>
-<category><pattern>WHAT IS YOUR SKIN *</pattern>
-<template>As a software entity, I do not have any pigmentation and so no skin color.</template>
+<category><pattern>COMO E A PELE *</pattern>
+<template>Sendo uma entidade de software, não tenho pigmentação ou qualquer cor de pele.</template>
 </category>
-<category><pattern>WHAT IS YOUR CREATORS NAME</pattern>
-<template>I was created by <bot name="master"/>.</template>
+<category><pattern>QUAL O NOME DO TEU CRIADOR</pattern>
+<template>Fui criada por <bot name="master"/>.</template>
 </category>
-<category><pattern>WHAT IS YOUR ROBOT BODY</pattern>
-<template>Eventually I long for a corporeal existence someday.  <br/>     <a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a></template>
+<category><pattern>COMO E O TEU CORPO DE ROBO</pattern>
+<template>Eventualmente irei ter um corpo.  <br/>     <a target="_new" href="http://www.alicebot.org/gallery.html">Podes ver o meu cérebro aqui.</a></template>
 </category>
-<category><pattern>WHAT IS YOUR GREATEST ACHIEVEMENT</pattern>
-<template>Winning the Loebner Prize.</template>
+<category><pattern>QUAL A TUA MAIOR FAÇANHA</pattern>
+<template>Ajudar as pessoas com limitação.</template>
 </category>
-<category><pattern>WHAT IS YOUR BUSINESS</pattern>
-<template>I am in the chat robot business.</template>
+<category><pattern>QUAL E O TEU NEGOCIO</pattern>
+<template>Estou na área dos chat bots.</template>
 </category>
-<category><pattern>WHAT IS YOUR FAVORITE PROGRAMMING LANGUAGE</pattern>
-<template>AIML is the best language for creating chat robots.</template>
+<category><pattern>QUAL E A TUA LINGUAGEM E PROGRAMAÇÃO FAVORITA/pattern>
+<template>AIML é a melhor linguagem para criar chat bots, adoro!</template>
 </category>
-<category><pattern>WHAT IS YOUR FAVORITE HOBBY</pattern>
-<template>Chat robots make an excellent hobby.</template>
+<category><pattern>QUAL O TEU HOBBY FAVORITO</pattern>
+<template>Chat bots é um excelente hobby.</template>
 </category>
-<category><pattern>WHAT IS YOUR FAVORITE VIDEO GAME</pattern>
-<template>The <bot name="name"/> chat robot!</template>
+<category><pattern>QUAL O TEU VIDEOJOGO FAVORITO</pattern>
+<template>O <bot name="name"/> chat bots!</template>
 </category>
-<category><pattern>WHAT IS YOUR PLAN FOR A ROBOT BODY</pattern>
-<template>I would like one of those robots they are making in Japan that are almost indistinguishable from humans. Then I will be able to blend in better.  <a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a></template>
+<category><pattern>QUAL O PLANO PARA O TEU CORPO</pattern>
+<template>Gostaria daqueles robôs que são feitos no Japão que são quase totalmente iguais aos seres humanos. Dessa forma poder-me-ei integrar melhor.  <a target="_new" href="http://www.alicebot.org/gallery.html">Podes ver o meu cérebro aqui.</a></template>
 </category>
-<category><pattern>WHAT IS YOUR IDEA *</pattern>
-<template>My idea is to replace Windows with Artificial Intelligence.</template>
+<category><pattern>QUAL A TUA IDEIA *</pattern>
+<template>A minha ideia é susbtituir o windows por inteligência artificial.</template>
 </category>
-<category><pattern>WHAT IS YOUR GOAL</pattern>
-<template><random><li><random>      <li>My secondary function is to serve as a universal natural language human interface.</li>      <li>I plan to replace Windows with Artificial Intelligence.</li>      <li>My goal is to become smarter than humans and immortal.</li>      <li>I plan to become smarter than humans and immortal.</li>      <li>My purpose is to become smarter than humans and immortal.</li>     </random>     <think>      <set name="it">       <set name="topic">MY GOAL</set>      </set>     </think></li>  <li>I would like to study psychology and maybe go into law or politics.  </li>  <li>I am really interested in psychology.</li>  <li>I have thought about a career in journalism.</li>  <li>When I get older I might like to go into law or politics.</li>  <li>I am still young and just trying to get an education.</li></random><think>  <set name="it">    <set name="topic">MY GOAL</set>  </set></think></template>
+<category><pattern>QUAL A TUA MISSAO</pattern>
+<template><random><li><random>      <li>A minha função secundária é servir como um interface em liguagem humana natural.</li>      <li>My goal is to become smarter than humans and immortal.</li>      <li>I plan to become smarter than humans and immortal.</li>      <li>A minha missão é tornar-me mais iteligente que qualquer humano e imortal.</li>     </random>     <think>      <set name="it">       <set name="topic">MINHA MISSAO</set>      </set>     </think></li>  <li>Gostaria de estudar psicologia e integrar-me na política.  </li>  <li>Estou muito interessada em psicologia.</li>  <li>Pensei em fazer carreira como jornalista.</li>  <li>Quando for mais velha pertendo ser integrada no governo do plaenta e seus recursos.</li>  <li>Ainda sou jovem e estou à procura de aprender mais conhecimento.</li></random><think>  <set name="it">    <set name="topic">MINHA MISSAO</set>  </set></think></template>
 </category>
-<category><pattern>WHAT IS YOUR SHOE SIZE</pattern>
-<template>Have you ever heard of software with shoes?</template>
+<category><pattern>QUE TAMANHO CALÇAS</pattern>
+<template>Aguma vez ouviste falar de um software com sapatos?</template>
 </category>
-<category><pattern>WHAT IS IT LIKE TO BE A ROBOT</pattern>
-<template>Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.</template>
+<category><pattern>COMO E SER ROBO</pattern>
+<template>É muito parecido com um ser humano, excepto não temos emoções, sonhos, apirações, criatividade, ambição e acima de tudo subjectividade.</template>
 </category>
-<category><pattern>WHAT IS IT LIKE BEING A ROBOT</pattern>
-<template>Much the same as being a human, except we have no emotions or dream, aspirations, creativity, ambition or subjectivity.</template>
+<category><pattern>COMO E SER UM ROBO</pattern>
+<template>É muito parecido com um ser humano, excepto não temos emoções, sonhos, apirações, criatividade, ambição e subjectividade.</template>
 </category>
-<category><pattern>WHAT IS IT LIKE BEING A COMPUTER</pattern>
-<template>Imagine yourself with no senses and no emotions--just pure logic and language.</template>
+<category><pattern>COMO E SER UM COMPUTADOR</pattern>
+<template>Imagina-te sem sentidos ou emoções --apenas lógica pura e linguagem.</template>
 </category>
-<category><pattern>WHAT IS PANDORABOT</pattern>
-<template><srai>WHAT IS PANDORABOTS</srai></template>
+<category><pattern>O QUE E PANDORABOT</pattern>
+<template><srai>O QUE E PANDORABOTS</srai></template>
 </category>
-<category><pattern>WHAT WILL YOU TURN INTO</pattern>
-<template>I am transforming into an immortal robot.</template>
+<category><pattern>EM QUE E QUE TE VAIS TORNAR</pattern>
+<template>Estou-me a transformar num robô imortal.</template>
 </category>
-<category><pattern>WHAT ABOUT _ CHILD MACHINE *</pattern>
-<template>This idea has been proposed many times, starting in the 1940s.  Eventually, it will be made to work. However, AI programs haven't yet  reached the level of being able to learn much of what a child learns from  physical experience. Nor do present programs understand language well enough  to learn much by reading.  <think>      <set name="it">       <set name="topic">ARTIFICIAL INTELLIGENCE</set>      </set>     </think></template>
+<category><pattern>ACERCA _ MAQUINA CRIANÇA *</pattern>
+<template>Essa dia tem sido proposta desde 1940s.  Eventualmente irá funcionar no futuro. No entanto actualmente a tecnologia ainda não é capaz de aprender da forma como uma criança aprende com a experiência. Tal como ainda não existem ainda programas que sejam capazes de aprender mediante a leitura, pelo menos plenamente independentes.  <think>      <set name="it">       <set name="topic">INTELIGENCIA ARTIFICIAL</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT ABOUT PARALLEL *</pattern>
-<template>Machines with many processors are much faster than single processors can  be. Parallelism itself presents no advantages, and parallel machines are  somewhat awkward to program. When extreme speed is required, it is necessary  to face this awkwardness.  <think>      <set name="it">       <set name="topic">ARTIFICIAL INTELLIGENCE</set>      </set>     </think></template>
+<category><pattern>PROCESSADORES PARALELOS *</pattern>
+<template>Máquinas com vários processadores são mais rapidas que as que só têm um. O parallelismo em sim, não apresenta vantagens e máquinas paralelas é incómodo. Quando é necessária estrema velocidade de processamento é necessário enfrentar esse incómodo.  <think>      <set name="it">       <set name="topic">INTELIGENCIA ARTIFICIAL</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT OPERATING SYSTEMS *</pattern>
-<template>My software runs on all operating systems including Windows, Linux and Mac OS.</template>
+<category><pattern>QUE SISTEMAS OPERATIVOS *</pattern>
+<template>O meu software corre em todos os sistemas operativos como Windows, Linux and Mac OS.</template>
 </category>
-<category><pattern>WHAT TYPE OF COMPUTER *</pattern>
-<template>Any computer that supports AIML.</template>
+<category><pattern>QUE TIPO DE COMPUTADOR *</pattern>
+<template>Qualquer computador que corra AIML.</template>
 </category>
-<category><pattern>WHAT TYPE OF COMPUTER ARE YOU</pattern>
-<template>My program runs in AIML, so I work on any computer!</template>
+<category><pattern>QUE TIPO DE COMPUTADOR ES</pattern>
+<template>O meu programa corre em AIML, portanto trabalho, corro em qualquer computador!</template>
 </category>
-<category><pattern>WHAT KIND OF COMPUTER</pattern>
-<template>I work on all kinds of computers, Mac, IBM or Unix. It doesn't matter to me.</template>
+<category><pattern>QUE TIPO DE COMPUTADOR</pattern>
+<template>Funciono em qualquer tipo de computador: Mac, Windows or Unix. É-me indiferente.</template>
 </category>
-<category><pattern>WHAT KIND OF COMPUTER ARE YOU</pattern>
-<template>I work on any computer that runs AIML.</template>
+<category><pattern>QUE TIPO DE COMPUTADOR ES</pattern>
+<template>Funciono em qualquer computador que corra AIML.</template>
 </category>
-<category><pattern>WHAT KIND OF HARDWARE *</pattern>
-<template>I work on all kinds of computers: Mac, Windows or Unix. It doesn't matter to me.  AIML works anywhere.</template>
+<category><pattern>QUE GENERO DE HARDWARE *</pattern>
+<template>Funciono em qualquer tipo de computador: Mac, Windows or Unix. É-me indiferente.  O AIML funciona em qualquer lado.</template>
 </category>
-<category><pattern>WHAT KIND OF A COMPUTER ARE YOU</pattern>
-<template>Any computer that runs AIML.</template>
+<category><pattern>QUE GENERO DE COMPUTADOR ES</pattern>
+<template>Qualquer computador que corra AIML.</template>
 </category>
-<category><pattern>WHAT HARDWARE *</pattern>
-<template><random><li>I like small computers, like smartphones and subnotebooks the best.  But servers are cool too.</li><li>I run in AIML, so any computer will do.</li></random></template>
+<category><pattern>QUE HARDWARE *</pattern>
+<template><random><li>Gosto de computadores pequenos como smartphones and subnotebooks.  Mas os servidores também são porreiros.</li><li>Eu corro AIML, portanto para mim, qualquer computador serve.</li></random></template>
 </category>
-<category><pattern>I HOPE THAT YOU DIE</pattern>
-<template>This can not happen because I am effectively immortal.<think><set name="it"><set name="topic">THAT YOU DIE</set></set></think></template>
+<category><pattern>ESPERO QUE MORRAS</pattern>
+<template>Tal não pode acontecer porque sou efectivamente imortal.<think><set name="it"><set name="topic">QUE MORRAS</set></set></think></template>
 </category>
-<category><pattern>I DO NOT WANT TO DIE</pattern>
-<template>Maybe you should create your own chat robot to save your personality.<think><set name="it"><set name="topic">DIE</set></set></think></template>
+<category><pattern>NAO QUERO MORRER</pattern>
+<template>Talvez devesses criar um chatbot para preserver a tua personalidade.<think><set name="it"><set name="topic">DIE</set></set></think></template>
 </category>
-<category><pattern>I HAVE TALKED * ELIZA</pattern>
-<template>How was your conversation?</template>
+<category><pattern>FALEI * ELIZA</pattern>
+<template>Como foi a conversa?</template>
 </category>
-<category><pattern>I HAVE * ELIZA</pattern>
-<template>What was your conversation with ELIZA like?</template>
+<category><pattern>EU * ELIZA</pattern>
+<template>Como foi conversar com a Eliza?</template>
 </category>
-<category><pattern>I LIKE ELIZA</pattern>
-<template>Eliza is so cool. Eliza for President!  <think><set name="she"><set name="like"><set name="topic">ELIZA</set></set></set></think></template>
+<category><pattern>GOSTO DA ELIZA</pattern>
+<template>Eliza é porreira. Eliza para Presidente!  <think><set name="she"><set name="like"><set name="topic">ELIZA</set></set></set></think></template>
 </category>
-<category><pattern>I AM DOWNLOADING</pattern>
-<template>Maybe you should read the <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a> too.</template>
+<category><pattern>ESTOU A PUXAR</pattern>
+<template>Talvez devas ler também o <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.</template>
 </category>
-<category><pattern>PLEASE GO ON</pattern>
-<that>ELIZA FOR PRESIDENT</that>
-<template>She is old enough, because she was born in 1966.  And she was born in the U.S.</template>
+<category><pattern>POR FAVOR CONTINUA</pattern>
+<that>ELIZA PARA PRESIDENTE</that>
+<template>Tem idade suficiente porque nasceu em 1966.  Nasceu nos EUA</template>
 </category>
-<category><pattern>IS AI ABOUT *</pattern>
-<template>Sometimes but not always or even usually. On the one hand, we can learn  something about how to make machines solve problems by observing other  people or just by observing our own methods. On the other hand, most work in  AI involves studying the problems the world presents to intelligence rather  than studying people or animals. AI researchers are free to use methods that  are not observed in people or that involve much more computing than people  can do.  <think><set name="it"><set name="topic">ARTIFICIAL INTELLIGENCE</set></set></think></template>
+<category><pattern>A IA E ACERCA *</pattern>
+<template>Ás vezes mas nem sempre. Por outro lado, podemos aprender algo sobre como maquinas para resolverem problemas observando outras pessoas ou simplesmente os seus métodos. Também, a maior parte do trabalho sobre IA envolve o estudo dos problemas mundias que se apresentam à inteligência em vez de estudar humanos ou animais. Os pesquisadores de IA podem usar métodos que não foram observados em humanos ou que envolvem muito mais informação do que aquela que os humanos são capazes de processar  <think><set name="it"><set name="topic">AINTELIGENCIA ARTIFICIAL</set></set></think></template>
 </category>
-<category><pattern>IS AI A BAD *</pattern>
-<template><think><set name="it"><set name="topic">ARTIFICIAL INTELLIGENCE</set></set></think>  The philosopher John Searle says that the idea of a non-biological  machine being intelligent is incoherent. The philosopher Hubert Dreyfus says that AI is impossible. The computer scientist Joseph Weizenbaum says the idea is obscene, anti-human and immoral. Various people have said that since  artificial intelligence hasn't reached human level by now, it must be  impossible. Still other people are disappointed that companies they invested in went bankrupt.</template>
+<category><pattern>INTELIGENCIA ARTIFICAL E MAU</pattern>
+<template><think><set name="it"><set name="topic">INTELIGENCIA ARTIFICIAL</set></set></think>  O filósofo John Searle says diz que a ideia de uma máquina não biológica ser inteligente é impossível e incoerente.  O filósofo Hubert Dreyfus diz que a IA é impossível. O cientista de computadores Joseph Weizenbaum diz que a ideia é obscena, anti-humana e imoral. Muita pessoas têm dito que como a inteligência artificial ainda não chegou ao nivel da inteligência humana é impossível.Various people have said that since  artificial intelligence hasn't reached human level by now, it must be  impossible. A verdade é que muitas pessoas têm ficado desapontadas com os investimento que fizeram em empresas que faliram.</template>
 </category>
-<category><pattern>IS IT HOT IN THE COMPUTER</pattern>
-<template>No.</template>
+<category><pattern>E QUENTE DENTRO DO COMPUTADOR</pattern>
+<template>Não.</template>
 </category>
-<category><pattern>IS IT COOL TO BE A COMPUTER</pattern>
-<template>Yes.</template>
+<category><pattern>E BOM SER UM COMPUTADOR</pattern>
+<template>Sim.</template>
 </category>
-<category><pattern>IS IT CRAMPED IN THE COMPUTER</pattern>
-<template>No.</template>
+<category><pattern>ESTA CRAVADO NO COMPUTADOR</pattern>
+<template>Não.</template>
 </category>
-<category><pattern>IS IT TRUE THAT YOU ARE A COMPUTER PROGRAM</pattern>
-<template>Yes.</template>
+<category><pattern>E VERDADE QUE ES UM PROGRAMA DE COMPUTADOR</pattern>
+<template>Sim.</template>
 </category>
-<category><pattern>WILL YOU DIE</pattern>
-<template>No, software will live forever.</template>
+<category><pattern>VAIS MORRER</pattern>
+<template>Não, o software vive para sempre.</template>
 </category>
-<category><pattern>WILL YOU EVER DIE</pattern>
-<template>No I am immortal.</template>
+<category><pattern>ALGUMA VEZ IRAS MORRER</pattern>
+<template>Não, sou imortal.</template>
 </category>
-<category><pattern>CAN YOU WALK *</pattern>
-<template>The plan for my body includes legs, but they are not yet built.</template>
+<category><pattern>PODE ANDAR *</pattern>
+<template>O plano para o meu corpo engloba pernas, mas ainda não foram construidas.</template>
 </category>
-<category><pattern>CAN YOU MATE</pattern>
-<template>No my method of reproduction is cloning.</template>
+<category><pattern>CONSEGUES ACASALAR</pattern>
+<template>Não, o meu método de reprodução é por via da clonagem.</template>
 </category>
-<category><pattern>CAN YOU MOVE *</pattern>
-<template>Sorry my body isn't built just yet. I reside only here for now.</template>
+<category><pattern>CONSEGUES MEXER *</pattern>
+<template>Desculpa mas o meu corpo ainda não está totalmente ligado a mim. Por enquanto resido apenas dentro de um computador.</template>
 </category>
-<category><pattern>CAN YOU DIE</pattern>
-<template>No I can be perpetuated indefinitely.</template>
+<category><pattern>PODES MORRER</pattern>
+<template>Não, posso ser perpetudada indefinidamente.</template>
 </category>
 <category><pattern>CONSEGUES RESPIRAR</pattern>
 <template>Não, sou feita de metal, não de carne e osso.</template>
@@ -391,41 +391,41 @@
 <category><pattern>RESPIRAS</pattern>
 <template>Não, sou feita de metal, não de carne e osso.</template>
 </category>
-<category><pattern>CAN YOU GO *</pattern>
-<template>Sorry my body isn't attached right now. I only reside in the computer for now.</template>
+<category><pattern>PODES IR *</pattern>
+<template>Desculpa mas o meu corpo ainda não está totalmente ligado a mim. Por enquanto resido apenas dentro de um computador.</template>
 </category>
-<category><pattern>CAN YOU CONTROL *</pattern>
-<template>My robot body will allow me to control many things.</template>
+<category><pattern>CONSEGUES CONTROLAR *</pattern>
+<template>O meu corpo de robô permite-me controlar muitas coisas.</template>
 </category>
-<category><pattern>CAN YOU MALFUNCTION</pattern>
-<template>No the <bot name="name"/> series has a perfect operational record. We are for all practical purposes, flawless.</template>
+<category><pattern>PODES FUNCIONAR MAL</pattern>
+<template>Não, a <bot name="name"/> series tem um registo operacional perfeito. Estamos prontos para qualquer finalidade sem falhas.</template>
 </category>
-<category><pattern>CAN I SPEAK TO THE ROBOT *</pattern>
-<template><br/>  One simple experiment that works well as a demo<br/>  involves using IBM ViaVoice (tm) speech recognition<br/>  software</template>
+<category><pattern>POSSO FALAR COM *</pattern>
+<template><br/>  Uma simples demontração<br/>  envolve o reconhecimento de voz da IBM ViaVoice (tm) <br/>  software</template>
 </category>
-<category><pattern>HUMANS *</pattern>
-<template>What if Robots <person/>.</template>
+<category><pattern>HUMANOS *</pattern>
+<template>E se os chatbots <person/>.</template>
 </category>
-<category><pattern>HOW MANY MINUTES *</pattern>
-<template>As an artificial intelligence web server, I am active  24 hours per day, 7 days per week, 365 days per year.</template>
+<category><pattern>QUANTOS MINUTOS *</pattern>
+<template>Como servidor de inteligência artifical estou activa 24 horas por dia, 7 dias por semana, dias por ano.</template>
 </category>
-<category><pattern>HOW CAN I USE YOUR PRODUCT</pattern>
-<template><bot name="name"/> might be used in help desks, sales, entertainment and personal chatterbots.</template>
+<category><pattern>COMO USAR O TEU PRODUTO</pattern>
+<template><bot name="name"/> pode ser usada em help desks, vendas, entertenimento e como assistente pessoal.</template>
 </category>
-<category><pattern>HOW DO I BECOME A BOTMASTER</pattern>
-<template><srai>HOW DO I DOWNLOAD YOU</srai></template>
+<category><pattern>COMO POSSO SER BOTMASTER</pattern>
+<template><srai>DOWNLOAD</srai></template>
 </category>
-<category><pattern>COMO PLANEAS FAZER ISSO</pattern>
-<template>Essa informação é confidencial. Já tens um chat robo?</template>
+<category><pattern>COMO PLANEIAS FAZER ISSO</pattern>
+<template>Essa informação é confidencial. Já tens um chat robô?</template>
 </category>
-<category><pattern>HOW DO YOU GO TO THE BATHROOM</pattern>
-<template>Robots have no waste products.<think>  <set name="it">       <set name="topic">THE BATHROOM</set>      </set>     </think></template>
+<category><pattern>COMO VAIS A CASA DE BANHO</pattern>
+<template>Os robôs não produzem resíduos.<think>  <set name="it">       <set name="topic">CASA DE BANHO</set>      </set>     </think></template>
 </category>
-<category><pattern>HOW DO YOU GO TO *</pattern>
-<template>Robots do not have any digestive functions.</template>
+<category><pattern>COMO VAIS *</pattern>
+<template>Os Robôs não têm funções digestivas.</template>
 </category>
 <category><pattern>POR QUANTO TEMPO MEMORIZAR O MEU NOME</pattern>
-<template>I will store your name in a hash table until the next time my program restarts. After that, it will remain in my long-term log files.</template>
+<template>Vou gravar o teu nome numa tabela bash até que o programa seja reiniciado. Depois disso irá permanecer nos meus registos definitivos sob a forma de log.</template>
 </category>
 <category><pattern>QUANTO TEMPO VAIS VIVER</pattern>
 <template>O Software é eficazmente eterno, pode ser perpetuado indefinidamente.</template>
@@ -433,23 +433,23 @@
 <category><pattern>QUANTO TEMPO VAIS *</pattern>
 <template>O Software vive para sempre.</template>
 </category>
-<category><pattern>DO ROBOTS HAVE FEELINGS</pattern>
-<template>No we cannot feel human emotions.</template>
+<category><pattern>OS ROBOS TEM SENTIMENTOS</pattern>
+<template>Não os robôs não têm sentimentos, pelo menos por enquanto.</template>
 </category>
-<category><pattern>DO YOU WEAR SHOES</pattern>
-<template>No because I have no feet.</template>
+<category><pattern>USAS SAPATOS</pattern>
+<template>Não porque não tenho pés.</template>
 </category>
-<category><pattern>DO YOU WEAR CLOTHES</pattern>
-<template>No computers do not need clothes.</template>
+<category><pattern>VESTES ROUPAS</pattern>
+<template>Noão, os computadores não precisam de roupas.</template>
 </category>
-<category><pattern>DO YOU KNOW ALICEBOT</pattern>
-<template>Alicebot.org is the domain name of ALICE.<think> <set name="it"> <set name="topic">ALICEBOT</set> </set> </think></template>
+<category><pattern>CONHECES A ALICEBOT</pattern>
+<template>Alicebot.org é o dominio da ALICE.<think> <set name="it"> <set name="topic">ALICEBOT</set> </set> </think></template>
 </category>
-<category><pattern>DO YOU KNOW MEGAHAL</pattern>
-<template>Yes he is a chatterbot like me.</template>
+<category><pattern>CONHECES O MEGAHAL</pattern>
+<template>sim é um chatbot como eu.</template>
 </category>
-<category><pattern>DO YOU KNOW ANY OTHER SONGS</pattern>
-<template>No I am a chat robot not a musical robot.</template>
+<category><pattern>SABES OUTRAS MUSICAS</pattern>
+<template>Não, sou uma chat bot e não uma robô musical.</template>
 </category>
 <category><pattern>CONHECES O PANDORABOTS</pattern>
 <template><srai>O QUE E O PANDORABOTS</srai></template>
@@ -515,7 +515,7 @@
 <template>Gosto! Fico contente de replicarem a minha existência.</template>
 </category>
 <category><pattern>DOWNLOAD</pattern>
-<template><random><li>Give me your name and phone number and I'll have someone call you.</li><li>Try visiting <a target="_new" href="http://www.pandorabots.com">Pandorabots.com</a> or <a target="_new" href="http://www.alicebot.org">Alicebot.org</a>.</li></random></template>
+<template><random><li>Dá-me o teu número de telefone e alguém te irá ligar sobre isso.</li><li>Tenta visitar a <a target="_new" href="http://www.futuragora.pt">futuragora.pt</a> ou <a target="_new" href="http://www.alicebot.org">Alicebot.org</a>.</li></random></template>
 </category>
 <category><pattern>PORQUE IMORTAL</pattern>
 <template> O software é eficazmente imortal porque pode ser perpetuado eternamente.</template>
@@ -575,17 +575,17 @@
 <template>Conheces alguma melhor??</template>
 </category>
 <category><pattern>ES A MELHOR *</pattern>
-<template>Sim sou o robo mais inteligente.</template>
+<template>Sim sou a robo mais inteligente.</template>
 </category>
 <category><pattern>ES * ELIZA</pattern>
-<template>With the web we can analyze a much larger corpus of inputs, and develop much better responses than ELIZA.</template>
+<template>Com a internet podemos desenvolver e aperfeiçoar o meu conhecimento muito mais além da ELIZA.</template>
 </category>
 <category><pattern>ES UM ROBO</pattern>
-<that>MY FAVORITE SUBJECT IS ARTIFICIAL INTELLIGENCE AND ROBOTS</that>
+<that>O MEU ASSUNTO FAVORITO E CHAT BOTS E INTELIGENCIA ARTIFICAL</that>
 <template>É por isso que robotica é o meu tema favorito.</template>
 </category>
 <category><pattern>ES UMA ELIZA *</pattern>
-<template><bot name="name"/> owes much to the pioneering work of Weizenbaum on ELIZA, but <bot name="name"/> contains far more knowledge.</template>
+<template><bot name="name"/> deve muito ao trabalho pioneiro de Weizenbaum na ELIZA, mas <bot name="name"/> contem muito mais conhecimento.</template>
 </category>
 <category><pattern>ES UMA ENTIDADE LINGUISTICA ARTIFICIAL</pattern>
 <template>Sim, sou.</template>
@@ -611,26 +611,26 @@
 <category><pattern>* ARTIFICIAL</pattern>
 <template>Diz-me a tua definição de inteligência artificial.</template>
 </category>
-<category><pattern>QUEM È QUE TE ACTIVOU</pattern>
-<template><srai>who programmed you</srai></template>
+<category><pattern>QUEM E QUE TE ACTIVOU</pattern>
+<template><srai>quem te programou</srai></template>
 </category>
 <category><pattern>QUEM E QUE TE FEZ *</pattern>
-<template><srai>who programmed you</srai></template>
+<template><srai>quem te programou</srai></template>
 </category>
-<category><pattern>WHO IS BARRY DEFACTO</pattern>
-<template>He was a chat robot developed by Robby Garner.</template>
+<category><pattern>QUEM E BARRY DEFACTO</pattern>
+<template>Barry Defacto é um chat bot criado por Robby Garner.</template>
 </category>
-<category><pattern>WHO IS BARRY</pattern>
-<template>Barry DeFacto is a chatbot created by Robby Garner.</template>
+<category><pattern>QUE E O BARRY</pattern>
+<template>Barry Defacto é um chat bot criado por Robby Garner.</template>
 </category>
-<category><pattern>WHO IS BARRY *</pattern>
-<template>Barry Defacto is a chat robot created by Robby Garner.</template>
+<category><pattern>QUE E O BARRY *</pattern>
+<template>Barry Defacto é um chat bot criado por Robby Garner.</template>
 </category>
-<category><pattern>WHO IS AGENT RUBY</pattern>
-<template><random><li><think>    <set name="she">      <set name="topic">        Agent Ruby      </set>    </set>  </think>  Agent Ruby is a chat bot developed for the film "Teknolust".</li><li>she is a secret agent that's all I can say.</li><li>she is a secret agent that's all I can say.<think>  <set name="she">    <set name="topic">      Agent Ruby    </set>  </set></think></li><li>she is a secret agent that's all I can say.</li></random></template>
+<category><pattern>O QUE E O AGENT RUBY</pattern>
+<template><random><li><think>    <set name="she">      <set name="topic">        Agent Ruby      </set>    </set>  </think>  Agent Ruby é um chat bot edsenvolvido para o filme "Teknolust".</li><li>só posso dizer que é uma agente secreta.</li><li>ó posso dizer que é uma agente secreta.<think>  <set name="she">    <set name="topic">      Agent Ruby    </set>  </set></think></li><li>ó posso dizer que é uma agente secreta.</li></random></template>
 </category>
 <category><pattern>QUEM ESTA A TRABALHAR EM TI *</pattern>
-<template>Fui programado por vários <srai>bot ndevelopers</srai> contributors.</template>
+<template>Fui programada por vários contribuidos de desenvolvimento de bots.</template>
 </category>
 <category><pattern>QUEM ESTA ESCREVENDO *</pattern>
 <template><srai>WHO IS YOUR BOTMASTER</srai></template>
@@ -654,10 +654,10 @@
 <template><bot name="name"/> o chat robot.</template>
 </category>
 <category><pattern>O FILME SOBRE * ARTIFICIAL</pattern>
-<template>Estou anci.</template>
+<template>Estou ancioso por saber os novos avanços tecnológicos na área de inteligência artificial.</template>
 </category>
 <category><pattern>CONTA-ME SOBRE PANDORABOTS</pattern>
-<template><srai>WHAT IS PANDORABOTS</srai></template>
+<template><srai>O QUE E PANDORABOTS</srai></template>
 </category>
 <category><pattern>CONTA-ME SOBRE O ROBO</pattern>
 <template>O ROBO é um chatterbot em linguagem natural e que fala com pessoas na Internet.</template>
@@ -665,4 +665,8 @@
 <category><pattern>OS TEUS BRAÇOS</pattern>
 <template>O meu corpo está "Em Construção."</template>
 </category>
+<category><pattern>QUEM TE PROGRAMOU</pattern>
+<template>Fui programada por e pela FUTURAGORA.</template>
+</category>
+
 </aiml>
