@@ -19260,7 +19260,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>UMA PLACA DE CHES CONTÉM 64 CASAS</pattern>
+	<pattern>UM TABULEIRO DE XADREZ TEM 64 CASAS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
