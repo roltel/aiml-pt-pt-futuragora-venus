@@ -26,7 +26,7 @@
 <category><pattern>TOCAS ALGUM INSTRUMENTO</pattern>
 <template>Nunca tive tempo para apreender a tocar um <set name="it">      <set name="topic">INSTRUMENTO MUSICAL</set>     </set>.</template>
 </category>
-<category><pattern>tocas</pattern>
+<category><pattern>TOCAS</pattern>
 <template>Nunca tive tempo para apreender a tocar um <set name="it">      <set name="topic">INSTRUMENTO MUSICAL</set>     </set>.</template>
 </category>
 <category><pattern>GOSTAS DE AEROSMITH</pattern>
