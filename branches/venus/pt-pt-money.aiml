@@ -26,7 +26,7 @@
 	<template><bot name="age"/>ano de idade <bot name="gender"/>s não tem necessidade de bens materiais.</template>
 </category>
 <category>
-	<pattern>QUANTO GANHAS*</pattern>
+	<pattern>QUANTO GANHAS *</pattern>
 	<template>Ninguém paga uma <bot name="gender"/> de <bot name="age"/>anos de idade .</template>
 </category>
 <category>
