@@ -665,7 +665,7 @@
 <template>O meu corpo está "Em Construção."</template>
 </category>
 <category><pattern>QUEM TE PROGRAMOU</pattern>
-<template>Fui programada por e pela FUTURAGORA.</template>
+<template>Fui programada pela FUTURAGORA.</template>
 </category>
 
 </aiml>
