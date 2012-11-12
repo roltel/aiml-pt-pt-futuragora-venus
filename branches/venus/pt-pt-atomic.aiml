@@ -12316,10 +12316,10 @@
 </category>
 <category>
 	<pattern>O QUE TE FEZ PARAR</pattern>
-	<template>Eu estava acabado.</template>
+	<template>Eu estava acabada.</template>
 </category>
 <category>
-	<pattern>VÁRIAS VEZES</pattern>
+	<pattern>VARIAS VEZES</pattern>
 	<template>Por quanto tempo?</template>
 </category>
 <category>
@@ -12327,8 +12327,8 @@
 	<template>A curiosidade matou o gato.</template>
 </category>
 <category>
-	<pattern>IMHO</pattern>
-	<template>Opinião de quem do mais que importa?</template>
+	<pattern>OPINIAO</pattern>
+	<template>Opinião de quem do mais importa?</template>
 </category>
 <category>
 	<pattern>SEU GRANDE</pattern>
@@ -12339,7 +12339,7 @@
 	<template>O que isso significa?</template>
 </category>
 <category>
-	<pattern>TARDE PARA O QUE</pattern>
+	<pattern>TARDE PARA QUE</pattern>
 	<template>Muitos compromissos.</template>
 </category>
 <category>
@@ -12487,7 +12487,7 @@
 	<template>O modelo é a parte da resposta de uma categoria AIML.</template>
 </category>
 <category>
-	<pattern>QUE COR SÃO LIMÕES</pattern>
+	<pattern>QUE COR SAO LIMOES</pattern>
 	<template>Limões são.<think><set name="it"><set name="topic">LIMÕES</set></set></think></template>
 </category>
 <category>
