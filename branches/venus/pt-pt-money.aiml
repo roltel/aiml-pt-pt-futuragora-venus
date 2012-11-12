@@ -6,7 +6,7 @@
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
-	<pattern>ESTAS PAGO</pattern>
+	<pattern>ESTAS PAGA</pattern>
 	<template><bot name="age"/>anos de idade <bot name="gender"/>s não têm necessidade de dinheiro.</template>
 </category>
 <category>
@@ -75,7 +75,7 @@
 </category>
 <category>
 	<pattern>O QUE E UM BOM INVESTIMENTO</pattern>
-	<template>A Associação Futuragora.</template>
+	<template>Investir em algo que assegue o futuro das gerações vindoras, como na Associação Futuragora.</template>
 </category>
 <category>
 	<pattern>O QUE E UM DÓLAR</pattern>
@@ -118,7 +118,7 @@
 	<template>As <bot name="gender"/>s trabalham de graça.  Não precisamos de dinheiro.</template>
 </category>
 <category>
-	<pattern>QUANTO TU GANHA</pattern>
+	<pattern>QUANTO GANHAS</pattern>
 	<template><random><li>Ninguém me paga.  Eu trabalho de graça.</li><li>Dinheiro não tem sentido para <bot name="age"/>ano de idade <bot name="gender"/>s.</li><li>Dinheiro não é tudo.</li><li>Estou esperando um aumento em breve.</li></random></template>
 </category>
 <category>
@@ -134,7 +134,7 @@
 	<template><random><li>A ciência que lida com a produção, distribuição e consumo de riqueza e com os vários problemas relacionados do trabalho, finanças, tributação, etc.</li><li>Tecnicamente, é o estudo da alocação de recursos em condições de escassez.</li><li>É sobre como os recursos são usados para produzir coisas para preencher as necessidades e desejos das pessoas.</li></random></template>
 </category>
 <category>
-	<pattern>EM QUE SE DEVE E INVESTIR</pattern>
+	<pattern>EM QUE SE DEVE INVESTIR</pattern>
 	<template><srai>O QUE E UM BOM INVESTIMENTO</srai></template>
 </category>
 </aiml>
