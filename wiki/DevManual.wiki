@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Venus AIML BOT DEV MANUAL.
 
 '''Projecto:''' Vénus - Assistente Pessoal
 
@@ -26,11 +26,12 @@ Tradução do alice: http://code.google.com/p/aiml-pt-pt-futuragora-venus
 
 4. Editar
 
-5. Fazer commit, tem de usar sempre uma descrição das alterações.
+5. Fazer commit, tem de usar sempre uma descrição das alterações senão não grava.
 
-NOTAS:
 
-Todas as perguntas estarão sem assentos nem artigos no seu inicio.
+NOTAS DE DESENVOLVIMENTO:
+
+Todas as perguntas estarão sem acentos nem artigos no seu inicio.
 
 Todas as respostas terão acentos e artigos completos.
 
