@@ -54,6 +54,9 @@ O servidor de AIML usa os ficheiros em ISO-8859-1 e com o encoding de ANSI. Qual
 
 ==Links==
 
+AIML Tags - http://www.alicebot.org/documentation/aiml-reference.html
+
+Eclipse AIML - http://rebecca-aiml.sourceforge.net/userGuide.htm#install_eclipse
 
 http://www.alicebot.org
 
