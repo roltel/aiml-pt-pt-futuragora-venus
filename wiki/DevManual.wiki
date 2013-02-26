@@ -52,6 +52,37 @@ Ficheiro já alinhavados: music.aiml, drugs.aiml, ai.aiml, bot-profile.aiml, sci
 
 O servidor de AIML usa os ficheiros em ISO-8859-1 e com o encoding de ANSI. Qualquer outro formato irá entrar em conflito.
 
+
+
+
+
+==META==
+
+Ficheiros concluido que estão na Versão 1.0:
+
+===asterisk.aiml===
+
+ Contém as respostas aleatórias e as citações.
+
+==ai.aiml==
+
+ Ficheiro de IA que resume várias questões relacionadas com a compreensão de si mesmo.
+
+==astrology.aiml==
+
+Alice traduzido. 30 categorias.
+
+
+==atomic.aiml==
+
+Ficheiro em tradução. Contém categorias muito importantes.
+
+
+
+
+
+
+
 ==Links==
 
 AIML Tags - http://www.alicebot.org/documentation/aiml-reference.html
