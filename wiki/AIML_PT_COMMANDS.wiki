@@ -1,8 +1,8 @@
 #summary AIML P
 
-= Introduction =
+= Introito =
 
-Add your content here.
+Este manual serve como base de dados dos comandos específicos usados no nosso aiml.
 
 
 = Categoria de aprendizagem =
