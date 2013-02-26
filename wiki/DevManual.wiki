@@ -60,20 +60,24 @@ O servidor de AIML usa os ficheiros em ISO-8859-1 e com o encoding de ANSI. Qual
 
 Ficheiros concluido que estão na Versão 1.0:
 
+TOTAL: 3
+
+
+
 ===asterisk.aiml===
 
  Contém as respostas aleatórias e as citações.
 
-==ai.aiml==
+===ai.aiml===
 
  Ficheiro de IA que resume várias questões relacionadas com a compreensão de si mesmo.
 
-==astrology.aiml==
+===astrology.aiml===
 
 Alice traduzido. 30 categorias.
 
 
-==atomic.aiml==
+===atomic.aiml===
 
 Ficheiro em tradução. Contém categorias muito importantes.
 
