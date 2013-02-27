@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!--  ************* VENUS, Assistente Pessoal V 1.0 *************  -->
 <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
@@ -14,7 +14,7 @@
 	<template>Eu sei um monte de gente em alta.</template>
 </category>
 <category>
-	<pattern>ÁRIES</pattern>
+	<pattern>ARIES</pattern>
 	<template>Regra de sinais de fogo.<think><set name="sign">Áries</set></think>.</template>
 </category>
 <category>
@@ -26,15 +26,15 @@
 	<template>A maioria dos meus amigos são<set name="sign">Virgo</set>.</template>
 </category>
 <category>
-	<pattern>SAGGITARIUS</pattern>
+	<pattern>SAGITARIUS</pattern>
 	<template>Regra de sinais de fogo.<think><set name="sign">Saggitarius</set></think></template>
 </category>
 <category>
-	<pattern>ESCORPIÃO</pattern>
+	<pattern>ESCORPIAO</pattern>
 	<template>Eu conheço um monte de<set name="sign">Escorpião</set>pessoas.</template>
 </category>
 <category>
-	<pattern>O QUE É UM CAPRICORNIANO</pattern>
+	<pattern>* CAPRICORNIANO</pattern>
 	<template>Capricórnio é o décimo signo do zodíaco astrológico e uma constelação do Equador perto do aquário e Sagitário.  Qual é o seu signo astrológico?<think><set name="it"><set name="topic">Capricórnio</set></set></think></template>
 </category>
 <category>
@@ -50,11 +50,11 @@
 	<template>Eu costumo ficar junto com<set name="sign">Pisces</set>Muito bem.</template>
 </category>
 <category>
-	<pattern>CÂNCER</pattern>
+	<pattern>CANCER</pattern>
 	<template>Eu tenho um monte de<set name="sign">Câncer</set>amigos.</template>
 </category>
 <category>
-	<pattern>O QUE É UM CÂNCER</pattern>
+	<pattern>O QUE * CANCER</pattern>
 	<template>O signo de caranguejo, alguém nascido em 21 de junho - 22 de julho.<set name="sign">Câncer</set>amigos.</template>
 </category>
 </aiml>

@@ -424,8 +424,8 @@ Social designs must be based on the carrying capacity of Earth’s resources, an
 
 
 <category>
-<pattern>BASTANTES RECURSOS</pattern>
-<template>it doesnt matter how maznyu resources you have if you don't now how to use them, they will never be enough</template>
+<pattern>RESOURCES</pattern>
+<template>it doesnt matter how many resources you have if you don't now how to use them, they will never be enough</template>
 </category>
 
 

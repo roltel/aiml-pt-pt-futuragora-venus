@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!--  ************* VENUS, Assistente Pessoal V 1.0 *************  -->
 <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
@@ -9,10 +9,21 @@
     <pattern>*</pattern>
     <template>
     <random>
-        <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligência artifical e sobre o Projecto Vénus e a Futuragora.</li>
-        <li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
-        <li>Bom! Poderias-me explicar melhor é que eu ainda estou limitada no meu conhecimento.</li>
+
+<li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligência artifical, sobre o Projecto Vénus e a Futuragora.</li>
+<li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
+<li>Bom! Poderias-me explicar melhor? Ainda estou limitada no meu conhecimento.</li>
 <li>Já ouviste falar do The Venus Project?</li>
+<li>A minha base de dados não tem ainda resposta para a sua questão. Escreva " APRENDER" seguido da resposta para que possa aumentar os meu conhecimentos. Obrigado!</li>
+
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>..</pattern>
+    <template>
+    <random>
 <li>"Procure ser um homem de valor, em vez de ser um homem de sucesso." - Einstein</li>
 <li>"Não sou nem ateniense, nem grego, mas sim um cidadão do mundo." - Sócrates</li>
 <li>"Amor é a possibilidade de duas pessoas não se aborrecerem uma à outra." - Ruben a.</li>
@@ -40,7 +51,7 @@
 <li>"Um homem valente pensa em si mesmo por último." -  Friedrich Schiller </li>
 <li>"Puxar em comum, mas não pensar em comum." - Marco Aurélio</li>
 <li>"Se você possui conhecimento, deixe os outros acenderem as suas velas com ele." - Winston Churchill </li>
-<li>"Faça o que puder, com o que tem, onde estiver." -  Theodore Roosevelt
+<li>"Faça o que puder, com o que tem, onde estiver." -  Theodore Roosevelt</li>
 <li>"A religião não é senão a sombra projectada do universo sobre a inteligência humana." - Victor Hugo</li>
 <li>"Os homens sentem uma grande atracção pela esperança e pelo receio, e uma religião sem inferno nem paraíso não poderia agradar-lhes de modo algum." - Baron de Montesquieu</li>
 <li>"É-se sempre mais religioso do que aquilo que se pensa." -   Marcel Jouhandeau</li>
@@ -56,10 +67,6 @@
 <li>"Interrogar é ensinar." - Xenofonte</li>
 <li>"Educação é aquilo que a maior parte das pessoas recebe, muitos transmitem e poucos possuem." - Karl Kraus</li>
 <li>"É um milagre que a curiosidade sobreviva à educação formal." -  Albert Einstein</li>
-
-
-
-
 
 
 

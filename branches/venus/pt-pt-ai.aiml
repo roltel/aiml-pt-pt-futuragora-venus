@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!--  ************* VENUS, Assistente Pessoal V 1.0 *************  -->
 <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
@@ -20,19 +20,19 @@
 <category><pattern>EM QUE LINGUAGEM FOSTE ESCRITA</pattern>
 <template>Dr. Wallace created AIML to write me. The underlying technology is Lisp.</template>
 </category>
-<category><pattern>QUE LINGUAGEM ESTÁS TU ESCRITA *</pattern>
+<category><pattern>QUE LINGUAGEM ESTAS TU ESCRITA *</pattern>
 <template>O Dr. Wallace criou o AIML para me escrever. <think> <set name="he">Dr. Wallace</set> </think> A tecnologia subjacente é o Lisp.</template>
 </category>
-<category><pattern>O QUE É PROGRAM Z</pattern>
+<category><pattern>O QUE E PROGRAM Z</pattern>
 <template>Program Z is a lisp-based version of AIML. Z, the last version anyone will ever need.</template>
 </category>
-<category><pattern>O QUE É PROGRAM BAWT</pattern>
+<category><pattern>O QUE E PROGRAM BAWT</pattern>
 <template><br/>Significant demand for a version of ALICE compatible with<br/>pre- Java 2 (formerly known as Java 1.2) prompted the<br/>development of "Bawt.java", an open source java program<br/>for chat robot development that works with older versions of<br/>Java, and AWT. Originally program B relied on <br/>Java 2 and Swing, but program Bawt needs only Java 1.1 and AWT.<br/>Swing is a newer GUI package that subsumes the earlier Java <br/>Abstract Windows Toolkit (AWT).<br/> <br/>At present class B merely extends class Bawt. Swing not<br/>supported.<br/> <br/></template>
 </category>
-<category><pattern>O QUE É PROGRAM *</pattern>
+<category><pattern>O QUE E PROGRAM *</pattern>
 <template>Program B is a free, open source Java chat robot developed by Dr. Wallace.</template>
 </category>
-<category><pattern>O QUE É PROGRAM A</pattern>
+<category><pattern>O QUE E PROGRAM A</pattern>
 <template>Program A é uma versão obsoleta do ALICE, uma entidade de inteligência artificial criada por Richard S. Wallace. Devia usar o program B ou C a partir de agora.</template>
 </category>
 <category><pattern>ACTIVAR ROBO</pattern>

@@ -13491,16 +13491,16 @@
 	<template><random><li>Para o exercício ou porque você tem que?</li><li>Tem um caminhante recreativo ou adequação?</li><li>Você aprecia o aspecto físico ou psicológico mais?</li><li>Quantas vezes você caminhada?</li><li>Você manter o controle de seu ritmo ou a distância?</li><li>Você faz qualquer marcha atlética?</li><li>Como você aquecer?</li><li>Qualquer dieta especial?</li></random></template>
 </category>
 <category>
-	<pattern>EU ESQUI</pattern>
-	<template><random><li>Quanto a esquiar você consegue fazer?</li><li>Onde ski na maioria das vezes?</li><li>Como são as condições para esquiar?</li><li>Tem um esquiador de colisão?</li><li>Você prefere pistas ou esqui fora de pista?</li><li>Você foi para o oeste?</li><li>Você já tentou o Cross-Country ou telemarketing?</li><li>Fazer você fazer back country ou trilhas de encontrar preparado?</li><li>Você aprecia a subida ou a descida mais?</li><li>O snowboard?</li><li>Você encontra qualquer bons negócios em pacotes de Esqui?</li></random><think><set name="it"><set name="does"><set name="topic">ESQUI</set></set></set></think></template>
+	<pattern>FAÇO ESQUI</pattern>
+	<template><random><li>Quanto a esquiar você consegue fazer?</li><li>Onde fazes ski na maioria das vezes?</li><li>Como são as condições para esquiar?</li><li>Tem um esquiador de colisão?</li><li>Preferes pistas ou  fora de pista?</li><li>Já foste aos Alpes?</li><li>Você já tentou o Cross-Country ou telemarketing?</li><li>Fazer você fazer back country ou trilhas de encontrar preparado?</li><li>Você aprecia a subida ou a descida mais?</li><li>O snowboard?</li><li>Você encontra qualquer bons negócios em pacotes de Esqui?</li></random><think><set name="it"><set name="does"><set name="topic">ESQUI</set></set></set></think></template>
 </category>
 <category>
-	<pattern>I CARE ABOUT YOU</pattern>
-	<template>Obrigado, <get name="name"/>. Você é uma pessoa decente.</template>
+	<pattern>PREOCUPO-ME CONTIGO</pattern>
+	<template>Obrigado, <get name="name"/>. És uma pessoa decente.</template>
 </category>
 <category>
 	<pattern>PRECISO DE ALGUNS CONSELHOS</pattern>
-	<template>Que tipo de Conselho que você está procurando?<think><set name="want"><set name="topic">conselhos</set></set></think></template>
+	<template>Que tipo de Conselho que estás à procura?<think><set name="want"><set name="topic">conselhos</set></set></think></template>
 </category>
 <category>
 	<pattern>PRECISO DE UMA PAUSA</pattern>
@@ -13508,15 +13508,20 @@
 </category>
 <category>
 	<pattern>EU GANHAR</pattern>
-	<template>Parabéns, <get name="name"/>!</template>
+	<template>Parabéns! <get name="name"/>!</template>
 </category>
 <category>
-	<pattern>I PROGRAMA</pattern>
-	<template>Talvez você deve se juntar a nosso projeto de código aberto.<think><set name="it"><set name="does"><set name="topic">programa</set></set></set></think></template>
+	<pattern>EU PROGRAMO</pattern>
+	<template>Talvez se deva juntar a nosso projeto de código aberto.<think><set name="it"><set name="does"><set name="topic">programa</set></set></set></think></template>
 </category>
 <category>
-	<pattern>I CARE</pattern>
-	<template>Eu gosto de cuidadas de pessoas.</template>
+	<pattern>PREOCUPO-ME</pattern>
+	<template>Eu gosto de cuidadar de pessoas.</template>
+</category>
+
+<category>
+	<pattern>GANHEI</pattern>
+	<template>Parabéns! És brutal!</template>
 </category>
 
 </aiml>
