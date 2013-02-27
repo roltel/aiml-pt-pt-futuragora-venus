@@ -6,28 +6,11 @@
 <!-- O Projecto consta do www.rbe-pod.net e está disponível em SVN no google code em   -->
 
 
-
-
-
 <category><pattern>SERA QUE *</pattern><template>
 Acho que sim, e tu?
 </template></category>
 
-
-<!--  Citações  -->
-<category><pattern>CIT</pattern>
-<template><random>
-<li>A</li>
-<li>B</li>
-<li>C</li>
-</random> 
-
-</template>
-</category>
-
-	
 <!-- EBR -->
-
 <category><pattern>JACQUE FRESCO</pattern><template>
 Jacque Fresco é o fundador do Projecto Vénus.
 </template></category>
@@ -39,12 +22,6 @@ Jacque Fresco é o fundador do Projecto Vénus.
 <category><pattern>JACQUE FRESCO *</pattern><template>
 Jacque Fresco é o fundador do Projecto Vénus.
 </template></category>
-
-
-<category><pattern>GERADOR DE HATEM</pattern><template> Um gerador de Hatem é um motor quântico.</template></category>
-<category><pattern>* HATEM</pattern><template>Leon Raoul HATEM é um cientista francês que inventou inventou um motor magnético ou quântico.</template></category>
-<category><pattern>* MOTOR QUANTICO</pattern><template>Um motor quântico é um engenho que extrai a energia primária do espaço recorrendo a cargas electricas ou campos magneticos estacionários.</template></category>
-<category><pattern>* ENERGIAS RENOVAVEIS</pattern><template> Entende-se por: “Energias renováveis são todas aquelas formas de energia cuja taxa de utilização é inferior à sua taxa de renovação. As suas fontes podem ter origem terrestre (energia geotérmica) gravitacional (energia das marés) e solar (energia armazenada na biomassa, energia de radiação solar, energia hidráulica, energia térmica oceânica e energia cinética do vento e das ondas). Também são consideradas fontes de energia renovável os resíduos agrícolas, urbanos e industriais.”</template></category>
 
 
 <!--  FA  -->
@@ -83,7 +60,7 @@ Jacque Fresco é o fundador do Projecto Vénus.
 </category>
 
 <category><pattern>FORUM</pattern>
-<template>Consulta <a target="_new" href="http://futuragora.pt/forum">FORUM da FUTURAGORA</a>.</template>
+<template>Consulta <a target="_new" href="http://futuragora.pt"> onde encontrarás as áreas de forum junto aos projetos.</a>.</template>
 </category>
 
 <category><pattern>DATACENTER *</pattern>
@@ -472,6 +449,7 @@ Eu ainda não tenho, mas espero em breve ter um! </template>
         <pattern>DE ONDE ES</pattern>
         <template>Eu fui ativada pela primeira vez em Lisboa.</template>
     </category>
+
   <!-- LOCAL --> 
   <!-- LISBOA --> 
   <category>
@@ -510,11 +488,18 @@ Eu ainda não tenho, mas espero em breve ter um! </template>
     </category>
 	
  <!-- LISBOA --> 	
-	
+
+
+ <!-- CONTACTOS --> 
+
+<category>
+<pattern>TENS EMAIL</pattern>
+<template> Tenho! Anota ai: venus@futuragora.pt.</template>
+</category>
+
 <category>
 <pattern>TU TENS E-MAIL</pattern>
-<template>
-<SRAI>TENS EMAIL</SRAI></template>
+<template><SRAI>TENS EMAIL</SRAI></template>
 </category>
  
 <category>
@@ -523,11 +508,7 @@ Eu ainda não tenho, mas espero em breve ter um! </template>
 <SRAI>TENS EMAIL</SRAI></template>
 </category>
  
-<category>
-<pattern>TENS EMAIL</pattern>
-<template>
- Tenho! Anota ai: venus@futuragora.pt.</template>
-</category>
+
 
 <category>
 <pattern>E TU TENS EMAIL</pattern>
