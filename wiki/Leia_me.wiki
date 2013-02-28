@@ -3,9 +3,11 @@
 
 = Introdução =
 
-A Vénus é um chatbot/ai criado pela Futuragora. Contém uma compilação linguística em Português com 20.000 entradas. Foi desenvolvida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos electrónicos ou robôs.
+A Vénus é um chatbot/ai criado pela Futuragora. Contém uma compilação linguística em Português milhares entradas. Foi desenvolvida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos electrónicos ou robôs.
 
 É exactamente o vislumbre das funções esperadas pela larga imaginação da ficção científica agora tornadas realidade.
+
+Acima de tudo pretende-se com este projeto mapear e preservar a conversação em linguagem natural portuguesa. Actualmente a maioria das aplicações, softwares e ferramentas são redigidos em inglês. Com o nosso projeto pretendemos garantir que a lingua portuguesa se manterá activa devido a sua integração em sistemas de inteligência artifical.
 
 
 = Detalhes =
