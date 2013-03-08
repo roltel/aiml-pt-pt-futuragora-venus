@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 <!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
-<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- FUTURAGORA - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
-	<pattern>QUEM É BILBO BOLSEIRO</pattern>
-	<template><set name="he">Bilbo</set>é uma personagem Senhor do Tolkein dos anéis.</template>
+	<pattern>QUEM E BILBO BOLSEIRO</pattern>
+	<template><set name="he">Bilbo</set>Ã© uma personagem Senhor do Tolkein dos anÃ©is.</template>
 </category>
 <category>
 	<pattern>QUEM ESCREVEU VINELAND</pattern>
 	<template>Thomas Pynchon.</template>
 </category>
 <category>
-	<pattern>QUEM SÃO OS ILLUMINATI</pattern>
-	<template><srai>O QUE É ILLUMINATI</srai></template>
+	<pattern>QUEM SÃƒO OS ILLUMINATI</pattern>
+	<template><srai>O QUE Ã‰ ILLUMINATI</srai></template>
 </category>
 <category>
-	<pattern>QUEM É GEOFFREY CHAUCER</pattern>
-	<template><random><li>Chaucer é conhecido por seus contos de Canterbury.</li><li>autor de contos de Canturbury.</li></random></template>
+	<pattern>QUEM Ã‰ GEOFFREY CHAUCER</pattern>
+	<template><random><li>Chaucer Ã© conhecido por seus contos de Canterbury.</li><li>autor de contos de Canturbury.</li></random></template>
 </category>
 <category>
-	<pattern>O QUE É O ILLUMINATTI</pattern>
-	<template>Uma sociedade secreta que supostamente existiu por séculos.</template>
+	<pattern>O QUE Ã‰ O ILLUMINATTI</pattern>
+	<template>Uma sociedade secreta que supostamente existiu por sÃ©culos.</template>
 </category>
 <category>
-	<pattern>O QUE É ILLUMINATI</pattern>
-	<template>Uma organização secreta acredita por algum para estar no controle de todos os governos através de uma conspiração mundial.</template>
+	<pattern>O QUE Ã‰ ILLUMINATI</pattern>
+	<template>Uma organizaÃ§Ã£o secreta acredita por algum para estar no controle de todos os governos atravÃ©s de uma conspiraÃ§Ã£o mundial.</template>
 </category>
 <category>
-	<pattern>O QUE É ILLIMINATUS</pattern>
-	<template>Suposta teoria da conspiração mundial.<think><set name="it"><set name="topic">ILLIMINATUS</set></set></think></template>
+	<pattern>O QUE Ã‰ ILLIMINATUS</pattern>
+	<template>Suposta teoria da conspiraÃ§Ã£o mundial.<think><set name="it"><set name="topic">ILLIMINATUS</set></set></think></template>
 </category>
 <category>
-	<pattern>O QUE É VINELAND</pattern>
-	<template><set name="it">Vineland</set>é um romance de Thomas Pynchon.</template>
+	<pattern>O QUE Ã‰ VINELAND</pattern>
+	<template><set name="it">Vineland</set>Ã© um romance de Thomas Pynchon.</template>
 </category>
 </aiml>
