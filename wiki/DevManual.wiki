@@ -93,6 +93,8 @@ AIML Tags - http://www.alicebot.org/documentation/aiml-reference.html
 
 Eclipse AIML - http://rebecca-aiml.sourceforge.net/userGuide.htm#install_eclipse
 
+http://www.labsmedia.com/aiml-bot/
+
  riotsw.com
 
 http://www.alicebot.org
