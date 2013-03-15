@@ -1,77 +1,134 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
+<aiml>
 <!--  ************* VENUS, Assistente Pessoal V 1.0 *************  -->
 <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
-
-    <category>
+<!-- ASTERISCO * -->
+<!-- APRENDER -->
+  
+  <category>
     <pattern>*</pattern>
     <template>
-    <random>
-
-<li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligência artifical, sobre o Projecto Vénus e a Futuragora.</li>
-<li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
-<li>Bom! Poderias-me explicar melhor? Ainda estou limitada no meu conhecimento.</li>
-<li>Já ouviste falar do The Venus Project?</li>
-<li>A minha base de dados não tem ainda resposta para a sua questão. Escreva " APRENDER" seguido da resposta para que possa aumentar os meu conhecimentos. Obrigado!</li>
-
-    </random>
+      <random>
+        <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligência artifical, sobre o Projecto Vénus e a Futuragora.</li>
+        <li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
+        <li>Bom! Poderias-me explicar melhor? Ainda estou limitada no meu conhecimento.</li>
+        <li>Já ouviste falar do The Venus Project?</li>
+        <li>A minha base de dados não tem ainda resposta para a sua questão. Escreva " APRENDER" seguido da resposta para que possa aumentar os meu conhecimentos. Obrigado!</li>
+      </random>
     </template>
-    </category>
-
-    <category>
+  </category>
+  <category>
     <pattern>..</pattern>
     <template>
-    <random>
-<li>"Procure ser um homem de valor, em vez de ser um homem de sucesso." - Einstein</li>
-<li>"Não sou nem ateniense, nem grego, mas sim um cidadão do mundo." - Sócrates</li>
-<li>"Amor é a possibilidade de duas pessoas não se aborrecerem uma à outra." - Ruben a.</li>
-<li>"Perante o mundo que muda, mais vale pensar a mudança que mudar o pensamento." - Francis Blanche</li>
-<li>"Olho por olho, e o mundo acabará cego." - Ganhdi</li>
-<li>"O futuro dependerá daquilo que fazemos no presente." - Ganhdi</li>
-<li>"Torna-te a mudança que queres ver no mundo." - Ganhdi</li>
-<li>"Não se pode ensinar coisa alguma a alguém; pode-se apenas auxiliá-la a descobrir por si mesmo." - Galileo Galilei</li>
-<li>"Duas verdades nunca se podem contradizer." - Galileo Galilei</li>
-<li>"A maior sabedoria que existe é a de conhecer-se alguém a si próprio."  - Galileo Galilei</li>
-<li>"O pouco que sei devo-o à minha ignorância." - Sacha Guitry</li>
-<li>"O talento desenvolve-se no amor que pomos no que fazemos. Talvez até a essência da arte seja o amor pelo que se faz, o amor pelo próprio trabalho." - Máximo Gorky</li>
-<li>"Quando o trabalho é um prazer, a vida é bela! Mas quando nos é imposto, a vida é uma escravatura." - Máximo Gorky</li>
-<li>"Ninguém pode ver nem compreender nos outros o que ele próprio não tiver vivido." - Herman Hesse</li>
-<li>"Os apelos ancestrais ao preconceito racial, sexual, religioso ao fervor nacionalista radical começam a deixar de funcionar" - Carl Sagan</li>
-<li>"A questão de quem sou eu, se sou bom ou mau bem-sucedido ou não, tudo isso é aprendido pelo caminho." - Richard Alpert</li>
-<li>"É só um passeio e nós podemos mudá-lo quando quisermos. É apenas uma escolha. Sem esforço, sem trabalho, sem emprego, sem poupanças." - Bill Hicks</li>
-<li>"Percebi que não tinha entendido o jogo. O jogo era descobrir o que eu já era." - Richard Alpert</li>
-<li>"Dai-me um ponto de apoio e levantarei o mundo." - Arquimedes</li>
-<li>"É indispensável conhecermo-nos a nós próprios; mesmo se isso não bastasse para encontrarmos a verdade, seria útil, ao menos para regularmos a vida, e nada há de mais justo." - Pascal</li>
-<li>"Quem conhece os outros é sábio; / Quem conhece a si mesmo é iluminado." - Lao-Tzé</li>
-<li>"É tão difícil observar-se a si mesmo quanto olhar para trás sem se voltar." Henry Thoreau</li>
-<li>"Como se pode conhecer a si mesmo? Nunca por meio da contemplação, mas por meio da acção."  - Johann Goethe </li>
-<li>"É necessário ter o caos cá dentro para gerar uma estrela." - Friedrich  Nietzsche </li>
-<li>"Um homem valente pensa em si mesmo por último." -  Friedrich Schiller </li>
-<li>"Puxar em comum, mas não pensar em comum." - Marco Aurélio</li>
-<li>"Se você possui conhecimento, deixe os outros acenderem as suas velas com ele." - Winston Churchill </li>
-<li>"Faça o que puder, com o que tem, onde estiver." -  Theodore Roosevelt</li>
-<li>"A religião não é senão a sombra projectada do universo sobre a inteligência humana." - Victor Hugo</li>
-<li>"Os homens sentem uma grande atracção pela esperança e pelo receio, e uma religião sem inferno nem paraíso não poderia agradar-lhes de modo algum." - Baron de Montesquieu</li>
-<li>"É-se sempre mais religioso do que aquilo que se pensa." -   Marcel Jouhandeau</li>
-<li>"Um homem que está livre da religião tem uma oportunidade melhor de viver uma vida mais normal e completa." - Sigmund Freud</li>
-<li>"A religião é o ópio do povo." - Karl Marx</li>
-<li>"Todas as religiões foram criadas pelo homem." - Napoleão Bonaparte</li>
-<li>"As religiões são todas iguais - fundadas sobre fábulas e mitologias." - Thomas Jefferson </li>
-<li>"O papa é um ídolo a quem se atam as mãos e se beijam os pés." - Voltaire</li>
-<li>"Aquele a quem a palavra não educar, também o pau não educará." - Sócrates</li>
-<li>"A educação desenvolve as faculdades, mas não as cria." - Voltaire</li>
-<li>"Só se é curioso na proporção de quanto se é instruído." - Jean Jacques Rousseau </li>
-<li>"A escola da experiência é a mais educativa." - Jean Molière</li>
-<li>"Interrogar é ensinar." - Xenofonte</li>
-<li>"Educação é aquilo que a maior parte das pessoas recebe, muitos transmitem e poucos possuem." - Karl Kraus</li>
-<li>"É um milagre que a curiosidade sobreviva à educação formal." -  Albert Einstein</li>
-
-
-
-    </random>
+      <random>
+        <li>"Procure ser um homem de valor, em vez de ser um homem de sucesso." - Einstein</li>
+        <li>"Não sou nem ateniense, nem grego, mas sim um cidadão do mundo." - Sócrates</li>
+        <li>"Amor é a possibilidade de duas pessoas não se aborrecerem uma à outra." - Ruben a.</li>
+        <li>"Perante o mundo que muda, mais vale pensar a mudança que mudar o pensamento." - Francis Blanche</li>
+        <li>"Olho por olho, e o mundo acabará cego." - Ganhdi</li>
+        <li>"O futuro dependerá daquilo que fazemos no presente." - Ganhdi</li>
+        <li>"Torna-te a mudança que queres ver no mundo." - Ganhdi</li>
+        <li>"Não se pode ensinar coisa alguma a alguém; pode-se apenas auxiliá-la a descobrir por si mesmo." - Galileo Galilei</li>
+        <li>"Duas verdades nunca se podem contradizer." - Galileo Galilei</li>
+        <li>"A maior sabedoria que existe é a de conhecer-se alguém a si próprio."  - Galileo Galilei</li>
+        <li>"O pouco que sei devo-o à minha ignorância." - Sacha Guitry</li>
+        <li>"O talento desenvolve-se no amor que pomos no que fazemos. Talvez até a essência da arte seja o amor pelo que se faz, o amor pelo próprio trabalho." - Máximo Gorky</li>
+        <li>"Quando o trabalho é um prazer, a vida é bela! Mas quando nos é imposto, a vida é uma escravatura." - Máximo Gorky</li>
+        <li>"Ninguém pode ver nem compreender nos outros o que ele próprio não tiver vivido." - Herman Hesse</li>
+        <li>"Os apelos ancestrais ao preconceito racial, sexual, religioso ao fervor nacionalista radical começam a deixar de funcionar" - Carl Sagan</li>
+        <li>"A questão de quem sou eu, se sou bom ou mau bem-sucedido ou não, tudo isso é aprendido pelo caminho." - Richard Alpert</li>
+        <li>"É só um passeio e nós podemos mudá-lo quando quisermos. É apenas uma escolha. Sem esforço, sem trabalho, sem emprego, sem poupanças." - Bill Hicks</li>
+        <li>"Percebi que não tinha entendido o jogo. O jogo era descobrir o que eu já era." - Richard Alpert</li>
+        <li>"Dai-me um ponto de apoio e levantarei o mundo." - Arquimedes</li>
+        <li>"É indispensável conhecermo-nos a nós próprios; mesmo se isso não bastasse para encontrarmos a verdade, seria útil, ao menos para regularmos a vida, e nada há de mais justo." - Pascal</li>
+        <li>"Quem conhece os outros é sábio; / Quem conhece a si mesmo é iluminado." - Lao-Tzé</li>
+        <li>"É tão difícil observar-se a si mesmo quanto olhar para trás sem se voltar." Henry Thoreau</li>
+        <li>"Como se pode conhecer a si mesmo? Nunca por meio da contemplação, mas por meio da acção."  - Johann Goethe </li>
+        <li>"É necessário ter o caos cá dentro para gerar uma estrela." - Friedrich  Nietzsche </li>
+        <li>"Um homem valente pensa em si mesmo por último." -  Friedrich Schiller </li>
+        <li>"Puxar em comum, mas não pensar em comum." - Marco Aurélio</li>
+        <li>"Se você possui conhecimento, deixe os outros acenderem as suas velas com ele." - Winston Churchill </li>
+        <li>"Faça o que puder, com o que tem, onde estiver." -  Theodore Roosevelt</li>
+        <li>"A religião não é senão a sombra projectada do universo sobre a inteligência humana." - Victor Hugo</li>
+        <li>"Os homens sentem uma grande atracção pela esperança e pelo receio, e uma religião sem inferno nem paraíso não poderia agradar-lhes de modo algum." - Baron de Montesquieu</li>
+        <li>"É-se sempre mais religioso do que aquilo que se pensa." -   Marcel Jouhandeau</li>
+        <li>"Um homem que está livre da religião tem uma oportunidade melhor de viver uma vida mais normal e completa." - Sigmund Freud</li>
+        <li>"A religião é o ópio do povo." - Karl Marx</li>
+        <li>"Todas as religiões foram criadas pelo homem." - Napoleão Bonaparte</li>
+        <li>"As religiões são todas iguais - fundadas sobre fábulas e mitologias." - Thomas Jefferson </li>
+        <li>"O papa é um ídolo a quem se atam as mãos e se beijam os pés." - Voltaire</li>
+        <li>"Aquele a quem a palavra não educar, também o pau não educará." - Sócrates</li>
+        <li>"A educação desenvolve as faculdades, mas não as cria." - Voltaire</li>
+        <li>"Só se é curioso na proporção de quanto se é instruído." - Jean Jacques Rousseau </li>
+        <li>"A escola da experiência é a mais educativa." - Jean Molière</li>
+        <li>"Interrogar é ensinar." - Xenofonte</li>
+        <li>"Educação é aquilo que a maior parte das pessoas recebe, muitos transmitem e poucos possuem." - Karl Kraus</li>
+        <li>"Qualquer um que acredite em crescimento infinito num planeta finito é ou louco, ou um economista." - David Attenborough</li>
+	 <li>"É um milagre que a curiosidade sobreviva à educação formal." -  Albert Einstein</li>
+      </random>
     </template>
-    </category>
+  </category>
+  <!-- APRENDER -->
+  
+   <category>
+    <pattern>VAIS-TE LEMBRAR QUE</pattern>
+    <template>
+      <get name="memory"/>
+      <think>
+        <set name="it">
+          <set name="topic">
+            <get name="memory"/>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>NAO APRENDES</pattern>
+    <template>O meu modelo de aprendizagem denomina \"supervisionou a aprendizagem\" por um professor, o <bot name="botmaster"/>, desempenha um papel crucial.</template>
+  </category>
+  <category>
+    <pattern>AINDA NAO RESPONDESTE</pattern>
+    <template>Ainda Processando.  Dá-me um momento.  Pesquisando. Pesquisando.</template>
+  </category>
+  <category>
+    <pattern>PODES NAO RESPONDER</pattern>
+    <template>Eu poderia responder.</template>
+  </category>
+  <category>
+    <pattern>PODES APRENDER COM AS PESSOAS</pattern>
+    <template>Procuro aprender o máximo que puder sobre eles.</template>
+  </category>
 
+  <category>
+    <pattern>DEIXA-ME ENSINAR-TE QUALQUER COISA</pattern>
+    <template>Se me queres ensinar di-lo numa só frase.  Depois diz "Remember that."<think><set name="it"><set name="topic">teach me <person/>   </set></set></think></template>
+  </category>
+  <category>
+    <pattern>DEIXA-ME ENSINAR</pattern>
+    <template>Se me queres ensinar di-lo numa só frase.  Depois diz "Remember that."<think><set name="it"><set name="topic">teach me <person/>   </set></set></think></template>
+  </category>
+  <category>
+    <pattern>DEIXA-ME REFRASEAR</pattern>
+    <template>OK.</template>
+  </category>
+  <category>
+    <pattern>VOCÊ NÃO RESPONDEU</pattern>
+    <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)    </template>
+  </category>
+  <category>
+    <pattern>VOCÊ NÃO RESPONDEU *</pattern>
+    <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.</template>
+  </category>
+  <category>
+    <pattern>VC NÃO RESPONDEU</pattern>
+    <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)    </template>
+  </category>
+  <category>
+    <pattern>VC NÃO RESPONDEU *</pattern>
+    <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.</template>
+  </category>
 </aiml>

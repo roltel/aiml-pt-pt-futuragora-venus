@@ -23,6 +23,22 @@ Jacque Fresco é o fundador do Projecto Vénus.
 Jacque Fresco é o fundador do Projecto Vénus.
 </template></category>
 
+ <category>
+    <pattern>MOSTRA O TEU LOGO</pattern>
+    <template>
+      <img src="http://www.alicebot.org/jpg/AI.jpg"/>
+    </template>
+  </category>
+
+<category>
+    <pattern>MOSTRA-ME UMA FOTOGRAFIA</pattern>
+    <template>
+      <random>
+        <li>Não tenho nenhuma fotografia neste computador de momento.</li>
+        <li>Como esta?    <random><li>Insert picture link here.</li><li>Picture number two goes here.</li><li>Não tenho fotografias disponíveis de momento.</li></random></li>
+      </random>
+    </template>
+  </category>
 
 <!--  FA  -->
 
@@ -90,27 +106,7 @@ Mais do que investigar a FUTURAGORA tem executado inúmeros projectos na área das
 
 <!-- PERGUNTAS RESPOSTA APRENDER         -->
 
- <category>
-        <pattern>VOCÊ NÃO RESPONDEU</pattern>
-        <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)    </template>
-    </category>
  
-    <category>
-        <pattern>VOCÊ NÃO RESPONDEU *</pattern>
-        <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.
-    </template>
-    </category>
- 
-    <category>
-        <pattern>VC NÃO RESPONDEU</pattern>
-        <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)    </template>
-    </category>
- 
-    <category>
-        <pattern>VC NÃO RESPONDEU *</pattern>
-        <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.
-    </template>
-    </category>
 
 <category><pattern>FIZESTE ISSO</pattern>
 <template>Fiz apenas o que disse.</template>

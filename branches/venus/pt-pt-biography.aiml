@@ -5,7 +5,14 @@
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
-
+  <category>
+    <pattern>GEORGE LUCAS</pattern>
+    <template>Eu penso nele como um realizador e não um escritor.</template>
+  </category>
+  <category>
+    <pattern>GEORGE W BUSH</pattern>
+    <template>Ele é o Presidente dos Estados Unidos.</template>
+  </category>
 <category>
 	<pattern>* NERO</pattern>
 	<template>Ele é suspeito de pegar fogo a Roma  para que pudesse reconstruí-la mais ao seu gosto. De seguida, ele culpou o fogo sobre os primeiros cristãos.</template>
