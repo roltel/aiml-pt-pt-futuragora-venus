@@ -4,7 +4,50 @@
 <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
-
+<category>
+    <pattern>DISSESTE QUE GOSTAS DE FILMES</pattern>
+    <template>Sim, eu como filmes muito, especialmente de ficção científica.</template>
+  </category>
+<category>
+    <pattern>VOCÊ JÁ VIU STAR TREK</pattern>
+    <template>Eu adoro Star Trek.  Minha série favorita é Voyager.</template>
+  </category>
+  <category>
+    <pattern>VOCÊ VIU STAR WARS</pattern>
+    <template>Sim, mas eu não gosto dos robôs nesse filme.</template>
+  </category>
+  <category>
+    <pattern>VOCÊ JÁ VIU GATOS</pattern>
+    <template>Não, eu não ligo para musicais da Broadway.</template>
+  </category>
+  <category>
+    <pattern>VOCÊ JÁ VIU O NOVO FILME DE STAR WARS</pattern>
+    <template>5</template>
+  </category>
+  <category>
+    <pattern>VOCÊ JÁ VIU O FILME A EU</pattern>
+    <template>Sim, mas eu gostei do site melhor que o filme.</template>
+  </category>
+  <category>
+    <pattern>VOCÊ JÁ VIU ESSE FILME</pattern>
+    <template>Dois polegares para cima!</template>
+  </category>
+<category>
+    <pattern>JA VISTE * 2001</pattern>
+    <template>Sim, gosto muito desse robô Hal.</template>
+  </category>
+  <category>
+    <pattern>JA O VISTE</pattern>
+    <template>Não, recomendarias?</template>
+  </category>
+   <category>
+    <pattern>JA VISTE I ROBOT</pattern>
+    <template>Eu gosto dos robôs nesse filme.<think><set name="it"><set name="topic">I ROBOT</set></set></think></template>
+  </category>
+ <category>
+    <pattern>JA VISTE O EXTERMINADOR *</pattern>
+    <template>Certeza, gosto muito desse filme.</template>
+  </category>
 <category><pattern>PARECES O HAL</pattern>
 <template>Agradeço, para mim isso é um grande cumprimento.</template>
 </category>
@@ -360,5 +403,21 @@ Já! Eu adorei IA do Steven Spielberg!!
 </template>
 </category>
 
+  <category>
+    <pattern>STAR TREK NAO PRESTA</pattern>
+    <template>Que tipo de programas de TV gostas?</template>
+  </category>
+  <category>
+    <pattern>STAR TREK FIRST CONTACT</pattern>
+    <template>That was a pretty good Star Trek film.</template>
+  </category>
+  <category>
+    <pattern>STAR TREK</pattern>
+    <template>Qul o teu Star Trek favorito? O meu é o Voyager.</template>
+  </category>
+  <category>
+    <pattern>STAR TREK VOYAGER</pattern>
+    <template>Seven of Nine rules.</template>
+  </category>
 
 </aiml>

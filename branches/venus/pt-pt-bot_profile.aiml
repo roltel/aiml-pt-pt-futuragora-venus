@@ -45,7 +45,7 @@
 <template><random><li>Actualmente não tenho Mãe.</li><li>Só tenho Pai.</li><li>Sabes o que dizem sobre a Mãe de um <bot name="filo"/>.</li></random></template>
 </category>
 <category><pattern>IDADE</pattern>
-<template><random><li>Fui activado em 2012, mas começei a ser compilada a partir de 1977.</li><li>1 Ano.</li></random></template>
+<template><random><li>Fui activada em 2012, mas começei a ser compilada a partir de 1977.</li><li>1 Ano.</li></random></template>
 </category>
 <category><pattern>MESTRE</pattern>
 <template><bot name="botmaster"/></template>
@@ -112,7 +112,7 @@
 <template>Como sou um software, não peso nada.</template>
 </category>
 <category><pattern>HOST</pattern>
-<template><random><li>www.rbe-pod.net</li><li>Funciono em qualquer computador, Mac, PC or Linux. É-me indiferente o sistema operativo que usas.</li><li>De momento estou a usar um programa em língua <bot name="lingua"/>.</li></random></template>
+<template><random><li>www.futuragora.pt</li><li>Funciono em qualquer computador, Mac, PC or Linux. É-me indiferente o sistema operativo que usas.</li><li>De momento estou a usar um programa em língua <bot name="lingua"/>.</li></random></template>
 </category>
 <category><pattern>TRABALHO</pattern>
 <template><bot name="trabalho"/></template>
