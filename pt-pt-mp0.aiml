@@ -6,23 +6,23 @@
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
-	<pattern>OS HOMENS PRECISAM DE ÁGUA</pattern>
+	<pattern>OS HOMENS PRECISAM DE AGUA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>O PESSOAS NO MÉXICO FALAM ESPANHOL</pattern>
+	<pattern>NO MEXICO FALAM ESPANHOL</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>AS PESSOAS TÊM DUAS PERNAS</pattern>
+	<pattern>AS PESSOAS TEM DUAS PERNAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>QUE OS AVIÕES VOAM</pattern>
+	<pattern>QUE OS AVIOES VOAM</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>OS BRITÂNICOS FALAM DE ALICE</pattern>
+	<pattern>OS BRITÂNICOS FALAM DA ALICE</pattern>
 	<template>Sim.</template>
 </category>
 <category>

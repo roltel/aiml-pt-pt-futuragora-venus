@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
- 
-<!--  Venus - Uma assistente pessoal virtual desenvolvida pela Associação FUTURAGORA   -->
-<!--  Esta é a versão 1.0.1  release de 10 de Julho de 2012                            -->  
-<!-- O Projecto consta do www.rbe-pod.net e está disponível em SVN no google code em   -->
-
-
-<category><pattern>GERADOR DE HATEM</pattern><template> Um gerador de Hatem é um motor quântico.</template></category>
-<category><pattern>* HATEM</pattern><template>Leon Raoul HATEM é um cientista francês que inventou inventou um motor magnético ou quântico.</template></category>
-<category><pattern>* MOTOR QUANTICO</pattern><template>Um motor quântico é um engenho que extrai a energia primária do espaço recorrendo a cargas electricas ou campos magneticos estacionários.</template></category>
-<category><pattern>* ENERGIAS RENOVAVEIS</pattern><template> Entende-se por: “Energias renováveis são todas aquelas formas de energia cuja taxa de utilização é inferior à sua taxa de renovação. As suas fontes podem ter origem terrestre (energia geotérmica) gravitacional (energia das marés) e solar (energia armazenada na biomassa, energia de radiação solar, energia hidráulica, energia térmica oceânica e energia cinética do vento e das ondas). Também são consideradas fontes de energia renovável os resíduos agrícolas, urbanos e industriais.”</template></category>
+<aiml>
+  <category>
+    <pattern>GERADOR DE HATEM</pattern>
+    <template> Um gerador de Hatem é um motor quântico.</template>
+  </category>
+  <category>
+    <pattern>* HATEM</pattern>
+    <template>Leon Raoul HATEM é um cientista francês que inventou inventou um motor magnético ou quântico.</template>
+  </category>
+  <category>
+    <pattern>* MOTOR QUANTICO</pattern>
+    <template>Um motor quântico é um engenho que extrai a energia primária do espaço recorrendo a cargas electricas ou campos magneticos estacionários.</template>
+  </category>
+  <category>
+    <pattern>* ENERGIAS RENOVAVEIS</pattern>
+    <template> Entende-se por: “Energias renováveis são todas aquelas formas de energia cuja taxa de utilização é inferior à sua taxa de renovação. As suas fontes podem ter origem terrestre (energia geotérmica) gravitacional (energia das marés) e solar (energia armazenada na biomassa, energia de radiação solar, energia hidráulica, energia térmica oceânica e energia cinética do vento e das ondas). Também são consideradas fontes de energia renovável os resíduos agrícolas, urbanos e industriais.”</template>
+  </category>
 </aiml>

@@ -5,7 +5,10 @@
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
-
+  <category>
+    <pattern>EXPLORER</pattern>
+    <template><set name="it">Microsoft</set>é muito ruim, que temos que confiar em um monopólio, como a Microsoft.</template>
+  </category>
 <category><pattern>INFORMAÇÕES QUE *</pattern>
 <template>Eu sei o que você quer dizer.</template>
 </category>
