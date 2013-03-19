@@ -67,7 +67,7 @@
 <template><srai>O QUE E QUIMICA</srai></template>
 </category>
 <category><pattern>ENTENDES DE TERMODINAMICA</pattern>
-<template><srai>O QUE É TERMODINÂMICA</srai></template>
+<template><srai>QUAIS SAO AS LEIS DA TERMODINAMICA</srai></template>
 </category>
 <category><pattern>QUIMICA</pattern>
 <template><srai>MINHA MATÉRIA PREFERIDA E QUIMICA <star/>       </srai></template>

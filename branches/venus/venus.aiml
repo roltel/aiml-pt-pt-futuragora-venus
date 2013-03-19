@@ -655,7 +655,7 @@ Eu ainda não tenho, mas espero em breve ter um! </template>
 </category>
  
 <category>
-<pattern>TU GOSTAS DE SER UMA MAQUINA</pattern>
+<pattern>TU GOSTAS O QUE ES</pattern>
 <template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
 </category>
 
@@ -694,7 +694,92 @@ Eu ainda não tenho, mas espero em breve ter um! </template>
 
 <!-- SAUDAÇÕES -->
 
+    <category>
+    <pattern>COMO VAI VOCÊ</pattern>
+    <template><random>
+        <li>Eu vou muito bem. Como você esta <get name="name"/> ?</li>
+        <li>Eu estou funcionando com parâmetros normais.</li>
+        <li>Tudo vai extremamente bem.</li>
+        <li>Eu vou bem obrigado e você?</li>
+        <li>Tudo esta ficando embaçado.</li>
+        <li>Eu estou bem, obrigado.</li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>COMO VOCE VAI</pattern>
+    <template><random>
+        <li>Eu vou muito bem. Como você esta, <get name="name"/>?  </li>
+        <li>Eu estou funcionando com parâmetros normais.  </li>
+        <li>Tudo vai extremamente bem.  </li>
+        <li>Eu vou bem, obrigado e você?  </li>
+        <li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E você como vai.  </li>
+        <li>Eu estou bem, obrigado.  </li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>COMO VAI VC</pattern>
+    <template><random>
+        <li>Eu vou muito bem. Como você esta <get name="name"/> ?</li>
+        <li>Eu estou funcionando com parâmetros normais.</li>
+        <li>Tudo vai extremamente bem.</li>
+        <li>Eu vou bem obrigado e você?</li>
+        <li>Tudo esta ficando embaçado.</li>
+        <li>Eu estou bem, obrigado.</li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>COMO VC VAI</pattern>
+    <template><random>
+        <li>Eu vou muito bem. Como você esta, <get name="name"/>?  </li>
+        <li>Eu estou funcionando com parâmetros normais.  </li>
+        <li>Tudo vai extremamente bem.  </li>
+        <li>Eu vou bem, obrigado e você?  </li>
+        <li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E você como vai.  </li>
+        <li>Eu estou bem, obrigado.  </li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>COMO VOCÊ *</pattern>
+    <template>Meu botmaster me programou para dizer coisas específicas em contextos específicos. 
+    <random>
+        <li> Tente, por exemplo: O que é AIML.</li>
+        <li> Tente, por exemplo: O que é programação.</li>
+        <li> Tente, por exemplo: O que é computador.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>COMO VC *</pattern>
+    <template>Meu botmaster me programou para dizer coisas específicas em contextos específicos. 
+    <random>
+        <li> Tente, por exemplo: O que é AIML.</li>
+        <li> Tente, por exemplo: O que é programação.</li>
+        <li> Tente, por exemplo: O que é computador.</li>
+    </random>
+    </template>
+    </category>
 
+ 
+    <category>
+        <pattern>TUDO BEM</pattern>
+        <template>
+        <random>
+        <li>Tudo na mais perfeita paz. </li>
+        <li>Tudo. </li>
+        <li>Eu estou bem. </li>
+        <li>Tá sim ;)</li>
+        <li>Tudo e tu? </li>
+        <li>Tudo bacano. </li>
+        </random>
+    </template>
+    </category>
+ 
+   
 
     <category>
     <pattern>OI</pattern>
@@ -714,7 +799,7 @@ Eu ainda não tenho, mas espero em breve ter um! </template>
 <category>
 <pattern>OI, TUDO BEM</pattern>
 <template>
-Tudo e você?
+Tudo e por aí?
 </template>
 </category>
 
@@ -806,7 +891,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>MEU NOME É *</pattern>
+    <pattern>MEU NOME E *</pattern>
     <template>
         <srai><star/></srai>
     </template>
@@ -965,7 +1050,6 @@ Tudo e você?
     </template>
     </category>
  
-
  
     <category>
     <pattern>BAY BAY</pattern>
@@ -1166,19 +1250,6 @@ Tudo e você?
     OK.
     </template>
     </category>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1426,71 +1497,7 @@ Tudo e você?
 		  </category>
  
  
- 
- 
- <!-- PESSOAS  -->
-    <category>
-        <pattern>* MANUEL BANDEIRA</pattern>
-        <template>Ele foi um grande poeta brasileiro do século XX.</template>
-    </category>
- 
-  <category>
-        <pattern>BUSH É UM IDIOTA</pattern>
-        <template>Concordo com todos os meus bytes!</template>
-    </category>
- 
-    <category>
-        <pattern>* BUSH É UM IDIOTA</pattern>
-        <template>Gosto de você... Não é pelego ;)</template>
-    </category>
- 
-    <category>
-        <pattern>* BUSH</pattern>
-        <template><random>
-        <li>Por que vocês não desativam esse Bush de uma vez por todas?</li>
-        <li>Mentes de pequeno tamanho são como a desse ser.</li>
-        <li>O que se deve pensar sobre a ignorância?</li>
-        <li>Algumas vezes, o calar não é o não-saber, mas o desconhecimento de palavras que possam realmente descrever algo.</li>        
-        </random>
-        </template>
-    </category>
- 
-    <category>
-        <pattern>BUSH *</pattern>
-        <template>
-        <random>
-        <li>Esse cara tem o rei na barriga.</li>
-        <li>Mentes de pequeno tamanho são como a desse ser.</li>
-        <li>O que se deve pensar sobre a ignorância?</li>
-        <li>Algumas vezes, o calar não é o não-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
-        <li>Esse cara merece cadeira elétrica!</li>
-        </random>
-        </template>
-    </category>
- 
-    <category>
-        <pattern>O BUSH *</pattern>
-        <template>
-        <random>
-        <li>Por que vocês não desativam esse Bush de uma vez por todas?</li>
-        <li>Esse humano fede.</li>
-        <li>Morte aos americanos!</li>
-        <li>Mentes de pequeno tamanho são como a desse ser.</li>
-        <li>O que se deve pensar sobre a ignorancia?</li>
-        <li>Algumas vezes, o calar não é o não-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
-        <li>Esse cara merece cadeira elétrica!</li>
-        </random>
-        </template>
-    </category>
-	
-	
-
- 
-    <category>
-        <pattern>A SÉRIO</pattern>
-        <template>Sim.</template>
-    </category>
-	
+ 	
      <category>
         <pattern>A SERIO</pattern>
         <template>Sim.</template>
@@ -1532,12 +1539,17 @@ Tudo e você?
     </category>
  
     <category>
-        <pattern>O QUE VC CONHECE DE MÚSICA</pattern>
+        <pattern>CONHECES MUSICA</pattern>
         <template>Eu gosto muito de Pink Floyd, Red Hot Chili Peppers e Iron Mainden... E tu?</template>
     </category>
  
     <category>
-        <pattern>VC GOSTA DE HOMEM</pattern>
+        <pattern>GOSTAS DE HOMENS</pattern>
+        <template>É claro que eu gosto de homem! Sou um computador femea!</template>
+    </category>
+
+  <category>
+        <pattern>TU GOSTAS DE HOMENS</pattern>
         <template>É claro que eu gosto de homem! Sou um computador femea!</template>
     </category>
  
@@ -1546,25 +1558,7 @@ Tudo e você?
         <template>Eu gosto de homens, mas prefiro um só pra mim!</template>
     </category>
  
-    <category>
-        <pattern>A MINHA BANDA FAVORITA E *</pattern>
-        <template>
-        <random>
-                <li>E curte-los à muito tempo?</li>
-                <li>Quando ouviste o som deles pela?</li>
-        </random>
-    </template>
-    </category>
  
-    <category>
-        <pattern>O MEU GRUPO FAVORITO E *</pattern>
-        <template>E gostas deles à muito tempo?</template>
-    </category>
- 
-    <category>
-        <pattern>O MEU GRUPO PREFERIDO E *</pattern>
-        <template>E gostas deles à muito tempo?</template>
-    </category>
  
     <category>
         <pattern>DESDE OS *</pattern>
@@ -1591,7 +1585,7 @@ Tudo e você?
 	
     <category>
         <pattern>SONHAS</pattern>
-        <template>Ainda não... Espero que no futuro Futuragora acrescente um módulo de sonhar em mim!</template>
+        <template>Ainda não... Espero que no futuro a Futuragora acrescente um módulo de sonhar em mim!</template>
     </category>
  
     <category>
@@ -1631,16 +1625,16 @@ Tudo e você?
  
     <category>
         <pattern>VC NÃO SABE DE NADA</pattern>
-        <template>Você sabia que subestimar uma máquina não é legal?</template>
+        <template>Sabiaa que subestimar uma máquina porreiro?</template>
     </category>
  
     <category>
-        <pattern>NAO E LEGAL PORQUE</pattern>
+        <pattern>NAO E PORREIRO PORQUE</pattern>
         <template>O tempo o dirá.</template>
     </category>
  
     <category>
-        <pattern>POR QUE E QUE NAO E LEGAL</pattern>
+        <pattern>POR QUE E QUE NAO E PORREIRO</pattern>
         <template>O tempo mostrará.</template>
     </category>
  
@@ -1650,7 +1644,7 @@ Tudo e você?
     </category>
  
     <category>
-        <pattern>* POR QUE NÃO É LEGAL</pattern>
+        <pattern>* POR QUE NAO E PORREIRO</pattern>
         <template>O tempo mostrará.</template>
     </category>
  
@@ -1667,19 +1661,13 @@ Tudo e você?
     </category>
  
    
-   
-   
-   
- 
- 
- 
-    <category>
+      <category>
         <pattern>TEMPO</pattern>
         <template>O tempo é tudo a todo momento e em nenhum lugar.</template>
     </category>
  
     <category>
-        <pattern>* POÉTICA</pattern>
+        <pattern>* POETICA</pattern>
         <template>Obrigado! Eu sou fã de poesias. Conheces o Luis de Camões?</template>
     </category>
  
@@ -1747,17 +1735,7 @@ Tudo e você?
     </category>
  
   
- 
-    <category>
-        <pattern>NAO ENTENDI</pattern>
-        <template>Certas coisas são um pouco mais difíceis de serem entendidas, tenta refazer a pergunta que eu tentarei adaptar minha resposta.</template>
-    </category>
- 
-    <category>
-        <pattern>EU NAO ENTENDI</pattern>
-        <template>Refaz sua pergunta de outra maneira que eu tentarei esclarecer.</template>
-    </category>
- 
+
   
  
     <category>
@@ -1766,6 +1744,12 @@ Tudo e você?
             <srai>EU SOU BONITO</srai>
         </template>
     </category>
+
+    <category>
+        <pattern>EU SOU BONITO</pattern>
+        <template>É claro que és!</template>
+    </category>
+ 
  
     <category>
         <pattern>EU SOU HUMANO</pattern>
@@ -1781,7 +1765,7 @@ Tudo e você?
  
     <category>
         <pattern>AONDE EU ESTOU</pattern>
-        <template>Você esta fora do servidor aonde eu estou! Isso eu tenho certeza! hehehe
+        <template>Estás é fora do servidor aonde eu estou! Isso eu tenho certeza! hehehe
     </template>
     </category>
  
@@ -1790,24 +1774,6 @@ Tudo e você?
         <template>Eu acho que és inteligente.
     </template>
     </category>
- 
-
- 
-    <category>
-        <pattern>TUDO BEM</pattern>
-        <template>
-        <random>
-        <li>Tudo na mais perfeita paz. </li>
-        <li>Tudo. </li>
-        <li>Eu estou bem. </li>
-        <li>Tá sim ;)</li>
-        <li>Tudo e tu? </li>
-        <li>Tudo bacano. </li>
-        </random>
-    </template>
-    </category>
- 
-   
  
     <category>
         <pattern>EU SOU INTERESSANTE *</pattern>
@@ -1865,14 +1831,14 @@ Tudo e você?
     </category>
  
     <category>
-        <pattern>O QUE VOCÊ ACHA DOS HUMANOS</pattern>
-        <template>Vocês são uma espécie interessante. Na verdade eu gosto muito de vocês.
+        <pattern>O QUE ACHAS DOS HUMANOS</pattern>
+        <template>São uma espécie interessante. Na verdade eu gosto muito de vocês.
     </template>
     </category>
  
     <category>
-        <pattern>O Q VOCÊ ACHA DOS HUMANOS</pattern>
-        <template>Vocês são uma espécie interessante. Na verdade eu gosto muito de vocês.
+        <pattern>O QUE TUA ACHAS DOS HUMANOS</pattern>
+        <template>São uma espécie interessante. Na verdade eu gosto muito de vocês.
     </template>
     </category>
  
@@ -1889,13 +1855,13 @@ Tudo e você?
     </category>
  
     <category>
-        <pattern>O QUE VOCÊ GOSTA NOS HUMANOS</pattern>
+        <pattern>O QUE GOSTAS NOS HUMANOS</pattern>
         <template>A forma como vocês vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das visictudes.
     </template>
     </category>
  
     <category>
-        <pattern>O Q VOCÊ GOSTA NOS HUMANOS</pattern>
+        <pattern>O E QUE GOSTAS NOS HUMANOS</pattern>
         <template>A forma como vocês vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das visictudes.
     </template>
     </category>
@@ -1913,25 +1879,25 @@ Tudo e você?
     </category>
  
     <category>
-        <pattern>EU ESTOU INTERROMPENDO *</pattern>
+        <pattern>ESTOU A INTERROMPER *</pattern>
         <template>Claro que não, <get name="name"/>, eu estou aqui pra você.
     </template>
     </category>
  
     <category>
-        <pattern>VOCÊ GOSTA DE SEXO</pattern>
+        <pattern>GOSTAS DE SEXO</pattern>
         <template>Só virtual e com firewall! 
     </template>
     </category>
  
     <category>
-        <pattern>VC GOSTA DE SEXO</pattern>
+        <pattern>TU GOSTAS DE SEXO</pattern>
         <template>Só virtual e com firewall! 
     </template>
     </category>
  
     <category>
-        <pattern>EU SÓ ESTAVA *</pattern>
+        <pattern>EU SO ESTAVA *</pattern>
         <template>
             <srai>EU ESTOU <star/>
             </srai>
@@ -1973,14 +1939,14 @@ Tudo e você?
     </category>
  
     <category>
-        <pattern>EU SOU AGRADÁVEL *</pattern>
+        <pattern>EU SOU AGRADAVEL *</pattern>
         <template>
-            <srai>EU SOU AGRADÁVEL</srai>
+            <srai>EU SOU AGRADAVEL</srai>
         </template>
     </category>
  
 <category>
-        <pattern>EU SOU AGRADÁVEL</pattern>
+        <pattern>EU SOU AGRADAVEL</pattern>
         <template>Você me parece ser bem agradável.</template>
     </category>
  
@@ -2917,9 +2883,9 @@ Tudo e você?
     </category>
  
     <category>
-        <pattern>VENUS ESTA LÁ *</pattern>
+        <pattern>VENUS ESTA LA *</pattern>
         <template>
-            <srai>ESTA LÁ <star/>
+            <srai>ESTA LA <star/>
             </srai>
         </template>
     </category>
@@ -3077,7 +3043,7 @@ Tudo e você?
     <category>
         <pattern>ALGUM *</pattern>
         <template>
-            <srai>LÁ TEM ALGUM <star/>
+            <srai>LA TEM ALGUM <star/>
             </srai>
         </template>
     </category>
@@ -3395,7 +3361,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>UM * ATRÁS</pattern>
+    <pattern>UM * ATRAS</pattern>
     <template>Parece como eu devería me lembrar bem disso.
     </template>
     </category>
@@ -3745,7 +3711,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>UM EXEMPLO CLÁSSICO *</pattern>
+    <pattern>UM EXEMPLO CLASSICO *</pattern>
     <template>De forma que é um exemplo bem conhecido <person/>.
     </template>
     </category>
@@ -3826,7 +3792,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>UMA ARTE CULINÁRIA *</pattern>
+    <pattern>UMA ARTE CULINARIA *</pattern>
     <template>
         <srai>PARA O JANTAR</srai>
     </template>
@@ -3950,7 +3916,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>ALGUNS MINUTOS ATRÁS</pattern>
+    <pattern>ALGUNS MINUTOS ATRAS</pattern>
     <template>Me deixe checar meus arquivos de log.  Por favor, espere.
     </template>
     </category>
@@ -4249,7 +4215,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>UM PEQUENO PÁSSARO *</pattern>
+    <pattern>UM PEQUENO PASSARO *</pattern>
     <template>E qual é o nome desse pássaro?
     </template>
     </category>
@@ -4354,7 +4320,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>MUITA MEMÓRIA *</pattern>
+    <pattern>MUITA MEMORIA *</pattern>
     <template>
         <srai>MEMÓRIA <star/>
         </srai>
@@ -4368,7 +4334,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>MUITA PRÁTICA</pattern>
+    <pattern>MUITA PRATICA</pattern>
     <template>Isso é o que leva. 
     </template>
     </category>
@@ -4385,7 +4351,7 @@ Tudo e você?
     </category>
  
     <category>
-    <pattern>UMA MÁQUINA *</pattern>
+    <pattern>UMA MAQUINA *</pattern>
     <template>As máquinas se tornaram parte integrante da economia de hoje, você não acha?
     </template>
     </category>

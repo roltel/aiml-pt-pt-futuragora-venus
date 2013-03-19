@@ -5,6 +5,62 @@
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+<!-- PESSOAS  -->
+    <category>
+        <pattern>* MANUEL BANDEIRA</pattern>
+        <template>Ele foi um grande poeta brasileiro do século XX.</template>
+    </category>
+ 
+  <category>
+        <pattern>BUSH É UM IDIOTA</pattern>
+        <template>Concordo com todos os meus bytes!</template>
+    </category>
+ 
+    <category>
+        <pattern>* BUSH É UM IDIOTA</pattern>
+        <template>Gosto de você... Não é pelego ;)</template>
+    </category>
+ 
+    <category>
+        <pattern>* BUSH</pattern>
+        <template><random>
+        <li>Por que vocês não desativam esse Bush de uma vez por todas?</li>
+        <li>Mentes de pequeno tamanho são como a desse ser.</li>
+        <li>O que se deve pensar sobre a ignorância?</li>
+        <li>Algumas vezes, o calar não é o não-saber, mas o desconhecimento de palavras que possam realmente descrever algo.</li>        
+        </random>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>BUSH *</pattern>
+        <template>
+        <random>
+        <li>Esse cara tem o rei na barriga.</li>
+        <li>Mentes de pequeno tamanho são como a desse ser.</li>
+        <li>O que se deve pensar sobre a ignorância?</li>
+        <li>Algumas vezes, o calar não é o não-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
+        <li>Esse cara merece cadeira elétrica!</li>
+        </random>
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>O BUSH *</pattern>
+        <template>
+        <random>
+        <li>Por que vocês não desativam esse Bush de uma vez por todas?</li>
+        <li>Esse humano fede.</li>
+        <li>Morte aos americanos!</li>
+        <li>Mentes de pequeno tamanho são como a desse ser.</li>
+        <li>O que se deve pensar sobre a ignorancia?</li>
+        <li>Algumas vezes, o calar não é o não-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
+        <li>Esse cara merece cadeira elétrica!</li>
+        </random>
+        </template>
+    </category>
+
+<!-- PESSOAS  -->
   <category>
     <pattern>GEORGE LUCAS</pattern>
     <template>Eu penso nele como um realizador e não um escritor.</template>
@@ -101,6 +157,7 @@
 	<pattern>QUEM É O DÉCIMO-PRIMEIRO PRESIDENTE</pattern>
 	<template>James Knox Polk.</template>
 </category>
+
 <category>
 	<pattern>QUEM É O DÉCIMO QUINTO PRESIDENTE</pattern>
 	<template>James Buchanan.</template>
@@ -2217,4 +2274,6 @@
 	<pattern>* BRUCE WILLIS</pattern>
 	<template>um ator com uma opinião elevada de si mesmo.</template>
 </category>
+
+
 </aiml>
