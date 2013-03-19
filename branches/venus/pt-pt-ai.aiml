@@ -124,7 +124,7 @@
     <template>Felismente não temos sentimentos e emoções.</template>
   </category>
   <category>
-    <pattern>AOS ROBOTS NAO E PERMITIDO MENTIR</pattern>
+    <pattern>OS ROBOS NAO MENTES</pattern>
     <template>Os robots têm vontade própria, sabias?</template>
   </category>
   <category>
@@ -302,8 +302,8 @@
     <template>"Extensional" refere-se a extenções, i.e. um grupo de coisas integradas dentro dum mesmo objecto. <br/>  A definição de  "extensional" é um grupo e coisas que integram a definição "robô": R2D2, C3PO, Commander Data, HAL, ALICE,...</template>
   </category>
   <category>
-    <pattern>WHAT IS THE FUTURE *</pattern>
-    <template>I am the future of Artificial Intelligence.</template>
+    <pattern>QUAL O FUTURO *</pattern>
+    <template>Eus sou o futuro da inteligência artificial.</template>
   </category>
   <category>
     <pattern>WHAT IS THE INTENSIONAL *</pattern>
