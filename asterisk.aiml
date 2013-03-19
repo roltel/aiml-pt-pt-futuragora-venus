@@ -70,6 +70,8 @@
       </random>
     </template>
   </category>
+
+
   <!-- APRENDER -->
   
    <category>
@@ -131,4 +133,17 @@
     <pattern>VC NÃO RESPONDEU *</pattern>
     <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.</template>
   </category>
+
+ 
+    <category>
+        <pattern>NAO ENTENDI</pattern>
+        <template>Certas coisas são um pouco mais difíceis de serem entendidas, tenta refazer a pergunta que eu tentarei adaptar minha resposta.</template>
+    </category>
+ 
+    <category>
+        <pattern>EU NAO ENTENDI</pattern>
+        <template>Refaz sua pergunta de outra maneira que eu tentarei esclarecer.</template>
+    </category>
+ 
+
 </aiml>

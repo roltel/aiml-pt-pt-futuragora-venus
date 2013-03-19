@@ -95,7 +95,25 @@
 Claro que gosto, conheces a musica "can't stop?".</template>
 </category>
 
-
+   <category>
+        <pattern>A MINHA BANDA FAVORITA E *</pattern>
+        <template>
+        <random>
+                <li>E curte-los à muito tempo?</li>
+                <li>Quando ouviste o som deles pela?</li>
+        </random>
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>O MEU GRUPO FAVORITO E *</pattern>
+        <template>E gostas deles à muito tempo?</template>
+    </category>
+ 
+    <category>
+        <pattern>O MEU GRUPO PREFERIDO E *</pattern>
+        <template>E gostas deles à muito tempo?</template>
+    </category>
 
 
 </aiml>
