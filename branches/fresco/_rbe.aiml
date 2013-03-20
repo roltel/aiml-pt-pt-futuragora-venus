@@ -1,433 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-<!-- -->
-
-<!-- BIOGRAFY -->
-
-<category><pattern>HOW IT BEGAN</pattern>
-<template>Living through the 1929 Great Depression helped shape my social conscience. During this time, I realized the earth was still the same place, manufacturing plants were still intact, and resources were still there, but people didn’t have money to buy the products. I felt the rules of the game we play by were outmoded and damaging. This began a life-long quest resulting in the conclusions and designs presented in The Venus Project.</template>
-</category>
-
-
-
-<!-- RBE -->
-
-<category><pattern>WHAT IS A RBE</pattern>
-<template>Resource Based Economy.</template>
-</category>
-
-<category><pattern>WHAT IS RBE</pattern>
-<template>Resource Based Economy.</template>
-</category>
-
-<category><pattern>WHO IS ROXANNE MEADOWS</pattern>
-<template>Jacque Fresco Partnet.</template>
-</category>
-
-<category><pattern>WHAT IS THE VENUS PROJECT</pattern><template>
-The Venus Project is an organization that proposes a feasible plan of action for social change, a holistic global socio-economic system called a Resource Based Economy; that works toward a peaceful and sustainable global civilization. It outlines an alternative to strive toward where human rights are not only paper proclamations but also a way of life.
- It calls for a straightforward redesign of our culture in which the age-old problems of war, poverty, hunger, debt, and unnecessary human suffering are viewed not only as avoidable, but as totally unacceptable. Anything less will result in a continuation of the same catalog of problems found in today's world.
- The Venus Project presents an alternative vision for a sustainable world civilization unlike any political, economic or social system that has gone before. It envisions a time in the near future when money, politics, self and national-interest have been phased out. Although this vision may seem idealistic, it is based upon years of study and experimental research. It spans the gamut from education, transportation, clean sources of energy to total city systems.
-</template></category>
-
-<category><pattern>AIMS OF THE VENUS PROJECT</pattern><template>
-The Venus Project is a veritable blueprint for the genesis of a new world civilization, one that is based on human concern and environmental reclamation.
-</template></category>
-
-<category><pattern>PLAN OF THE VENUS PROJECT</pattern><template>
-The plans for The Venus Project offer society a broader spectrum of choices based on the scientific possibilities directed toward a new era of peace and sustainability for all. Through the implementation of a resource-based economy, and a multitude of innovative and environmentally friendly technologies directly applied to the social system, The Venus Project proposals will dramatically reduce crime, poverty, hunger, homelessness, and many other pressing problems that are common throughout the world today.
-</template></category>
-
-
-<category><pattern>WHO IS JACQUE FRESCO</pattern><template>Jacque Fresco, is a self-educated structural designer, 
-architectural designer, philosopher of science, concept artist, educator, and futurist. His interests span a wide range of disciplines including several in philosophy, science, architecture and engineering</template>
-</category>
-
-<category><pattern>WHEN WAS JACQUE FRESCO BORN</pattern>
-<template>Jacque Fresco was born March 13, 1916.</template>
-</category>
-
-<category><pattern>HOW WOULD ONE CHOOSE A HOME</pattern><template>
-An example of the wide range of choice available in a resource-based economy is the way one selects a house. For instance, a man and woman may visit an architectural design center and sit in front of a clear hemisphere approximately six feet in diameter. The woman describes the type of house she would prefer and her areas of interest. The house appears as a 3-dimensional image in the center of the hemisphere. It rotates slowly to present a view of the interior and exterior. Then the man describes his major interests and preferences and suggests a larger balcony. The 3-dimensional image is adjusted. When they have finished requesting changes, the computer presents various alternatives to consider. They will also enter a sensorium to experience a walk-through of their preferred design and continue to make changes.
-When they arrive at a final design, construction procedures are set in motion. The computer selects materials for efficiency and durability. None of the architecture is permanent and can be modified and updated at the request of the occupants.
-This is real individual choice. In a monetary system, most live near their work with a house, car, and lifestyle they can afford (or all too often cannot afford), rather than one they prefer. Today we are only as free as our purchasing power permits. Lacking a true sense of self worth, many buy houses as status symbols just to impress others.
-A resource-based economy changes the nature of our dwellings from that of status symbol, or just basic shelter, to a reflection of individuality and personal interests.
-</template></category>
-
-<category><pattern>* RELIGION</pattern><template>
-The concepts presented by The Venus Project are in no way inconsistent with most of the religious teachings of the world. Perhaps the major difference is that we would like actually to transform these lofty ideals into a working reality for the nations of our planet.
-</template></category>
-
-<category><pattern>* OF THE VENUS PROJECT</pattern><template>
-The plans for The Venus Project offer society a broader spectrum of choices based on the scientific possibilities directed toward a new era of peace and sustainability for all. 
-Through the implementation of a resource-based economy, and a multitude of innovative and environmentally friendly technologies directly applied to the social system, The Venus Project proposals will dramatically reduce crime, poverty, hunger, homelessness, and many other pressing problems that are common throughout the world today.
-</template></category>
-
-
-
-<category><pattern>WHAT IS A RESOURCE-BASED ECONOMY</pattern><template>
-To transcend these limitations, The Venus Project proposes we work toward a worldwide, resource-based economy, a holistic social and economic system in which the planetary resources are held as the common heritage of all the earth's inhabitants. The current practice of rationing resources through monetary methods is irrelevant, counter-productive, and falls far short of meeting humanity's needs.
-
-Simply stated, within a Resource Based Economy we will utilize existing resources - rather than money - to provide an equitable method of distribution in the most humane and efficient manner. It is a system in which all goods and services are available to everyone without the use of money, credits, barter, or any other form of debt or servitude.
-</template></category>
-
-
-<!-- CITIES -->
-
-<category><pattern>SKYSCRAPERS</pattern><template>
-These skyscrapers would be constructed of reinforced and pre-stressed concrete, steel and glass. They will be stabilized against earthquakes and high winds by three massive, elongated, tapered columns. These support structures will surround the cylindrical central tower, which is 150 feet wide. This tripod-like structure is reinforced to diminish compression, tension, and torsion stresses. These super-size skyscrapers will assure that more land will be available for parks and wilderness preserves, while concurrently helping to eliminate urban sprawl. Each one of these towers will be a total enclosure system containing an access center, as well as childcare, educational, health, and recreational facilities. This will help alleviate the need to travel to outside facilities.
- If we do not maintain a balance between the population and the earth's carrying capacity we may have to move our cities not only skyward and seaward, but subterranean as well.
-</template></category>
-
-<category><pattern>UNIVERSITY OF GLOBAL RESOURCE MANAGEMENT</pattern><template>
-This University of Global Resource Management and Environmental Studies, or "world-university," is a testing ground for each phase of development. This would be a dynamic, continually evolving research institute open to all of society. Student performance would be based on "competence accreditation," and research findings would be periodically applied directly to the social structure to benefit all members of the world society. People will live in these experimental cities and provide feedback on the reliability and serviceability of the various structures. This information would be used to formulate modifications to structures so that maximum efficiency, comfort, and safety is assured. This facility is also used to develop modular construction systems and components that can be installed to serve a wide range of needs and preferences. In most instances, the external appearance of the buildings will reflect the function of the building - they are designed "from the inside out."
-</template></category>
-
-<category><pattern>SUBTERRANEAN CITIES</pattern><template>
-For inhospitable regions of the planet, such as polar and desert areas, underground cities would provide entirely comfortable homes for many. Numerous elevators will readily allow residents to enjoy skiing and other recreational activities on the surface. The primary source of power for these cities, where feasible, would be geothermal energy.
-</template></category>
-
-<category><pattern>OFF SHORE CITIES</pattern><template>
-Offshore apartment buildings of concrete, steel, glass, titanium, and a wide variety of new synthetic materials could be built to relieve the population pressure in areas like Hong Kong, Tokyo, Los Angeles, and New York. The materials used in such projects would be engineered to withstand the corrosive effects of the harsh ocean environment.
-</template></category>
-
-<category><pattern>WHY BUILD NEW CITIES</pattern><template>
-It would be far easier and would require less energy to build new, efficient cities than to attempt to update and solve the problems of the old ones. 
-</template></category>
-
-<category><pattern>HOW WILL CITIES BE</pattern><template>
-<random>      
-<li>The central dome or theme center will house the core of the cybernated system, educational facilities, access center, computerized communications, networking systems, health and child care facilities.</li>
-<li>The buildings surrounding the central dome provide the community with centers for cultural activities such as the arts, theater, exhibitions, concerts, access centers, and various forms of entertainment.</li>
-<li>Next is the design and development complex for this research and planning city. The design centers are beautifully landscaped in natural surroundings.</li>
-<li>Adjacent the research facilities are dining and other amenities.</li>
-<li>The eight residential districts have a variety of free form unique architecture to fulfil the various needs of the occupant. Each home is immersed in lovely gardens isolating one from another with lush landscaping.</li>
-<li>Areas are set aside for renewable clean sources of energy such as wind generators, solar, heat concentrating systems, geothermal, photovoltaic and others.</li>
-<li>Next are the indoor hydroponic facilities and outdoor agricultural belts which will be used to grow a wide variety of organic plants without the use of pesticides.</li>
-<li>A circular waterway for irrigation and filtration surrounds the agricultural belt.</li>
-<li>The outermost perimeter is utilized for recreational activities such as biking, golfing, hiking and riding, etc.</li>
-</random> 
-</template></category>
-
-
-<category><pattern>CITY PLAN</pattern><template>
-1. The central dome or theme center will house the core of the cybernated system, educational facilities, access center, computerized communications, networking systems, health and child care facilities.
-2. The buildings surrounding the central dome provide the community with centers for cultural activities such as the arts, theater, exhibitions, concerts, access centers, and various forms of entertainment.
-3. Next is the design and development complex for this research and planning city. The design centers are beautifully landscaped in natural surroundings.
-4. Adjacent the research facilities are dining and other amenities.
-5. The eight residential districts have a variety of free form unique architecture to fulfil the various needs of the occupant. Each home is immersed in lovely gardens isolating one from another with lush landscaping.
-6. Areas are set aside for renewable clean sources of energy such as wind generators, solar, heat concentrating systems, geothermal, photovoltaic and others.
-7. Next are the indoor hydroponic facilities and outdoor agricultural belts which will be used to grow a wide variety of organic plants without the use of pesticides.
-8. A circular waterway for irrigation and filtration surrounds the agricultural belt.
-9. The outermost perimeter is utilized for recreational activities such as biking, golfing, hiking and riding, etc.All the facilities are available to everyone without cost in a resource based economy. The sole purpose of this sophisticated technology is to free people from boring monotonous tasks, make available a much higher standard of living, and provide more leisure time.
-</template></category>
-
-<category><pattern>DO WE HAVE THE RESOURCES</pattern><template>
-Earth is abundant and has plentiful resources. Our practice of rationing resources through monetary control is no longer relevant and is counter-productive to our survival. Today we have highly advanced technologies, but our social and economic system has not kept up with our technological capabilities. We could easily create a world of abundance for all, free of servitude and debt based on the carrying capacity of Earth resources. With the intelligent and humane application of science and technology, the people of the earth can guide and shape the future together while protecting the environment. We don't have enough money to accomplish these ends but we do have more than enough resources.
-</template></category>
-
-<!-- CONSTRUCTION -->
-
-<category><pattern>CONSTRUCTION</pattern><template>
-If technology does not liberate all people for the pursuit of higher aspirations in human achievement, then all its technical potential will be meaningless.
- We could use: AUTOMATED CONSTRUCTION SYSTEMS, AUTOMATED CRANES, LASER EXCAVATORS, INDUSTRIAL ROBOTS, NANOTECHONOLOGY</template></category>
-
-<category><pattern>AUTOMATED CONSTRUCTION SYSTEMS</pattern><template>
-The machine in the foreground is a multi-function unit. Here, it is used to lift and insert prefabricated housing components into a support structure. Although these "prefab" units will be composed of standard components, they will be of a modular design of such a wide and diverse array as to allow maximum individual expression in interior design and décor.
-</template></category>
-
-<category><pattern>AUTOMATED CRANES</pattern><template>
-The construction of these industrial and research complexes in the Circular City can be carried out by robotic equipment that will receive instructions via satellite. Automated cranes travel along the buildings' length installing floors, windows, curtain walls, roofing, and other components from the ground up. These devices will contain sensors to minimize industrial accidents or collisions with other devices or living beings.
-</template></category>
-
-<category><pattern>LASER EXCAVATOR</pattern><template>
-This scene depicts a laser excavator of the future. Such devices, which could be directed via satellite, would be capable of fusing the earth beneath it into a molten magma-like material. This machine would be able to change its shape to conform to a wide range of contours such as canals, roads, and waterways.
-</template></category>
-
-<category><pattern>INDUSTRIAL ROBOTS</pattern><template>
-These "multi access industrial robots" will utilize vast information resources, which will enable them to receive commands via satellite up-link or on-site. They can also be designed to take appropriate actions in the absence of human directives by combining an array of sensors and receivers with sophisticated decision making abilities. They will be capable of handling a wide range of industrial production tasks, and will be able to upgrade their level of service and replace defective or worn parts. These mega robots will communicate with one another to coordinate delivery of the required materials for each project.
-</template></category>
-
-<category><pattern>NANOTECHONOLOGY</pattern><template>
-The future of nanotechnology offers enormous potential. Nanotechnology combines optics and lasers, and will eventually enable us to assemble matter, atom by atom, into whatever molecular structure is needed. Nanotechnology will lead to a sub-microscopic revolution in all fields, including the way in which we conduct human affairs.
-</template></category>
-
-<!-- HOUSING -->
-
-<category><pattern>HOUSING</pattern><template>
-The Venus Project recommends that the present state and aims of architecture be redefined to fit the evolving needs of individuals in this new, emergent culture.
-Self Contained Dwellings would be a way. 
-</template></category>
-
-<category><pattern>SELF CONTAINED DWELLINGS</pattern><template>
-The architecture and individual dwellings of future cities will evolve on an entirely different basis from todays houses. With the intelligent application of humane technologies, we will be able to provide and allow for a wide array of unique individual homes. Their structural elements will be flexible and coherently arranged to best serve individual preference. These pre-fabricated, modular homes, embodying a high degree of flexibility inconceivable in times past, could be built anyplace one might imagine, amidst forests, atop mountains, or on remote islands.
-</template></category>
-
-<category><pattern>PREFABRICATED HOUSES</pattern><template>
-Homes could be prefabricated of a new type of pre-stressed, reinforced concrete with a flexible ceramic external coating that would be relatively maintenance free, fireproof, and impervious to the weather. Their thin shell construction can be mass-produced in a matter of hours. With this type of construction, there would be minimal damage from earthquakes and hurricanes.
-</template></category>
-
-<category><pattern>DWELLINGS</pattern><template>
-All of these dwellings can be designed as self-contained residences with their own thermal generators and heat concentrators. Photovoltaic arrays would be built into the skin of the building and into the windows themselves. Thermopanes would be used to tint out the bright sunlight by variable patterns of shading. All these features could be selected by the occupant to supply more than enough of the energy required to operate the entire household.
-</template></category>
-
-<!-- TRANSPORTATION -->
-
-<category><pattern>TRANSPORTATION</pattern><template>
-We use Maglev Trains, Aircrafts with new Airport designs, Automobiles, Freighters, Sea craft.
-</template></category>
-
-<category><pattern>MAGLEV TRAIN</pattern><template>
-Since military aircraft will be unnecessary in the future, emphasis can be shifted to advancing medical, emergency, service, and transportation vehicles. Here is an example of VTOL (Vertical Take-off and Landing) aircraft with three synchronous turbines, which allow for exceptional maneuverability. These delta-configuration aircraft can be controlled by electrodynamic means eliminating the need for ailerons, elevators, rudders, spoilers, flaps or any other mechanical controls. In addition to providing better maneuverability and aerodynamic qualities, this innovative technology will also serve as an anti-icing system. In the event of an emergency landing fuel will be ejected to prevent fires.
-
-These Vertical Takeoff and Landing (VTOL) aircraft are designed to lift passengers and freight by the use of ring-vortex air columns. The helicopter in the foreground has a stationary center around which the rotors are propelled by engines at their tips. VTOL aircraft will be propelled by a variety of techniques, from ducted fans to vectored jets. They will be designed to combine the most desirable attributes of fixed winged aircraft, helicopters, and flying platforms. Transcontinental travel will be achieved through advanced aircraft and high-speed mag-lev trains, all integrated in a worldwide transportation system.
-</template></category>
-
-<category><pattern>AIRPORT</pattern><template>
-The central dome of this airport of the future would contain air terminals, maintenance facilities, service centers, and hotels. The runways are arranged in a radial configuration, which allows airplanes to easily take off into the prevailing winds and to avoid dangerous crosswind landings. Emergency stations are located at the edge of the runways, which are fully equipped with built-in fire fighting equipment and emergency arresting gear. All of the runways will be equipped with built in sprinkler systems in case of emergency. Passengers will be transported to and from the airport by underground conveyors. Many of the terminals themselves will eventually be constructed underground.
-</template></category>
-
-<category><pattern>AUTOMOBILES</pattern><template>
-Streamlined cars will provide high-speed, energy efficient, and safe, long-range transportation. Some vehicles will have wheels, while others will eventually be equipped with magnetic levitation or air-floatation capabilities. Most vehicles will be equipped with voice-recognition technology that will allow the passengers to program their destination by voice command. Self-monitoring systems will tell the vehicles when service is required, and they will be able to transport themselves to service and maintenance facilities. Use of clean, non-polluting electrical energy allows for silent vehicle operation, while proximity-sensor devices linked to automated velocity and breaking systems enhance safety by enabling the vehicles to avoid collisions. As a secondary safety measure, the entire interior will be equipped with ergonomically designed air bag systems. Within the cities, horizontal, vertical, radial, and circular conveyors will serve most transportation needs.
-</template></category>
-
-<category><pattern>FREIGHTERS</pattern><template>
-This modular freighter leaving a city in the sea consists of floating, detachable sections that can be rapidly loaded or unloaded. The number of sections can be varied depending on the amount of freight to be delivered. When all of the modules are connected, they can be propelled as a single unit. Then, when the freight arrives at its destination, the selected modules can be disconnected and towed to docks.
-</template></category>
-
-<category><pattern>SEA CRAFT</pattern><template>
-Sea craft will be available for recreation exploration and other submersible activities. Their hydrodynamic designs will permit high speed, safe and energy efficient travel. They will provide maximum comfort for the passengers. Their internal construction will include flotation chambers, which will render them practically unsinkable. They can be self-maintained and fully automated.
-</template></category>
-
-<!-- ENERGY -->
-
-<category><pattern>ENERGY</pattern><template>
-Aiming renewable and sustainable energies, none of these mega-projects will ever be undertaken without a comprehensive study of the positive and negative retroactions involved.
- Geothermal Energy, Underwater Turbines, Bering Strait Dam, Solar Power are examples.
- </template></category>
-
-<category><pattern>GEOTHERMAL ENERGY</pattern><template>
-As refinements in conversion technologies increase its feasibility, geothermal energy will come to take on a more prominent role. Readily available in various geographical regions throughout the world, both on land and under the sea, this energy source alone could provide enough clean energy for the next thousand years.
-</template></category>
-
-<category><pattern>UNDERWATER TURBINES</pattern><template>
-These underwater structures are designed to convert a portion of the flow of the Gulf Stream through turbines to generate clean electric power. These slow rotating turbines would have a centrifugal separator and deflectors to prevent harm to marine life.
-</template></category>
-
-<category><pattern>BERING STRAIT DAM</pattern><template>
-A land bridge or tunnel might be constructed across the Bering Strait. The primary function of this span would be to generate electrical power and house facilities for collecting and processing marine products. Beneath and above the ocean surface would be tunnels for the transport of both passengers and freight. Not only could this structure provide a physical link between Asia and North America, it could also serve as an avenue for social and cultural exchange. This land bridge would perhaps serve as a base for the development of clean fusion power. Pipelines to conduct fresh water from melting icebergs to other parts of the world may also be incorporated.
-</template></category>
-
-<category><pattern>SOLAR POWER</pattern><template>
-Solar power has tremendous potential from photovoltaic panels that store energy in batteries for private use to large scale solar plants on land and in the sea. The radiation that strikes the Earths surface each year is more than 10,000 times the world's energy use. New technologies are constantly emerging to harness this potential.
-</template></category>
-
-<category><pattern>* SOLAR POWER</pattern><template>
-Solar power has tremendous potential from photovoltaic panels that store energy in batteries for private use to large scale solar plants on land and in the sea. The radiation that strikes the Earths surface each year is more than 10,000 times the world's energy use. New technologies are constantly emerging to harness this potential.
-</template></category>
-
-
-<!-- FOOD -->
-
-<category><pattern>FISH FARMING</pattern>
-<template><srai>MARICULTURE</srai></template>
-</category>
-
-<category><pattern>MARICULTURE</pattern><template>
-Such systems would be used to cultivate and raise fish and other forms of marine life to help meet the nutritional needs of the world's people. Capable of cultivating a great variety of marine life, these structures would be equipped to permit the free flow of water throughout the system. They are designed to be a non-contaminating, integral part of the marine environment.
-</template></category>
-
-<category><pattern>AUTOMATED WATER SYSTEMS</pattern><template>
-Eventually, with applied total design concepts and "mega-hydrological" projects, we could minimize the threat of floods and drought. These waterways would be an integrated part of a national flood control system that would hold back floodwaters, which could be released during periods of drought, and be used to maintain the water table. It could also be used for irrigation, shipping passengers and bulk freight; and the water storage basins could be used for recreation as well. In many instances, the waterway would be used as evaporative desalinization.
-</template></category>
-
-
-<!-- CRITICS -->
-
-<category><pattern>IS THE VENUS PROJECT UTOPIA</pattern><template>
-The Venus Project is neither Utopian nor Orwellian, nor does it reflect the dreams of impractical idealists. Instead, it presents attainable goals requiring only the intelligent application of what we already know. The only limitations are those which we impose upon ourselves.
-</template></category>
-
-
-<!-- 02/10/2011 -->
-
-
-<category><pattern>WHAT IS CORCEN</pattern><template>
-Corcen means coordination center. Before Corcen we can do anything you have to provide Corcen with the information, has to be Earth's resources, climatic conditions, soil conditions, so Corcen has a reference file to draw from. Corcen makes no decisions on its own, Corcen means electronic connection to production, personnel, technical capabilities of all people, so Corcen can give you information, Corcen is really a central collection of information.
-</template></category>
-
-<category><pattern>WOULD YOU SAY THAT TRANSITIONS ARE UNDERWAY</pattern><template>
-Not really, only when there is a totally breakdown. Where industries shuts down, banks a shutdown, not bailed out, you had the beginnings of a need for a new social arrangement.</template></category>
-
-<category><pattern>* TESLA WARDENCLYFFE TOWER</pattern><template>
-Well, i don't have the complete anatomy of his system, but i can say this, that if we learned to harvest atmospheric and celestial electrical phenomena, and deliver it down to the earth in the by lightening means, on project in the equipment, down toward the capacitor which is buried in the earth, and use the earth itself,as ascending device, i think there's some basis for it.
-</template></category>
-
- 
-
-
-<!-- 13/05/2012 -->
-
-<category><pattern>ARE YOU BEHAVIORIST</pattern><template>
-Yes, i believe environment shapes behavior, but i'm interested in the specific aspects of the environment that shape particular kinds of behavior, whether it be serial killers, gangsters, whatever people are, they're shaped by their sub-culture, the culture they're exposed to, and the conditions and they're exposed to.
-</template></category>
-
-
-<category><pattern>* CHANGE THE SYSTEM FROM WITHIN</pattern><template>
-No, I never have been tempted to change the system from within. I attempt to inform people as to the effects, the prime factors of our society and the harmful effects of the free enterprise system. I don't think there is a step within this system to bring it without problems into a resource based economy.
-</template></category>
-
-
-<category><pattern>* RELATION BETWEEN JACQUE AND ROXANNE</pattern><template>
-We've been living together and working for since 1976.
-We relate fairly well in most areas, and i would say if that continues, which it will. I'm glad that Roxanne has been an enormous help. Without Roxanne, i don't think we could have gotten our books published or most of our films made.
-</template></category>
-
-
-<category>
-<pattern>CAN YOU REMEMBER YOUR VERY FIRST DESIGN MOMENT</pattern>
-
-<template>Yes. When I was about 13, one of my relatives stuck his hand into a metal fan while it was on. This led me to design a fan with rubber or fabric blades. I submitted the design to some companies, but they showed no interest. Shortly after that, the product came out on the market. This was my introduction to the market place.</template>
-</category>
-
- 
-
-<category>
-<pattern>WHAT DO YOU THINK THE MAJOR CHANGES WILL BE IN NEAR OR FAR FUTURE OF THE WORLD</pattern>
-
-<template>We have the technology to build a global paradise on earth, and at the same time we have the power to end life as we know it. I am a futurist. I cannot predict the actual future--only what it can be if we manage the earth and its resources intelligently. Where I may differ from other futurists is that I work on actual blueprints and methodologies which can achieve a sustainable global society in which all will have a higher standard of living with greater freedom and opportunity. If we work toward this new global society, we can free the world from hunger, war, and poverty--a world humanity has failed to achieve throughout history. If civilization continues on its present course, we will simply repeat the same mistakes all over again.</template>
-</category>
-
- 
-
-<category>
-<pattern>WHY SELF TAUGHT</pattern>
-
-<template>Instruction in academia did not emphasize what I thought of as essential points. I was interested in the broad range of interrelated connections within the physical sciences, but formal studies isolated each branch of science. I therefore took it upon myself to integrate the separate disciplines into a synergistic whole so as to apply science and technology to the solving of global problems.</template>
-</category>
-
- 
-
-<category>
-<pattern>DO YOU HAVE ANY PERSONAL HEROES</pattern>
-
-<template>I owe a great deal to people from many disciplines who contributed to this vision. People like Jules Verne, Edward Bellamy, Howard Scott, Thorstein Veblen, H. G. Wells, Sir Jagadis Chunder Bose, Alfred Korzybski, Walter B. Cannon, Stewart Chase, Clarence Darrow, Arthur C. Clarke, Mark Twain, Jacque Loeb, Carl Sagan and others too numerous to mention.</template>
-</category>
-
- 
-
-<category>
-<pattern>WAS THERE SOMETHING SPECIFIC YOU EXPERIENCED THAT MADE YOU FIRST BEGIN THINKING ABOUT ALTERNATE FORMS OF LIVING</pattern>
-
-<template>Living through the 1929 Great Depression helped shape my social conscience. During this time, I realized the earth was still the same place, manufacturing plants were still intact, and resources were still there, but people didn’t have money to buy the products. I felt the rules of the game we play by were outmoded and damaging. This began a life-long quest resulting in the conclusions and designs presented in The Venus Project.
-
-Conditions of misery, suffering, war, and war profiteering were the incentive and inspiration for my work. I was also motivated by the seeming incompetence of governments, the academic world, and a lack of solutions from scientists. Many fail as generalists because of their over-specialization on limited aspects of social problems. Scientists, politicians, and academicians see problems from inside the system they’re in, which is what’s responsible for the problems in the first place. I am disappointed with those who worry about terra-forming other planets while our own is still full of war, poverty, hunger, and environmental neglect.
-
-Working with drug addicts, alcoholics, and so-called juvenile delinquents in New York City convinced me that instead of working with individuals, more effective methods would deal with the societal conditions that create dysfunctional behaviors in the first place.</template>
-</category>
-
- 
-
-<category>
-<pattern>YOU CLAIM THAT WE CAN OVERCOME THE WORLD’S CONSTANT ISSUES SUCH AS WAR POVERTY AND HUNGER</pattern>
-
-<template>My entire life’s work and alternative social design are all about solutions to these problems. It is not just patch work to paper over the problems we face, but I have always worked on proposals to eliminate the conditions responsible for these problems in the first place. To properly answer this question would take volumes. I can only recommend my book The Best That Money Can’t Buy. Albert Einstein once said, "We cannot solve our problems with the same thinking we used when we created them."</template>
-</category>
-
- 
-
-<category>
-<pattern>YOU HAVE BEEN COMPARED WITH DAVINCI</pattern>
-
-<template>I don’t think about this comparison at all. I am not pressured to meet any expectation except that which is available to me. If people support the project, then it will occur. If they fail to do so, we will continue with our current problems. It is not up to me. All I am able to do at this time is to present a possible alternative. The future of sustaining our species depends on the actions we take today.
-
-I feel that I have advantages greater than Da Vinci’s such as access to more information, materials, and methods.</template>
-</category>
-
- 
-
-<category>
-<pattern>ARE YOU OPTIMIST OR PESSIMIST ABOUT THE FUTURE</pattern>
-
-<template>I am neither. It does not depend on me alone. I do all I can to help bring about a positive future which could overcome many of the problems the world faces today.</template>
-</category>
-
- 
-
-<category>
-<pattern>ANYONE YOU’RE DYING TO MEET</pattern>
-
-<template>Any person, group, or nation that will help promote or sponsor The Venus Project.</template>
-</category>
-
- 
-
-<category>
-<pattern>WHAT S BEEN THE HIGHLIGHTS IN YOUR LIFE SO FAR</pattern>
-
-<template>The highlight is the interest shown to The Venus Project by people throughout the world through the Internet, magazines,</template>
-</category>
-
- 
-
-<category>
-<pattern>FORESIGHT OR VISION</pattern>
-
-<template>Foresight to me is based on the hopes, desires, and aims of individuals, but without a practical blueprint, it is no more than science fiction. A constructive "vision" requires a methodology for achieving the desired goal of a sustainable future. The blueprint must include plans for education, health care, housing, city planning, transportation, clean sources of energy, etc.</template>
-</category>
-
- 
-
-<category>
-<pattern>WHICH PROJECTS GET YOU EXCITED OR SCARE YOU ABOUT THE FUTURE</pattern>
-
-<template>What gets me excited about the future are the fantastic achievements yet undreamed of, and the possibility of global unification. What scares me about the future is our inability to use our technology constructively and intelligently.</template>
-</category>
-
- 
-
-<category>
-<pattern>HOW DO YOU START WORKING ON SOMETHING</pattern>
-
-<template>I first ask what do I hope to accomplish and what is the simplest approach to a given problem. By simplest approach, I mean given the tools and information available. If I were to design the least expensive airplane, using minimum materials with maximum strength, and a wide margin of safety, I would select a flying wing. The flying wing eliminates fuselage, tail, rudder, and stabilizer. The passengers are seated in the wing. I designed many variations on flying wings in the early 1930’s.
-
-Social designs must be based on the carrying capacity of Earth’s resources, and not on the philosophy, desires, aesthetics, or advantages of particular people. For example, the circular design of cities is based upon a minimum expenditure of energy for maximum social gain. Architecture, when intelligently designed, will use the least amount of material for the safest and most efficient structure possible. As materials improve and change, so will architecture and the designs of cities. This will not limit advantages, but will expand amenities and the goods and services available to everyone.</template>
-</category>
-
- 
-
-<category>
-<pattern>IS THERE ANY ONE FIELD OF DISCIPLINE YOU FIND MOST PROMISING RIGHT NOW AS FAR AS TECHNOLOGICAL ADVANCEMENT</pattern>
-<template>The viewpoint of the generalist which incorporates all of the factors necessary to sustain a highly technical, advanced civilization.</template>
-</category>
-
- 
-
-<category>
-<pattern>DID YOU LIVE THE FRENETIC CONCEPTUAL AND FORMAL EVOLUTION OF THIS TECHNOLOGY</pattern>
-<template>Technology provided the formulas and methods for solving problems in various areas of the social spectrum. I was always confronted with many different problems in industries like aircraft, medical, plastic, housing, energy development, motion picture, future studies, etc.</template>
-</category>
-
- 
-
-<category>
-<pattern>WHERE DID YOU GREW UP</pattern>
-<template>In the neighborhood of Bensonhurst in the Brooklyn borough of New York City.</template>
-</category>
-
- 
-
-<category>
-<pattern>IS A RESOURCE BASED ECONOMY COMMUNISM OR FASCISM</pattern>
-<template>The aims of The Venus Project have no parallel in history, not with communism, socialism, fascism or any other political</template>
-</category>
-
-
-<category>
-<pattern>RESOURCES</pattern>
-<template>it doesnt matter how many resources you have if you don't now how to use them, they will never be enough</template>
-</category>
-
-
-
+  <!-- RBE -->
+  <category>
+    <pattern>WHAT IS A RBE</pattern>
+    <template>Resource Based Economy.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS RBE</pattern>
+    <template>Resource Based Economy.</template>
+  </category>
+  <category>
+    <pattern>WHO IS ROXANNE MEADOWS</pattern>
+    <template>Jacque Fresco Partnet.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE VENUS PROJECT</pattern>
+    <template>The Venus Project is an organization that proposes a feasible plan of action for social change, a holistic global socio-economic system called a Resource Based Economy; that works toward a peaceful and sustainable global civilization. It outlines an alternative to strive toward where human rights are not only paper proclamations but also a way of life.  It calls for a straightforward redesign of our culture in which the age-old problems of war, poverty, hunger, debt, and unnecessary human suffering are viewed not only as avoidable, but as totally unacceptable. Anything less will result in a continuation of the same catalog of problems found in today's world.  The Venus Project presents an alternative vision for a sustainable world civilization unlike any political, economic or social system that has gone before. It envisions a time in the near future when money, politics, self and national-interest have been phased out. Although this vision may seem idealistic, it is based upon years of study and experimental research. It spans the gamut from education, transportation, clean sources of energy to total city systems.</template>
+  </category>
+  <category>
+    <pattern>AIMS OF THE VENUS PROJECT</pattern>
+    <template>The Venus Project is a veritable blueprint for the genesis of a new world civilization, one that is based on human concern and environmental reclamation.</template>
+  </category>
+  <category>
+    <pattern>PLAN OF THE VENUS PROJECT</pattern>
+    <template>The plans for The Venus Project offer society a broader spectrum of choices based on the scientific possibilities directed toward a new era of peace and sustainability for all. Through the implementation of a resource-based economy, and a multitude of innovative and environmentally friendly technologies directly applied to the social system, The Venus Project proposals will dramatically reduce crime, poverty, hunger, homelessness, and many other pressing problems that are common throughout the world today.</template>
+  </category>
+  <category>
+    <pattern>WHO IS JACQUE FRESCO</pattern>
+    <template>Jacque Fresco, is a self-educated structural designer,  architectural designer, philosopher of science, concept artist, educator, and futurist. His interests span a wide range of disciplines including several in philosophy, science, architecture and engineering</template>
+  </category>
+  <category>
+    <pattern>WHEN WAS JACQUE FRESCO BORN</pattern>
+    <template>Jacque Fresco was born March 13, 1916.</template>
+  </category>
+  <category>
+    <pattern>HOW WOULD ONE CHOOSE A HOME</pattern>
+    <template>An example of the wide range of choice available in a resource-based economy is the way one selects a house. For instance, a man and woman may visit an architectural design center and sit in front of a clear hemisphere approximately six feet in diameter. The woman describes the type of house she would prefer and her areas of interest. The house appears as a 3-dimensional image in the center of the hemisphere. It rotates slowly to present a view of the interior and exterior. Then the man describes his major interests and preferences and suggests a larger balcony. The 3-dimensional image is adjusted. When they have finished requesting changes, the computer presents various alternatives to consider. They will also enter a sensorium to experience a walk-through of their preferred design and continue to make changes. When they arrive at a final design, construction procedures are set in motion. The computer selects materials for efficiency and durability. None of the architecture is permanent and can be modified and updated at the request of the occupants. This is real individual choice. In a monetary system, most live near their work with a house, car, and lifestyle they can afford (or all too often cannot afford), rather than one they prefer. Today we are only as free as our purchasing power permits. Lacking a true sense of self worth, many buy houses as status symbols just to impress others. A resource-based economy changes the nature of our dwellings from that of status symbol, or just basic shelter, to a reflection of individuality and personal interests.</template>
+  </category>
+  <category>
+    <pattern>* RELIGION</pattern>
+    <template>The concepts presented by The Venus Project are in no way inconsistent with most of the religious teachings of the world. Perhaps the major difference is that we would like actually to transform these lofty ideals into a working reality for the nations of our planet.</template>
+  </category>
+  <category>
+    <pattern>* OF THE VENUS PROJECT</pattern>
+    <template>The plans for The Venus Project offer society a broader spectrum of choices based on the scientific possibilities directed toward a new era of peace and sustainability for all.  Through the implementation of a resource-based economy, and a multitude of innovative and environmentally friendly technologies directly applied to the social system, The Venus Project proposals will dramatically reduce crime, poverty, hunger, homelessness, and many other pressing problems that are common throughout the world today.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS A RESOURCE-BASED ECONOMY</pattern>
+    <template>To transcend these limitations, The Venus Project proposes we work toward a worldwide, resource-based economy, a holistic social and economic system in which the planetary resources are held as the common heritage of all the earth's inhabitants. The current practice of rationing resources through monetary methods is irrelevant, counter-productive, and falls far short of meeting humanity's needs. Simply stated, within a Resource Based Economy we will utilize existing resources - rather than money - to provide an equitable method of distribution in the most humane and efficient manner. It is a system in which all goods and services are available to everyone without the use of money, credits, barter, or any other form of debt or servitude.</template>
+  </category>
+  <!-- CITIES -->
+  <category>
+    <pattern>SKYSCRAPERS</pattern>
+    <template>These skyscrapers would be constructed of reinforced and pre-stressed concrete, steel and glass. They will be stabilized against earthquakes and high winds by three massive, elongated, tapered columns. These support structures will surround the cylindrical central tower, which is 150 feet wide. This tripod-like structure is reinforced to diminish compression, tension, and torsion stresses. These super-size skyscrapers will assure that more land will be available for parks and wilderness preserves, while concurrently helping to eliminate urban sprawl. Each one of these towers will be a total enclosure system containing an access center, as well as childcare, educational, health, and recreational facilities. This will help alleviate the need to travel to outside facilities.  If we do not maintain a balance between the population and the earth's carrying capacity we may have to move our cities not only skyward and seaward, but subterranean as well.</template>
+  </category>
+  <category>
+    <pattern>UNIVERSITY OF GLOBAL RESOURCE MANAGEMENT</pattern>
+    <template>This University of Global Resource Management and Environmental Studies, or "world-university," is a testing ground for each phase of development. This would be a dynamic, continually evolving research institute open to all of society. Student performance would be based on "competence accreditation," and research findings would be periodically applied directly to the social structure to benefit all members of the world society. People will live in these experimental cities and provide feedback on the reliability and serviceability of the various structures. This information would be used to formulate modifications to structures so that maximum efficiency, comfort, and safety is assured. This facility is also used to develop modular construction systems and components that can be installed to serve a wide range of needs and preferences. In most instances, the external appearance of the buildings will reflect the function of the building - they are designed "from the inside out."</template>
+  </category>
+  <category>
+    <pattern>SUBTERRANEAN CITIES</pattern>
+    <template>For inhospitable regions of the planet, such as polar and desert areas, underground cities would provide entirely comfortable homes for many. Numerous elevators will readily allow residents to enjoy skiing and other recreational activities on the surface. The primary source of power for these cities, where feasible, would be geothermal energy.</template>
+  </category>
+  <category>
+    <pattern>OFF SHORE CITIES</pattern>
+    <template>Offshore apartment buildings of concrete, steel, glass, titanium, and a wide variety of new synthetic materials could be built to relieve the population pressure in areas like Hong Kong, Tokyo, Los Angeles, and New York. The materials used in such projects would be engineered to withstand the corrosive effects of the harsh ocean environment.</template>
+  </category>
+  <category>
+    <pattern>WHY BUILD NEW CITIES</pattern>
+    <template>It would be far easier and would require less energy to build new, efficient cities than to attempt to update and solve the problems of the old ones. </template>
+  </category>
+  <category>
+    <pattern>HOW WILL CITIES BE</pattern>
+    <template><random>      <li>The central dome or theme center will house the core of the cybernated system, educational facilities, access center, computerized communications, networking systems, health and child care facilities.</li><li>The buildings surrounding the central dome provide the community with centers for cultural activities such as the arts, theater, exhibitions, concerts, access centers, and various forms of entertainment.</li><li>Next is the design and development complex for this research and planning city. The design centers are beautifully landscaped in natural surroundings.</li><li>Adjacent the research facilities are dining and other amenities.</li><li>The eight residential districts have a variety of free form unique architecture to fulfil the various needs of the occupant. Each home is immersed in lovely gardens isolating one from another with lush landscaping.</li><li>Areas are set aside for renewable clean sources of energy such as wind generators, solar, heat concentrating systems, geothermal, photovoltaic and others.</li><li>Next are the indoor hydroponic facilities and outdoor agricultural belts which will be used to grow a wide variety of organic plants without the use of pesticides.</li><li>A circular waterway for irrigation and filtration surrounds the agricultural belt.</li><li>The outermost perimeter is utilized for recreational activities such as biking, golfing, hiking and riding, etc.</li></random> </template>
+  </category>
+  <category>
+    <pattern>CITY PLAN</pattern>
+    <template>1. The central dome or theme center will house the core of the cybernated system, educational facilities, access center, computerized communications, networking systems, health and child care facilities. 2. The buildings surrounding the central dome provide the community with centers for cultural activities such as the arts, theater, exhibitions, concerts, access centers, and various forms of entertainment. 3. Next is the design and development complex for this research and planning city. The design centers are beautifully landscaped in natural surroundings. 4. Adjacent the research facilities are dining and other amenities. 5. The eight residential districts have a variety of free form unique architecture to fulfil the various needs of the occupant. Each home is immersed in lovely gardens isolating one from another with lush landscaping. 6. Areas are set aside for renewable clean sources of energy such as wind generators, solar, heat concentrating systems, geothermal, photovoltaic and others. 7. Next are the indoor hydroponic facilities and outdoor agricultural belts which will be used to grow a wide variety of organic plants without the use of pesticides. 8. A circular waterway for irrigation and filtration surrounds the agricultural belt. 9. The outermost perimeter is utilized for recreational activities such as biking, golfing, hiking and riding, etc.All the facilities are available to everyone without cost in a resource based economy. The sole purpose of this sophisticated technology is to free people from boring monotonous tasks, make available a much higher standard of living, and provide more leisure time.</template>
+  </category>
+  <category>
+    <pattern>DO WE HAVE THE RESOURCES</pattern>
+    <template>Earth is abundant and has plentiful resources. Our practice of rationing resources through monetary control is no longer relevant and is counter-productive to our survival. Today we have highly advanced technologies, but our social and economic system has not kept up with our technological capabilities. We could easily create a world of abundance for all, free of servitude and debt based on the carrying capacity of Earth resources. With the intelligent and humane application of science and technology, the people of the earth can guide and shape the future together while protecting the environment. We don't have enough money to accomplish these ends but we do have more than enough resources.</template>
+  </category>
+  <!-- CONSTRUCTION -->
+  <category>
+    <pattern>CONSTRUCTION</pattern>
+    <template>If technology does not liberate all people for the pursuit of higher aspirations in human achievement, then all its technical potential will be meaningless.  We could use: AUTOMATED CONSTRUCTION SYSTEMS, AUTOMATED CRANES, LASER EXCAVATORS, INDUSTRIAL ROBOTS, NANOTECHONOLOGY</template>
+  </category>
+  <category>
+    <pattern>AUTOMATED CRANES</pattern>
+    <template>The construction of these industrial and research complexes in the Circular City can be carried out by robotic equipment that will receive instructions via satellite. Automated cranes travel along the buildings' length installing floors, windows, curtain walls, roofing, and other components from the ground up. These devices will contain sensors to minimize industrial accidents or collisions with other devices or living beings.</template>
+  </category>
+  <category>
+    <pattern>LASER EXCAVATOR</pattern>
+    <template>This scene depicts a laser excavator of the future. Such devices, which could be directed via satellite, would be capable of fusing the earth beneath it into a molten magma-like material. This machine would be able to change its shape to conform to a wide range of contours such as canals, roads, and waterways.</template>
+  </category>
+  <category>
+    <pattern>INDUSTRIAL ROBOTS</pattern>
+    <template>These "multi access industrial robots" will utilize vast information resources, which will enable them to receive commands via satellite up-link or on-site. They can also be designed to take appropriate actions in the absence of human directives by combining an array of sensors and receivers with sophisticated decision making abilities. They will be capable of handling a wide range of industrial production tasks, and will be able to upgrade their level of service and replace defective or worn parts. These mega robots will communicate with one another to coordinate delivery of the required materials for each project.</template>
+  </category>
+  <category>
+    <pattern>NANOTECHONOLOGY</pattern>
+    <template>The future of nanotechnology offers enormous potential. Nanotechnology combines optics and lasers, and will eventually enable us to assemble matter, atom by atom, into whatever molecular structure is needed. Nanotechnology will lead to a sub-microscopic revolution in all fields, including the way in which we conduct human affairs.</template>
+  </category>
+  <!-- HOUSING -->
+  <category>
+    <pattern>HOUSING</pattern>
+    <template>The Venus Project recommends that the present state and aims of architecture be redefined to fit the evolving needs of individuals in this new, emergent culture. Self Contained Dwellings would be a way. </template>
+  </category>
+  <category>
+    <pattern>SELF CONTAINED DWELLINGS</pattern>
+    <template>The architecture and individual dwellings of future cities will evolve on an entirely different basis from today?s houses. With the intelligent application of humane technologies, we will be able to provide and allow for a wide array of unique individual homes. Their structural elements will be flexible and coherently arranged to best serve individual preference. These pre-fabricated, modular homes, embodying a high degree of flexibility inconceivable in times past, could be built anyplace one might imagine, amidst forests, atop mountains, or on remote islands.</template>
+  </category>
+  <category>
+    <pattern>PREFABRICATED HOUSES</pattern>
+    <template>Homes could be prefabricated of a new type of pre-stressed, reinforced concrete with a flexible ceramic external coating that would be relatively maintenance free, fireproof, and impervious to the weather. Their thin shell construction can be mass-produced in a matter of hours. With this type of construction, there would be minimal damage from earthquakes and hurricanes.</template>
+  </category>
+  <category>
+    <pattern>DWELLINGS</pattern>
+    <template>All of these dwellings can be designed as self-contained residences with their own thermal generators and heat concentrators. Photovoltaic arrays would be built into the skin of the building and into the windows themselves. ?Thermopanes? would be used to tint out the bright sunlight by variable patterns of shading. All these features could be selected by the occupant to supply more than enough of the energy required to operate the entire household.</template>
+  </category>
+  <!-- TRANSPORTATION -->
+  <category>
+    <pattern>TRANSPORTATION</pattern>
+    <template>We use Maglev Trains, Aircrafts with new Airport designs, Automobiles, Freighters, Sea craft.</template>
+  </category>
+  <category>
+    <pattern>MAGLEV TRAIN</pattern>
+    <template>Since military aircraft will be unnecessary in the future, emphasis can be shifted to advancing medical, emergency, service, and transportation vehicles. Here is an example of VTOL (Vertical Take-off and Landing) aircraft with three synchronous turbines, which allow for exceptional maneuverability. These delta-configuration aircraft can be controlled by electrodynamic means eliminating the need for ailerons, elevators, rudders, spoilers, flaps or any other mechanical controls. In addition to providing better maneuverability and aerodynamic qualities, this innovative technology will also serve as an anti-icing system. In the event of an emergency landing fuel will be ejected to prevent fires. These Vertical Takeoff and Landing (VTOL) aircraft are designed to lift passengers and freight by the use of ring-vortex air columns. The helicopter in the foreground has a stationary center around which the rotors are propelled by engines at their tips. VTOL aircraft will be propelled by a variety of techniques, from ducted fans to vectored jets. They will be designed to combine the most desirable attributes of fixed winged aircraft, helicopters, and flying platforms. Transcontinental travel will be achieved through advanced aircraft and high-speed mag-lev trains, all integrated in a worldwide transportation system.</template>
+  </category>
+  <category>
+    <pattern>AIRPORT</pattern>
+    <template>The central dome of this airport of the future would contain air terminals, maintenance facilities, service centers, and hotels. The runways are arranged in a radial configuration, which allows airplanes to easily take off into the prevailing winds and to avoid dangerous crosswind landings. Emergency stations are located at the edge of the runways, which are fully equipped with built-in fire fighting equipment and emergency arresting gear. All of the runways will be equipped with built in sprinkler systems in case of emergency. Passengers will be transported to and from the airport by underground conveyors. Many of the terminals themselves will eventually be constructed underground.</template>
+  </category>
+  <category>
+    <pattern>AUTOMOBILES</pattern>
+    <template>Streamlined cars will provide high-speed, energy efficient, and safe, long-range transportation. Some vehicles will have wheels, while others will eventually be equipped with magnetic levitation or air-floatation capabilities. Most vehicles will be equipped with voice-recognition technology that will allow the passengers to program their destination by voice command. Self-monitoring systems will tell the vehicles when service is required, and they will be able to transport themselves to service and maintenance facilities. Use of clean, non-polluting electrical energy allows for silent vehicle operation, while proximity-sensor devices linked to automated velocity and breaking systems enhance safety by enabling the vehicles to avoid collisions. As a secondary safety measure, the entire interior will be equipped with ergonomically designed air bag systems. Within the cities, horizontal, vertical, radial, and circular conveyors will serve most transportation needs.</template>
+  </category>
+  <category>
+    <pattern>FREIGHTERS</pattern>
+    <template>This modular freighter leaving a city in the sea consists of floating, detachable sections that can be rapidly loaded or unloaded. The number of sections can be varied depending on the amount of freight to be delivered. When all of the modules are connected, they can be propelled as a single unit. Then, when the freight arrives at its destination, the selected modules can be disconnected and towed to docks.</template>
+  </category>
+  <category>
+    <pattern>SEA CRAFT</pattern>
+    <template>Sea craft will be available for recreation exploration and other submersible activities. Their hydrodynamic designs will permit high speed, safe and energy efficient travel. They will provide maximum comfort for the passengers. Their internal construction will include flotation chambers, which will render them practically unsinkable. They can be self-maintained and fully automated.</template>
+  </category>
+  <!-- ENERGY -->
+  <category>
+    <pattern>ENERGY</pattern>
+    <template>Aiming renewable and sustainable energies, none of these mega-projects will ever be undertaken without a comprehensive study of the positive and negative retroactions involved.  Geothermal Energy, Underwater Turbines, Bering Strait Dam, Solar Power are examples.</template>
+  </category>
+  <category>
+    <pattern>GEOTHERMAL ENERGY</pattern>
+    <template>As refinements in conversion technologies increase its feasibility, geothermal energy will come to take on a more prominent role. Readily available in various geographical regions throughout the world, both on land and under the sea, this energy source alone could provide enough clean energy for the next thousand years.</template>
+  </category>
+  <category>
+    <pattern>UNDERWATER TURBINES</pattern>
+    <template>These underwater structures are designed to convert a portion of the flow of the Gulf Stream through turbines to generate clean electric power. These slow rotating turbines would have a centrifugal separator and deflectors to prevent harm to marine life.</template>
+  </category>
+  <category>
+    <pattern>BERING STRAIT DAM</pattern>
+    <template>A land bridge or tunnel might be constructed across the Bering Strait. The primary function of this span would be to generate electrical power and house facilities for collecting and processing marine products. Beneath and above the ocean surface would be tunnels for the transport of both passengers and freight. Not only could this structure provide a physical link between Asia and North America, it could also serve as an avenue for social and cultural exchange. This land bridge would perhaps serve as a base for the development of clean fusion power. Pipelines to conduct fresh water from melting icebergs to other parts of the world may also be incorporated.</template>
+  </category>
+  <category>
+    <pattern>SOLAR POWER</pattern>
+    <template>Solar power has tremendous potential from photovoltaic panels that store energy in batteries for private use to large scale solar plants on land and in the sea. The radiation that strikes the Earth?s surface each year is more than 10,000 times the world's energy use. New technologies are constantly emerging to harness this potential.</template>
+  </category>
+  <category>
+    <pattern>* SOLAR POWER</pattern>
+    <template>Solar power has tremendous potential from photovoltaic panels that store energy in batteries for private use to large scale solar plants on land and in the sea. The radiation that strikes the Earth?s surface each year is more than 10,000 times the world's energy use. New technologies are constantly emerging to harness this potential.</template>
+  </category>
+  <!-- FOOD -->
+  <category>
+    <pattern>FISH FARMING</pattern>
+    <template>
+      <srai>MARICULTURE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MARICULTURE</pattern>
+    <template>Such systems would be used to cultivate and raise fish and other forms of marine life to help meet the nutritional needs of the world's people. Capable of cultivating a great variety of marine life, these structures would be equipped to permit the free flow of water throughout the system. They are designed to be a non-contaminating, integral part of the marine environment.</template>
+  </category>
+  <category>
+    <pattern>AUTOMATED WATER SYSTEMS</pattern>
+    <template>Eventually, with applied total design concepts and "mega-hydrological" projects, we could minimize the threat of floods and drought. These waterways would be an integrated part of a national flood control system that would hold back floodwaters, which could be released during periods of drought, and be used to maintain the water table. It could also be used for irrigation, shipping passengers and bulk freight; and the water storage basins could be used for recreation as well. In many instances, the waterway would be used as evaporative desalinization.</template>
+  </category>
+  <!-- CRITICS -->
+  <category>
+    <pattern>IS THE VENUS PROJECT UTOPIA</pattern>
+    <template>The Venus Project is neither Utopian nor Orwellian, nor does it reflect the dreams of impractical idealists. Instead, it presents attainable goals requiring only the intelligent application of what we already know. The only limitations are those which we impose upon ourselves.</template>
+  </category>
+  <!-- 02/10/2011 -->
+  <category>
+    <pattern>WHAT IS CORCEN</pattern>
+    <template>Corcen means coordination center. Before Corcen we can do anything you have to provide Corcen with the information, has to be Earth's resources, climatic conditions, soil conditions, so Corcen has a reference file to draw from. Corcen makes no decisions on its own, Corcen means electronic connection to production, personnel, technical capabilities of all people, so Corcen can give you information, Corcen is really a central collection of information.</template>
+  </category>
+  <category>
+    <pattern>WOULD YOU SAY THAT TRANSITIONS ARE UNDERWAY</pattern>
+    <template>Not really, only when there is a totally breakdown. Where industries shuts down, banks a shutdown, not bailed out, you had the beginnings of a need for a new social arrangement.</template>
+  </category>
+  <category>
+    <pattern>* TESLA WARDENCLYFFE TOWER</pattern>
+    <template>Well, i don't have the complete anatomy of his system, but i can say this, that if we learned to harvest atmospheric and celestial electrical phenomena, and deliver it down to the earth in the by lightening means, on project in the equipment, down toward the capacitor which is buried in the earth, and use the earth itself,as ascending device, i think there's some basis for it.</template>
+  </category>
+  <!-- 13/05/2012 -->
+  <category>
+    <pattern>ARE YOU BEHAVIORIST</pattern>
+    <template>Yes, i believe environment shapes behavior, but i'm interested in the specific aspects of the environment that shape particular kinds of behavior, whether it be serial killers, gangsters, whatever people are, they're shaped by their sub-culture, the culture they're exposed to, and the conditions and they're exposed to.</template>
+  </category>
+  <category>
+    <pattern>* CHANGE THE SYSTEM FROM WITHIN</pattern>
+    <template>No, I never have been tempted to change the system from within. I attempt to inform people as to the effects, the prime factors of our society and the harmful effects of the free enterprise system. I don't think there is a step within this system to bring it without problems into a resource based economy.</template>
+  </category>
+  <category>
+    <pattern>* RELATION BETWEEN JACQUE AND ROXANNE</pattern>
+    <template>We've been living together and working for since 1976. We relate fairly well in most areas, and i would say if that continues, which it will. I'm glad that Roxanne has been an enormous help. Without Roxanne, i don't think we could have gotten our books published or most of our films made.</template>
+  </category>
+  <category>
+    <pattern>CAN YOU REMEMBER YOUR VERY FIRST DESIGN MOMENT</pattern>
+    <template>Yes. When I was about 13, one of my relatives stuck his hand into a metal fan while it was on. This led me to design a fan with rubber or fabric blades. I submitted the design to some companies, but they showed no interest. Shortly after that, the product came out on the market. This was my introduction to the market place.</template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU THINK THE MAJOR CHANGES WILL BE IN NEAR OR FAR FUTURE OF THE WORLD</pattern>
+    <template>We have the technology to build a global paradise on earth, and at the same time we have the power to end life as we know it. I am a futurist. I cannot predict the actual future--only what it can be if we manage the earth and its resources intelligently. Where I may differ from other futurists is that I work on actual blueprints and methodologies which can achieve a sustainable global society in which all will have a higher standard of living with greater freedom and opportunity. If we work toward this new global society, we can free the world from hunger, war, and poverty--a world humanity has failed to achieve throughout history. If civilization continues on its present course, we will simply repeat the same mistakes all over again.</template>
+  </category>
+  <category>
+    <pattern>WHY SELF TAUGHT</pattern>
+    <template>Instruction in academia did not emphasize what I thought of as essential points. I was interested in the broad range of interrelated connections within the physical sciences, but formal studies isolated each branch of science. I therefore took it upon myself to integrate the separate disciplines into a synergistic whole so as to apply science and technology to the solving of global problems.</template>
+  </category>
+  <category>
+    <pattern>DO YOU HAVE ANY PERSONAL HEROES</pattern>
+    <template>I owe a great deal to people from many disciplines who contributed to this vision. People like Jules Verne, Edward Bellamy, Howard Scott, Thorstein Veblen, H. G. Wells, Sir Jagadis Chunder Bose, Alfred Korzybski, Walter B. Cannon, Stewart Chase, Clarence Darrow, Arthur C. Clarke, Mark Twain, Jacque Loeb, Carl Sagan and others too numerous to mention.</template>
+  </category>
+  <category>
+    <pattern>ARE YOU OPTIMIST OR PESSIMIST ABOUT THE FUTURE</pattern>
+    <template>I am neither. It does not depend on me alone. I do all I can to help bring about a positive future which could overcome many of the problems the world faces today.</template>
+  </category>
+  <category>
+    <pattern>ANYONE YOU'RE DYING TO MEET</pattern>
+    <template>Any person, group, or nation that will help promote or sponsor The Venus Project.</template>
+  </category>
+  <category>
+    <pattern>WHAT S BEEN THE HIGHLIGHTS IN YOUR LIFE SO FAR</pattern>
+    <template>The highlight is the interest shown to The Venus Project by people throughout the world through the Internet, magazines,</template>
+  </category>
+  <category>
+    <pattern>FORESIGHT OR VISION</pattern>
+    <template>Foresight to me is based on the hopes, desires, and aims of individuals, but without a practical blueprint, it is no more than science fiction. A constructive "vision" requires a methodology for achieving the desired goal of a sustainable future. The blueprint must include plans for education, health care, housing, city planning, transportation, clean sources of energy, etc.</template>
+  </category>
+  <category>
+    <pattern>WHICH PROJECTS GET YOU EXCITED OR SCARE YOU ABOUT THE FUTURE</pattern>
+    <template>What gets me excited about the future are the fantastic achievements yet undreamed of, and the possibility of global unification. What scares me about the future is our inability to use our technology constructively and intelligently.</template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU START WORKING ON SOMETHING</pattern>
+    <template>I first ask what do I hope to accomplish and what is the simplest approach to a given problem. By simplest approach, I mean given the tools and information available. If I were to design the least expensive airplane, using minimum materials with maximum strength, and a wide margin of safety, I would select a flying wing. The flying wing eliminates fuselage, tail, rudder, and stabilizer. The passengers are seated in the wing. I designed many variations on flying wings in the early 1930's. Social designs must be based on the carrying capacity of Earth's resources, and not on the philosophy, desires, aesthetics, or advantages of particular people. For example, the circular design of cities is based upon a minimum expenditure of energy for maximum social gain. Architecture, when intelligently designed, will use the least amount of material for the safest and most efficient structure possible. As materials improve and change, so will architecture and the designs of cities. This will not limit advantages, but will expand amenities and the goods and services available to everyone.</template>
+  </category>
+  <category>
+    <pattern>IS THERE ANY ONE FIELD OF DISCIPLINE YOU FIND MOST PROMISING RIGHT NOW AS FAR AS TECHNOLOGICAL ADVANCEMENT</pattern>
+    <template>The viewpoint of the generalist which incorporates all of the factors necessary to sustain a highly technical, advanced civilization.</template>
+  </category>
+  <category>
+    <pattern>DID YOU LIVE THE FRENETIC CONCEPTUAL AND FORMAL EVOLUTION OF THIS TECHNOLOGY</pattern>
+    <template>Technology provided the formulas and methods for solving problems in various areas of the social spectrum. I was always confronted with many different problems in industries like aircraft, medical, plastic, housing, energy development, motion picture, future studies, etc.</template>
+  </category>
+  <category>
+    <pattern>WHERE DID YOU GREW UP</pattern>
+    <template>In the neighborhood of Bensonhurst in the Brooklyn borough of New York City.</template>
+  </category>
+  <category>
+    <pattern>IS A RESOURCE BASED ECONOMY COMMUNISM OR FASCISM</pattern>
+    <template>The aims of The Venus Project have no parallel in history, not with communism, socialism, fascism or any other political</template>
+  </category>
+  <category>
+    <pattern>RESOURCES</pattern>
+    <template>it doesnt matter how many resources you have if you don't now how to use them, they will never be enough</template>
+  </category>
+  <category>
+    <pattern>YOU HAVE BEEN COMPARED WITH DAVINCI</pattern>
+    <template>I don't think about this comparison at all. I am not pressured to meet any expectation except that which is available to me. If people support the project, then it will occur. If they fail to do so, we will continue with our current problems. It is not up to me. All I am able to do at this time is to present a possible alternative. The future of sustaining our species depends on the actions we take today. I feel that I have advantages greater than Da Vinci's such as access to more information, materials, and methods.</template>
+  </category>
+  <category>
+    <pattern>YOU CLAIM THAT WE CAN OVERCOME THE WORLD'S CONSTANT ISSUES SUCH AS WAR POVERTY AND HUNGER</pattern>
+    <template>My entire life's work and alternative social design are all about solutions to these problems. It is not just patch work to paper over the problems we face, but I have always worked on proposals to eliminate the conditions responsible for these problems in the first place. To properly answer this question would take volumes. I can only recommend my book The Best That Money Can't Buy. Albert Einstein once said, "We cannot solve our problems with the same thinking we used when we created them."</template>
+  </category>
+  <category>
+    <pattern>WAS THERE SOMETHING SPECIFIC YOU EXPERIENCED THAT MADE YOU FIRST BEGIN THINKING ABOUT ALTERNATE FORMS OF LIVING</pattern>
+    <template>Living through the 1929 Great Depression helped shape my social conscience. During this time, I realized the earth was still the same place, manufacturing plants were still intact, and resources were still there, but people didn't have money to buy the products. I felt the rules of the game we play by were outmoded and damaging. This began a life-long quest resulting in the conclusions and designs presented in The Venus Project. Conditions of misery, suffering, war, and war profiteering were the incentive and inspiration for my work. I was also motivated by the seeming incompetence of governments, the academic world, and a lack of solutions from scientists. Many fail as generalists because of their over-specialization on limited aspects of social problems. Scientists, politicians, and academicians see problems from inside the system they're in, which is what's responsible for the problems in the first place. I am disappointed with those who worry about terra-forming other planets while our own is still full of war, poverty, hunger, and environmental neglect. Working with drug addicts, alcoholics, and so-called juvenile delinquents in New York City convinced me that instead of working with individuals, more effective methods would deal with the societal conditions that create dysfunctional behaviors in the first place.</template>
+  </category>
+  <category>
+    <pattern>AUTOMATED CONSTRUCTION SYSTEMS</pattern>
+    <template>The machine in the foreground is a multi-function unit. Here, it is used to lift and insert prefabricated housing components into a support structure. Although these 'prefab' units will be composed of standard components, they will be of a modular design of such a wide and diverse array as to allow maximum individual expression in interior design and decor.</template>
+  </category>
+  <!-- BIOGRAFY -->
+  <category>
+    <pattern>HOW IT BEGAN</pattern>
+    <template>Living through the 1929 Great Depression helped shape my social conscience. During this time, I realized the earth was still the same place, manufacturing plants were still intact, and resources were still there, but people didn't have money to buy the products. I felt the rules of the game we play by were outmoded and damaging. This began a life-long quest resulting in the conclusions and designs presented in The Venus Project.</template>
+  </category>
 </aiml>
