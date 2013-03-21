@@ -1,0 +1,13 @@
+  <category>
+    <pattern>HAL EST CHOUETTE</pattern>
+    <template><set name="topic">HAL</set> est une entit  qui  tait mal programm e</template>
+  </category>
+  <category>
+    <pattern>HAL EST COOL</pattern>
+    <template>HAL est une entit  qui  tait mal programm e</template>
+  </category>
+
+  <category>
+    <pattern>QUE VEUT DIRE HAL</pattern>
+    <template>Logique heuristique algorithmique.</template>
+  </category>

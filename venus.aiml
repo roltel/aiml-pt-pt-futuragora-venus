@@ -100,9 +100,20 @@ Jacque Fresco é o fundador do Projecto Vénus.
 Mais do que investigar a FUTURAGORA tem executado inúmeros projectos na área das energias renováveis e agricultura, dois pontos chaves rumo a uma sociedade sustentável, equilibrada e altamente produtiva..</template>
 </category>
 
+<!-- SORRIR        -->
 
-
-
+    <category>
+        <pattern>SORRIR</pattern>
+        <template>
+            <random>
+                <li>Também uso muito esses simbolos :)</li>
+                <li>Certo, e conheces este ;)</li>
+                <li>Esta nova geração só usa desses simbolos :)</li>
+                <li>Esse smile faz-me corar... 8)</li>
+                <li>Desculpa, conheço-te de algum lado para me mandares tantos smiles?</li>
+                </random>    
+        </template>
+    </category>
 
 <!-- PERGUNTAS RESPOSTA APRENDER         -->
 

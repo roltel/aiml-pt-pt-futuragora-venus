@@ -74,6 +74,11 @@
 
   <!-- APRENDER -->
   
+    <category>
+    <pattern>APRENDER *</pattern>
+    <template>Obrigado. A sua entrada está a ser processada. Em breve contarei com mais conhecimento à conta da tua gentileza. Ensinas-me mais coisas?</template>
+  </category>
+
    <category>
     <pattern>VAIS-TE LEMBRAR QUE</pattern>
     <template>
