@@ -6,15 +6,15 @@
 ==Projecto==
 Vénus é uma androide de inteligência artificial que funciona como uma assistente pessoal. 
 
-Link: http://rbe-pod.net/resources/viewProject.php?id=d97349b9c57c47cd8d4b0df451780b10
+Link: http://futuragora.pt/portfolio/inteligencia-artificial-aiml/
 
 Serviço próprio: rbe-pod.net:2001?botid=Venus&template=chat
 
 ==Missão==
 
-Criação do maior motor de inteligência artificial em português.
+Criação do maior motor de inteligência artificial em linguagem natural portuguesa.
 
-==Desenvolvimento AIML em Português ==
+==Desenvolvimento AIML em Português (Tradução) ==
 
 Tradução do alice: http://code.google.com/p/aiml-pt-pt-futuragora-venus
 
@@ -29,7 +29,7 @@ Tradução do alice: http://code.google.com/p/aiml-pt-pt-futuragora-venus
 5. Fazer commit, tem de usar sempre uma descrição das alterações senão não grava.
 
 
-NOTAS DE DESENVOLVIMENTO:
+==NOTAS DE DESENVOLVIMENTO:==
 
 Todas as perguntas estarão sem acentos nem artigos no seu inicio.
 
