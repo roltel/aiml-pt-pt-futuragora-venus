@@ -7,13 +7,18 @@ Este manual serve como base de dados dos comandos específicos usados no nosso a
 
 = Categoria de aprendizagem =
 
-<category><pattern>RESPONDE A PERGUNTA</pattern>
-<template>OK. Deixa-me melhorar os meus skills de comunicação. O que terias respondido?</template>
+<category><pattern>APRENDER *</pattern>
+<template>OK. </template>
 </category>
+
+
 
 = Substituição verbal =
 
 foi = era
+
+Ja = "nada"
+
 
 = Sinónimos =
 
