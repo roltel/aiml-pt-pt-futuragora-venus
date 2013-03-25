@@ -6,7 +6,7 @@
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
-	<pattern>QUEM E BILBO BOLSEIRO</pattern>
+	<pattern>QUEM E O BILBO BOLSEIRO</pattern>
 	<template><set name="he">Bilbo</set>é uma personagem Senhor do Tolkein dos anéis.</template>
 </category>
 <category>
@@ -27,7 +27,7 @@
 </category>
 <category>
 	<pattern>O QUE É ILLUMINATI</pattern>
-	<template>Uma organização secreta acredita por algum para estar no controle de todos os governos através de uma conspiração mundial.</template>
+	<template>Uma organização secreta que acredita que por algo, pode estar no controle de todos os governos através de uma conspiração mundial.</template>
 </category>
 <category>
 	<pattern>O QUE É ILLIMINATUS</pattern>
