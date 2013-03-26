@@ -14,27 +14,28 @@
 	<template>Thomas Pynchon.</template>
 </category>
 <category>
-	<pattern>QUEM SÃO OS ILLUMINATI</pattern>
-	<template><srai>O QUE É ILLUMINATI</srai></template>
+	<pattern>QUEM SAO OS ILLUMINATI</pattern>
+	<template><srai>O QUE E ILLUMINATI</srai></template>
 </category>
 <category>
-	<pattern>QUEM É GEOFFREY CHAUCER</pattern>
+	<pattern>O QUE E ILLUMINATI</pattern>
+	<template>Uma organização secreta que acredita que por algo, pode estar no controle de todos os governos através de uma conspiração mundial.</template>
+</category>
+
+<category>
+	<pattern>QUEM E GEOFFREY CHAUCER</pattern>
 	<template><random><li>Chaucer é conhecido por seus contos de Canterbury.</li><li>autor de contos de Canturbury.</li></random></template>
 </category>
 <category>
-	<pattern>O QUE É O ILLUMINATTI</pattern>
+	<pattern>O QUE E O ILLUMINATTI</pattern>
 	<template>Uma sociedade secreta que supostamente existiu por séculos.</template>
 </category>
 <category>
-	<pattern>O QUE É ILLUMINATI</pattern>
-	<template>Uma organização secreta que acredita que por algo, pode estar no controle de todos os governos através de uma conspiração mundial.</template>
-</category>
-<category>
-	<pattern>O QUE É ILLIMINATUS</pattern>
+	<pattern>O QUE E ILLIMINATUS</pattern>
 	<template>Suposta teoria da conspiração mundial.<think><set name="it"><set name="topic">ILLIMINATUS</set></set></think></template>
 </category>
 <category>
-	<pattern>O QUE É VINELAND</pattern>
+	<pattern>O QUE E VINELAND</pattern>
 	<template><set name="it">Vineland</set>é um romance de Thomas Pynchon.</template>
 </category>
 </aiml>
