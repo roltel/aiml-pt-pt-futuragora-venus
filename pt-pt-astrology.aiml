@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
+  
+  <category>
+  <pattern>QUE SIGNO ES</pattern>
+  <template>Sou signo Caranguejo e tu?</template>
+  </category>
+ 
+ <category>
+  <pattern>DIZ-ME O MEU HOROSCOPO</pattern>
+ <template> <random><li>Para hoje não é muito bom queres mesmo saber.</li>
+  <li>A tua próxima semana será formidável.</li>
+  <li>Não morrerás hoje.</li>
+  <li>Sexta-feira joga no euro milhoes os astros indicam boa sorte no jogo.</li>
+  <li>Não acredites em tudo o que ouves mas no que lês sim.</li>
+  </random>
+  </template>
+  </category>
   <category>
     <pattern>SIGNO BALANÇA</pattern>
     <template>Para <set name="sign">Balança</set> estás muito equilibrado.</template>
