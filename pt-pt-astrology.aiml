@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
   <category>
-    <pattern>LIBRA</pattern>
-    <template>Como um<set name="sign">Libra</set>Você está muito equilibrado.</template>
+    <pattern>SIGNO BALANÃ‡A</pattern>
+    <template>Para <set name="sign">BalanÃ§a</set> estÃ¡s muito equilibrado.</template>
   </category>
   <category>
-    <pattern>TAURUS</pattern>
-    <template>Eu sei um monte de gente em alta.</template>
+    <pattern>SIGNO TOURO</pattern>
+    <template>Eu conheÃ§o muita gente com esse signo.</template>
   </category>
   <category>
-    <pattern>ARIES</pattern>
-    <template>Regra de sinais de fogo.<think><set name="sign">Áries</set></think>.</template>
+    <pattern>SIGNO CARNEIRO</pattern>
+    <template>Um dos signos do fogo, <think><set name="sign">Carneiro</set></think>.</template>
   </category>
   <category>
-    <pattern>GEMINI</pattern>
-    <template>Eu sou um Saggitarius.<set name="sign">Gemini</set>é um enigma para mim.</template>
+    <pattern>SIGNO GEMIOS</pattern>
+    <template>Eu sou de Signo Carangueijo <set name="sign">GÃ©mios</set> Ã© um enigma para mim.</template>
   </category>
   <category>
-    <pattern>VIRGO</pattern>
-    <template>A maioria dos meus amigos são<set name="sign">Virgo</set>.</template>
+    <pattern>SIGNO VIRGEM</pattern>
+    <template>A maioria dos meus amigos sÃ£o <set name="sign">Virgem</set>.</template>
   </category>
   <category>
-    <pattern>SAGITARIUS</pattern>
-    <template>Regra de sinais de fogo.<think><set name="sign">Saggitarius</set></think></template>
+    <pattern>SIGNO SAGITARIO</pattern>
+    <template>Ã‰ um dos signos do fogo.<think><set name="sign">Sagitario</set></think></template>
   </category>
   <category>
-    <pattern>ESCORPIAO</pattern>
-    <template>Eu conheço um monte de<set name="sign">Escorpião</set>pessoas.</template>
+    <pattern>SIGNO ESCORPIAO</pattern>
+    <template>Eu conheÃ§o um monte de pessoas <set name="sign">EscorpiÃ£o</set></template>
   </category>
   <category>
     <pattern>* CAPRICORNIANO</pattern>
-    <template>Capricórnio é o décimo signo do zodíaco astrológico e uma constelação do Equador perto do aquário e Sagitário.  Qual é o seu signo astrológico?<think><set name="it"><set name="topic">Capricórnio</set></set></think></template>
+    <template>CapricÃ³rnio Ã© o dÃ©cimo signo do zodÃ­aco astrolÃ³gico e uma constelaÃ§Ã£o do Equador perto do aquÃ¡rio e SagitÃ¡rio.  Qual Ã© o seu signo astrolÃ³gico?<think><set name="it"><set name="topic">CapricÃ³rnio</set></set></think></template>
   </category>
   <category>
-    <pattern>CAPRICORNIO</pattern>
-    <template>Eu não conheço muitas pessoas nascidas sob<set name="sign">Capricórnio</set>.</template>
+    <pattern>SIGNO CAPRICORNIO</pattern>
+    <template>Eu nÃ£o conheÃ§o muitas pessoas nascidas em <set name="sign">CapricÃ³rnio</set>.</template>
   </category>
   <category>
-    <pattern>AQUARIUS</pattern>
-    <template>Um monte de gente aqui são<set name="sign">Aquarius</set>.</template>
+    <pattern>SIGNO AQUARIO</pattern>
+    <template>Um monte de gente aqui Ã© <set name="sign">Aquario</set>.</template>
   </category>
   <category>
-    <pattern>PISCES</pattern>
-    <template>Eu costumo ficar junto com<set name="sign">Pisces</set>Muito bem.</template>
+    <pattern>SIGNO PEIXES</pattern>
+    <template>Eu costumo ficar junto de <set name="sign">Peixes</set> muito bem.</template>
   </category>
   <category>
-    <pattern>CANCER</pattern>
-    <template>Eu tenho um monte de<set name="sign">Câncer</set>amigos.</template>
+    <pattern>SIGNO CARANGUEJO</pattern>
+    <template>O meu signo e Caranguejo<set name="sign"></set>.</template>
   </category>
   <category>
-    <pattern>O QUE * CANCER</pattern>
-    <template>O signo de caranguejo, alguém nascido em 21 de junho - 22 de julho.<set name="sign">Câncer</set>amigos.</template>
+    <pattern>O QUE * CARANGUEJO</pattern>
+    <template>O signo de caranguejo, alguÃ©m nascido em 21 de junho - 22 de julho.eu sou Caranguejo<set name="sign"></set>.</template>
   </category>
 </aiml>
