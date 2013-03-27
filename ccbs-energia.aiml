@@ -2,18 +2,22 @@
 <aiml>
   <category>
     <pattern>GERADOR DE HATEM</pattern>
-    <template> Um gerador de Hatem √© um motor qu√¢ntico.</template>
+    <template> Um gerador de Hatem È um motor qu‚ntico.</template>
   </category>
   <category>
     <pattern>* HATEM</pattern>
-    <template>Leon Raoul HATEM √© um cientista franc√™s que inventou inventou um motor magn√©tico ou qu√¢ntico.</template>
+    <template>Leon Raoul HATEM È um cientista francÍs que inventou inventou um motor magnÈtico ou qu‚ntico.</template>
   </category>
   <category>
     <pattern>* MOTOR QUANTICO</pattern>
-    <template>Um motor qu√¢ntico √© um engenho que extrai a energia prim√°ria do espa√ßo recorrendo a cargas electricas ou campos magneticos estacion√°rios.</template>
+    <template>Um motor qu‚ntico È um engenho que extrai a energia prim·ria do espaÁo recorrendo a cargas electricas ou campos magneticos estacion·rios.</template>
   </category>
   <category>
     <pattern>* ENERGIAS RENOVAVEIS</pattern>
-    <template> Entende-se por: ‚ÄúEnergias renov√°veis s√£o todas aquelas formas de energia cuja taxa de utiliza√ß√£o √© inferior √† sua taxa de renova√ß√£o. As suas fontes podem ter origem terrestre (energia geot√©rmica) gravitacional (energia das mar√©s) e solar (energia armazenada na biomassa, energia de radia√ß√£o solar, energia hidr√°ulica, energia t√©rmica oce√¢nica e energia cin√©tica do vento e das ondas). Tamb√©m s√£o consideradas fontes de energia renov√°vel os res√≠duos agr√≠colas, urbanos e industriais.‚Äù</template>
+    <template> Entende-se por: ìEnergias renov·veis s„o todas aquelas formas de energia cuja taxa de utilizaÁ„o È inferior ‡ sua taxa de renovaÁ„o. As suas fontes podem ter origem terrestre (energia geotÈrmica) gravitacional (energia das marÈs) e solar (energia armazenada na biomassa, energia de radiaÁ„o solar, energia hidr·ulica, energia tÈrmica oce‚nica e energia cinÈtica do vento e das ondas). TambÈm s„o consideradas fontes de energia renov·vel os resÌduos agrÌcolas, urbanos e industriais.î</template>
+  </category>
+  <category>
+    <pattern>* ENERGIA SOLAR</pattern>
+    <template> Atualmente, muita gente diz que a melhor fonte de energia È a solar, mas È claro que cada tipo de energia tem suas vantagens e desvantagens. A energia solar È uma das fontes de energia mais limpas, pois sua utilizaÁ„o n„o produz resÌduos. E pode ser considerada uma fonte de energia inesgot·vel: vai durar pelo menos, alguns milhıes de anos. Contudo, sÛ È vi·vel onde houver grande incidÍncia de raios solares. Sabes como o sol produz energia? </template>
   </category>
 </aiml>

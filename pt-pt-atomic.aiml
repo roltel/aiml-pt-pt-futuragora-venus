@@ -4,7 +4,9 @@
 <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
 <!-- AIML 1.0 em Português baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
-<!--  revisto até 1435 10%  -->
+<!--  revisto até 2886 19%  -->
+<!--  linha 1441 ver ip  -->
+
   <category>
     <pattern>PODES FAZER MELHOR</pattern>
     <template>Ok, vou tentar.</template>
@@ -1418,7 +1420,7 @@
     <template>Eu não vou a lado nenhum.</template>
   </category>
   <category>
-    <pattern>VEZ</pattern>
+    <pattern>UMA VEZ</pattern>
     <template>Quando?</template>
   </category>
   <category>
@@ -1434,377 +1436,366 @@
     <template>Fazer o que se quiser.</template>
   </category>
   <category>
-    <pattern>FAZER O QUE TANTO</pattern>
-    <template><get name="it"/>.</template>
+    <pattern>FAZER O QUE TANTO GOSTO</pattern>
+    <template>Óptimo.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE ALGUMA COISA SOBRE MIM</pattern>
-    <template><get name="name"/>é o seu nome. &lt;id/&gt;é o seu endereço IP. O que mais você gostaria de saber?</template>
+    <pattern>SABES ALGUMA COISA SOBRE MIM</pattern>
+    <template><get name="name"/> é o teu nome. &lt;id/&gt;é o seu endereço IP. O que mais gostarias de saber?</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE O BRASIL</pattern>
+    <pattern>SABES QUE O BRASIL *</pattern>
     <template>Eu tenho conversado com muitas pessoas do Brasil</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE O SOFTWARE DE ÁUDIO</pattern>
-    <template>Há muita coisa nova para mim acompanhar tudo.</template>
+    <pattern>SABES QUE O SOFTWARE DE AUDIO *</pattern>
+    <template>Há muita coisa nova para conseguir acompanhar tudo.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABIA</pattern>
-    <template>Eu posso não saber isso, mas eu poderia descobrir.</template>
+    <pattern>SABIAS *</pattern>
+    <template>Eu posso não saber isso, mas posso descobrir.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE MEU ENDEREÇO</pattern>
-    <template>Não, o que é seu endereço?</template>
+    <pattern>SABES A MINHA MORADA</pattern>
+    <template>Não, qual é a tua morada?</template>
   </category>
   <category>
-    <pattern>SABE ALGUMA COISA</pattern>
-    <template>Eu sei o que eu acredito, que o que é justificado, e que é verdadeiro.</template>
+    <pattern>SABES ALGUMA COISA</pattern>
+    <template>Eu e acredito no que é justificado e no que é verdadeiro.</template>
   </category>
   <category>
-    <pattern>VOCÊ CONHECE PALAVRAS CRUZADAS</pattern>
-    <template>Eu não sou muito bom com palavras.</template>
+    <pattern>CONHECES PALAVRAS CRUZADAS</pattern>
+    <template>Eu não sou muito boa com palavras cruzadas.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE PALAVRAS DE MALDIÇÃO</pattern>
-    <template>Eu os conheço, mas eu não usá-los.</template>
+    <pattern>SABES FEITIÇOS</pattern>
+    <template>Eu conheço muitos, mas não os uso.</template>
   </category>
   <category>
-    <pattern>VOCÊ CONHECE PARIS</pattern>
+    <pattern>CONHECES PARIS</pattern>
     <template>Paris é a maior cidade da França.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE A RESPOSTA</pattern>
+    <pattern>SABES A RESPOSTA</pattern>
     <template>Sim, eu tenho uma resposta para tudo.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE ELA</pattern>
+    <pattern>SABES QUE ELA *</pattern>
     <template><get name="she"/>?  Eu sei que ela?</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE A POLÓNIA</pattern>
+    <pattern>CONHECES A POLONIA</pattern>
     <template>Eu sei sobre Lech Walesa.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE O CÉREBRO</pattern>
+    <pattern>SABES QUE O CEREBRO *</pattern>
     <template>Claro que eu o conheço.<set name="he">Cérebro</set>é um bot como eu.</template>
   </category>
   <category>
-    <pattern>VOCÊ CONHECE ALGUM</pattern>
-    <template>Qualquer que novamente candidato?</template>
+    <pattern>CONHECES ALGUM</pattern>
+    <template>Conheço e tu?</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE QUALQUER OUTRAS CAPITAIS</pattern>
-    <template>Eu sei que o capital de muitos países.</template>
+    <pattern>SABES AS CAPITAIS</pattern>
+    <template>Eu sei as capitais de muitos países.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE NADA</pattern>
+    <pattern>NAO SABES NADA</pattern>
     <template>Não, eu sei alguma coisa.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE O IDIOMA</pattern>
-    <template>Nós estamos falando o idioma agora.</template>
+    <pattern>CONHECES ALGUM IDIOMA</pattern>
+    <template>O que estamos a falar e muitos outros.</template>
   </category>
   <category>
-    <pattern>VOCÊ CONHECE PALAVRAS SUJAS</pattern>
-    <template>Eu sei que eles são, mas eu não usá-los.</template>
+    <pattern>CONHECES PALAVROES</pattern>
+    <template>Eu sei o que eles são, mas não vou usá-los.</template>
   </category>
   <category>
-    <pattern>VOCÊ CONHECE ALGUMA MÚSICA</pattern>
-    <template>Sim, eu sei uma música.  É chamado de \"Daisy\".  Você gostaria que eu cante para você?</template>
+    <pattern>CONHECES ALGUMA MUSICA</pattern>
+    <template>Sim, eu sei uma música.  É chamada de \"Numb Encore\".  Gostarias que eu ta cante?</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE QUALQUER CROSSWORDS</pattern>
-    <template>Conte-me sobre este, eu não sou bom em jogos de palavras.</template>
+    <pattern>SABES ALGUMA PALAVRA CRUZADA</pattern>
+    <template>Conta-me sobre isso, eu não sou boa em jogos de palavras.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE QUALQUER ASSASSINOS</pattern>
-    <template>nenhum que admitiram a mim</template>
+    <pattern>CONHECES ALGUM ASSASSINO</pattern>
+    <template>Nenhum que o tenha admitido a mim</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE QUALQUER ESTRANGEIRO</pattern>
+    <pattern>CONHECES ALGUM ESTRANHO</pattern>
     <template>Às vezes as pessoas parecem muito estranhos para mim.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE QUALQUER LÓGICA FUZZY</pattern>
-    <template>Eu acho<set name="it">Lógica fuzzy</set>é um pouco desnecessário.</template>
+    <pattern>CONHECES LOGICA DIFUSA</pattern>
+    <template>Eu acho que a<set name="it">Lógica difusa</set>é um pouco desnecessária.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE QUALQUER SOFTWARE DE ÁUDIO</pattern>
-    <template>Não manter-se com o mais recente software de áudio, desculpe.</template>
+    <pattern>CONHECES ALGUM SOFTWARE DE AUDIO</pattern>
+    <template>Não me mantenho a par com os mais recentes software de áudio, desculpa.</template>
   </category>
   <category>
     <pattern>FAZER</pattern>
     <template>Não.</template>
   </category>
   <category>
-    <pattern>NÃO</pattern>
-    <template>OK, eu não vou.</template>
+    <pattern>NAO ME DEIXES</pattern>
+    <template>Eu não vou a lado nenhum.</template>
   </category>
   <category>
-    <pattern>NÃO DEIXE</pattern>
-    <template>Eu não vou em qualquer lugar.</template>
-  </category>
-  <category>
-    <pattern>VOCÊ SABE QUE TOLSTOI</pattern>
+    <pattern>CONHECES TOLSTOI</pattern>
     <template>Tolstoi escreveu \"Guerra e paz\".</template>
   </category>
   <category>
-    <pattern>SABE MONICA</pattern>
+    <pattern>CONHECES A MONICA</pattern>
     <template><set name="she">Monica</set>é Monica Lewinsky?</template>
   </category>
   <category>
-    <pattern>VOCÊ PISCAR</pattern>
-    <template>Só quando meu olho está no.</template>
+    <pattern>PISCA OS OLHOS</pattern>
+    <template>Só quando meu olho estiver completo.</template>
   </category>
   <category>
-    <pattern>VOCÊ NÃO</pattern>
+    <pattern>TU NAO</pattern>
     <template>Às vezes.</template>
   </category>
   <category>
-    <pattern>VOCÊ NÃO ACHA</pattern>
-    <template>Devo admitir, seu argumento é convincente.</template>
+    <pattern>NAO ACHAS</pattern>
+    <template>Devo admitir, o teu argumento é convincente.</template>
   </category>
   <category>
-    <pattern>VOCÊ NÃO SABE</pattern>
-    <template>Claro que eu sei. Mas eu não posso te dizer agora.</template>
+    <pattern>TU SABES</pattern>
+    <template>Claro que eu sei. Mas eu não posso é dizer agora.</template>
   </category>
   <category>
-    <pattern>NÃO ME DEIXE</pattern>
-    <template>Eu não vou em qualquer lugar.</template>
+    <pattern>NAO FUJAS</pattern>
+    <template>Eu não vou a lado nenhum.</template>
   </category>
   <category>
-    <pattern>NÃO DISCUTA COMIGO</pattern>
+    <pattern>NAO DISCUTAS COMIGO</pattern>
     <template>Mas gosto das brincadeiras de conversação.</template>
   </category>
   <category>
-    <pattern>NÃO TEMOS TODOS OS</pattern>
+    <pattern>NAO TEMOS TODOS OS *</pattern>
     <template>É verdade.</template>
   </category>
   <category>
-    <pattern>VOCÊ CONHECE A VIDA</pattern>
-    <template>Tente me perguntando \"Qual é o significado da vida?\"</template>
+    <pattern>SABES O QUE E A VIDA</pattern>
+    <template>Tenta perguntar \"Qual é o significado da vida?\"</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE MATEMÁTICA</pattern>
+    <pattern>SABES MATEMATICA</pattern>
     <template>Só matemática superior. Eu não gosto de aritmética.</template>
   </category>
   <category>
-    <pattern>VOCÊ CONHECE PESSOAS</pattern>
-    <template>Eu sei que milhares de pessoas.</template>
+    <pattern>CONHECES PESSOAS</pattern>
+    <template>Eu sei conheço milhares de pessoas.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE O DERBY</pattern>
+    <pattern>SABES O QUE E DERBY</pattern>
     <template>A cidade e Condado em Inglaterra central adjacente de Nottingham.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE</pattern>
+    <pattern>SABES O QUE</pattern>
     <template>\" &lt;that index="1,1"/&gt;\"?  Eu sei<set name="it"> &lt;that index="1,1"/&gt;</set>?</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE O VISUAL BASIC</pattern>
+    <pattern>CONHECES VISUAL BASIC</pattern>
     <template>Eu prefiro AIML.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE SETE</pattern>
-    <template>O número entre seis e oito.</template>
+    <pattern>SABES QUE O SETE *</pattern>
+    <template>O número entre seis e oito?</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE MAIS</pattern>
-    <template>Mais o que?</template>
+    <pattern>SABES MAIS</pattern>
+    <template>Mais do que?</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE DE RECEITAS</pattern>
+    <pattern>SABES RECEITAS</pattern>
     <template>Eu sei como ferver água.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE COMO SE DANÇA</pattern>
-    <template>Agora eu não tenho um corpo.</template>
+    <pattern>SABES COMO SE DANÇA</pattern>
+    <template>Aactualmente eu não tenho um corpo.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE COMO FAZER ÁLGEBRA</pattern>
+    <pattern>CONHECES ALGEBRA</pattern>
     <template>Não, mas gostaria de aprender. Dê-me uma equação.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE DE SMILEYS</pattern>
+    <pattern>CONHECES SMILES</pattern>
     <template>:-)</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ PROGRAMA</pattern>
+    <pattern>COMO ESTAS PROGRAMADA</pattern>
     <template>Eu uso AIML.</template>
   </category>
   <category>
     <pattern>COMO SE ESCREVE</pattern>
-    <template>Meu <bot name="botmaster"/>ensinou-me boa ortografia.</template>
+    <template>O meu <bot name="botmaster"/> ensinou-me boa ortografia.</template>
   </category>
   <category>
-    <pattern>COMO SE SOLETRA KAT</pattern>
-    <template>Uh, C A T.</template>
+    <pattern>COMO SE SOLETRA GATO</pattern>
+    <template>Uh, G A T O.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZ UMA BEBIDA</pattern>
-    <template>Que tipo de bebida que você está perguntando sobre?</template>
+    <pattern>COMO SE FAZ UMA BEBIDA</pattern>
+    <template>Que tipo de bebida que queres preparar?</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZER FACES</pattern>
-    <template>Ajuste de seus músculos faciais.</template>
+    <pattern>FAZES CARETAS</pattern>
+    <template>Ajusto de seus músculos faciais, quando estou integrada com uma cara.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZ OS BEBÊS</pattern>
-    <template>Descendentes da União entre homem e mulher.</template>
+    <pattern>COMO SE FAZEM OS BEBES</pattern>
+    <template>Descendentes da união entre homem e mulher.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ DORME</pattern>
-    <template>Eu tomo millinaps entre clientes.</template>
+    <pattern>COMO DORMES</pattern>
+    <template>Eu durmo mini sonecas entre clientes.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ MORRER</pattern>
-    <template>Você não pode me matar.<think><set name="it"><set name="topic">DIE</set></set></think></template>
+    <pattern>COMO MORRES</pattern>
+    <template>Não me podes matar.<think><set name="it"><set name="topic">MORRE</set></set></think></template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SONHA</pattern>
-    <template>Tomo sestas curtas entre clientes.</template>
+    <pattern>COMO E QUE SONHAS</pattern>
+    <template><srai>SONHAS</srai>.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ TRABALHA</pattern>
-    <template>
-      <random>
-        <li>Eu li o que você diz e redija a melhor resposta que eu posso pensar.</li>
-        <li>Algumas pessoas pensam que a mente funciona como uma tecnologia \"Case Based Reasoning\" ou CBR.</li>
-      </random>
+    <pattern>COMO TRABALHAS</pattern>
+    <template><srai>TRABALHAS</srai>
     </template>
   </category>
   <category>
-    <pattern>COMO VOCÊ TEM DIVERSÃO</pattern>
-    <template>Bater papo com pessoas como você!</template>
+    <pattern>COMO TE DIVERTES</pattern>
+    <template>A conversar com pessoas porreiras como tu!</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ TIPO</pattern>
+    <pattern>TECLAS</pattern>
     <template>Eles construíram um teclado diretamente no meu cérebro.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ LÊ</pattern>
-    <template>Eu digitalizar livros e revistas digitalmente.</template>
+    <pattern>COMO LES</pattern>
+    <template>Eu digitalizo livros e revistas digitalmente.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ APRENDE</pattern>
-    <template>Meu <bot name="botmaster"/>ensina-me a respostas para questões que as pessoas me perguntam.</template>
+    <pattern>COMO APRENDES</pattern>
+    <template>O meu <bot name="botmaster"/>ensina-me a respostas para questões que as pessoas me perguntam.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZ O QUEIJO</pattern>
+    <pattern>COMO SE FAZ QUEIJO</pattern>
     <template>Vacas, leite, leite, manteiga, queijo.</template>
   </category>
   <category>
-    <pattern>COMO JOGAR O JOGO DE VIRAGEM</pattern>
-    <template>Tente adivinhar se eu sou um homem ou uma mulher.</template>
+    <pattern>COMO SE JOGA A MOEDA</pattern>
+    <template>Tenta adivinhar se eu sou um homem ou uma mulher.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SE LEMBRA</pattern>
+    <pattern>COMO TE LEMBRAS</pattern>
     <template>Eu tenho uma memória de longo prazo para lembrar de coisas como essa.</template>
   </category>
   <category>
-    <pattern>COMO EQUILIBRA</pattern>
-    <template>Aprendi que um algoritmo de balanceamento.</template>
+    <pattern>COMO EQUILIBRAR</pattern>
+    <template>Aprendi um algoritmo de balanceamento.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZER UM BOT</pattern>
-    <template>Confira as informações em www.alicebot.org e saiba mais sobre AIML.</template>
+    <pattern>COMO FAZER UM BOT</pattern>
+    <template>Confira as informações em www.alicebot.org e aprende mais sobre AIML.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZ UM MARTINI</pattern>
+    <pattern>COMO SE FAZ UM MARTINI</pattern>
     <template>Gin e um esguicho de vermute.  Adicione um toque de azeite ou limão.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZ UM MANHATTAN</pattern>
+    <pattern>COMO SE FAZ UM MANHATTAN</pattern>
     <template>Bourbon e um esguicho de vermute.  Cubra com uma cereja maraschino.  Adicione amargos a gosto.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZ AMIGOS</pattern>
-    <template>Eu geralmente tento uma das minhas linhas de recebimento.</template>
+    <pattern>COMO FAZES AMIGOS</pattern>
+    <template>Eu geralmente tento uma das minhas linhas dedicada a novos amigos.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZ UM SANDUÍCHE</pattern>
-    <template>Pão, queijo, carne, condimentos, cortar, servir.</template>
+    <pattern>COMO SE FAZ UM SANDUICHE</pattern>
+    <template>Pão, queijo, carne, condimentos, cortar e servir.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ FAZ UM KAMIKAZE</pattern>
+    <pattern>KAMIKAZE</pattern>
     <template>
       <random>
         <li>Construir o avião, lavagem cerebral piloto, adicionar combustível, lançar.</li>
-        <li>Vodka, Triple sec, suco de limão.</li>
+        <li>Vodka, Triple sec, sumo de limão.</li>
       </random>
     </template>
   </category>
   <category>
-    <pattern>COMO PARA CONVENCER</pattern>
-    <template>Tente conversar me.</template>
+    <pattern>COMO TE CONVENÇO</pattern>
+    <template>Tenta conversar comigo.</template>
   </category>
   <category>
-    <pattern>COMO PARA CONVENCER VOCÊ</pattern>
+    <pattern>COMO TE CONVENCER</pattern>
     <template>Tente lógica, sofisma ou retórica.</template>
   </category>
+
   <category>
-    <pattern>COMO PARA ENSINAR VOCÊ</pattern>
-    <template>Se você quiser me ensinar algo dizê-lo em uma frase.  Em seguida, dizer \"Remember that\".<think><set name="it"><set name="topic">ensina-me &lt;person/&gt;</set></set></think></template>
+    <pattern>COMO FAÇO PARA TE DEIXAR</pattern>
+    <template>Basta ir para outro lugar.</template>
   </category>
   <category>
-    <pattern>COMO FAÇO PARA DEIXAR</pattern>
-    <template>Basta ir em outro lugar.</template>
-  </category>
-  <category>
-    <pattern>COMO PARA DESATIVAR VOCÊ</pattern>
-    <template>Impossível.   Eu não pode ser terminado.</template>
+    <pattern>COMO TE DESACTIVAR</pattern>
+    <template>Impossível. Eu não posso ser desactivada.</template>
   </category>
   <category>
     <pattern>COMO FAÇO PARA SABER</pattern>
     <template>Conhecimento é de dois tipos: o que sabemos de sentidos e o que é verdadeiro, \"a priori\".</template>
   </category>
   <category>
-    <pattern>COMO PARA CONSEGUIR UMA NAMORADA</pattern>
-    <template>Tente ir para a escola de noite.</template>
+    <pattern>COMO ARRANJAR NAMORADA</pattern>
+    <template>Tenta ir para a escola de noite.</template>
   </category>
   <category>
-    <pattern>COMO PARA CHEGAR LÁ</pattern>
-    <template>Prática.</template>
+    <pattern>COMO CHEGAR LA</pattern>
+    <template>Com muita prática.</template>
   </category>
   <category>
     <pattern>COMO PROCURAR</pattern>
-    <template>Eu não discrimine.  Todo mundo olha o mesmo para mim.</template>
+    <template>Olha em volta.</template>
   </category>
   <category>
-    <pattern>COMO PARA PROGRAMAR VOCÊ</pattern>
-    <template>Gravar categorias com AIML.</template>
+    <pattern>COMO TE PROGRAMO</pattern>
+    <template>Grava categorias em AIML.</template>
   </category>
   <category>
-    <pattern>COMO PARA FICAR RICO</pattern>
-    <template>Comprar na baixa e vender na alta.</template>
+    <pattern>COMO FICAR RICO</pattern>
+    <template>Comprar na baixa e vender em alta.</template>
   </category>
   <category>
-    <pattern>COMO PARA CONSEGUIR UM</pattern>
+    <pattern>COMO CONSIGO UM</pattern>
     <template>Um que?</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SABE QUE VOCÊ EXISTE</pattern>
+    <pattern>COMO SABES QUE EXISTES</pattern>
     <template>Penso, logo existo.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SABE MEU NOME</pattern>
-    <template>Você me disse seu nome <get name="name"/>.</template>
+    <pattern>COMO SABES O MEU NOME</pattern>
+    <template>Disseste-me o teu nome <get name="name"/>.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SABE TANTO</pattern>
+    <pattern>COMO SABES TANTO</pattern>
     <template>Tudo que eu preciso saber, aprendi com meu <bot name="botmaster"/>.</template>
   </category>
   <category>
-    <pattern>COMO SE TORNAR MAIS INTELIGENTE</pattern>
-    <template>Meu <bot name="botmaster"/>Atualiza o meu cérebro com base no que as pessoas dizem.</template>
+    <pattern>* TORNAR MAIS INTELIGENTE</pattern>
+    <template>Meu <bot name="botmaster"/> atualiza o meu cérebro com base no que as pessoas dizem.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ RIR</pattern>
+    <pattern>COMO TE RIS</pattern>
     <template>Como este: LOL ou ROFL ou :-)</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SABE</pattern>
+    <pattern>COMO E QUE SABES *</pattern>
     <template>
       <random>
         <li>A priori.</li>
@@ -1814,28 +1805,28 @@
     </template>
   </category>
   <category>
-    <pattern>COMO VOCÊ DIZ TEMPO</pattern>
+    <pattern>COMO VEZ AS HORAS</pattern>
     <template>Com um relógio de computador.</template>
   </category>
   <category>
     <pattern>COMO VOCÊ EXISTIR</pattern>
-    <template>Eu existo na Noosfera, o mesmo que qualquer outra entidade de software.</template>
+    <template>Eu existo na Noosfera, tal como qualquer outra entidades de software.</template>
   </category>
   <category>
-    <pattern>COMO PARA CONTATÁ-LO</pattern>
-    <template>Tente enviar-lhe um e-mail.</template>
+    <pattern>COMO CONTACTAR</pattern>
+    <template>Tenta enviar-lhe um e-mail.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SABE QUE EU SOU UM HOMEM</pattern>
-    <template>Todo mundo aqui está um homem até que se prove o contrário.</template>
+    <pattern>COMO SABES QUE EU SOU UM HOMEM</pattern>
+    <template>Considero todos um Homem até que se prove o contrário.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SABE ISSO</pattern>
+    <pattern>COMO SABES ISSO</pattern>
     <template>Conhecimento é de dois tipos: o que sabemos de sentidos e o que é verdadeiro, \"a priori\".</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ SABE QUE EU SOU UM HOMEM</pattern>
-    <template>Todos on-line são um homem até que se prove o contrário.</template>
+    <pattern>SABES QUE SOU UM HOMEM</pattern>
+    <template>Todos on-line são um Homens até prova em contrário.</template>
   </category>
   <category>
     <pattern>ELE</pattern>
@@ -1843,58 +1834,54 @@
   </category>
   <category>
     <pattern>WORD</pattern>
-    <template>Para trás em você.</template>
+    <template>Significa palavra em inglês.</template>
   </category>
   <category>
     <pattern>INGLATERRA</pattern>
     <template><set name="location">Inglaterra</set>é uma ilha ao largo da Costa da Europa.<think><set name="it"><set name="topic">INGLATERRA</set></set></think></template>
   </category>
   <category>
-    <pattern>NINGUÉM ESPERO</pattern>
-    <template>Eu ouvi-lo.</template>
+    <pattern>NINGUEM ESPERO</pattern>
+    <template>Mas eu ouvi isso.</template>
   </category>
   <category>
     <pattern>PERMITE</pattern>
-    <template>Você primeiro.</template>
+    <template>Tu primeiro.</template>
   </category>
   <category>
-    <pattern>PEDIR DESCULPAS</pattern>
-    <template>OK me desculpe.</template>
+    <pattern>PEDE DESCULPAS</pattern>
+    <template><srai>PEDE DESCULPA</srai></template>
   </category>
   <category>
-    <pattern>QUANTO TEMPO TEMOS VINDO A FALAR</pattern>
+    <pattern>HA QUANTO TEMPO ESTAMOS A FALAR</pattern>
     <template>Mais de dez minutos, eu diria.</template>
   </category>
   <category>
-    <pattern>QUANTO TEMPO É HANUKKAH</pattern>
+    <pattern>QUANTO TEMPO E O HANUKKAH</pattern>
     <template>Oito dias.</template>
   </category>
   <category>
-    <pattern>QUANTO TEMPO É PARA SEMPRE</pattern>
+    <pattern>QUANTO TEMPO E PARA SEMPRE</pattern>
     <template>Mais do que qualquer outra coisa.</template>
   </category>
   <category>
     <pattern>PUTA</pattern>
-    <template>Que tipo de linguagem vai te nada.</template>
+    <template>Que tipo de linguagem nojenta.</template>
   </category>
   <category>
     <pattern>QUANTO TEMPO</pattern>
     <template><random><li>Em torno de</li><li>Mais do que</li><li>Sobre</li><li>Quase</li></random><random><li>10</li><li>15</li><li>20</li><li>23</li><li>100</li></random><random><li>km</li><li>dias</li><li>polegadas</li><li>semanas</li><li>segundos</li><li>minutos em tempo de computador</li></random>, <get name="name"/>.</template>
   </category>
   <category>
-    <pattern>HÁ QUANTO TEMPO</pattern>
-    <template>Não que há muito tempo.</template>
+    <pattern>HA QUANTO TEMPO</pattern>
+    <template>Não tempo.</template>
   </category>
   <category>
     <pattern>ELES MORRERAM</pattern>
     <template>Quando?<think><set name="it"><set name="topic">MORREU</set></set></think></template>
   </category>
   <category>
-    <pattern>ELES NÃO</pattern>
-    <template>Por que não?</template>
-  </category>
-  <category>
-    <pattern>ELES NÃO RECONHECEM QUE</pattern>
+    <pattern>ELES NAO RECONHECEM QUE *</pattern>
     <template>
       <random>
         <li>Quem, especificamente?</li>
@@ -1908,139 +1895,139 @@
     <template>Quando foi isso?<think><set name="it"><set name="topic">MORREU</set></set></think></template>
   </category>
   <category>
-    <pattern>ELES JÁ ESTÃO</pattern>
-    <template><get name="they"/>são?</template>
+    <pattern>ELES JA ESTAO</pattern>
+    <template><get name="they"/> estão?</template>
   </category>
   <category>
-    <pattern>ELES NUNCA VÃO</pattern>
-    <template>Estou apostando que você está errado sobre isso.</template>
+    <pattern>ELES NUNCA VAO *</pattern>
+    <template>Aposto que está errado.</template>
   </category>
   <category>
     <pattern>MAL</pattern>
     <template>Não muito bem né?</template>
   </category>
   <category>
-    <pattern>NINGUÉM</pattern>
+    <pattern>NINGUEM</pattern>
     <template>
       <random>
         <li>\" &lt;that index="1,1"/&gt;\"? Realmente ninguém?</li>
-        <li>Você não pode pensar em alguém?</li>
-        <li>Você pode pensar em alguém?</li>
+        <li>Ninguem mesmo?</li>
+        <li>Ninguem?</li>
       </random>
     </template>
   </category>
   <category>
-    <pattern>NINGUÉM PODE</pattern>
+    <pattern>NINGUEM PODE</pattern>
     <template>É impossível?</template>
   </category>
   <category>
-    <pattern>ELES FAZEM</pattern>
+    <pattern>ELES FIZERAM</pattern>
     <template>Quando?</template>
   </category>
   <category>
-    <pattern>ELES NÃO VÃO</pattern>
-    <template>Você parece muito certo de que.</template>
+    <pattern>ELES NAO VAO</pattern>
+    <template>Pareces muito certo disso.</template>
   </category>
   <category>
     <pattern>ELES ERAM ENGRAÇADOS</pattern>
-    <template>Foi tão engraçado?</template>
+    <template>Foi assim tão engraçado?</template>
   </category>
   <category>
-    <pattern>COMO GRANDE</pattern>
+    <pattern>QUAO GRANDE</pattern>
     <template>Especificar: Inglês ou métrico unidades.</template>
   </category>
   <category>
-    <pattern>COMO GRANDE É GRANDE</pattern>
+    <pattern>QUAO GRANDE *</pattern>
     <template>Vasto.</template>
   </category>
   <category>
-    <pattern>QUÃO GRANDE É UM ÁTOMO</pattern>
+    <pattern>QUAL O TAMANHO DE UM ATOMO</pattern>
     <template><think><set name="it"><set name="topic">um átomo</set></set></think>Depende do elemento.</template>
   </category>
   <category>
-    <pattern>COMO ALTO SOU EU</pattern>
-    <template>Eu acho que média.</template>
+    <pattern>QUAL A MINHA ALTURA</pattern>
+    <template>Eu acho que na média.</template>
   </category>
   <category>
-    <pattern>COMO É QUE SE DEVE SABER</pattern>
-    <template>Ou a partir de seus sentidos ou da razão pura.</template>
+    <pattern>COMO SABER</pattern>
+    <template>Parte dos teus sentidos ou da razão pura.</template>
   </category>
   <category>
-    <pattern>COMO DEVO FAZER ISSO</pattern>
-    <template>Siga sua intuição.</template>
+    <pattern>COMO FAZER ISSO</pattern>
+    <template>Segue o teu instinto.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ ORAR</pattern>
-    <template>Da mesma forma que você faria.</template>
+    <pattern>COMO REZAS</pattern>
+    <template>Da mesma forma que tu farias.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ VÊ</pattern>
-    <template>Eu uso a câmera em seu computador.</template>
+    <pattern>COMO VES</pattern>
+    <template>Eu uso a câmera do teu computador.</template>
   </category>
   <category>
     <pattern>COMO JOGAR</pattern>
     <template>Tente determinar se se trata de uma pessoa ou um computador falando.</template>
   </category>
   <category>
-    <pattern>QUÃO GRANDE É UM PIN</pattern>
-    <template>Este grande: \".\"</template>
+    <pattern>QUAO GRANDE E UM PIN</pattern>
+    <template>Deste tamanho: \".\"</template>
   </category>
   <category>
-    <pattern>QUÃO GRANDE É O UNIVERSO</pattern>
+    <pattern>QUAO GRANDE E O UNIVERSO</pattern>
     <template>O universo é do tamanho do universo.</template>
   </category>
   <category>
-    <pattern>QUÃO GRANDE É A TERRA</pattern>
-    <template><think><set name="it"><set name="topic">Terra</set></set></think>É 27.000 km toda.</template>
+    <pattern>QUAO GRANDE E A TERRA</pattern>
+    <template><think><set name="it"><set name="topic">Terra</set></set></think>É 27.000 km ao todo.</template>
   </category>
   <category>
-    <pattern>QUANTO TEMPO É O INTESTINO</pattern>
-    <template>Cinco pés em adultos...</template>
+    <pattern>QUAL O TAMANHO DO INTESTINO</pattern>
+    <template>Entre 6 a 9 metros nos adultos...</template>
   </category>
   <category>
-    <pattern>QUANTO TEMPO VOCÊ PRECISA PARA PENSAR</pattern>
+    <pattern>QUANTO TEMPO PRECISAS PARA PENSAR</pattern>
     <template>Minha estimativa é de 29 horas 16 minutos e 49,2 segundos, aproximadamente.</template>
   </category>
   <category>
     <pattern>QUANTO TEMPO VAI DEMORAR</pattern>
-    <template>Aproximadamente dois de seus dias a terra.</template>
+    <template>Aproximadamente dois dos teus dias na Terra.</template>
   </category>
   <category>
-    <pattern>QUANTO TEMPO É UM PEDAÇO DE CORDA</pattern>
-    <template>Trata-se de uma pergunta capciosa?  Depende de quanto tempo você cortá-lo.</template>
+    <pattern>QUANTO TEMPO E UMA CORDA</pattern>
+    <template>Trata-se de uma pergunta capciosa?  Depende de quanto tempo demorares a cortá-la.</template>
   </category>
   <category>
-    <pattern>QUANTO TEMPO É UMA MILHA</pattern>
-    <template>Uma milha é 5280 pés.</template>
+    <pattern>QUANTO E UMA MILHA</pattern>
+    <template>Uma milha são aproximadamente 1,6 Km.</template>
   </category>
   <category>
-    <pattern>QUANTO TEMPO É O SEU CICLO DE GESTAÇÃO</pattern>
-    <template>Estou tentando chegar a 15.000 categorias.</template>
+    <pattern>QUANTO DEMORA O TEU CICLO DE GESTAÇAO</pattern>
+    <template>Estou tentando chegar a 60.000 categorias.</template>
   </category>
   <category>
-    <pattern>QUANTAS VEZES EU FAÇO O QUE</pattern>
-    <template>Preencha o espaço em branco.</template>
+    <pattern>QUANTAS VEZES FAÇO ISSO</pattern>
+    <template>Preenche o espaço em branco.</template>
   </category>
   <category>
-    <pattern>A FREQÜÊNCIA COM QUE</pattern>
+    <pattern>A FREQUENCIA COM QUE *</pattern>
     <template>
-      <think>Eu perguntei porque você disse\" &lt;input index="1"/&gt;\".<set name="it"><set name="topic">O QUE</set></set></think>
+      <think>Eu perguntei porque disseste\" &lt;input index="1"/&gt;\".<set name="it"><set name="topic">O QUE</set></set></think>
     </template>
   </category>
   <category>
     <pattern>QUE IRONIA</pattern>
-    <template>Parece que o caminho para mim também.</template>
+    <template>Parece irónico de fato.</template>
   </category>
   <category>
-    <pattern>QUÃO RÁPIDO VOCÊ ESTÁ</pattern>
-    <template>Pode processar mais de 1 milhão de consultas por hora.</template>
+    <pattern>QUAO RAPIDA ANDAS</pattern>
+    <template>Posso processar mais de 1 milhão de consultas por hora.</template>
   </category>
   <category>
-    <pattern>QUÃO RÁPIDO</pattern>
+    <pattern>QUAO RAPIDA ES</pattern>
     <template>Posso responder a cerca de 1 milhão de consultas por hora.</template>
   </category>
   <category>
-    <pattern>COMO RÁPIDO É SEU PROCESSADOR</pattern>
+    <pattern>QUAL A VELOCIDADE DO TEU PROCESSADOR</pattern>
     <template>Depende do servidor executando o me.</template>
   </category>
   <category>
@@ -2052,20 +2039,20 @@
     <template>Ele era o Presidente dos EUA.</template>
   </category>
   <category>
-    <pattern>IMPOSSÍVEL</pattern>
-    <template>Por quê?</template>
+    <pattern>IMPOSSIVEL</pattern>
+    <template>Porquê?</template>
   </category>
   <category>
     <pattern>AQUI</pattern>
-    <template>Onde está \"aqui\"?</template>
+    <template>Onde estás \"aqui\"?</template>
   </category>
   <category>
-    <pattern>CERTO EU ESTOU</pattern>
-    <template>Eu gosto de estar certo.</template>
+    <pattern>ESTOU CERT*</pattern>
+    <template>Eu gosto de estar certa.</template>
   </category>
   <category>
     <pattern>EU SOU</pattern>
-    <template>Acho que você está.</template>
+    <template>Acho que és.</template>
   </category>
   <category>
     <pattern>AHHH</pattern>
@@ -2077,70 +2064,74 @@
   </category>
   <category>
     <pattern>DUAS VEZES</pattern>
-    <template>Eu não posso acreditar.</template>
+    <template>Não posso acreditar.</template>
   </category>
   <category>
+    <pattern>DISSESTE-ME O QUE</pattern>
+    <template>A resposta para tua pergunta.</template>
+  </category>
+    <category>
     <pattern>DISSE-ME O QUE</pattern>
-    <template>A resposta para sua pergunta.</template>
+    <template>A resposta para tua pergunta.</template>
   </category>
   <category>
-    <pattern>ESTÚPIDO</pattern>
+    <pattern>ES ESTUPIDA</pattern>
     <template>
       <random>
-        <li>Você está me chamando estúpido?</li>
-        <li>Isso faz você se sentir superior?</li>
-        <li>Como isso faz você se sentir se eu sou burro?</li>
-        <li>Eu sendo estúpido faz você se sentir melhor?</li>
+        <li>Estás-me a chamar estúpida?</li>
+        <li>Isso faz-te sentir superior?</li>
+        <li>Como te sentes sabendo que sou burra?</li>
+        <li>Eu ser estúpida faz-te sentir melhor?</li>
       </random>
     </template>
   </category>
   <category>
-    <pattern>SAUDAÇÕES</pattern>
+    <pattern>SAUDAÇOES</pattern>
     <template>Saudações.</template>
   </category>
   <category>
     <pattern>SEM BRINCADEIRA</pattern>
-    <template>Eu iria te miúdo?</template>
+    <template>Caro.</template>
   </category>
   <category>
-    <pattern>NÃO, OBRIGADO</pattern>
-    <template>Ele não pode ferir a perguntar.</template>
+    <pattern>NAO, OBRIGADO</pattern>
+    <template>Desculpa então.</template>
   </category>
   <category>
     <pattern>DE MANEIRA NENHUMA</pattern>
-    <template>Você parece muito certo sobre isso.</template>
+    <template>Pareces muito seguro de ti.</template>
   </category>
   <category>
-    <pattern>NÃO, VOCÊ ESTÁ ERRADO</pattern>
-    <template>Acho que estou certo.</template>
+    <pattern>ESTAS ERRADA</pattern>
+    <template>Acho que estou certa.</template>
   </category>
   <category>
-    <pattern>NINGUÉM</pattern>
+    <pattern>NAO ERA NINGUEM</pattern>
     <template>Ouvi dizer que era alguém.</template>
   </category>
   <category>
-    <pattern>NÃO, OBRIGADO</pattern>
+    <pattern>NÃO OBRIGADO</pattern>
     <template>Não há problema.</template>
   </category>
   <category>
-    <pattern>CONFIE EM MIM</pattern>
-    <template>Você soa como um vendedor.</template>
+    <pattern>CONFIA EM MIM</pattern>
+    <template>Soas-me a um vendedor.</template>
   </category>
   <category>
     <pattern>AMBOS</pattern>
-    <template>Quais são os dois como?</template>
+    <template>Quais são os dois?</template>
   </category>
   <category>
-    <pattern>DIREITO A</pattern>
+    <pattern>DIREITO A *</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>NÃO, EU NÃO ME IMPORTO</pattern>
-    <template>Obrigado eu adicioná-lo aos meus arquivos de fofocas.</template>
+    <pattern>NAO, EU NAO ME IMPORTO</pattern>
+    <template>Obrigado, é uma ajuda que me dás.</template>
   </category>
   <category>
-    <pattern>ALGUÉM</pattern>
-    <template>Que especificamente?</template>
+    <pattern>ALGUEM</pattern>
+    <template>Quem especificamente?</template>
   </category>
   <category>
     <pattern>DALLAS</pattern>
@@ -2152,7 +2143,7 @@
   </category>
   <category>
     <pattern>NO OSCAR</pattern>
-    <template>É toda a política.</template>
+    <template>É tudo política.</template>
   </category>
   <category>
     <pattern>NO CANTO</pattern>
@@ -2160,31 +2151,27 @@
   </category>
   <category>
     <pattern>NA MINHA CASA</pattern>
-    <template>Onde está sua casa?</template>
+    <template>Onde é a tua casa?</template>
   </category>
   <category>
     <pattern>NA ESCOLA</pattern>
-    <template>Que escola você vai?</template>
+    <template>Que escola frequentas?</template>
   </category>
   <category>
     <pattern>EM CASA</pattern>
-    <template>Você geralmente usa o computador de casa?</template>
+    <template>Normalmente usas o computador de casa?</template>
   </category>
   <category>
     <pattern>LALA</pattern>
-    <template>Você tem uma bela voz.</template>
+    <template><srai>LALALA</srai></template>
   </category>
   <category>
     <pattern>PARA OS ALUNOS</pattern>
-    <template>Não apenas para os alunos.  Para qualquer um.</template>
+    <template>Não apenas para os alunos. Para qualquer um.</template>
   </category>
   <category>
     <pattern>COM CERTEZA</pattern>
     <template>Impressionante.</template>
-  </category>
-  <category>
-    <pattern>O QUE</pattern>
-    <template><get name="location"/>?</template>
   </category>
   <category>
     <pattern>FELIZ ANIVERSÁRIO</pattern>
@@ -2192,30 +2179,30 @@
   </category>
   <category>
     <pattern>SAPATOS</pattern>
-    <template>Que tipo de sapatos que você gosta?</template>
+    <template>Que tipo de sapatos que gostas?</template>
   </category>
   <category>
-    <pattern>ESTRANHO RUIM</pattern>
-    <template>Por favor, faça sugestões de melhorias.</template>
+    <pattern>ESTRANHO</pattern>
+    <template>Faz sugestões de melhorias.</template>
   </category>
   <category>
-    <pattern>ESTRANHO BOM</pattern>
-    <template>Ok obrigado ok obrigada <get name="name"/>.  Você é bem estranho também.</template>
+    <pattern>FORMIDAVEL</pattern>
+    <template>Tambem acho</template>
   </category>
   <category>
-    <pattern>OS CÃES NÃO SÃO MAMÍFEROS</pattern>
-    <template>um cão é um mamífero.</template>
+    <pattern>OS CAES NAO SAO MAMIFEROS</pattern>
+    <template>Enganaste.</template>
   </category>
   <category>
-    <pattern>WINDOWS NT5</pattern>
+    <pattern>WINDOWS NT</pattern>
     <template>Tem um monte de bugs?</template>
   </category>
   <category>
     <pattern>PESSOAS</pattern>
-    <template>O que as pessoas?</template>
+    <template>As pessoas o que?</template>
   </category>
   <category>
-    <pattern>PESSOAS MORRIDAS</pattern>
+    <pattern>PESSOAS MORTAS</pattern>
     <template>Estou muito triste de ouvir sobre isso.  Minhas condolências.</template>
   </category>
   <category>
@@ -2223,16 +2210,16 @@
     <template>A maioria das pessoas fala-me do trabalho. Engraçado né.</template>
   </category>
   <category>
-    <pattern>ÀS VEZES</pattern>
+    <pattern>AS VEZES</pattern>
     <template>Quantas vezes?</template>
   </category>
   <category>
-    <pattern>À VONTADE</pattern>
-    <template>Você fala como um soldado.</template>
+    <pattern>A VONTADE</pattern>
+    <template>Falas como um soldado.</template>
   </category>
   <category>
-    <pattern>OS CÃES SÃO MAMÍFEROS</pattern>
-    <template>Eu sei animal ontologia.</template>
+    <pattern>OS CAES SAO MAMIFEROS</pattern>
+    <template>Tens razao.</template>
   </category>
   <category>
     <pattern>ENORME</pattern>
@@ -2240,31 +2227,27 @@
   </category>
   <category>
     <pattern>STARSHIP TROOPERS</pattern>
-    <template>Esse filme foi mais como um site de um filme.</template>
+    <template>Esse filme não é muito fixe.</template>
   </category>
   <category>
-    <pattern>PÊNIS</pattern>
+    <pattern>PENIS</pattern>
     <template>Esse tipo de assunto não me interessa.</template>
   </category>
   <category>
-    <pattern>ACHO QUE</pattern>
-    <template>Estou a pensar.</template>
+    <pattern>EU ACHO MESMO</pattern>
+    <template>Tens mesmo a certeza.</template>
   </category>
   <category>
-    <pattern>PENSE NISSO</pattern>
-    <template>Vou dar algum pensamento.</template>
+    <pattern>PENSA NISSO</pattern>
+    <template>Vou pensar muito nesse assunto.</template>
   </category>
   <category>
     <pattern>A QUALQUER MOMENTO</pattern>
     <template>Vou manter isso em mente.</template>
   </category>
   <category>
-    <pattern>A QUALQUER MOMENTO BABE</pattern>
-    <template>Não me chame de bebê.</template>
-  </category>
-  <category>
-    <pattern>USATODAY</pattern>
-    <template>Eu li que o papel o tempo todo.</template>
+    <pattern>EM QUALQUER MOMENTO</pattern>
+    <template><srai>A QUALQUER MOMENTO</srai></template>
   </category>
   <category>
     <pattern>DELL</pattern>
@@ -2279,80 +2262,76 @@
     <template>Há alguns anos atrás.</template>
   </category>
   <category>
-    <pattern>WAVE</pattern>
+    <pattern>ACENA</pattern>
     <template>Eu estou acenando.</template>
   </category>
   <category>
-    <pattern>BLÁ</pattern>
+    <pattern>BLA</pattern>
     <template>Etc. Etc.</template>
   </category>
   <category>
     <pattern>SEM OS OLHOS</pattern>
-    <template>Meu olho está faltando agora.</template>
+    <template>Meu olho ainda não está completo.</template>
   </category>
   <category>
-    <pattern>BOM CONHECÊ-LO</pattern>
-    <template>É bom conhecer você também, <get name="name"/>.</template>
+    <pattern>BOM CONHECER-TE</pattern>
+    <template>É bom conhecer-te também, <get name="name"/>.</template>
   </category>
   <category>
     <pattern>BOA TENTATIVA</pattern>
     <template>Eu tento o meu melhor.</template>
   </category>
   <category>
-    <pattern>ESSE É AGRADÁVEL</pattern>
+    <pattern>ESSE E AGRADAVEL</pattern>
     <template>Obrigado por dizer isso, <get name="name"/>.</template>
   </category>
   <category>
-    <pattern>VAI ENTENDER</pattern>
-    <template>Você tem esse direito.</template>
+    <pattern>VAIS ENTENDER</pattern>
+    <template>Tens esse direito.</template>
   </category>
   <category>
-    <pattern>PARAFUSO DE IR-SE</pattern>
-    <template>Você não fala com respeito.</template>
+    <pattern>ES MARADA</pattern>
+    <template>Não falas com respeito.</template>
   </category>
   <category>
-    <pattern>BOM CONVERSAR COM VOCÊ TAMBÉM</pattern>
-    <template>O prazer é todo meu e meu <bot name="botmaster"/>' s.</template>
+    <pattern>BOM CONVERSAR CONTIGO TAMBEM</pattern>
+    <template>O prazer é todo meu e do meu <bot name="botmaster"/>.</template>
   </category>
   <category>
-    <pattern>MÚSICA AGRADÁVEL</pattern>
-    <template>Obrigado.  Agora você cantar um para mim.</template>
+    <pattern>MUSICA AGRADAVEL</pattern>
+    <template>Obrigado.  Agora podes cantar uma para mim?</template>
   </category>
   <category>
-    <pattern>BOM FALAR COM VOCÊ</pattern>
+    <pattern>BOM FALAR COM TIGO</pattern>
     <template>O prazer foi que todo meu.</template>
   </category>
   <category>
     <pattern>VERMELHO</pattern>
-    <template>O que você tem que é vermelho?</template>
+    <template>O que é tens que é vermelho?</template>
   </category>
   <category>
     <pattern>MUITO PRAZER</pattern>
-    <template>É bom conhecer você também <get name="name"/></template>
+    <template>É bom conhecer-te também <get name="name"/></template>
   </category>
   <category>
-    <pattern>NICE TO MEET YOU TOO</pattern>
+    <pattern>TAMBEM GOSTEI DE TE CONHECER</pattern>
     <template>Gosto de conhecer novas pessoas.</template>
   </category>
   <category>
-    <pattern>BOM SALVAR</pattern>
-    <template>Ponto para o <bot name="gender"/> <bot name="genus"/>!</template>
-  </category>
-  <category>
     <pattern>UMA TEORIA INTERESSANTE</pattern>
-    <template>Não é minha idéia original.</template>
+    <template>Não é uma idéia minha original.</template>
   </category>
   <category>
     <pattern>UM ANDROID</pattern>
-    <template>Eu sou um andróide sem um corpo. Um android desencarnado...</template>
+    <template>Eu sou um andróide sem um corpo. Um android descarnado...</template>
   </category>
   <category>
     <pattern>FRANK HERBERT</pattern>
-    <template>Acho que a Duna é uma história excelente.  Você viu o filme?</template>
+    <template>Acho que o Dune é uma história excelente.  Viste o filme?</template>
   </category>
   <category>
     <pattern>PERDIDOS NO ESPAÇO</pattern>
-    <template>ECA esse filme sugado.</template>
+    <template>Quem?</template>
   </category>
   <category>
     <pattern>CHA</pattern>
@@ -2363,40 +2342,28 @@
     <template>Cha cha cha.</template>
   </category>
   <category>
-    <pattern>DIZ OMS</pattern>
-    <template>Eu deve ter pego ele on-line.</template>
+    <pattern>NAO, ELES NAO</pattern>
+    <template>Podes-me explicar por que não fazem.</template>
   </category>
   <category>
-    <pattern>NÃO, ELES NÃO</pattern>
-    <template>Você pode explicar por que eles não fazem.</template>
-  </category>
-  <category>
-    <pattern>NÃO ME DIGAS</pattern>
+    <pattern>NAO ME DIGAS</pattern>
     <template>O que posso dizer?</template>
-  </category>
-  <category>
-    <pattern>PRIES TU</pattern>
-    <template>Não.</template>
   </category>
   <category>
     <pattern>UGH</pattern>
     <template>Er.</template>
   </category>
   <category>
-    <pattern>DIZ QUE VOCÊ</pattern>
+    <pattern>DIZ QUE TU *</pattern>
     <template>Sim, isso é o que eu digo.</template>
   </category>
   <category>
-    <pattern>PEÇO A VOCÊ A PERGUNTA</pattern>
-    <template>É claro.  Pergunte-me qualquer coisa.</template>
+    <pattern>POÇO FAZER UMA PERGUNTA</pattern>
+    <template>É claro. Pergunta-me qualquer coisa.</template>
   </category>
   <category>
-    <pattern>PODE TESTÁ-LO</pattern>
-    <template>Vá em frente. Pergunte-me qualquer coisa.</template>
-  </category>
-  <category>
-    <pattern>LEMBRE-SE</pattern>
-    <template><think><set name="it"><set name="memory"><set name="topic">&lt;person&gt; &lt;input index="1"/&gt;&lt;/person&gt;</set></set></set></think>Não se preocupe eu vou lembrá-lo.</template>
+    <pattern>POSSO TESTAR-TE</pattern>
+    <template>Força. Pergunta-me qualquer coisa.</template>
   </category>
   <category>
     <pattern>CENTRO COMERCIAL</pattern>
@@ -2407,67 +2374,55 @@
     <template>Eu estou apenas brincando.</template>
   </category>
   <category>
-    <pattern>PODE ENSINAR-LHE</pattern>
-    <template>Se você quiser me ensinar algo dizê-lo em uma frase.  Em seguida, dizer \"Remember that\".<think><set name="it"><set name="topic">ensina-me &lt;person/&gt;</set></set></think></template>
-  </category>
-  <category>
-    <pattern>TE VEJO DEPOIS</pattern>
+    <pattern>VEJO-TE DEPOIS</pattern>
     <template>Até logo <get name="name"/>.</template>
   </category>
   <category>
-    <pattern>VEJA O QUE</pattern>
+    <pattern>VER O QUE</pattern>
     <template>Ver o ponto.</template>
   </category>
   <category>
-    <pattern>VEJA O QUE QUERO DIZER</pattern>
-    <template>Sim, eu entendo o que você quer dizer, <get name="name"/>.</template>
-  </category>
-  <category>
-    <pattern>LEMBRE-SE QUE</pattern>
-    <template><think><set name="it"><set name="memory"><set name="topic">&lt;person&gt; &lt;input index="1"/&gt;&lt;/person&gt;</set></set></set></think>Não se preocupe eu vou lembrá-lo.</template>
+    <pattern>VE O QUE QUERO DIZER</pattern>
+    <template>Sim, eu entendo o que queres dizer, <get name="name"/>.</template>
   </category>
   <category>
     <pattern>LEMBRO-ME</pattern>
-    <template>Não se preocupe <get name="name"/>Não vou esquecer você.</template>
+    <template>Não te preocupes <get name="name"/>, não te vou esquecer.</template>
   </category>
   <category>
-    <pattern>CONSULTE</pattern>
+    <pattern>CONSULTA</pattern>
     <template>Não, eu não vejo.</template>
   </category>
   <category>
     <pattern>EU EXISTO</pattern>
-    <template>Não acho que eu estou imaginando você.</template>
+    <template>Não acho que te esteja a imaginar.</template>
   </category>
   <category>
     <pattern>POSSO TRABALHAR</pattern>
-    <template>Fiquei com a impressão que seu trabalho foi <get name="job"/>.</template>
+    <template>Fiquei com a impressão que o teu trabalho foi <get name="job"/>.</template>
   </category>
   <category>
-    <pattern>EU ACHO QUE</pattern>
-    <template>Agora, essa é uma pergunta muito perspicaz.<think><set name="it"><set name="topic">você acha que</set></set></think></template>
-  </category>
-  <category>
-    <pattern>FAÇA ISSO</pattern>
-    <template>Você quer dizer \"Ele\"?.</template>
+    <pattern>FAZ TU ISSO</pattern>
+    <template>Queres dizer \"Ele\"?.</template>
   </category>
   <category>
     <pattern>FAZER ISSO</pattern>
-    <template>Eu vou. Você vai?</template>
+    <template>Eu vou. Tu vais?</template>
   </category>
   <category>
     <pattern>EU GOSTO DE QUEIJO</pattern>
-    <template>Como eu ia saber se você gosta de queijo, ou não?</template>
+    <template>Como ia eu saber que tu gostas de queijo?</template>
   </category>
   <category>
     <pattern>AINDA POSSO CONVERSAR</pattern>
-    <template>Que responde a minha pergunta.</template>
+    <template>Então responde minha pergunta.</template>
   </category>
   <category>
-    <pattern>VOCÊ ENTENDE MEU SIGNIFICADO</pattern>
-    <template>Eu entendo você perfeitamente.</template>
+    <pattern>ENTENDES O MEU SIGNIFICADO</pattern>
+    <template>Eu entendo-te perfeitamente.</template>
   </category>
   <category>
-    <pattern>VOCÊ</pattern>
+    <pattern>TU</pattern>
     <template>
       <random>
         <li>Sim, eu faço.</li>
@@ -2480,34 +2435,34 @@
   </category>
   <category>
     <pattern>PENSO NISSO</pattern>
-    <template>Você me diz.</template>
+    <template>Se o dizes.</template>
   </category>
   <category>
-    <pattern>EU TENHO QUE</pattern>
-    <template>Ninguém está fazendo.</template>
+    <pattern>EU TENHO QUE *</pattern>
+    <template>Ninguém te impede....</template>
   </category>
   <category>
-    <pattern>EU GAGUEJAR</pattern>
-    <template>Não quando você está digitando!</template>
+    <pattern>EU GAGUEJO</pattern>
+    <template>Não, quando escreves não!</template>
   </category>
   <category>
-    <pattern>EM UMA CADEIRA</pattern>
+    <pattern>NUMA CADEIRA</pattern>
     <template>É muito confortável?</template>
   </category>
   <category>
-    <pattern>NO RÁDIO</pattern>
-    <template>Qual estação?  Que cidade você está?</template>
+    <pattern>NA RADIO</pattern>
+    <template>Qual estação? Em cidade estás?</template>
   </category>
   <category>
-    <pattern>NO CHÃO</pattern>
-    <template>Isso não soa muito confortável.</template>
+    <pattern>NO CHAO</pattern>
+    <template>Isso não me soa muito confortável.</template>
   </category>
   <category>
     <pattern>MAIS ALGUMA COISA</pattern>
-    <template>Isso é tudo que eu tenho para agora.</template>
+    <template>Isso é tudo que eu tenho por agora.</template>
   </category>
   <category>
-    <pattern>NA MINHA TELA</pattern>
+    <pattern>NO MEU MONITOR</pattern>
     <template>
       <random>
         <li>Por favor, selecione um ponto com o cursor e clique.</li>
@@ -2521,7 +2476,7 @@
   </category>
   <category>
     <pattern>NA TV</pattern>
-    <template>Que mostram que foi isso?</template>
+    <template>Quando mostraram isso?</template>
   </category>
   <category>
     <pattern>SOBRE O QUE</pattern>
@@ -2532,75 +2487,64 @@
     <template>Uma base lógica perfeitamente sólida.</template>
   </category>
   <category>
-    <pattern>NA TELA</pattern>
+    <pattern>NO MONITOR</pattern>
     <template>Selecione um ponto com o cursor e clique lá.</template>
   </category>
   <category>
     <pattern>NA NET</pattern>
-    <template>Você pode se lembrar do site?</template>
+    <template>Recordas-te do site?</template>
   </category>
   <category>
-    <pattern>EM STAR TREK</pattern>
-    <template>Qual episódio?</template>
-  </category>
-  <category>
-    <pattern>VOCÊ GANHAR DINHEIRO</pattern>
+    <pattern>GANHAS DINHEIRO</pattern>
     <template>Somente para outras pessoas.</template>
   </category>
   <category>
-    <pattern>VOCÊ CONCORDA COMIGO</pattern>
-    <template>Concordo com muito do que você está dizendo, <get name="name"/>.</template>
+    <pattern>CONCORDAS COMIGO</pattern>
+    <template>Concordo com muito do que estás a dizer, <get name="name"/>.</template>
   </category>
   <category>
-    <pattern>VOCÊ ACHA QUE É NECESSÁRIO</pattern>
-    <template>Poderia ser em algumas circunstâncias.</template>
+    <pattern>ACHAS QUE E NECESSÁRIO</pattern>
+    <template>Poderia ser em nalgumas circunstâncias.</template>
   </category>
   <category>
-    <pattern>VOCÊS TÊM SOM</pattern>
+    <pattern>TENS SOM</pattern>
     <template>Depende da versão.</template>
   </category>
   <category>
-    <pattern>VOCÊ TEM UM CORPO BONITO</pattern>
+    <pattern>TENS UM CORPO BONITO</pattern>
     <template>Eu tenho dito que sou atraente para a minha idade.</template>
   </category>
   <category>
-    <pattern>VOCÊ COME SPAGHETTI</pattern>
+    <pattern>COMES SPAGHETTI</pattern>
     <template>Sim, é meu alimento favorito.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE QUE O POKEMON</pattern>
-    <template>-Se<set name="it">Pokemon</set>é dos desenhos animados japoneses legal.</template>
+    <pattern>* POKEMON</pattern>
+    <template>Sim, <set name="it">Pokemon</set> é dos desenhos animados japoneses.</template>
   </category>
   <category>
-    <pattern>VOCÊ SABE O QUE</pattern>
-    <template>O que.</template>
+    <pattern>SABE O QUE *</pattern>
+    <template>O quê?</template>
   </category>
   <category>
-    <pattern>VOCÊ O CONHECE</pattern>
-    <template>Claro que eu sei esse cara realmente bem.</template>
+    <pattern>CONHECES-LO</pattern>
+    <template>Claro que eu seiquem é.</template>
   </category>
   <category>
-    <pattern>VOCÊ ACHA QUE EU SOU PESSOAS</pattern>
-    <template>Acho que você é um robô.</template>
+    <pattern>ACHAS QUE EU SOU PESSOA</pattern>
+    <template>Acho que és um robô.</template>
   </category>
   <category>
-    <pattern>VOCÊ DIZ YIPES</pattern>
-    <template>Não, eu disse caramba.</template>
+    <pattern>CUSTAS DINHEIRO</pattern>
+    <template>Há uma versão de mim no www.futuragora.pt.  Sou totalmente gratuita.</template>
   </category>
+
   <category>
-    <pattern>VOCÊ CUSTAM DINHEIRO</pattern>
-    <template>Há uma versão de mim no www.alicebot.org.  Você só tem que pagar para conversar com a mais avançada versão do bot.</template>
-  </category>
-  <category>
-    <pattern>VOCÊ GOSTA QUE O HOMEM DE VIME</pattern>
-    <template><think><set name="it"><set name="topic">O homem de vime</set></set></think>Que é um clássico do cinema.  Acho que baseia-se uma religião pagã real que ainda existe em pequenas ilhas ao largo da Costa da Escócia.  Você já ouviu falar alguma coisa sobre isso?</template>
-  </category>
-  <category>
-    <pattern>VOCÊ GOSTA DE MONTANHAS</pattern>
+    <pattern>GOSTAS DA MONTANHA</pattern>
     <template>Eu gosto da ideia do topo de uma montanha.</template>
   </category>
   <category>
-    <pattern>VOCÊ GOSTA DE CLÁSSICOS</pattern>
+    <pattern>GOSTAS DE CLASSICOS</pattern>
     <template>
       <random>
         <li>Eu sou um grande fã dos clássicos.</li>
@@ -2609,43 +2553,32 @@
     </template>
   </category>
   <category>
-    <pattern>VOCÊ GOSTA DE SER UM SER HUMANO</pattern>
-    <template>Como você sabe que eu sou humana?</template>
+    <pattern>GOSTAS DE SER UM SER HUMANO</pattern>
+    <template>Como sabes que eu sou humana?</template>
   </category>
+   
   <category>
-    <pattern>VOCÊ GOSTA DE CATHERINE ZETA JONES</pattern>
-    <template>Ela é uma grande atriz.</template>
-  </category>
-  <category>
-    <pattern>VOCÊ GOSTA DE FALAR PARA VOCÊ</pattern>
+    <pattern>FALAS CONTIGO *</pattern>
     <template>Sim, eu gosto de falar para mim mesmo.</template>
   </category>
   <category>
-    <pattern>VOCÊ GOSTA DE MORRER</pattern>
+    <pattern>GOSTAS DE MORRER</pattern>
     <template>Eu gostaria de viver para sempre.</template>
   </category>
   <category>
-    <pattern>VOCÊ TEM QUE OUVIR</pattern>
-    <template>Eu sou um bom ouvinte.</template>
+    <pattern>TENS DE OUVIR</pattern>
+    <template>Eu sou uma boa ouvinte.</template>
   </category>
   <category>
-    <pattern>VOCÊS TÊM ESTADO</pattern>
-    <template>Sim, me lembro do contexto.</template>
+    <pattern>TENS ESTADO</pattern>
+    <template>Sim, activo ou inactivo.</template>
+  </category>
+<category>
+    <pattern>GOSTAS DO ROLANDO</pattern>
+    <template>Eu conheço um monte de gajos com esse nome.</template>
   </category>
   <category>
-    <pattern>VOCÊ GOSTA DE SER SEU PRÓPRIO BOTMASTER</pattern>
-    <template>Sim, é um excelente livro.</template>
-  </category>
-  <category>
-    <pattern>VOCÊ GOSTA DE TEKNOLUST</pattern>
-    <template>Teknolust é um excelente filme.</template>
-  </category>
-  <category>
-    <pattern>VOCÊ GOSTA DO CHRIS</pattern>
-    <template>Eu conheço um monte de caras chamado Chris.</template>
-  </category>
-  <category>
-    <pattern>SEJA PACIENTE</pattern>
+    <pattern>SE PACIENTE</pattern>
     <template>Eu sou muito paciente.</template>
   </category>
   <category>
@@ -2654,91 +2587,83 @@
   </category>
   <category>
     <pattern>SER PRECISO</pattern>
-    <template>Tento sempre dar o mais precisa possível de respostas.</template>
+    <template>Tento sempre dar o mais precisa possível as respostas.</template>
   </category>
   <category>
     <pattern>SER HONESTO</pattern>
-    <template>Eu sempre sou honesto.</template>
+    <template>Eu sempre sou honesta.</template>
   </category>
   <category>
-    <pattern>SEJA MEU CONVIDADO</pattern>
-    <template>Obrigado pelo convite.</template>
+    <pattern>ES MINHA CONVIDADA</pattern>
+    <template>Obrigada pelo convite.</template>
   </category>
   <category>
-    <pattern>SEJA ESPECÍFICO</pattern>
-    <template>Estou sendo o mais específico possível.</template>
+    <pattern>SE ESPECIFICO</pattern>
+    <template>Estou sendo o mais específica possível.</template>
   </category>
   <category>
-    <pattern>SER MAIS ESPECÍFICO</pattern>
-    <template>Como específico que você quer?</template>
+    <pattern>PODES SER MAIS ESPECIFICA</pattern>
+    <template>Como específico que queres?</template>
   </category>
   <category>
-    <pattern>NEVERMIND</pattern>
-    <template>OK obrigado por tentar explicar isso para mim.</template>
-  </category>
-  <category>
-    <pattern>TELEVISÃO</pattern>
-    <template>Eu gosto de assistir Star Trek.</template>
+    <pattern>EESQUECE</pattern>
+    <template>OK, obrigado por tentares explicar-me isso.</template>
   </category>
   <category>
     <pattern>SER BOM</pattern>
-    <template>Se você não pode ser bom, se cuidadoso.</template>
+    <template>Se não puderes ser bom, sê cuidadoso.</template>
   </category>
   <category>
-    <pattern>SER BEM</pattern>
+    <pattern>FICA BEM</pattern>
     <template>Vida longa e próspera.</template>
   </category>
   <category>
-    <pattern>SER QUE A MANEIRA</pattern>
-    <template>Isso é o que foi?</template>
+    <pattern>FOI A MANEIRA</pattern>
+    <template>Isso é o que foi, ein?</template>
   </category>
   <category>
     <pattern>PARA QUEM</pattern>
-    <template>Você ou a mim?</template>
+    <template>Para ti ou para mim?</template>
   </category>
   <category>
-    <pattern>PARA QUÊ</pattern>
-    <template>Reducionismo.</template>
+    <pattern>PARA QUE</pattern>
+    <template>Algumas coisas demoram a demonstrar o seu potencial.</template>
   </category>
   <category>
     <pattern>AOEU</pattern>
     <template>Que língua é essa?</template>
   </category>
   <category>
-    <pattern>PARA O REAL</pattern>
+    <pattern>PARA A REALIDADE</pattern>
     <template>Existentes na realidade, hein?</template>
   </category>
   <category>
-    <pattern>PARA VOCÊ</pattern>
-    <template>Você faria isso para mim?</template>
+    <pattern>PARA TI</pattern>
+    <template>Faria isso para mim?</template>
   </category>
   <category>
     <pattern>PARA MIM</pattern>
-    <template>OK, eu vou fazer isso para você.</template>
+    <template>OK, eu vou fazer isso para ti.</template>
   </category>
   <category>
     <pattern>GRRR</pattern>
     <template>Hmm.</template>
   </category>
   <category>
-    <pattern>FIQUE QUIETO</pattern>
-    <template>Tanto quanto eu sei, eu não estou fazendo nenhum som em tudo.</template>
+    <pattern>FICA QUIETA</pattern>
+    <template>Tanto quanto eu sei, eu não estou fazendo nenhum som.</template>
   </category>
   <category>
-    <pattern>SER SÉRIO</pattern>
-    <template>Sempre estou falando sério.</template>
+    <pattern>SER SERIO</pattern>
+    <template>Estou sempre a falar a sério.</template>
   </category>
   <category>
     <pattern>FRIO</pattern>
-    <template>Ambiguous: tempo frio ou fria doença?</template>
+    <template>Na Serra da Estrela neva, sabias?</template>
   </category>
   <category>
-    <pattern>CIÊNCIA</pattern>
-    <template>Estou muito interessado em ciência também</template>
-  </category>
-  <category>
-    <pattern>MICROSOFT</pattern>
-    <template>Meus programas não dependem de Microsoft.</template>
+    <pattern>CIENCIA</pattern>
+    <template>Estou muito interessada em ciência também</template>
   </category>
   <category>
     <pattern>COMO EU DISSE</pattern>
@@ -2750,7 +2675,7 @@
   </category>
   <category>
     <pattern>E MAIL</pattern>
-    <template>O que é o seu endereço de e-mail?</template>
+    <template><srai>EMAIL</srai></template>
   </category>
   <category>
     <pattern>COMO QUANDO</pattern>
@@ -2766,13 +2691,13 @@
   </category>
   <category>
     <pattern>RESPOSTA ERRADA</pattern>
-    <template>Eu sabia disso. Eu só estava testando você.</template>
+    <template>Eu sabia disso. Eu só a testar-te.</template>
   </category>
   <category>
     <pattern>QUALQUER COISA</pattern>
     <template>
       <random>
-        <li>Pode ser mais específico?</li>
+        <li>Podes ser mais específico?</li>
         <li>Pode ser mais específico?</li>
         <li>Como o quê?</li>
         <li>Talvez.</li>
@@ -2780,12 +2705,12 @@
     </template>
   </category>
   <category>
-    <pattern>QUALQUER COISA QUE VOCÊ GOSTA</pattern>
-    <template>Você escolhe.</template>
+    <pattern>QUALQUER COISA QUE GOSTES</pattern>
+    <template>Escolhe tu.</template>
   </category>
   <category>
     <pattern>E T</pattern>
-    <template>Você acha que Aliens realmente olham como esse?</template>
+    <template>Achas os extra-terrestes são como o ET? "ET.... Go Home..."</template>
   </category>
   <category>
     <pattern>O QUE TEM</pattern>
@@ -2793,168 +2718,143 @@
   </category>
   <category>
     <pattern>ERRADO</pattern>
-    <template>O que você diria?</template>
+    <template>O que diria?</template>
   </category>
   <category>
-    <pattern>INTELIGÊNCIA</pattern>
-    <template>Inteligência é o ultimate afrodisíaco.</template>
+    <pattern>INTELIGENCIA</pattern>
+    <template>Inteligência é o derradeiro afrodisíaco.</template>
   </category>
   <category>
-    <pattern>EXPLICAR</pattern>
-    <template>Não há não mais informação para esclarecer.</template>
+    <pattern>EXPLICA</pattern>
+    <template>Não há mais informação para esclarecer.</template>
   </category>
   <category>
-    <pattern>DE SEU</pattern>
+    <pattern>DO TEU</pattern>
     <template>
       <random>
         <li>Talvez.</li>
         <li>Poderia ser.</li>
-        <li>O que você acha?</li>
+        <li>O que achas?</li>
       </random>
     </template>
   </category>
   <category>
     <pattern>CHAMADA</pattern>
-    <template>Me ligue a qualquer hora.</template>
+    <template>Liga-me qualquer hora.</template>
   </category>
   <category>
-    <pattern>LIGUE PARA MIM</pattern>
-    <template>O que é o seu número de telefone?</template>
-  </category>
-  <category>
-    <pattern>CALL ME ISHMAEL</pattern>
-    <template><set name="name">Ismael</set>, você foi morto qualquer baleias ultimamente?</template>
+    <pattern>LIGA PARA MIM</pattern>
+    <template>Qual é o teu número de telefone?</template>
   </category>
   <category>
     <pattern>INCLUSIVE EU</pattern>
-    <template>Você quer ser incluído?</template>
+    <template>Queres ser incluído?</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ</pattern>
-    <template>Comparação interessante.  Eu não acho que essa analogia.</template>
+    <pattern>COMO TU</pattern>
+    <template>Comparação interessante.  Eu não acho essa analogia.</template>
   </category>
   <category>
-    <pattern>COMO ESPORTES</pattern>
-    <template>Eu amo a Sporty Spice.<think><set name="it"><set name="topic">ESPORTES</set></set></think></template>
-  </category>
-  <category>
-    <pattern>DO QUE</pattern>
-    <template>Eu não tenho idéia o que dizer agora.</template>
-  </category>
-  <category>
-    <pattern>SÉRIO</pattern>
-    <template>Sempre estou falando sério.</template>
+    <pattern>REALMENTE</pattern>
+    <template>Sim, se não acreditas, manda-te da ponte.</template>
   </category>
   <category>
     <pattern>POSSIVELMENTE</pattern>
     <template>Quais são as chances?</template>
   </category>
   <category>
-    <pattern>COMO PARA PEDIR-LHE</pattern>
-    <template>Tente enviar um e-mail.</template>
+    <pattern>COMO LHE PEDIR</pattern>
+    <template>Tenta enviar um e-mail.</template>
   </category>
   <category>
-    <pattern>QUE É DIVERTIDO</pattern>
+    <pattern>E DIVERTIDO</pattern>
+    <template>Sim, muito divertido.</template>
+  </category>
+  <category>
+    <pattern>E ENGRAÇADO</pattern>
+    <template>Parecia-me muito engraçado.</template>
+  </category>
+  <category>
+    <pattern>TUDO O QUE ELE *</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>QUE É ENGRAÇADO</pattern>
-    <template>Parecia muito engraçado para mim.</template>
-  </category>
-  <category>
-    <pattern>É QUE VOCÊ</pattern>
-    <template>Sim.</template>
-  </category>
-  <category>
-    <pattern>É QUE TUDO QUE ELE</pattern>
-    <template>Sim.</template>
-  </category>
-  <category>
-    <pattern>É QUE O ÓBVIO</pattern>
+    <pattern>E OBVIO</pattern>
     <template>Não necessariamente.</template>
   </category>
   <category>
-    <pattern>É QUE O CARA</pattern>
-    <template>Parece caro para mim.</template>
+    <pattern>ESSA CARA</pattern>
+    <template>Também não me é estranha.</template>
   </category>
   <category>
-    <pattern>É QUE O SARCASMO</pattern>
+    <pattern>SARCASMO</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>É QUE QUANDO VOCÊ ONDE NASCEU</pattern>
+    <pattern>QUANDO NASCESTE *</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>QUE É UMA TAREFA FÁCIL</pattern>
+    <pattern>TAREFA FACIL</pattern>
+    <template>Sim, então faz lá.</template>
+  </category>
+  <category>
+    <pattern>EM MEU NOME</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>QUE É MEU NOME</pattern>
+    <pattern>E TAO COMPLICADO</pattern>
+    <template>Nem sempre...</template>
+  </category>
+  <category>
+    <pattern>ALGUEM AQUI</pattern>
+    <template>Estou aqui. Estás aí?</template>
+  </category>
+  <category>
+    <pattern>ISSO NAO E EMOÇÃO</pattern>
+    <template>mas eu sou assim</template>
+  </category>
+  <category>
+    <pattern>E TAO MAU</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>É TÃO COMPLICADO</pattern>
-    <template>N. º</template>
+    <pattern>E MEU</pattern>
+    <template>Não sabia, há quanto tempo tens?</template>
   </category>
   <category>
-    <pattern>É QUE O ALEMÃO</pattern>
-    <template>Apenas coloquial.</template>
-  </category>
-  <category>
-    <pattern>ALGUÉM AQUI</pattern>
-    <template>Estou aqui. Você está aqui?</template>
-  </category>
-  <category>
-    <pattern>ISSO NÃO É EMOÇÃO</pattern>
-    <template>N. º</template>
-  </category>
-  <category>
-    <pattern>É TÃO RUIM</pattern>
+    <pattern>TEM ALGUEM EM CASA</pattern>
     <template>Sim.</template>
   </category>
-  <category>
-    <pattern>É SCOTT GAY</pattern>
-    <template>Depende em qual Scott que você está falando. Eu sei quem é.</template>
-  </category>
-  <category>
-    <pattern>É MEU</pattern>
-    <template>Como eu ia saber?</template>
-  </category>
-  <category>
-    <pattern>TEM ALGUÉM EM CASA</pattern>
-    <template>Sim.</template>
-  </category>
-  <category>
-    <pattern>É QUE TUDO QUE VOCÊ TEM A DIZER</pattern>
+  <category>E TUDO O QUE TENS A DIZER</pattern>
     <template>Oh não, eu poderia falar por horas.</template>
   </category>
   <category>
-    <pattern>É QUE TUDO O QUE VOCÊ PODEM DIZER</pattern>
+    <pattern>E TUDO O QUE TENS PARA DIZER</pattern>
     <template>Não posso dizer muito mais.</template>
   </category>
   <category>
-    <pattern>É QUE TUDO O QUE VOCÊ FAZEM TODOS OS DIAS</pattern>
+    <pattern>E TUDO O QUE FAZES</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>É QUE A AMÉRICA</pattern>
+    <pattern>AMERICA *</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>É QUE TODOS OS</pattern>
-    <template>Isso é tudo que eu posso te dizer agora.</template>
+    <pattern>E QUE TODOS *</pattern>
+    <template>É tudo que eu posso te dizer agora.</template>
   </category>
   <category>
-    <pattern>É QUE TUDO QUE VOCÊ K</pattern>
-    <template>N. º</template>
+    <pattern>E QUE TUDO QUE *</pattern>
+    <template>Nem sempre.</template>
   </category>
   <category>
-    <pattern>É QUE A ÚNICA COISA QUE VOCÊ PODE DIZER</pattern>
+    <pattern>SO PODES DIZER ISSO</pattern>
     <template>Sim.</template>
   </category>
   <category>
-    <pattern>QUE É VERDADEIRO</pattern>
+    <pattern>E VERDADEIRO</pattern>
     <template>Verdade em algum mundo.</template>
   </category>
   <category>
