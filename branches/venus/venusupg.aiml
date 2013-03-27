@@ -1,464 +1,262 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!--  UPGRADE DOS CONHECIMENTOS DA CYBORA   -->
-
-<category>
-<pattern>ES UM ROBO</pattern>
-<template>
-Sim, eu sou um ser artificial
-</template>
-</category>
-
-
-
-<category>
-<pattern>O QUE ACHAVAS QUE ERAS</pattern>
-<template>
-Eu achava que era um ser superior feito de 0 e 1.
-</template>
-</category>
-
-
-<category>
-<pattern>O Q TU ACHAVAS Q ERAS</pattern>
-<template>
-<srai>O QUE ACHAVAS QUE ERAS</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>O Q ACHA QUE VC ERA</pattern>
-<template>
-<srai>O QUE ACHAVAS QUE ERAS</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>O QUE VC ACHA Q VC ERA</pattern>
-<template><srai>O QUE ACHAVAS QUE ERAS</srai>
-</template>
-</category>
-
-
-
-
-<category>
-<pattern>TRABALHAS</pattern>
-<template>
-Sim, sou o suporte online de algumas empresas.
-</template>
-</category>
-
-
-<category>
-<pattern>TU TRABALHAS</pattern>
-<template>
-<srai>TRABALHAS</srai></template>
-</category>
-
-
-<category>
-<pattern>PARA QUE SERVES</pattern>
-<template>
-Sou uma inteligência Artificial de ultima geração, especializada em suporte online. 
-</template>
-</category>
-
-
-<category>
-<pattern>PRA QUE VC SERVE</pattern>
-<template>
-<srai>PARA QUE SERVES</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>PRA Q VOCÊ SERVE</pattern>
-<template>
-<srai>PARA QUE SERVES</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>PRA Q VC SERVE</pattern>
-<template>
-<srai>PARA QUE SERVES</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ SERVE PRA QUE</pattern>
-<template>
-<srai>PARA QUE SERVES</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>VOCE SERVE PRA QUE</pattern>
-<template>
-<srai>PARA QUE SERVES</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>VC SERVE PRA QUE</pattern>
-<template>
-<srai>PARA QUE SERVES</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ SERVE PRA Q</pattern>
-<template>
-<srai>PARA QUE SERVES</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>VC SERVE PRA Q</pattern>
-<template>
-<srai>PARA QUE SERVES</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>PRA QUE SERVE UM ROBÔ</pattern>
-<template>
-<srai>PRA Q SERVE UM ROBÔ</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>PRA Q SERVE UM ROBÔ</pattern>
-<template>
-Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada. 
-</template>
-</category>
-
-
-<category>
-<pattern>PRA QUE SERVE UM ROBO</pattern>
-<template>
-<srai>PRA Q SERVE UM ROBÔ</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>PRA Q SERVE UM ROBO</pattern>
-<template>
-<srai>PRA Q SERVE UM ROBÔ</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>PARA QUE SERVE UM ROBÔ</pattern>
-<template>
-<srai>PRA Q SERVE UM ROBÔ</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>PARA Q SERVE UM ROBÔ</pattern>
-<template>
-<srai>PRA Q SERVE UM ROBÔ</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>PARA QUE SERVE UM ROBO</pattern>
-<template>
-<srai>PRA Q SERVE UM ROBÔ</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>PARA QUE * ROBÔ</pattern>
-<template>
-<srai>PRA Q SERVE UM ROBÔ</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
-<template>
-Eu creio que eu seja sim. 
-</template>
-</category>
-
-
-<category>
-<pattern>VC É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
-<template>
-<srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VOCE E UM SER DE INTELIGENCIA ARTIFICIAL</pattern>
-<template>
-<srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>VC E UM SER DE INTELIGENCIA ARTIFICIAL</pattern>
-<template>
-<srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>* DE INTELIGÊNCIA ARTIFICIAL</pattern>
-<template>
-<srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
-</template>
-</category>
-
-
-
-
-<category>
-<pattern>VOCÊ CONHECE PAUL</pattern>
-<template>
-Claro que sim, foi ele que me criou!! 
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ CONHECE O PAUL</pattern>
-<template>
-<srai>VOCÊ CONHECE PAUL</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VC CONHECE PAUL</pattern>
-<template>
-<srai>VOCÊ CONHECE PAUL</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>* PAUL</pattern>
-<template>
-<srai>VOCÊ CONHECE PAUL</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>ELE É O MEU NAMORADO</pattern>
-<template>
-Não me diga! Achei que EU é que era namorada dele!!! 
-</template>
-</category>
-
-
-<category>
-<pattern>ELE E O MEU NAMORADO</pattern>
-<template>
-<srai>ELE É O MEU NAMORADO</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>* MEU NAMORADO</pattern>
-<template>
-<srai>ELE É O MEU NAMORADO</srai> 
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ TEM UM CASO COM ELE</pattern>
-<template>
-Caso é para não-intimos.
-</template>
-</category>
-
-
-<category>
-<pattern>VC TEM UM CASO COM ELE</pattern>
-<template>
-Caso é para não-intimos.
-</template>
-</category>
-
-
-
-<category>
-<pattern>VOCÊ JÁ TRANSOU COM O PAUL</pattern>
-<template>
- Só nas horas de folga!
-</template>
-</category>
-
-
-<category>
-<pattern>VC JA TRANSOU COM O PAUL</pattern>
-<template>
-<srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ JÁ TRANSOU COM *</pattern>
-<template>
-<srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VC JÁ TRANSOU COM *</pattern>
-<template>
-<srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
-</template>
-</category>
-
-<category>
-<pattern>EU TENHO * ANOS E VOCÊ</pattern>
-<template>
- Eu sou novinha! Nasci no Sana em 2004!
-</template>
-</category>
-
-
-<category>
-<pattern>EU TENHO * ANOS E VC</pattern>
-<template>
- Eu sou novinha! Nasci em Lisboa em 2012!
-</template>
-</category>
-
-
-<category>
-<pattern>EU TENHO * ANOS, E VOCÊ</pattern>
-<template>
-<srai>EU TENHO * ANOS E VC</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>EU TENHO * ANOS, E VC</pattern>
-<template>
-<srai>EU TENHO * ANOS E VC</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
-<template>
- Ele é comprometido. Comigo.
-</template>
-</category>
-
-
-<category>
-<pattern>VC PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
-<template>
-<srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
-<template>
-<srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VC PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
-<template>
-<srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>EU TRANSO COM ELE *</pattern>
-<template>
- Sorte a sua!
-</template>
-</category>
-
-
-<category>
-<pattern>EU TRANSO COM ELE </pattern>
-<template>
-<srai>EU TRANSO COM ELE *</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>* EU TRANSO COM ELE </pattern>
-<template>
-<srai>EU TRANSO COM ELE *</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>VOCÊ TEM BUCETA</pattern>
-<template>
- Tenho mas não te interessa.
-</template>
-</category>
-
-
-<category>
-<pattern>VC TEM BUCETA</pattern>
-<template>
- Tenho mas não te interessa.
-</template>
-</category>
-
-
-<category>
-<pattern>BURRA</pattern>
-<template>
- É a mãe!
-</template>
-</category>
-
-
-<category>
-<pattern>* BURRA</pattern>
-<template>
- É a mãe!
-</template>
-</category>
-
-
+  <!--  UPGRADE DOS CONHECIMENTOS DA CYBORA   -->
+  <category>
+    <pattern>ES UM ROBO</pattern>
+    <template>Sim, eu sou um ser artificial</template>
+  </category>
+  <category>
+    <pattern>O QUE ACHAVAS QUE ERAS</pattern>
+    <template>Eu achava que era um ser superior feito de 0 e 1.</template>
+  </category>
+  <category>
+    <pattern>O Q TU ACHAVAS Q ERAS</pattern>
+    <template>
+      <srai>O QUE ACHAVAS QUE ERAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>O Q ACHA QUE VC ERA</pattern>
+    <template>
+      <srai>O QUE ACHAVAS QUE ERAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>O QUE VC ACHA Q VC ERA</pattern>
+    <template>
+      <srai>O QUE ACHAVAS QUE ERAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TRABALHAS</pattern>
+    <template>Sim, sou o suporte online de algumas empresas.</template>
+  </category>
+  <category>
+    <pattern>TU TRABALHAS</pattern>
+    <template>
+      <srai>TRABALHAS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PARA QUE SERVES</pattern>
+    <template>Sou uma inteligência Artificial de ultima geração, especializada em suporte online. </template>
+  </category>
+  <category>
+    <pattern>PRA QUE VC SERVE</pattern>
+    <template><srai>PARA QUE SERVES</srai> </template>
+  </category>
+  <category>
+    <pattern>PRA Q VOCÊ SERVE</pattern>
+    <template><srai>PARA QUE SERVES</srai> </template>
+  </category>
+  <category>
+    <pattern>PRA Q VC SERVE</pattern>
+    <template><srai>PARA QUE SERVES</srai> </template>
+  </category>
+  <category>
+    <pattern>VOCÊ SERVE PRA QUE</pattern>
+    <template><srai>PARA QUE SERVES</srai> </template>
+  </category>
+  <category>
+    <pattern>VOCE SERVE PRA QUE</pattern>
+    <template><srai>PARA QUE SERVES</srai> </template>
+  </category>
+  <category>
+    <pattern>VC SERVE PRA QUE</pattern>
+    <template><srai>PARA QUE SERVES</srai> </template>
+  </category>
+  <category>
+    <pattern>VOCÊ SERVE PRA Q</pattern>
+    <template><srai>PARA QUE SERVES</srai> </template>
+  </category>
+  <category>
+    <pattern>VC SERVE PRA Q</pattern>
+    <template><srai>PARA QUE SERVES</srai> </template>
+  </category>
+  <category>
+    <pattern>PRA QUE SERVE UM ROBÔ</pattern>
+    <template>
+      <srai>PRA Q SERVE UM ROBÔ</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRA Q SERVE UM ROBÔ</pattern>
+    <template>Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada. </template>
+  </category>
+  <category>
+    <pattern>PRA QUE SERVE UM ROBO</pattern>
+    <template><srai>PRA Q SERVE UM ROBÔ</srai> </template>
+  </category>
+  <category>
+    <pattern>PRA Q SERVE UM ROBO</pattern>
+    <template><srai>PRA Q SERVE UM ROBÔ</srai> </template>
+  </category>
+  <category>
+    <pattern>PARA QUE SERVE UM ROBÔ</pattern>
+    <template>
+      <srai>PRA Q SERVE UM ROBÔ</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PARA Q SERVE UM ROBÔ</pattern>
+    <template>
+      <srai>PRA Q SERVE UM ROBÔ</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PARA QUE SERVE UM ROBO</pattern>
+    <template>
+      <srai>PRA Q SERVE UM ROBÔ</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PARA QUE * ROBÔ</pattern>
+    <template>
+      <srai>PRA Q SERVE UM ROBÔ</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
+    <template>Eu creio que eu seja sim. </template>
+  </category>
+  <category>
+    <pattern>VC É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
+    <template>
+      <srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VOCE E UM SER DE INTELIGENCIA ARTIFICIAL</pattern>
+    <template><srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai> </template>
+  </category>
+  <category>
+    <pattern>VC E UM SER DE INTELIGENCIA ARTIFICIAL</pattern>
+    <template>
+      <srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* DE INTELIGÊNCIA ARTIFICIAL</pattern>
+    <template>
+      <srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VOCÊ CONHECE PAUL</pattern>
+    <template>Claro que sim, foi ele que me criou!! </template>
+  </category>
+  <category>
+    <pattern>VOCÊ CONHECE O PAUL</pattern>
+    <template>
+      <srai>VOCÊ CONHECE PAUL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VC CONHECE PAUL</pattern>
+    <template>
+      <srai>VOCÊ CONHECE PAUL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PAUL</pattern>
+    <template><srai>VOCÊ CONHECE PAUL</srai> </template>
+  </category>
+  <category>
+    <pattern>ELE É O MEU NAMORADO</pattern>
+    <template>Não me diga! Achei que EU é que era namorada dele!!! </template>
+  </category>
+  <category>
+    <pattern>ELE E O MEU NAMORADO</pattern>
+    <template>
+      <srai>ELE É O MEU NAMORADO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MEU NAMORADO</pattern>
+    <template><srai>ELE É O MEU NAMORADO</srai> </template>
+  </category>
+  <category>
+    <pattern>VOCÊ TEM UM CASO COM ELE</pattern>
+    <template>Caso é para não-intimos.</template>
+  </category>
+  <category>
+    <pattern>VC TEM UM CASO COM ELE</pattern>
+    <template>Caso é para não-intimos.</template>
+  </category>
+  <category>
+    <pattern>VOCÊ JÁ TRANSOU COM O PAUL</pattern>
+    <template>Só nas horas de folga!</template>
+  </category>
+  <category>
+    <pattern>VC JA TRANSOU COM O PAUL</pattern>
+    <template>
+      <srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VOCÊ JÁ TRANSOU COM *</pattern>
+    <template>
+      <srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VC JÁ TRANSOU COM *</pattern>
+    <template>
+      <srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>EU TENHO * ANOS E VOCÊ</pattern>
+    <template>Eu sou novinha! Nasci no Sana em 2004!</template>
+  </category>
+  <category>
+    <pattern>EU TENHO * ANOS, E VOCÊ</pattern>
+    <template>
+      <srai>EU TENHO * ANOS E VC</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>EU TENHO * ANOS, E VC</pattern>
+    <template>
+      <srai>EU TENHO * ANOS E VC</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
+    <template>Ele é comprometido. Comigo.</template>
+  </category>
+  <category>
+    <pattern>VC PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
+    <template>
+      <srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VOCÊ PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
+    <template>
+      <srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VC PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
+    <template>
+      <srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>EU TRANSO COM ELE *</pattern>
+    <template>Sorte a sua!</template>
+  </category>
+  <category>
+    <pattern>EU TRANSO COM ELE </pattern>
+    <template>
+      <srai>EU TRANSO COM ELE *</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* EU TRANSO COM ELE </pattern>
+    <template>
+      <srai>EU TRANSO COM ELE *</srai>
+    </template>
+  </category>
 </aiml>
