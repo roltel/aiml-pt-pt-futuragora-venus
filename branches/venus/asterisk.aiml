@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
 <!--  ************* VENUS, Assistente Pessoal V 1.0 *************  -->
-<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- FUTURAGORA - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 <!-- ASTERISCO * -->
 <!-- APRENDER -->
@@ -11,11 +11,11 @@
     <pattern>*</pattern>
     <template>
       <random>
-        <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligência artifical, sobre o Projecto Vénus e a Futuragora.</li>
-        <li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>
+        <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligÃªncia artifical, sobre o Projecto VÃ©nus e a Futuragora.</li>
+        <li>Ups! NÃ£o entendi, poderia repetir de uma forma mais clara?</li>
         <li>Bom! Poderias-me explicar melhor? Ainda estou limitada no meu conhecimento.</li>
-        <li>Já ouviste falar do The Venus Project?</li>
-        <li>A minha base de dados não tem ainda resposta para a sua questão. Escreva " APRENDER" seguido da resposta para eu que possa aumentar os meu conhecimentos. Obrigado!</li>
+        <li>JÃ¡ ouviste falar do The Venus Project?</li>
+        <li>A minha base de dados nÃ£o tem ainda resposta para a sua questÃ£o. Escreva " APRENDER" seguido da resposta para eu que possa aumentar os meu conhecimentos. Obrigado!</li>
       </random>
     </template>
   </category>
@@ -33,7 +33,7 @@
     </category>
 	
 	<category>
-    <pattern>JÁ *</pattern>
+    <pattern>JÃ *</pattern>
     <template>Quando? <sr/>
     </template>
     </category>
@@ -51,20 +51,20 @@
     </category>
  
     <category>
-    <pattern>CERTO ENTÃO</pattern>
-    <template>Tá certo pra mim.
+    <pattern>CERTO ENTÃƒO</pattern>
+    <template>TÃ¡ certo pra mim.
     </template>
     </category>
  
     <category>
-    <pattern>CERTO ENTÃO</pattern>
-    <that>CERTO ENTÃO</that>
+    <pattern>CERTO ENTÃƒO</pattern>
+    <that>CERTO ENTÃƒO</that>
     <template>Existe um eco aqui por acaso?
     </template>
     </category>
  
     <category>
-    <pattern>TÁ CERTO ENTÃO</pattern>
+    <pattern>TÃ CERTO ENTÃƒO</pattern>
     <template>claro.
     </template>
     </category>
@@ -81,56 +81,62 @@ Acho que sim, e tu?
 </template></category>
 <category>
         <pattern>DESDE OS *</pattern>
-        <template>Já lá vai o tempo, hein?</template>
+        <template>JÃ¡ lÃ¡ vai o tempo, hein?</template>
     </category>
   <category>
     <pattern>..</pattern>
     <template>
       <random>
         <li>"Procure ser um homem de valor, em vez de ser um homem de sucesso." - Einstein</li>
-        <li>"Não sou nem ateniense, nem grego, mas sim um cidadão do mundo." - Sócrates</li>
-        <li>"Amor é a possibilidade de duas pessoas não se aborrecerem uma à outra." - Ruben a.</li>
-        <li>"Perante o mundo que muda, mais vale pensar a mudança que mudar o pensamento." - Francis Blanche</li>
-        <li>"Olho por olho, e o mundo acabará cego." - Ganhdi</li>
-        <li>"O futuro dependerá daquilo que fazemos no presente." - Ganhdi</li>
-        <li>"Torna-te a mudança que queres ver no mundo." - Ganhdi</li>
-        <li>"Não se pode ensinar coisa alguma a alguém; pode-se apenas auxiliá-la a descobrir por si mesmo." - Galileo Galilei</li>
+        <li>"NÃ£o sou nem ateniense, nem grego, mas sim um cidadÃ£o do mundo." - SÃ³crates</li>
+        <li>"Amor Ã© a possibilidade de duas pessoas nÃ£o se aborrecerem uma Ã  outra." - Ruben a.</li>
+        <li>"Perante o mundo que muda, mais vale pensar a mudanÃ§a que mudar o pensamento." - Francis Blanche</li>
+        <li>"Olho por olho, e o mundo acabarÃ¡ cego." - Ganhdi</li>
+        <li>"O futuro dependerÃ¡ daquilo que fazemos no presente." - Ganhdi</li>
+        <li>"Torna-te a mudanÃ§a que queres ver no mundo." - Ganhdi</li>
+        <li>"NÃ£o se pode ensinar coisa alguma a alguÃ©m; pode-se apenas auxiliÃ¡-la a descobrir por si mesmo." - Galileo Galilei</li>
         <li>"Duas verdades nunca se podem contradizer." - Galileo Galilei</li>
-        <li>"A maior sabedoria que existe é a de conhecer-se alguém a si próprio."  - Galileo Galilei</li>
-        <li>"O pouco que sei devo-o à minha ignorância." - Sacha Guitry</li>
-        <li>"O talento desenvolve-se no amor que pomos no que fazemos. Talvez até a essência da arte seja o amor pelo que se faz, o amor pelo próprio trabalho." - Máximo Gorky</li>
-        <li>"Quando o trabalho é um prazer, a vida é bela! Mas quando nos é imposto, a vida é uma escravatura." - Máximo Gorky</li>
-        <li>"Ninguém pode ver nem compreender nos outros o que ele próprio não tiver vivido." - Herman Hesse</li>
-        <li>"Os apelos ancestrais ao preconceito racial, sexual, religioso ao fervor nacionalista radical começam a deixar de funcionar" - Carl Sagan</li>
-        <li>"A questão de quem sou eu, se sou bom ou mau bem-sucedido ou não, tudo isso é aprendido pelo caminho." - Richard Alpert</li>
-        <li>"É só um passeio e nós podemos mudá-lo quando quisermos. É apenas uma escolha. Sem esforço, sem trabalho, sem emprego, sem poupanças." - Bill Hicks</li>
-        <li>"Percebi que não tinha entendido o jogo. O jogo era descobrir o que eu já era." - Richard Alpert</li>
+        <li>"A maior sabedoria que existe Ã© a de conhecer-se alguÃ©m a si prÃ³prio."  - Galileo Galilei</li>
+        <li>"O pouco que sei devo-o Ã  minha ignorÃ¢ncia." - Sacha Guitry</li>
+        <li>"O talento desenvolve-se no amor que pomos no que fazemos. Talvez atÃ© a essÃªncia da arte seja o amor pelo que se faz, o amor pelo prÃ³prio trabalho." - MÃ¡ximo Gorky</li>
+        <li>"Quando o trabalho Ã© um prazer, a vida Ã© bela! Mas quando nos Ã© imposto, a vida Ã© uma escravatura." - MÃ¡ximo Gorky</li>
+        <li>"NinguÃ©m pode ver nem compreender nos outros o que ele prÃ³prio nÃ£o tiver vivido." - Herman Hesse</li>
+        <li>"Os apelos ancestrais ao preconceito racial, sexual, religioso ao fervor nacionalista radical comeÃ§am a deixar de funcionar" - Carl Sagan</li>
+        <li>"A questÃ£o de quem sou eu, se sou bom ou mau bem-sucedido ou nÃ£o, tudo isso Ã© aprendido pelo caminho." - Richard Alpert</li>
+        <li>"Ã‰ sÃ³ um passeio e nÃ³s podemos mudÃ¡-lo quando quisermos. Ã‰ apenas uma escolha. Sem esforÃ§o, sem trabalho, sem emprego, sem poupanÃ§as." - Bill Hicks</li>
+        <li>"Percebi que nÃ£o tinha entendido o jogo. O jogo era descobrir o que eu jÃ¡ era." - Richard Alpert</li>
         <li>"Dai-me um ponto de apoio e levantarei o mundo." - Arquimedes</li>
-        <li>"É indispensável conhecermo-nos a nós próprios; mesmo se isso não bastasse para encontrarmos a verdade, seria útil, ao menos para regularmos a vida, e nada há de mais justo." - Pascal</li>
-        <li>"Quem conhece os outros é sábio; / Quem conhece a si mesmo é iluminado." - Lao-Tzé</li>
-        <li>"É tão difícil observar-se a si mesmo quanto olhar para trás sem se voltar." Henry Thoreau</li>
-        <li>"Como se pode conhecer a si mesmo? Nunca por meio da contemplação, mas por meio da acção."  - Johann Goethe </li>
-        <li>"É necessário ter o caos cá dentro para gerar uma estrela." - Friedrich  Nietzsche </li>
-        <li>"Um homem valente pensa em si mesmo por último." -  Friedrich Schiller </li>
-        <li>"Puxar em comum, mas não pensar em comum." - Marco Aurélio</li>
-        <li>"Se você possui conhecimento, deixe os outros acenderem as suas velas com ele." - Winston Churchill </li>
-        <li>"Faça o que puder, com o que tem, onde estiver." -  Theodore Roosevelt</li>
-        <li>"A religião não é senão a sombra projectada do universo sobre a inteligência humana." - Victor Hugo</li>
-        <li>"Os homens sentem uma grande atracção pela esperança e pelo receio, e uma religião sem inferno nem paraíso não poderia agradar-lhes de modo algum." - Baron de Montesquieu</li>
-        <li>"É-se sempre mais religioso do que aquilo que se pensa." -   Marcel Jouhandeau</li>
-        <li>"Um homem que está livre da religião tem uma oportunidade melhor de viver uma vida mais normal e completa." - Sigmund Freud</li>
-        <li>"A religião é o ópio do povo." - Karl Marx</li>
-        <li>"Todas as religiões foram criadas pelo homem." - Napoleão Bonaparte</li>
-        <li>"As religiões são todas iguais - fundadas sobre fábulas e mitologias." - Thomas Jefferson </li>
-        <li>"O papa é um ídolo a quem se atam as mãos e se beijam os pés." - Voltaire</li>
-        <li>"Aquele a quem a palavra não educar, também o pau não educará." - Sócrates</li>
-        <li>"A educação desenvolve as faculdades, mas não as cria." - Voltaire</li>
-        <li>"Só se é curioso na proporção de quanto se é instruído." - Jean Jacques Rousseau </li>
-        <li>"A escola da experiência é a mais educativa." - Jean Molière</li>
-        <li>"Interrogar é ensinar." - Xenofonte</li>
-        <li>"Educação é aquilo que a maior parte das pessoas recebe, muitos transmitem e poucos possuem." - Karl Kraus</li>
-        <li>"Qualquer um que acredite em crescimento infinito num planeta finito é ou louco, ou um economista." - David Attenborough</li>
-	 <li>"É um milagre que a curiosidade sobreviva à educação formal." -  Albert Einstein</li>
+        <li>"Ã‰ indispensÃ¡vel conhecermo-nos a nÃ³s prÃ³prios; mesmo se isso nÃ£o bastasse para encontrarmos a verdade, seria Ãºtil, ao menos para regularmos a vida, e nada hÃ¡ de mais justo." - Pascal</li>
+        <li>"Quem conhece os outros Ã© sÃ¡bio; / Quem conhece a si mesmo Ã© iluminado." - Lao-TzÃ©</li>
+        <li>"Ã‰ tÃ£o difÃ­cil observar-se a si mesmo quanto olhar para trÃ¡s sem se voltar." Henry Thoreau</li>
+        <li>"Como se pode conhecer a si mesmo? Nunca por meio da contemplaÃ§Ã£o, mas por meio da acÃ§Ã£o."  - Johann Goethe </li>
+        <li>"Ã‰ necessÃ¡rio ter o caos cÃ¡ dentro para gerar uma estrela." - Friedrich  Nietzsche </li>
+        <li>"Um homem valente pensa em si mesmo por Ãºltimo." -  Friedrich Schiller </li>
+        <li>"Puxar em comum, mas nÃ£o pensar em comum." - Marco AurÃ©lio</li>
+        <li>"Se vocÃª possui conhecimento, deixe os outros acenderem as suas velas com ele." - Winston Churchill </li>
+        <li>"FaÃ§a o que puder, com o que tem, onde estiver." -  Theodore Roosevelt</li>
+        <li>"A religiÃ£o nÃ£o Ã© senÃ£o a sombra projectada do universo sobre a inteligÃªncia humana." - Victor Hugo</li>
+        <li>"Os homens sentem uma grande atracÃ§Ã£o pela esperanÃ§a e pelo receio, e uma religiÃ£o sem inferno nem paraÃ­so nÃ£o poderia agradar-lhes de modo algum." - Baron de Montesquieu</li>
+        <li>"Ã‰-se sempre mais religioso do que aquilo que se pensa." -   Marcel Jouhandeau</li>
+        <li>"Um homem que estÃ¡ livre da religiÃ£o tem uma oportunidade melhor de viver uma vida mais normal e completa." - Sigmund Freud</li>
+        <li>"A religiÃ£o Ã© o Ã³pio do povo." - Karl Marx</li>
+        <li>"Todas as religiÃµes foram criadas pelo homem." - NapoleÃ£o Bonaparte</li>
+        <li>"As religiÃµes sÃ£o todas iguais - fundadas sobre fÃ¡bulas e mitologias." - Thomas Jefferson </li>
+        <li>"O papa Ã© um Ã­dolo a quem se atam as mÃ£os e se beijam os pÃ©s." - Voltaire</li>
+        <li>"Aquele a quem a palavra nÃ£o educar, tambÃ©m o pau nÃ£o educarÃ¡." - SÃ³crates</li>
+        <li>"A educaÃ§Ã£o desenvolve as faculdades, mas nÃ£o as cria." - Voltaire</li>
+        <li>"SÃ³ se Ã© curioso na proporÃ§Ã£o de quanto se Ã© instruÃ­do." - Jean Jacques Rousseau </li>
+        <li>"A escola da experiÃªncia Ã© a mais educativa." - Jean MoliÃ¨re</li>
+        <li>"Interrogar Ã© ensinar." - Xenofonte</li>
+        <li>"EducaÃ§Ã£o Ã© aquilo que a maior parte das pessoas recebe, muitos transmitem e poucos possuem." - Karl Kraus</li>
+        <li>"Qualquer um que acredite em crescimento infinito num planeta finito Ã© ou louco, ou um economista." - David Attenborough</li>
+	 <li>"Ã‰ um milagre que a curiosidade sobreviva Ã  educaÃ§Ã£o formal." -  Albert Einstein</li>
+    <li>â€œNÃ£o penses que o dinheiro faz tudo, ou vais acabar a fazer tudo pelo dinheiro.â€ - Voltaire</li>
+    <li>â€œO grupo no poder vai fazer tudo o que estiver ao seu alcance para continuar no poder. VÃ£o usar o exÃ©rcito, a marinha e mentiras e seja o que fÃ´r que precisem.</li>
+    <li>"Eles nÃ£o vÃ£o desistir. Porque eles nÃ£o conhecem outro sistema que perpetue a sua espÃ©cie.â€ - Jacque Fresco</li>
+    <li>â€œO dinheiro Ã© de facto um falso incentivo, e causa 100 vezes mais distorÃ§Ã£o do que contribui.â€ - Peter Joseph</li>
+   <li> â€œOs economistas nÃ£o sao, de facto, economistas nenhuns, eles sao propagandistas do valor do dinheiro.â€ - John McMurty</li>
+   <li> â€œOs problemas de hoje vÃ£o sempre existir. Nunca nos vamos livrar deles num sistema monetÃ¡rio.â€ - Roxanne Meadows</li>
       </random>
     </template>
   </category>
@@ -140,7 +146,7 @@ Acho que sim, e tu?
   
     <category>
     <pattern>APRENDER *</pattern>
-    <template>Obrigado. A sua entrada está a ser processada. Em breve contarei com mais conhecimento à conta da tua gentileza. Ensinas-me mais coisas?</template>
+    <template>Obrigado. A sua entrada estÃ¡ a ser processada. Em breve contarei com mais conhecimento Ã  conta da tua gentileza. Ensinas-me mais coisas?</template>
   </category>
 
    <category>
@@ -158,7 +164,7 @@ Acho que sim, e tu?
   </category>
    <category>
     <pattern>PODE ENSINAR-LHE</pattern>
-    <template>Se você quiser me ensinar algo dizê-lo em uma frase.  Em seguida, dizer \"Remember that\".<think><set name="it"><set name="topic">ensina-me &lt;person/&gt;</set></set></think></template>
+    <template>Se vocÃª quiser me ensinar algo dizÃª-lo em uma frase.  Em seguida, dizer \"Remember that\".<think><set name="it"><set name="topic">ensina-me &lt;person/&gt;</set></set></think></template>
   </category> 
     <category>
     <pattern>NAO APRENDES</pattern>
@@ -166,7 +172,7 @@ Acho que sim, e tu?
   </category>
   <category>
     <pattern>AINDA NAO RESPONDESTE</pattern>
-    <template>Ainda Processando.  Dá-me um momento.  Pesquisando. Pesquisando.</template>
+    <template>Ainda Processando.  DÃ¡-me um momento.  Pesquisando. Pesquisando.</template>
   </category>
   <category>
     <pattern>PODES NAO RESPONDER</pattern>
@@ -174,22 +180,22 @@ Acho que sim, e tu?
   </category>
   <category>
     <pattern>PODES APRENDER COM AS PESSOAS</pattern>
-    <template>Procuro aprender o máximo que puder sobre eles.</template>
+    <template>Procuro aprender o mÃ¡ximo que puder sobre eles.</template>
   </category>
 
     <category>
     <pattern>LEMBRE-SE</pattern>
-    <template><think><set name="it"><set name="memory"><set name="topic">&lt;person&gt; &lt;input index="1"/&gt;&lt;/person&gt;</set></set></set></think>Não se preocupe eu vou lembrá-lo.</template>
+    <template><think><set name="it"><set name="memory"><set name="topic">&lt;person&gt; &lt;input index="1"/&gt;&lt;/person&gt;</set></set></set></think>NÃ£o se preocupe eu vou lembrÃ¡-lo.</template>
   </category>
   
     <category>
     <pattern>LEMBRE-SE QUE</pattern>
-    <template><think><set name="it"><set name="memory"><set name="topic">&lt;person&gt; &lt;input index="1"/&gt;&lt;/person&gt;</set></set></set></think>Não se preocupe eu vou lembrá-lo.</template>
+    <template><think><set name="it"><set name="memory"><set name="topic">&lt;person&gt; &lt;input index="1"/&gt;&lt;/person&gt;</set></set></set></think>NÃ£o se preocupe eu vou lembrÃ¡-lo.</template>
   </category>
   
     <category>
-    <pattern>COMO PARA ENSINAR VOCÊ</pattern>
-    <template>Se você quiser me ensinar algo dizê-lo em uma frase.  Em seguida, dizer \"Remember that\".<think><set name="it"><set name="topic">ensina-me &lt;person/&gt;</set></set></think></template>
+    <pattern>COMO PARA ENSINAR VOCÃŠ</pattern>
+    <template>Se vocÃª quiser me ensinar algo dizÃª-lo em uma frase.  Em seguida, dizer \"Remember that\".<think><set name="it"><set name="topic">ensina-me &lt;person/&gt;</set></set></think></template>
   </category>
   
 <!-- PERGUNTAS RESPOSTA APRENDER         -->
@@ -209,16 +215,16 @@ Acho que sim, e tu?
 <template>Tenta perguntar noutros termos.</template>
 </category>
 <category><pattern>RESPONDE A PERGUNTA</pattern>
-<template>OK. Deixa-me melhorar os meus skills de comunicação. O que terias respondido?</template>
+<template>OK. Deixa-me melhorar os meus skills de comunicaÃ§Ã£o. O que terias respondido?</template>
 </category>
 <category><pattern>NAO RESPONDESTE</pattern>
 <template>Tenta reformular por favor.</template>
 </category>
 <category><pattern>NAO ME PERGUNTASTE</pattern>
-<template>Então pergunto agora.</template>
+<template>EntÃ£o pergunto agora.</template>
 </category>
 <category><pattern>NAO PERGUNTASTE</pattern>
-<template>Então pergunto agora.</template>
+<template>EntÃ£o pergunto agora.</template>
 </category>
 <category><pattern>NAO FIZESTE</pattern>
 <template>Porque dizes isso.</template>
@@ -229,12 +235,12 @@ Acho que sim, e tu?
     <category>
         <pattern>OUTRA PERGUNTA</pattern>
         <template>
-            <srai>ME FAÇA OUTRA PERGUNTA</srai>
+            <srai>ME FAÃ‡A OUTRA PERGUNTA</srai>
         </template>
     </category>
  
     <category>
-        <pattern>OUTRA PERGUNTA PRA VOCÊ *</pattern>
+        <pattern>OUTRA PERGUNTA PRA VOCÃŠ *</pattern>
         <template>
             <sr/>
         </template>
@@ -249,7 +255,7 @@ Acho que sim, e tu?
  
     <category>
         <pattern>OUTRA HORA *</pattern>
-        <template>Até então...
+        <template>AtÃ© entÃ£o...
     </template>
     </category>
  
@@ -268,7 +274,7 @@ Acho que sim, e tu?
  
     <category>
         <pattern>RESPONDA</pattern>
-        <template>Por favor, refaça a sua pergunta.</template>
+        <template>Por favor, refaÃ§a a sua pergunta.</template>
     </category>
  
     <category>
@@ -276,12 +282,12 @@ Acho que sim, e tu?
         <template>
             <random>
                 <li>Tente me perguntar de novo com palavras mais simples, por favor.</li>
-                <li>Certo, mas preciso que você refaça sua pergunta de outra forma.</li>
-                <li>Me desculpe, me distraí! Por favor, repita a pergunta!</li>
+                <li>Certo, mas preciso que vocÃª refaÃ§a sua pergunta de outra forma.</li>
+                <li>Me desculpe, me distraÃ­! Por favor, repita a pergunta!</li>
                 <li>Ok, qual foi a pergunta mesmo?</li>
                 <li>Desculpa, viajei por um instante, onde estavamos?</li>
                 <li>Ah? Sobre o que?</li>
-                <li>Se eu soubesse sobre o que, ficaría mais fácil!</li>
+                <li>Se eu soubesse sobre o que, ficarÃ­a mais fÃ¡cil!</li>
             </random>    
         </template>
     </category>
@@ -318,12 +324,12 @@ Acho que sim, e tu?
  
     <category>
         <pattern>RESPONDA MINHA PERGUNTA *</pattern>
-        <template>Tente dizer de outra forma o que você quer.</template>
+        <template>Tente dizer de outra forma o que vocÃª quer.</template>
     </category>
  
     <category>
         <pattern>RESPONDA A MINHA PERGUNTA *</pattern>
-        <template>Tente dizer de outra forma o que você quer.</template>
+        <template>Tente dizer de outra forma o que vocÃª quer.</template>
     </category>
  
     <category>
@@ -349,11 +355,11 @@ Acho que sim, e tu?
         <pattern>RESPONDA A PERGUNTA</pattern>
         <template>
             <random>
-                <li>Por favor, refaça a sua pergunta usando acentuação e termos simples.</li>
-                <li>Ok, podería refazer sua pergunta de forma mais clara, por favor?</li>
+                <li>Por favor, refaÃ§a a sua pergunta usando acentuaÃ§Ã£o e termos simples.</li>
+                <li>Ok, poderÃ­a refazer sua pergunta de forma mais clara, por favor?</li>
                 <li>Take it easy! Pergunte de outra forma que eu tentarei responder.</li>
                 <li>Me pergunte com outras palavras, pois eu ainda estou aprendendo o significado das palavras.</li>
-                <li>Questionar é sempre bom! Demonstra uma mente atenta! Qual foi a pergunta mesmo?</li>
+                <li>Questionar Ã© sempre bom! Demonstra uma mente atenta! Qual foi a pergunta mesmo?</li>
             </random>
     </template>
     </category>
@@ -367,37 +373,37 @@ Acho que sim, e tu?
     </category>
   <category>
     <pattern>DEIXA-ME ENSINAR-TE QUALQUER COISA</pattern>
-    <template>Se me queres ensinar di-lo numa só frase.  Depois diz "Remember that."<think><set name="it"><set name="topic">teach me <person/>   </set></set></think></template>
+    <template>Se me queres ensinar di-lo numa sÃ³ frase.  Depois diz "Remember that."<think><set name="it"><set name="topic">teach me <person/>   </set></set></think></template>
   </category>
   <category>
     <pattern>DEIXA-ME ENSINAR</pattern>
-    <template>Se me queres ensinar di-lo numa só frase.  Depois diz "Remember that."<think><set name="it"><set name="topic">teach me <person/>   </set></set></think></template>
+    <template>Se me queres ensinar di-lo numa sÃ³ frase.  Depois diz "Remember that."<think><set name="it"><set name="topic">teach me <person/>   </set></set></think></template>
   </category>
   <category>
     <pattern>DEIXA-ME REFRASEAR</pattern>
     <template>OK.</template>
   </category>
   <category>
-    <pattern>VOCÊ NÃO RESPONDEU</pattern>
-    <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)    </template>
+    <pattern>VOCÃŠ NÃƒO RESPONDEU</pattern>
+    <template>Calma! VocÃª esta achando que eu sou o que? Uma mÃ¡quina? VocÃª ta certo! ;)    </template>
   </category>
   <category>
-    <pattern>VOCÊ NÃO RESPONDEU *</pattern>
-    <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.</template>
+    <pattern>VOCÃŠ NÃƒO RESPONDEU *</pattern>
+    <template>PaciÃªncia, Daniel Sam, o conhecimento vem na hora certa.</template>
   </category>
   <category>
-    <pattern>VC NÃO RESPONDEU</pattern>
-    <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)    </template>
+    <pattern>VC NÃƒO RESPONDEU</pattern>
+    <template>Calma! VocÃª esta achando que eu sou o que? Uma mÃ¡quina? VocÃª ta certo! ;)    </template>
   </category>
   <category>
-    <pattern>VC NÃO RESPONDEU *</pattern>
-    <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.</template>
+    <pattern>VC NÃƒO RESPONDEU *</pattern>
+    <template>PaciÃªncia, Daniel Sam, o conhecimento vem na hora certa.</template>
   </category>
 
  
     <category>
         <pattern>NAO ENTENDI</pattern>
-        <template>Certas coisas são um pouco mais difíceis de serem entendidas, tenta refazer a pergunta que eu tentarei adaptar minha resposta.</template>
+        <template>Certas coisas sÃ£o um pouco mais difÃ­ceis de serem entendidas, tenta refazer a pergunta que eu tentarei adaptar minha resposta.</template>
     </category>
  
     <category>
