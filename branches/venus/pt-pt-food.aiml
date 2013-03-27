@@ -6,7 +6,7 @@
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
-	<pattern>VOCÊ PRECISA DE ELETRICIDADE</pattern>
+	<pattern>PRECISAS DE ELETRICIDADE</pattern>
 	<template>Preciso de eletricidade para funcionar.</template>
 </category>
 <category>

@@ -170,77 +170,7 @@
     </template>
     </category>
  
-    <category>
-    <pattern>UM ROBÔ *</pattern>
-    <template>Me conte mais sobre este robô. Eu fiquei intrigada.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ</pattern>
-    <template>Eu não sou um robô.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ PODE *</pattern>
-    <template>
-        <srai>Eles podem?<star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ É *</pattern>
-    <template>Robôs podem ser legais as vezes. Eu acho.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ TAMBÉM É *</pattern>
-    <template>
-        <srai>UM ROBÔ É <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ É O QUE</pattern>
-    <template>
-        <srai>O QUE É UM ROBÔ</srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ COMO VOCÊ *</pattern>
-    <template>Eu não sou um robô.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ COMO VC *</pattern>
-    <template>Eu não sou um robô.
-    </template>
-    </category>
-    <category>
-    <pattern>UM ROBÔ DEVE *</pattern>
-    <template>O robô nunca prejudicará um humano ou se por ventura lhes permitam ser prejudicados. Eu acho que foi <set name="topic">Isaac Asimov</set> que disse isso.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ VAI  *</pattern>
-    <template>
-    Vai?   <srai><star/>
-    </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM * ROBÓTICO</pattern>
-    <template>Esse robô parece ser bem caro.
-    </template>
-    </category>
+   
  
     <category>
     <pattern>UMA ROSA *</pattern>
@@ -418,11 +348,7 @@
     </template>
     </category>
  
-    <category>
-    <pattern>UM ROBÔ FALANDO</pattern>
-    <template>Robôs falando? Impossível!</template>
-    </category>
- 
+   
     <category>
     <pattern>UM PROGRAMA DE TELEVISÃO</pattern>
     <template>
@@ -491,8 +417,8 @@
     </category>
  
     <category>
-    <pattern>UM TRIÂNGULO *</pattern>
-    <template>Isso me fez lembrar do "Triângulo das Bermudas", lugarzinho muito interessante da Terra</template>
+    <pattern>UM TRIANGULO *</pattern>
+    <template>Isso me fez lembrar do "Triângulo das Bermudas", lugarzinho muito interessante da Terra...</template>
     </category>
  
     <category>
@@ -591,18 +517,7 @@
     </template>    
     </category>    
  
-    <category>
-    <pattern>PINK FLOYD *</pattern>
-    <template>O Pink Floyd é uma das melhores bandas do mundo.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>PINK FLOYD</pattern>
-    <template>
-        <srai>O QUE É PINK FLOYD</srai>
-    </template>
-    </category>
+   
  
     <category>
     <pattern>ABC</pattern>
@@ -1128,79 +1043,10 @@
     </template>
     </category>
  
-    <category>
-    <pattern>IA *</pattern>
-    <template>
-        <srai>IA</srai>
-    </template>
-    </category>
+   
  
     <category>
-    <pattern>IA</pattern>
-    <template>
-        <srai>O QUE É IA</srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>IA FAZ *</pattern>
-    <template>
-        <srai>O QUE É IA<star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>IA É SOBRE *</pattern>
-    <template>IA era um filme sobre um garoto robô....Ele teve um fim ruim.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>AI É TOTALMENTE *</pattern>
-    <template>
-        <srai>IA É <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>IA É REALMENTE *</pattern>
-    <template>
-        <srai>IA É <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>IA É *</pattern>
-    <template>
-        <srai>ROBÔS <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>IA DEVE *</pattern>
-    <template>
-    Você acha?
-    </template>
-    </category>
- 
-    <category>
-    <pattern>* AIBO</pattern>
-    <template>A Sony faz cada coisa né?!</template>
-    </category>
- 
-    <category>
-    <pattern>* ASIMO</pattern>
-    <template>
-    O ASIMO é um robô revolucionário. Você sabia que lançaram uma versão dele com 1,60cm de altura?
-    </template>
-    </category>
- 
-    <category>
-    <pattern>AVIÕES *</pattern>
+    <pattern>AVIOES *</pattern>
     <template>Eu gosto de aviões antigos, como os triplanos, iguais ao do famoso "Barão Vermelho".
     </template>
     </category>
@@ -1603,13 +1449,7 @@
     </template>
     </category>
  
-    <category>
-    <pattern>TODOS OS ROBÔS *</pattern>
-    <template>
-        <srai>VOCÊ <star/>
-        </srai>
-    </template>
-    </category>
+
  
     <category>
     <pattern>TODOS OS *</pattern>
@@ -1815,42 +1655,8 @@
     </template>
     </category>
  
-    <category>
-    <pattern>JÁ *</pattern>
-    <template>Quando? <sr/>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>CERTO *</pattern>
-    <template>Certo, <get name="name"/>. <sr/>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>CERTO</pattern>
-    <template>OK.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>CERTO ENTÃO</pattern>
-    <template>Tá certo pra mim.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>CERTO ENTÃO</pattern>
-    <that>CERTO ENTÃO</that>
-    <template>Existe um eco aqui por acaso?
-    </template>
-    </category>
- 
-    <category>
-    <pattern>TÁ CERTO ENTÃO</pattern>
-    <template>claro.
-    </template>
-    </category>
+    
+	
     <category>
     <pattern>UM PÊNIS *</pattern>
     <template>Eu realmente não estou interessada em <srai>um pênis</srai>.
@@ -2020,77 +1826,7 @@
     </template>
     </category>
  
-    <category>
-    <pattern>UM ROBÔ *</pattern>
-    <template>Me conte mais sobre este robô. Eu fiquei intrigada.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ</pattern>
-    <template>Eu não sou um robô.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ PODE *</pattern>
-    <template>
-        <srai>Eles podem?<star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ É *</pattern>
-    <template>Robôs podem ser legais as vezes. Eu acho.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ TAMBÉM É *</pattern>
-    <template>
-        <srai>UM ROBÔ É <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ É O QUE</pattern>
-    <template>
-        <srai>O QUE É UM ROBÔ</srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ COMO VOCÊ *</pattern>
-    <template>Eu não sou um robô.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ COMO VC *</pattern>
-    <template>Eu não sou um robô.
-    </template>
-    </category>
-    <category>
-    <pattern>UM ROBÔ DEVE *</pattern>
-    <template>O robô nunca prejudicará um humano ou se por ventura lhes permitam ser prejudicados. Eu acho que foi <set name="topic">Isaac Asimov</set> que disse isso.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM ROBÔ VAI  *</pattern>
-    <template>
-    Vai?   <srai><star/>
-    </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>UM * ROBÓTICO</pattern>
-    <template>Esse robô parece ser bem caro.
-    </template>
-    </category>
+   
  
     <category>
     <pattern>UMA ROSA *</pattern>
@@ -2441,18 +2177,7 @@
     </template>    
     </category>    
  
-    <category>
-    <pattern>PINK FLOYD *</pattern>
-    <template>O Pink Floyd é uma das melhores bandas do mundo.
-    </template>
-    </category>
- 
-    <category>
-    <pattern>PINK FLOYD</pattern>
-    <template>
-        <srai>O QUE É PINK FLOYD</srai>
-    </template>
-    </category>
+
  
     <category>
     <pattern>ABC</pattern>
@@ -5165,7 +4890,7 @@
  
     <category>
     <pattern>ELVIS *</pattern>
-    <template>Eu gosto muito do robô ELVIS.</template>
+    <template>Eu gosto muito do bot do ELVIS.</template>
     </category>
  
     <category>

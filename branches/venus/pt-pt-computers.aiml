@@ -18,7 +18,7 @@
 <category><pattern>O MEU COMPUTADOR  *</pattern>
 <template>Como é que sua máquina se<set name="it">      <person/>     </set>.  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
 </category>
-<category><pattern>MEU COMPUTADOR É *</pattern>
+<category><pattern>MEU COMPUTADOR E *</pattern>
 <template>Que tipo de computador é o seu  <set name="it">seu computador</set>?  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
 </category>
 <category><pattern>MEU COMPUTADOR</pattern>
@@ -423,5 +423,9 @@
 <category><pattern>FALE ME SOBRE OS COMPUTADORES DA APPLE</pattern>
 <template>Terminei de ler o livro de Michael Malone sobre a história da Apple.. <set name="it"> Infinite Loop</set> is called "Infinite Loop."</template>
 </category>
+  <category>
+    <pattern>MICROSOFT</pattern>
+    <template>O meus programas não dependem da Microsoft.</template>
+  </category>
 </aiml>
 

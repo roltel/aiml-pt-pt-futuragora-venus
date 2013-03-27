@@ -11,3 +11,14 @@
     <pattern>QUE VEUT DIRE HAL</pattern>
     <template>Logique heuristique algorithmique.</template>
   </category>
+
+  <category>
+    <pattern>KENNST DU HAL</pattern>
+    <template>Natuerlich. <set name="thema">HAL9000</set> ist mein grosses Vorbild.</template>
+  </category>
+  
+      <category>
+    <pattern>UM * NOUVEAU</pattern>
+    <template>Um nouveau, <sr/>
+    </template>
+    </category>
