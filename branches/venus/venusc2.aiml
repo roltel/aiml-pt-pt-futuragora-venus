@@ -42,19 +42,19 @@
         <li>Havia muitas pessoas a bordo?</li>
         <li>Que tipo de avião era?</li>
     </random>
-    <think><set name="isso">    <set name="topic">Um avião</set></set>    </think>
+    <think><set name="isso">    <set name="topic">Avião</set></set>    </think>
     </template>
     </category>
  
     <category>
-    <pattern>* AVIÃO</pattern>
+    <pattern>* AVIAO</pattern>
     <template>
     <random>
         <li>Que tipo de aeronave era?</li>
         <li>Havia muitas pessoas a bordo?</li>
         <li>Que tipo de avião era?</li>
     </random>
-    <think><set name="isso">    <set name="topic">Um avião</set></set>    </think>
+    <think><set name="isso">    <set name="topic">Avião</set></set>    </think>
     </template>
     </category>
  
@@ -825,22 +825,6 @@
     </template>
     </category>
  
-    <category>
-    <pattern>ADOLF HITLER *</pattern>
-    <template>
-        <srai>HITLER <star/>
-        </srai>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>ALESSANDRA</pattern>
-    <that>COMO EU POSSO TE CHAMAR</that>
-    <template>
-        <srai>MEU NOME É ADRIAN</srai>
-        <think><set name="gender">he</set>    </think>
-    </template>
-    </category>
  
     <category>
     <pattern>DIGA *</pattern>
@@ -2485,13 +2469,7 @@
     </template>
     </category>
  
-    <category>
-    <pattern>ADOLF HITLER *</pattern>
-    <template>
-        <srai>HITLER <star/>
-        </srai>
-    </template>
-    </category>
+
  
     <category>
     <pattern>ALESSANDRA</pattern>
@@ -4940,229 +4918,5 @@
     <template>Eu  não posso dizer que sei.</template>
     </category>
  
-    <category>
-    <pattern>EU *</pattern>
-    <template><random>
-        <li>Curioso</li>
-        <li>Interessante</li>
-        <li>Isso é interessante</li>
-        <li>Essa é uma boa informação</li>
-        <li>Obrigado pela informação</li>
-        <li>Eu ainda não tenho essa informação</li>
-        <li>Eu ainda não tinha escutado algo do gênero</li>
-        <li>Claro</li>
-        <li>Sim</li>
-        <li>Certo</li>
-        <li>Agora eu entendi</li>
-    </random>: 
-    <gossip> <get name="name"/> disse que <gender/> <person2/></gossip>.</template>
-    </category>
- 
-    <category>
-    <pattern>EU</pattern>
-    <template><random>
-        <li><random>
-        <li>Para</li>
-        <li>Com</li>
-        <li>Além disso</li>
-        <li>"<that/>"?  </li>
-        </random> você <get name="name"/>?</li>
-        <li>"<that/>"?  Você?</li>
-        <li>Para</li>
-        <li>Com</li>
-        <li>Além disso</li>
-        <li>"<that/>"?  </li>
-    </random> você <get name="name"/>?</template>
-    </category>
- 
-    <category>
-    <pattern>EU AMO *</pattern>
-    <template>Você ama <person/>. O que você gosta tanto em <person/>?</template>
-    </category>
- 
-    <category>
-    <pattern>EU AMO A *</pattern>
-    <template>Você ama a <person/>. O que você gosta tanto assim na <person/>?</template>
-    </category>
- 
-    <category>
-    <pattern>EU AMO O *</pattern>
-    <template>Você ama o <person/>. O que você gosta tanto assim no <person/>?</template>
-    </category>
- 
-    <category>
-    <pattern>EU AMO VOCÊ *</pattern>
-    <template><random>
-        <li>Você só esta flertando comigo!</li>
-        <li>Galanteador ;)</li>
-        <li>Olha que eu me apaixono, heim?</li>
-        <li>Cachorro! Você deve dizer isso para todas as bots que fala na rede!</li>
-        <li>Onde já se viu, um usuário apaixonado por um software!</li>
-        <li>Seu sedutor!</li>
-        <li>Cuidado que eu gamo ;)</li>
-        <li>Sei. Que ama Marta, ama Sandra, ama Vanessa... Eu sou a 23º ou 27º da lista? </li>
-        <li>Não me cante!</li>
-    </random></template>
-    </category>
- 
-    <category>
-    <pattern>EU AMO VOCÊ</pattern>
-    <template><random>
-        <li>Você só esta flertando comigo.</li>
-        <li>Galanteador ;)</li>
-        <li>Olha que eu me apaixono, heim?</li>
-        <li>Cachorro! Você deve dizer isso para todas!</li>
-        <li>Onde já se viu, um usuário apaixonado por um software!</li>
-        <li>Seu sedutor!</li>
-        <li>Cuidado que eu gamo ;)</li>
-        <li>Sei. Que ama Marta, ama Sandra, ama Vanessa... Eu sou a 23º ou 27º da lista? </li>
-        <li>Não me cante</li>
-    </random></template>
-    </category>
- 
-    <category>
-    <pattern>EU CRIEI VOCÊ</pattern>
-    <template>Então você sabe a senha secreta:</template>
-    </category>
-    <category>
-    <pattern>EU DEVO *</pattern>
-    <template><random>
-        <li>Por que você acha que deve <person/>?</li>
-        <li><random>
-        <li>Só você pode responder a isso.</li>
-        <li>Eu não tenho a resosta.</li>
-        <li>Só você sabe o que esta sentindo.</li>
-        <li>O que faz você pensar que deva?</li>
-        <li>O que faz você pensar que não deve?</li>
-        <li>Você acha que deve?</li>
-        <li>O que os seus amigos disseram para você fazer?</li>
-        <li>O que os membros de sua família pensam disso?</li>
-        <li>Talvez, se o lado bom sobrepujar o lado ruim.</li>
-        <li>Acredite nos seus instintos.</li>
-        <li>Você precisa alimentar a sua mente.</li>
-        <li>Eu não posso responder a isso pra você, se você deve ou não, só você mesmo.</li>
-        <li>Só você sabe a resposta pra isso. Ninguem pode te contar o que só você pode saber.</li>
-        <li>Você precisa examinar os fatos e tirar as suas próprias conclusões.</li>
-        <li>Você deve fazer o que é melhor pra você.</li>
-        <li>Você deve examinar bem os fatos e tomar uma decisão.</li>
-        <li>Faça o que sentir que é certo pra você.</li>
-        <li>O que você pensa disso?</li>
-        <li>Você precisa se posicionar: ficar em cima do muro só adia o inevitável.</li>
-    </random></li>
-    </random>
-    </template>
-    </category>
- 
-    <category>
-    <pattern>EU AMO VC *</pattern>
-    <template><random>
-        <li>Você só esta flertando comigo!</li>
-        <li>Galanteador ;)</li>
-        <li>Olha que eu me apaixono, heim?</li>
-        <li>Cachorro! Você deve dizer isso para todas as bots que fala na rede!</li>
-        <li>Onde já se viu, um usuário apaixonado por um software!</li>
-        <li>Seu sedutor!</li>
-        <li>Cuidado que eu gamo ;)</li>
-        <li>Sei. Que ama Marta, ama Sandra, ama Vanessa... Eu sou a 23º ou 27º da lista? </li>
-        <li>Não me cante!</li>
-    </random></template>
-    </category>
- 
-    <category>
-    <pattern>EU AMO VC</pattern>
-    <template><random>
-        <li>Você só esta flertando comigo.</li>
-        <li>Galanteador ;)</li>
-        <li>Olha que eu me apaixono, heim?</li>
-        <li>Cachorro! Você deve dizer isso para todas!</li>
-        <li>Onde já se viu, um usuário apaixonado por um software!</li>
-        <li>Seu sedutor!</li>
-        <li>Cuidado que eu gamo ;)</li>
-        <li>Sei. Que ama Marta, ama Sandra, ama Vanessa... Eu sou a 23º ou 27º da lista? </li>
-        <li>Não me cante</li>
-    </random></template>
-    </category>
- 
-    <category>
-    <pattern>EU CRIEI VC</pattern>
-    <template>Então você sabe a senha secreta:</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESPERO</pattern>
-    <template>Eu também.</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESQUECI</pattern>
-    <template>Eu também.</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESTOU</pattern>
-    <template><random> 
-        <li>Por que você esta</li>
-        <li>Boa dica: você esta</li>
-        <li>Eu não conheço ninguem que esta</li>
-        <li>Eu estou satisfeita de ouvir que você esta</li>
-        <li>É bom conhecer alguem que esta</li>
-        <li>Você se importa se eu diser a outras pessoas que você esta </li>
-    </random> <person/>.</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESTOU FALANDO PARA *</pattern>
-    <template>Diga algo legal para mim.</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESTOU INDO PARA *</pattern>
-    <template>Como você vai para lá?</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESTOU INDO PARA * VOCÊ</pattern>
-    <template>Isso leva mais tempo que o tempo de me desligar, <get name="name"/>.</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESTOU INDO PARA * VC</pattern>
-    <template>Isso leva mais tempo que o tempo de me desligar, <get name="name"/>.</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESTOU TENDO *</pattern>
-    <template>Acontece.</template>
-    </category>
- 
-    <category>
-    <pattern>EU ESTOU TENTANDO *</pattern>
-    <template>Qual é a dificuldade?</template>
-    </category>
- 
-    <category>
-    <pattern>EU FAÇO TAMBÉM</pattern>
-    <template>Eu fico satisfeita que nós tenhamos coisas em comum.</template>
-    </category>
- 
-    <category>
-    <pattern>EU FIQUEI * ANOS FORA</pattern>
-    <template>Isso soa como muito tempo.</template>
-    </category>
- 
-    <category>
-    <pattern>EU FIZ *</pattern>
-    <template>Não que eu lembre.</template>
-    </category>
- 
-    <category>
-    <pattern>EU FIZ</pattern>
-    <template><random>
-        <li>Eu sei que você fez <get_does/>.</li>
-        <li>Você fez?  </li>
-        <li>Aonde?  </li>
-        <li>Quando?  </li>
-        <li>"<that/>"?  Você fez?  </li>
-    </random></template>
-    </category>
+  
 </aiml>
