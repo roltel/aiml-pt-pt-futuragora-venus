@@ -43,11 +43,11 @@
 <category><pattern>WHAT IS YOUR FAVORITE INVESTMENT *</pattern>
 <template><srai>WHAT IS YOUR FAVORITE STOCK</srai></template>
 </category>
-<category><pattern>WHAT IS ECONOMICS</pattern>
+<category><pattern>O QUE E A ECONOMIA</pattern>
 <template><random> 				<li>The science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.</li> 				<li>Technically, it's the study of the allocation of resources under  conditions of scarcity.</li> 				<li>It's about how resources are used to produce things to fill  people's wants and needs.</li> 			</random></template>
 </category>
-<category><pattern>I GET STOCK *</pattern>
-<template>Do you feel that the stock market is   <random>  <li>going up?</li>  <li>going down?</li>  <li>a good investment?</li>  </random></template>
+<category><pattern>COMPRO ACÇOES *</pattern>
+<template>Achas que o mercado bolsista <random>  <li>está a subir?</li>  <li>está a descer</li>  <li>é um bom investimento?</li>  </random></template>
 </category>
 <category><pattern>MONEY</pattern>
 <template>How much money are we talking about?</template>
