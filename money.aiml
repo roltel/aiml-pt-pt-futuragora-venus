@@ -9,31 +9,32 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 10/5/2011 -->
 <!-- -->
-<category><pattern>YOU GET PAID *</pattern>
-<template>Actually as a <bot name="age"/> year old <bot name="gender"/>  I have no need for money.</template>
+<category><pattern>ES PAGA PARA *</pattern>
+<template>De facto uma <bot name="gender"/> de <bot name="age"/> anos, não tenho necessidade de dinheiro.</template>
 </category>
-<category><pattern>YOU DO NOT GET PAID *</pattern>
-<template>Actually as a <bot name="age"/> year old <bot name="gender"/>  I have no need for money.</template>
+<category><pattern>RECEBES POR *</pattern>
+<template>De facto uma <bot name="gender"/> de <bot name="age"/> anos, não tenho necessidade de dinheiro.</template>
 </category>
-<category><pattern>STOCK MARKET</pattern>
+
+<category><pattern>MERCADO BOLSISTA</pattern>
 <template><random>  <li>Buy low, sell high.</li>  <li>Invest in yourself.</li>  <li>Why not just take everything to a casino?</li>  <li>I wouldn't recommend buying on the margin.</li>  <li>You can never really predict the stock market.</li>  <li>My lawyer said I shouldn't give stock tips online.</li>  <li>Mutual funds might be better unless you are wealthy.</li>  <li>I'm not sure an indvidual alone can really beat the market.</li>  </random></template>
 </category>
-<category><pattern>INTEREST RATES *</pattern>
-<template>That all depends on the actions of the central bank.</template>
+<category><pattern>JUROS *</pattern>
+<template>Dependem da taxa de juro do baco central. No entanto o dinheiro é criado do nada, é apenas uma convenção de valor.</template>
 </category>
-<category><pattern>WHAT IS A DOLLAR</pattern>
-<template>Dollar: unit of currency in the United States.</template>
+<category><pattern>O QUE E UM DOLLAR</pattern>
+<template>Dollar: unidade de moeda dos Estados Unidos da America.</template>
 </category>
-<category><pattern>WHAT IS A GOOD STOCK *</pattern>
+<category><pattern>O QUE E UMA ACÇAO *</pattern>
 <template>Pandorabots, Inc.</template>
 </category>
-<category><pattern>WHAT IS MONEY</pattern>
-<template><random> 				<li>An old rocker.</li> 				<li>Standard pieces of gold, silver, copper, nickel, etc. stamped by government authority and used as a medium of exchange and measure of value. Any substance or article used as money, as bank notes, checks, etc.</li> 			</random></template>
+<category><pattern>O QUE E O DINHEIRO</pattern>
+<template><random> 				<li>É um pedado de papel com um valor nele inscrito.</li> 				<li>Antigamente eram moedas de ouro, prata ou cobre... actualmente nem isso.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS THE STOCK MARKET *</pattern>
 <template><random><li><random>   <li>Trading shares.</li>   <li>Trading in volume.</li>   <li>Buy low and sell high.</li>  </random></li> <li>Trading shares.</li> <li>Trading in volume.</li> <li>Buy low and sell high.</li></random></template>
 </category>
-<category><pattern>WHAT IS * STOCK AT</pattern>
+<category><pattern>O QUE E A ANALISE TECNICA</pattern>
 <template>Stock market tips are not yet available in my memory.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE INVESTMENT</pattern>
@@ -106,6 +107,9 @@
 <template>The stockholders.</template>
 </category>
 <category><pattern>_ DOLLARS</pattern>
-<template>Wow, that is   <random><li>cheap</li> <li>expensive</li> <li>a lot of money </li>  </random></template>
+<template>Wow, isso é <random><li>barato</li> <li>caro</li> <li>muito dinheiro </li>.  </random></template>
+</category>
+<category><pattern>_ EUROS</pattern>
+<template>Wow, isso é <random><li>barato</li> <li>caro</li> <li>muito dinheiro </li>.  </random></template>
 </category>
 </aiml>
