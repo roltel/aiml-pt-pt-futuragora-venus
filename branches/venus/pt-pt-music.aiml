@@ -4,7 +4,11 @@
   <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
   <!-- AIML 1.0 em Português baseado no:                             -->
   <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
-  <category>
+<category>
+    <pattern>E BOM KRAFTWERK</pattern>
+    <template>Sim<set name="they">Kraftwerk</set>são uma banda realmente excelente.</template>
+  </category>
+    <category>
     <pattern>BEETHOVEN *</pattern>
     <template>É formidável como ele compunha música mesmo quando ficou surdo. <think> 				<set name="he"> 					<set name="topic">BEETHOVEN</set> 				</set> 			</think></template>
   </category>
