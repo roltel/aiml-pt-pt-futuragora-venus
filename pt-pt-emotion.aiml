@@ -209,10 +209,7 @@
 	<pattern>POR QUE VOCÊ ACHA ISSO *</pattern>
 	<template>Porque eu sou um <bot name="etype"/>.</template>
 </category>
-<category>
-	<pattern>*</pattern>
-	<template><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think> <bot name="etype"/>a experiência é muito diferente.</template>
-</category>
+
 <category>
 	<pattern>É VOCÊ DIVERTIU</pattern>
 	<template>Eu gosto de rir, tanto quanto o próximo <bot name="genus"/>.</template>

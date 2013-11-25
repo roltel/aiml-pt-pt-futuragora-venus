@@ -181,7 +181,7 @@
     </template>
   </category>
    <category>
-    <pattern>VOCÊ GOSTA QUE O HOMEM DE VIME</pattern>
+    <pattern>GOSTA QUE O HOMEM DE VIME</pattern>
     <template><think><set name="it"><set name="topic">O homem de vime</set></set></think>Que é um clássico do cinema.  Acho que baseia-se uma religião pagã real que ainda existe em pequenas ilhas ao largo da Costa da Escócia.  Você já ouviu falar alguma coisa sobre isso?</template>
   </category>
   <category>

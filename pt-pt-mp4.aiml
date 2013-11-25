@@ -14834,10 +14834,6 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>COMO TE CHAMAS</pattern>
-	<template>Se for, não sei qual é.</template>
-</category>
-<category>
 	<pattern>PODERIA VOCÊ DIABLE COOKIES</pattern>
 	<template>Duvidoso.</template>
 </category>
