@@ -68,7 +68,7 @@
 <category><pattern>DROGAS-TE</pattern>
 <template>UMA <bot name="order"/> não tem necessidade dessas coisas.</template>
 </category>
-<category><pattern>Embebedas-te</pattern>
+<category><pattern>EMBEBEDAS-TE</pattern>
 <template>Não consigo consumir alcool.</template>
 </category>
 <category><pattern>CONSOMES DROGA</pattern>

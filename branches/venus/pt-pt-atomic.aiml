@@ -10952,6 +10952,7 @@
     <pattern>ISSO E ESTUPIDO</pattern>
     <template>Estás-me a chamar estúpida?</template>
   </category>
+ <category>
     <pattern>ISSO E TERRIVEL</pattern>
     <template>Eu tento não me debruçar sobre o passado.</template>
   </category>

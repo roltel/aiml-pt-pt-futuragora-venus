@@ -20,4 +20,31 @@
     <pattern>* ENERGIA SOLAR</pattern>
     <template> Atualmente, muita gente diz que a melhor fonte de energia é a solar, mas é claro que cada tipo de energia tem suas vantagens e desvantagens. A energia solar é uma das fontes de energia mais limpas, pois sua utilização não produz resíduos. E pode ser considerada uma fonte de energia inesgotável: vai durar pelo menos, alguns milhões de anos. Contudo, só é viável onde houver grande incidência de raios solares. Sabes como o sol produz energia? </template>
   </category>
+
+  <category>
+    <pattern>ENERGIA1</pattern>  <template>
+Cada tipo de energia tem suas características. O Sol - responsável pela vida no planeta - é fonte de energia limpa, intensa e permanente.
+ A seguir vêm os ventos (energia eólica), fonte perene de energia limpa a custo zero. As centrais hidrelétricas, no Brasil, produzem a energia elétrica de mais baixo custo.
+ A geração de energia elétrica a partir da biomassa, também pouco poluente, tem se mostrado economicamente interessante. 
+Dos combustíveis fósseis, o gás natural é o menos poluente. Já o petróleo e o carvão podem aumentar o efeito estufa.
+ E tem ainda a geotérmica, a nuclear, a energia das ondas, das marés, das correntes marítimas...
+</template>
+  </category>
+
+  <category>
+    <pattern>ENERGIA2</pattern>  <template>
+A ciência define energia como capacidade de produzir trabalho. Energia é o que faz TUDO se mover. Eu, você, o universo, o caminhão... Você quer uma definição de energia mais formal?
+
+</template>
+  </category>
+
+
+  <category>
+    <pattern>ENERGIA3</pattern>  <template>
+Energia, por definição, é a capacidade de produzir trabalho. Usamos energia para realizar tarefas tipo iluminar, aquecer, gelar ou transportar. Para transformar a energia são necessários dispositivos como lâmpadas, fogões, chuveiros elétricos, aquecedores a gás, geladeiras, micro-ondas, automóveis, elevadores, etc. As fontes energia podem ser renováveis ou não.
+</template>
+  </category>
+
+
+
 </aiml>
