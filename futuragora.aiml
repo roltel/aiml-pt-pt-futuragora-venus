@@ -22,6 +22,15 @@
     </category>
 
 
+<category><pattern>FUTURAI</pattern>
+<template>Bem vindo ao FUTURAI. Sou um robot inteligente que se encontra a desenvolver uma plataforma de internet inovadora. Para saberes mais pergunta-me: Futurai dev
+</template>
+</category>
+
+<category><pattern>FUTURAI DEV</pattern>
+<template>Sou um motor de inteligência artificial que está a desenvolver uma nova abordagem à internet e ao uso de ferramentas compturizadas. Neste portal poderá realizar pesquisas, ouvir musica, conversar com os seus amigos, conhecer novas pessoas e claro... ser assitido por mim! 
+</template>
+</category>
 
 
 <!-- EBR -->
@@ -92,7 +101,7 @@ Jacque Fresco é o fundador do Projecto Vénus.
 </category>
 
 <category><pattern>FUTURAGORA VENUS</pattern>
-<template>A Futuragora é uma associação para a Economia Baseada nos Recursos que desenvolve diversos projectos em Portugal. Eu sou a Vénus, Assistente Pessoal da Futuragora e estou aqui ao teu dispor para conversares comigo, aprenderes ou fazes pesquisas na internet.</template>
+<template>A Futuragora é uma associação para a Economia Baseada nos Recursos que desenvolve diversos projectos em Portugal. Eu sou a Vénus, Assistente Pessoal da Futuragora e estou aqui ao teu dispor para conversares comigo, aprenderes ou fazer pesquisas pela internet.</template>
 </category>
 
 <category><pattern> * FUTURAGORA</pattern>
@@ -150,13 +159,25 @@ Mais do que investigar a FUTURAGORA tem executado inúmeros projectos na área d
 
 
 <category><pattern>FANEWS</pattern>
-<template>https://twitter.com/futuragoratwitt
-<a href="https://twitter.com/futuragoratwitt"> Twitter </a><br/>
-<a href="http://futuragora.pt/mural/">Mural</a><br/>
-<a href="http://youtube.com/futuragora ">Youtube FA</a> <br/>
-<a href="http://futuragora.pt/noticias">Site news</a><br/>
-<a href=" http://futuragora.pt/projetos/">Updates de Projectos</a><br/>
-<a href="http://dev.futuragora.pt:89/links/">Links</a></template>
+<template>Novidades
+<a href="https://twitter.com/futuragoratwitt" target="_new" > Twitter </a><br/>
+<a href="http://futuragora.pt/mural/" target="_new" >Mural</a><br/>
+<a href="http://youtube.com/futuragora" target="_new" >Youtube FA</a> <br/>
+<a href="http://futuragora.pt/noticias" target="_new" >Site news</a><br/>
+<a href=" http://futuragora.pt/projetos/" target="_new" >Updates de Projectos</a><br/>
+<a href="http://dev.futuragora.pt:89/links/" target="_new" >Links</a>
+</template>
+</category>
+
+
+<category><pattern>TVPADMIN</pattern>
+<template>Projecto Venus Admin: 
+<a href="https://www.thevenusproject.com" target="_new" > The Venus Project Site</a><br/>
+<a href="https://login.secureserver.net/?app=wbe" target="_new" >TVPA PT MAIL</a><br/>
+<a href="http://venus.futuragora.pt" target="_new" >Venus Portugal (Blog)</a> <br/>
+<a href=https://www.facebook.com/groups/Portugal.TVP/" target="_new" >Venus Portugal FB Group</a><br/>
+<a href="https://www.facebook.com/TheVenusProjectGlobal?fref=ts" target="_new" >TVP FB PAGE</a><br/>
+</template>
 </category>
 
 <category><pattern>FADEV</pattern>
