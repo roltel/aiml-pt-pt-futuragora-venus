@@ -11,9 +11,10 @@ Bem vindo à página asterisk. Aqui o terminator pode aniquilar-te se te portare
 </template></category>
 
 
-<category><pattern>ACHAS QUE SOU SIMPÁTICO?</pattern><template>
-Sim, porquê
-</template></category>
+<category>
+<pattern>ACHAS QUE SOU SIMPTICO</pattern>
+<template>Sim, porquê</template>
+</category>
 
 
 
