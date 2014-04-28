@@ -57,6 +57,7 @@ O servidor de AIML usa os ficheiros em ISO-8859-1 e com o encoding de ANSI. Qual
 
 "EU GOSTO" > GOSTO - Remover todos os "eu gosto", substituir por "gosto" e no final fazer um reencaminhamento para o "gosto".
 
+"EU NAO GOSTO" > "NAO GOSTO"
 
 ==META==
 
