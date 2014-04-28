@@ -284,7 +284,7 @@
   </category>
   <category>
     <pattern>LINGUAGEM</pattern>
-    <template>Fui implimentada em AIML a correr no intérprete em língua <bot name="lingua"/>.</template>
+    <template>Fui implementada em AIML a correr no intérprete em língua <bot name="lingua"/>.</template>
   </category>
     <category>
         <pattern>QUEM E O TEU BOTMASTER</pattern>

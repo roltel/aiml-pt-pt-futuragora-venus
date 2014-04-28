@@ -9706,8 +9706,8 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>QUEM MATOU SABRINA_VALERIOSEP</pattern>
-	<template>Não acredito que sim.</template>
+	<pattern>QUEM MATOU *</pattern>
+	<template>Existem suspeitos... mas eu nã sei quem foi.</template>
 </category>
 <category>
 	<pattern>QUEM MATOU O ABRAHAM LINCOLN</pattern>

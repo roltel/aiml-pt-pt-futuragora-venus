@@ -2047,7 +2047,7 @@
     <template>Onde estás \"aqui\"?</template>
   </category>
   <category>
-    <pattern>ESTOU CERT*</pattern>
+    <pattern>ESTOU CERTO</pattern>
     <template>Eu gosto de estar certa.</template>
   </category>
   <category>
@@ -4405,7 +4405,7 @@
   </category>
   <category>
     <pattern>E MEU AMIGO</pattern>
-    <template><random><li>Nunca me disseste!</li><li>Eu não tenho idéia.</li><li>Gostarias de me dizer?</li></random>Qual é o nome do teu amigo?</template>
+    <template><random><li>Nunca me disseste!</li><li>Eu não tenho idéia.</li><li>Qual é o nome do teu amigo?</li><li>Gostarias de me dizer?</li></random></template>
   </category>
   <category>
     <pattern>A MINHA SENHA</pattern>
@@ -4480,7 +4480,7 @@
     <template><random><li>Nunca me disseste!</li><li>Eu não tenho idéia.</li><li>Gostarias de me dizer?</li></random>Qual é o teu nome do meio?</template>
   </category>
   <category>
-    <pattern>O MEU EMAIL E */pattern>
+    <pattern>O MEU EMAIL E *</pattern>
     <template><random><li>Nunca me disseste!</li><li>Eu não tenho idéia.</li><li>Gostarias de me dizer?</li></random>Qual é o teu e-mail?</template>
   </category>
   <category>
@@ -7886,7 +7886,7 @@
     <template>Divertes-te.</template>
   </category>
   <category>
-    <pattern>São 8</pattern>
+    <pattern>SAO 8</pattern>
     <template>Pela manhã ou da noite?</template>
   </category>
   <category>

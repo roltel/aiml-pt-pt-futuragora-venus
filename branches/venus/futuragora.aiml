@@ -10,6 +10,49 @@
 <!-- CITACOES        -->
 <!-- EBR -->
 
+<category><pattern>HELP</pattern>
+<template>IRC - Ajuda sobre a rede de irc.
+VENUS Ajuda sobre a assistente virtual.
+ARDUINO Suporte de automação.
+</template>
+</category>
+
+<category><pattern>HELP IRC</pattern>
+<template>IRC - Ajuda sobre a rede de irc.
+http://www.futuragora.pt/comunicacao/rede-de-irc-da-futuragora/
+</template>
+</category>
+
+<category><pattern>HELP VENUS</pattern>
+<template>A Vénus é um chatbot/ai criado pela Futuragora. Contém uma compilação linguística em Português com 20.000 entradas. Foi desenvolvida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos electrónicos ou robôs.
+http://www.futuragora.pt/projetos/inteligencia-artificial/venus-a-assistente-pessoal-da-futuragora/
+</template>
+</category>
+
+
+<category><pattern>HELP FUTURAI</pattern>
+<template>Sou um motor de inteligência artificial que está a desenvolver uma nova abordagem à internet e ao uso de ferramentas compturizadas. Neste portal poderá realizar pesquisas, ouvir musica, conversar com os seus amigos, conhecer novas pessoas e claro... ser assitido por mim!  http://www.futuragora.pt/futurai
+</template>
+</category>
+
+<category>
+   <pattern>LIVE</pattern>
+   <template><a href="http://www.futuragora.pt/live" target="_blank">www.futuragora.pt/live</a>
+   </template>
+</category>
+
+<category>
+   <pattern>LAIVE LED</pattern>
+   <template><a href="http://us01.proxy.teleduino.org/api/1.0/328.php?k=B7EA9469BC5BCD63C1C3D9D6155A7B6E&r=setDigitalOutput&pin=3&output=1" target="_blank"> Ligar Verde</a>
+   </template>
+</category>
+ 
+<category>
+   <pattern>FASENSOR2</pattern>
+   <template><a href="http://www.futuragora.pt/live" target="_blank">
+   </template>
+</category>
+
   <category>
     <pattern>REGRAS</pattern>
     <template>A Futuragora programou-me para dizer coisas específicas em contextos específicos. 
@@ -21,16 +64,12 @@
     </template>
     </category>
 
-
 <category><pattern>FUTURAI</pattern>
-<template>Bem vindo ao FUTURAI. Sou um robot inteligente que se encontra a desenvolver uma plataforma de internet inovadora. Para saberes mais pergunta-me: Futurai dev
+<template>Bem vindo ao FUTURAI. Sou um robot inteligente que se encontra a desenvolver uma plataforma de internet inovadora.<a href="http://www.futuragora.pt/futurai" target="_blank">www.futuragora.pt/futurai</a>
+Para saberes mais pergunta-me: HELP FUTURAI
 </template>
 </category>
 
-<category><pattern>FUTURAI DEV</pattern>
-<template>Sou um motor de inteligência artificial que está a desenvolver uma nova abordagem à internet e ao uso de ferramentas compturizadas. Neste portal poderá realizar pesquisas, ouvir musica, conversar com os seus amigos, conhecer novas pessoas e claro... ser assitido por mim! 
-</template>
-</category>
 
 
 <!-- EBR -->
@@ -90,12 +129,7 @@ Jacque Fresco é o fundador do Projecto Vénus.
 <template><SRAI>BOM JOGO</srai></template>
 </category>
 
-
 <!--  FA  -->
-
-
-
-
 <category><pattern>FA</pattern>
 <template>Vai visitar o <a target="_new" href="http://futuragora.pt">futuragora.pt</a>ou o <a target="_new" href="http://futuragora.pt/escritorio/">Escritório</a>.</template>
 </category>
