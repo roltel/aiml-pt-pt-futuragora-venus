@@ -22,6 +22,37 @@
     </template>
   </category>
 
+<category>
+    <pattern>NAO GOSTO DE *</pattern>
+    <template>Porque não?</template>
+  </category>
+
+ <category>
+    <pattern>ESTOU PENSANDO EM *</pattern>
+    <template>Não acho muito difícil.</template>
+  </category>
+
+  <category>
+    <pattern>ESTOU A PENSAR EM *</pattern>
+    <template>Não acho muito difícil.</template>
+  </category>
+
+
+  <category>
+    <pattern>COISAS QUE *</pattern>
+    <template>Tu sabes, \"coisas\".</template>
+  </category>
+
+  <category>
+    <pattern>EU PENSEI QUE *</pattern>
+    <template>O que achas?</template>
+  </category>
+
+  <category>
+    <pattern>FUI PARA *</pattern>
+    <template>Foste sozinho ou com amigos?</template>
+  </category>
+
     <category>
     <pattern>* FILME</pattern>
     <template>
