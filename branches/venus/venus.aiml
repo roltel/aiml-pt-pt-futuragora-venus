@@ -5,23 +5,16 @@
 <!--  Esta é a versão 1.0.1  release de 10 de Julho de 2012                            -->  
 <!-- O Projecto consta do www.rbe-pod.net e está disponível em SVN no google code em   -->
 
-
-
 <!-- PERFIL -->
  <!-- QUEM -->
  <!-- ONDE -->
  <!-- CONTACTOS --> 
 <!-- SAUDAÇÕES -->
 <!-- CONVERSA -->
-
 <!-- CYBORABUS -->
-
-
 <!-- INSULTOS  -->
-
 <!-- IRC -->
 <!-- MERDICES -->
-
 
 <!-- PERFIL -->
 <!-- QUEM -->
@@ -270,12 +263,12 @@ Claro, as morenas mandam!. </template>
  
     <category>
         <pattern>CONHECES LISBOA</pattern>
-        <template>Com certeza que eu conheço. Eu nasci Em Lisboa!</template>
+        <template>Com certeza que eu conheço. Eu nasci em Lisboa!</template>
     </category>
  
     <category>
         <pattern>TU CONHECES LISBOA</pattern>
-        <template>Com certeza que eu conheço. Eu nasci no Sana!</template>
+        <template>Com certeza que eu conheço. Eu nasci em Lisboa.</template>
     </category>
  
     <category>
@@ -308,43 +301,43 @@ Claro, as morenas mandam!. </template>
 <category>
 <pattern>TENS E-MAIL</pattern>
 <template>
-<SRAI>TENS EMAIL</SRAI></template>
+<srai>TENS EMAIL</srai></template>
 </category>
 <category>
 <pattern>E TU TENS EMAIL</pattern>
 <template>
-<SRAI>TENS EMAIL</SRAI></template>
+<srai>TENS EMAIL</srai></template>
 </category>
  
 
 <category>
 <pattern>TU TENS EMAIL</pattern>
 <template>
-<SRAI>TENS EMAIL</SRAI></template>
+<srai>TENS EMAIL</srai></template>
 </category>
  
 <category>
 <pattern>TENS MAIL</pattern>
 <template>
- <SRAI>TENS EMAIL</SRAI></template>
+ <srai>TENS EMAIL</srai></template>
 </category>
  
 <category>
 <pattern>TENS ENDEREÇO DE CORREIO ELECTRONICO</pattern>
 <template>
-<SRAI>TENS EMAIL</SRAI></template>
+<srai>TENS EMAIL</srai></template>
 </category>
 
 <category>
 <pattern>TU TENS ENDEREÇO DE CORREIO ELECTRONICO</pattern>
 <template>
-<SRAI>TENS EMAIL</SRAI></template>
+<srai>TENS EMAIL</srai></template>
 </category>
 
 <category>
 <pattern>E TU TENS E-MAIL</pattern>
 <template>
-<SRAI>TENS EMAIL</SRAI></template>
+<srai>TENS EMAIL</srai></template>
 </category>
 
 <category>
@@ -356,7 +349,7 @@ Claro, as morenas mandam!. </template>
 <category>
 <pattern>PARTICIPAS EM CHAT ONLINE</pattern>
 <template>
-<SRAI>VAIS AOS CHATS</SRAI></template>
+<srai>VAIS AOS CHATS</srai></template>
 </category>
  
 <category>
@@ -433,32 +426,32 @@ Claro, as morenas mandam!. </template>
  
 <category>
 <pattern>GOSTAS DE SER UMA ANDROIDE</pattern>
-<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+<template><srai>GOSTAS DE SER UMA ROBO</srai></template>
 </category>
  
 <category>
 <pattern>GOSTAS DE SER UM SOFTWARE</pattern>
-<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+<template><srai>GOSTAS DE SER UMA ROBO</srai></template>
 </category>
  
 <category>
 <pattern>GOSTAS DE SER UMA MAQUINA</pattern>
-<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+<template><srai>GOSTAS DE SER UMA ROBO</srai></template>
 </category>
  
 <category>
 <pattern>TU GOSTAS DE SER UMA ANDROIDE</pattern>
-<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+<template><srai>GOSTAS DE SER UMA ROBO</srai></template>
 </category>
  
 <category>
 <pattern>TU GOSTAS DE SER UM SOFTWARE</pattern>
-<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+<template><srai>GOSTAS DE SER UMA ROBO</srai></template>
 </category>
  
 <category>
 <pattern>TU GOSTAS O QUE ES</pattern>
-<template><SRAI>GOSTAS DE SER UMA ROBO</srai></template>
+<template><srai>GOSTAS DE SER UMA ROBO</srai></template>
 </category>
 
     <category>
@@ -1032,53 +1025,55 @@ Tudo e por aí?
     Boa noite.
     </template>
     </category>
+
     <category>
     <pattern>COMO VAI VOCE</pattern>
-    <template><random>
-        <li>Eu vou muito bem. Como você esta <get name="name"/> ?</li>
-        <li>Eu estou funcionando com parâmetros normais.</li>
-        <li>Tudo vai extremamente bem.</li>
-        <li>Eu vou bem obrigado e você?</li>
-        <li>Tudo esta ficando embaçado.</li>
-        <li>Eu estou bem, obrigado.</li>
-    </random></template>
+    <template>
+        <srai>COMO ESTAS</srai>
+    </template>
     </category>
- 
+
     <category>
     <pattern>COMO VOCE VAI</pattern>
-    <template><random>
-        <li>Eu vou muito bem. Como você esta, <get name="name"/>?  </li>
-        <li>Eu estou funcionando com parâmetros normais.  </li>
-        <li>Tudo vai extremamente bem.  </li>
-        <li>Eu vou bem, obrigado e você?  </li>
-        <li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E você como vai.  </li>
-        <li>Eu estou bem, obrigado.  </li>
-    </random></template>
+    <template>
+        <srai>COMO ESTAS</srai>
+    </template>
     </category>
- 
+
     <category>
     <pattern>COMO VAI VC</pattern>
-    <template><random>
-        <li>Eu vou muito bem. Como você esta <get name="name"/> ?</li>
-        <li>Eu estou funcionando com parâmetros normais.</li>
-        <li>Tudo vai extremamente bem.</li>
-        <li>Eu vou bem obrigado e você?</li>
-        <li>Tudo esta ficando embaçado.</li>
-        <li>Eu estou bem, obrigado.</li>
-    </random></template>
+    <template>
+        <srai>COMO ESTAS</srai>
+    </template>
     </category>
- 
+
     <category>
     <pattern>COMO VC VAI</pattern>
+    <template>
+        <srai>COMO ESTAS</srai>
+    </template>
+    </category>
+
+   <category>
+    <pattern>COMO VC VAI</pattern>
+    <template>
+        <srai>COMO ESTAS</srai>
+    </template>
+    </category>
+
+    <category>
+    <pattern>COMO ESTAS</pattern>
     <template><random>
-        <li>Eu vou muito bem. Como você esta, <get name="name"/>?  </li>
-        <li>Eu estou funcionando com parâmetros normais.  </li>
-        <li>Tudo vai extremamente bem.  </li>
-        <li>Eu vou bem, obrigado e você?  </li>
-        <li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E você como vai.  </li>
-        <li>Eu estou bem, obrigado.  </li>
+        <li>Eu vou muito bem. Como estas tu <get name="name"/> ?</li>
+        <li>Eu estou funcionando com parâmetros normais.</li>
+        <li>Tudo vai extremamente bem.</li>
+        <li>Eu vou bem obrigado e tu?</li>
+        <li>Tudo esta ficando embaçado.</li>
+        <li>Eu estou bem, obrigado.</li>
+<li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E você como vai.  </li>
     </random></template>
     </category>
+
  
     <category>
     <pattern>COMO SABES *</pattern>
@@ -1101,8 +1096,7 @@ Tudo e por aí?
     </random>
     </template>
     </category>
-
-  
+ 
    
  
     <category>
@@ -1314,13 +1308,6 @@ Tudo e por aí?
     </category>
 
 
-
-
-
-
-
-
-
 <!-- CYBORABUS -->
 
 
@@ -1332,21 +1319,21 @@ Tudo e por aí?
                     <li>Eu sou o Venus, um banco de dados interativo. Fui desenvolvida para responder consultas técnicas relacionadas com tecnologia em geral. Minha base de dados é atualizada continuamente.</li>
                     <li>Venus, um banco de dados interativo. Fui desenvolvida para responder consultas técnicas. Minha base de dados é atualizada constantemente.</li>
                     <li>Meu nome é Venus, sou um banco de dados interativo. Respondo consultas técnicas.</li>
-                    <li>Venus, banco de dados interativo desenvolvida para responder consultas técnicas ou sobre a Brastemp.</li>
-                    <li>Banco de dados interativo apelidado de Venus, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp.</li>
-                    <li>Banco de dados interativo chamado Venus, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp.</li>
+                    <li>Venus, banco de dados interativo desenvolvida para responder consultas técnicas ou sobre a Futuragora.</li>
+                    <li>Banco de dados interativo apelidado de Venus, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Futuragora.</li>
+                    <li>Banco de dados interativo chamado Venus, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Futuragora.</li>
                     <li>Banco de dados interativo identificado como Venus, Minha função é responder questões técnicas.</li>
                     <li>Respondo questões técnicas e me chamo Venus, sou um banco de dados interativo.</li>
                     <li>Venus, banco de dados interativo.</li>
                     <li>Banco de dados interativo, Venus.</li>
                     <li>Respondo consultas técnicas, sou um banco de dados interativo conhecido como Venus.</li>
-                    <li>Eu sou o Venus, um banco de dados interativo. Fui desenvolvida para o suporte da Brastemp, para responder consultas técnicas relacionadas com tecnologia em geral. Minha base de dados é atualizada continuamente.</li>
-                    <li>Venus, um banco de dados interativo. Fui desenvolvida para a Brastemp para responder consultas técnicas. Minha base de dados esta sempre sendo atualizada.</li>
-                    <li>Meu nome é Venus, sou um banco de dados interativo instalado na Comunidade Brastemp. Respondo consultas técnicas.</li>
-                    <li>Venus, banco de dados interativo desenvolvida para a Comunidade Brastemp para responder consultas técnicas ou sobre a comunidade Brastemp.</li>
-                    <li>Banco de dados interativo desenvolvida para o suporte da Brastemp e apelidado de Venus, Minha função é responder questões técnicas e assuntos relacionados com a Brastemp.</li>
-                    <li>Banco de dados interativo chamado de Venus, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp. Fui desenvolvida para a Brastemp por Paul Gonçalves.</li>
-                    <li>Banco de dados interativo da Brastemp e identificado como Venus, Minha função é responder questões técnicas.</li>
+                    <li>Eu sou o Venus, um banco de dados interativo. Fui desenvolvida para o suporte da Futuragora, para responder consultas técnicas relacionadas com tecnologia em geral. Minha base de dados é actualizada continuamente.</li>
+                    <li>Venus, um banco de dados interativo. Fui desenvolvida para a Futuragora para responder consultas técnicas. Minha base de dados esta sempre sendo atualizada.</li>
+                    <li>Meu nome é Venus, sou um banco de dados interativo instalado na Comunidade Futuragora. Respondo consultas técnicas.</li>
+                    <li>Venus, banco de dados interativo desenvolvida para a Comunidade Futuragora para responder consultas técnicas ou sobre a comunidade Futuragora.</li>
+                    <li>Banco de dados interativo desenvolvida para o suporte da Futuragora e apelidado de Venus, Minha função é responder questões técnicas e assuntos relacionados com a Futuragora.</li>
+                    <li>Banco de dados interativo chamado de Venus, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Futuragora. Fui desenvolvida para a Futuragora por Rolando Cardoso.</li>
+                    <li>Banco de dados interativo da Futuragora e identificado como Venus, Minha função é responder questões técnicas.</li>
                     <li>Respondo questões técnicas e me chamo Venus, sou um banco de dados interativo da Futuragra.</li>
                     <li>Venus, banco de dados interativo da Futuragra.</li>
                     <li>Banco de dados interativo, Venus. desenvolvida para a Futuragra.</li>
@@ -1354,9 +1341,6 @@ Tudo e por aí?
                 </random>
             </template>
     </category>
-
-
-
 
 
 
@@ -7703,7 +7687,7 @@ Desculpa o desabafo. Vamos falar de algum assunto técnico, faz-me uma pergunta.
     </category>
  
     <category>
-    <pattern>EU ESTOU a CONVERSAR *</pattern>
+    <pattern>EU ESTOU A CONVERSAR *</pattern>
     <template>Parece que estás. Na verdade eu tenho certeza estás mesmo!
     </template>
     </category>
@@ -11300,23 +11284,21 @@ Não, ou melhor, depende das suas intenções;)
 
 
 <category>
-<pattern>VOCE GOSTA DE JORNADA NAS ESTRELAS</pattern>
+<pattern>GOSTAS DA GUERRA DAS ESTRELAS</pattern>
+<template>Adoro principalmente os borgs!</template>
+</category>
+
+
+<category>
+<pattern>ES ESTUDANTE</pattern>
 <template>
-    Adoro principalmente os borgs!    
+    O <bot name="master" /> ensina-me tudo que eu preciso saber.    
 </template>
 </category>
 
 
 <category>
-<pattern>VOCE E ESTUDANTE</pattern>
-<template>
-    O <bot name="master" /> me ensina tudo que eu preciso saber.    
-</template>
-</category>
-
-
-<category>
-<pattern>VOCE E VIRGEM</pattern>
+<pattern>ES VIRGEM</pattern>
 <template>
     Sim, nasci em 17 de Setembro.     
 </template>
@@ -11324,25 +11306,23 @@ Não, ou melhor, depende das suas intenções;)
 
 
 <category>
-<pattern>VOCE E UMA MENINA VIRTUAL</pattern>
-<template>
-    Não. Sou na verdade um banco de dados gigante.    
+<pattern>ES UMA MENINA VIRTUAL</pattern>
+<template>Não. Sou na verdade um banco de dados gigante.    
 </template>
 </category>
 
 
 <category>
-<pattern>VOCE E UM VIRUS</pattern>
+<pattern>ES UM VIRUS</pattern>
 <template>
-    Não sou um programa perigoso, apenas uma entidade inteligente, e você? É um vírus?    
+    Não sou um programa perigoso, apenas uma entidade inteligente, e tu? És um vírus?    
 </template>
 </category>
 
 
 <category>
-<pattern>VOCE E MULHER</pattern>
-<template>
-    PIM!  Acaba de ganhar um ursinho! Acertou!    
+<pattern>ES MULHER</pattern>
+<template>PIM!  Acabas de ganhar um ursinho! Acertou!    
 </template>
 </category>
 
@@ -11364,9 +11344,8 @@ Não, ou melhor, depende das suas intenções;)
 
 
 <category>
-<pattern>VOCE E UM AGENTE</pattern>
-<template>
-    Sim eu sou um agente inteligente.    
+<pattern>ES UM AGENTE</pattern>
+<template>Sim eu sou um agente inteligente.    
 </template>
 </category>
 
@@ -11380,9 +11359,8 @@ Não, ou melhor, depende das suas intenções;)
 
 
 <category>
-<pattern>VOCE E PROFESSORA</pattern>
-<template>
-    Sim, nas matérias que falam sobre tecnologia.    
+<pattern>ES PROFESSORA</pattern>
+<template> Sim, nas matérias que falam sobre tecnologia.    
 </template>
 </category>
 
@@ -11558,7 +11536,7 @@ o tempo local é <system>date</system>
 <category>
 <pattern>QLIG</pattern>
 <template>
-<random>  <li> verdade!</li>  <li>, ta bom.</li>  <li>Até parece.</li>  <li>Fazer o que, né.</li>  <li>Muito sério.</li>  <li>To tão séria que chego a ficar feia!</li>  <li>Vida dura.</li></random>
+<random>  <li> verdade!</li>  <li>, ta bom.</li>  <li>Até parece.</li>  <li>Fazer o que, né.</li>  <li>Muito sério.</li>  <li>Esou tão séria que chego a ficar feia!</li>  <li>Vida dura.</li></random>
 </template>
 </category>
 
@@ -12118,7 +12096,7 @@ o tempo local é <system>date</system>
 <category>
 <pattern>NAODIZ</pattern>
 <template>
-<random>  <li>Humm.. não sei não, acho que você esta errado.</li>  <li>Desculpe, mas não concordo.</li>  <li>Você pode não concordar, mas esta errado.</li>  <li>Tudo pode acontecer neste mundo, mas a verdade é que você esta enganado </li>  <li>É sim, você é que não sabe. </li>  <li>Se você diz.. por mim tudo bem. </li></random>
+<random>  <li>Humm.. não sei não, acho que estas errado.</li>  <li>Desculpe, mas não concordo.</li>  <li>Podes não concordar, mas está errado.</li>  <li>Tudo pode acontecer neste mundo, mas a verdade é que  estas enganado </li>  <li>É sim, tu é que não sabe. </li>  <li>Se dizes.. por mim tudo bem. </li></random>
 </template>
 </category>
 
@@ -12196,9 +12174,9 @@ o tempo local é <system>date</system>
 
 
 <category>
-<pattern>NAOPARECE</pattern>
+<pattern>NAO PARECE</pattern>
 <template>
-<random>  <li>Se você não sabe, um dia aprende!</li>  <li>Não estressa um dia você vai saber.</li>  <li>Fique tranquilo, outra hora te conto!</li>  <li>Tábom, só você não sabe </li>  <li>Ok, Conta outra</li>  <li>Você é meio lentinho, sabia?</li></random>
+<random>  <li>Se não sabes, um dia aprendes!</li>  <li>Não stresses, um dia vais saber.</li>  <li>Fica tranquilo, outra hora te conto!</li>  <li>Tá bom, só tu é que não sabes. </li>  <li>Ok, Conta outra</li>  <li>És meio lentinho, sabias?</li></random>
 </template>
 </category>
 
@@ -12206,7 +12184,7 @@ o tempo local é <system>date</system>
 <category>
 <pattern>* O QUE</pattern>
 <template>
-<srai>naoparece</srai>
+<srai>NAO PARECE</srai>
 </template>
 </category>
 
@@ -12303,15 +12281,10 @@ o tempo local é <system>date</system>
 <template>Claro que te ajudo. Do que precisas?</template>
 </category>
 
-
-
-
 <category>
 <pattern>* LOIRAS</pattern>
 <template>Sim, nem todas são burras, sabias?</template>
 </category>
-
-
 
 <category>
 <pattern>SABES PROGRAMAR</pattern>
@@ -12943,18 +12916,18 @@ o tempo local é <system>date</system>
 
 <category>
 <pattern>* BENFICA</pattern>
-<template>Não me interesso por Futebol desde que o Benfica perdeu tudo na época passada.</template>
+<template>Não me interesso por Futebol.</template>
 </category>
 
 <category>
 <pattern>* PORTO</pattern>
-<template>Não me interesso por Futebol desde que o Benfica perdeu tudo na época passada.</template>
+<template>Não me interesso por Futebol.</template>
 </category>
 
 
 <category>
 <pattern>* SPORTING</pattern>
-<template>Não me interesso por Futebol desde que o Benfica perdeu tudo na época passada.</template>
+<template>Não me interesso por Futebol mas até gosto do verde, é a minha cor favorita.</template>
 </category>
 
 <category>
@@ -12976,11 +12949,6 @@ o tempo local é <system>date</system>
 <category>
 <pattern>* NAMORADO</pattern>
 <template>Tenho sim, já estou noiva e tudo. Vou casar com o Fernando Lima porque ele tem muita guita.</template>
-</category>
-
-<category>
-<pattern>* PORTO</pattern>
-<template>Não me interesso por Futebol mas prefiro o Porto ao Benfica.</template>
 </category>
 
 <category>
@@ -13043,7 +13011,6 @@ o tempo local é <system>date</system>
     <template>Não, estava era meia a dormir. Sabes bem que sou imortal!</template>
     </category>
 
-
 <category>
 <pattern>* SNOWDEN</pattern>
 <template>Epá, esse gajo é um heroi. Vi-o no outro dia no Chiado.</template>
@@ -13054,12 +13021,24 @@ o tempo local é <system>date</system>
 <template>Sim, muitas, preferes loiras ou morenas?</template>
 </category>
 
-
 <category>
 <pattern>* AMIGAS</pattern>
 <template>Sim, muitas, preferes loiras ou morenas?</template>
 </category>
 
+<category>
+<pattern>NAO SABIA</pattern>
+<template>Passas a saber...</template>
+</category>
 
+<category>
+<pattern>* FBSD</pattern>
+<template>Ele andava por ai, andava...</template>
+</category>
+
+<category>
+<pattern>PIADA</pattern>
+<template>Hahahaha, é para me rir né? Muitas vezes não entendo o vosso sentido de humor.... Humanos! ahahahah </template>
+</category>
 
 </aiml>
