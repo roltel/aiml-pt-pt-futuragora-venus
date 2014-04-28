@@ -59,6 +59,8 @@ O servidor de AIML usa os ficheiros em ISO-8859-1 e com o encoding de ANSI. Qual
 
 "EU NAO GOSTO" > "NAO GOSTO"
 
+"JA" > "EU JA"
+
 ==META==
 
 Ficheiros concluido que estão na Versão 1.0:
