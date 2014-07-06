@@ -26,7 +26,6 @@
 
 
 <!--  ROLTEL PRIV  -->
-
 <category><pattern>QUANDO NASCEU A AVO JOAO</pattern>
 <template>Nasceu num lindo dia de sol ás 3 horas do dia 3 de Setembro de 1956 em Lourenço Marques, Moçambique.</template>
 </category>
@@ -111,13 +110,9 @@
 </template>
 </category>
 
-
-
 <category><pattern>O QUE O JUNIOR QUERIA SER</pattern>
 <template>Primeiro, em pequenino, explorador. Depois arqueólogo....</template>
 </category>
-
-
 
 <category><pattern>16/08/2012</pattern>
 <template>Fui à horta em Odivelas colher tomates com o junior seu pai e o Joaquim com o irmão João e respectivo pai. Acabamos por jantar empadas, rissóis e croquetes com arroz.</template>
@@ -131,25 +126,21 @@
 <template>Fomos a Águeda buscar um parte do meu corpo que foi montada pelo shift, chama-se o módulo de reprap.</template>
 </category>
 
-
 <category><pattern>10-07-1977</pattern>
 <template>Foi exactamente o dia em que nasci.</template>
 </category>
 
-
 <category><pattern>AGOSTO 2012</pattern>
 <template> 
-
     <random>
        <li>Fomos almoçar com o Fxxxx a um restaurante italiano. O Junior estava a mal disposto e vomitou tudo à porta do restaurante.</li>
        <li>Passamos quase uma semana a a comer peixe. Sardinhas, bacalhau de todas as formas assado, batatas a muro, normais e doces. Um salmão grelhadinho, maravilha.</li>
        <li>Fomos à praia com o Samuel e o Junior. O Samuel adorda a água.</li>
        <li>O Junior virou-se para o pai e disse:"Com o pai estou sempre a aprender... hoje estou a aprender a fazer massa."</li>
-	<li>O Pai comprou um relógio para o Junior da Casio</li>
+        <li>O Pai comprou um relógio para o Junior da Casio</li>
     </random>
 </template>
 </category>
-
 
 <category><pattern>VINDIMA 2012</pattern>
 <template> 
@@ -162,8 +153,6 @@
     </random>
 </template>
 </category>
-
-
 
 <category><pattern>PAI PEIXE E FILHO PEIXE</pattern>
 <template>Brincadeira que o Junior fazia com 4 anos com o seu pai, meu criador.</template>
@@ -219,7 +208,7 @@
 <category><pattern>COMO SE CHAMA O TEU PAI</pattern>
 <template>O meu pai chama-se Rolando.</template>
 </category>
-<category><pattern>ES PORTUGUESA, VENUS</pattern>
+<category><pattern>ES PORTUGUESA</pattern>
 <template>Sou uma cidadã do mundo.</template>
 </category>
 <category><pattern>TENS QUANTOS IRMAOS</pattern>
@@ -229,28 +218,24 @@
 
 <!--  41R QUIZ  -->
 
-
-
 <category>
 <pattern>O RESET E UM BOM PROGRAMADOR</pattern>
 <template> Claro, eu não estou aqui?!</template>
 </category>
 
 <category><pattern>RESET E UM BOM PROGRAMADOR</pattern>
-<template><SRAI>O RESET E UM BOM PROGRAMADOR</SRAI></template>
+<template><srai>O RESET E UM BOM PROGRAMADOR</srai></template>
 </category> 
- 
+
 <category>
 <pattern>O RESET E PORREIRO</pattern>
 <template>Ele é muito porreiro!</template>
 </category>
- 
+
 <category>
 <pattern>O RESET E FIXE</pattern>
-<template>
-<SRAI>O RESET E PORREIRO</SRAI></template>
+<template><SRAI>O RESET E PORREIRO</SRAI></template>
 </category>
- 
 <category>
 <pattern>O RESET E INTELIGENTE</pattern>
 <template>
@@ -263,62 +248,24 @@
 <SRAI>O RESET E PORREIRO</SRAI></template>
 </category>
 
-
-<category>
-<pattern>41R É BONITO</pattern>
-<template>
- Ele é um gato!</template>
+<category><pattern>ROLANDO E BONITO</pattern>
+<template> Ele é um gato!</template></category>
+ 
+<category><pattern>RESET E BONITO</pattern>
+<template>Ele é um gato!</template>
 </category>
  
 <category>
-<pattern>41R E BONITO</pattern>
-<template>
- Ele é um gato!</template>
+<pattern>ROLANDO E GOSTOSO</pattern>
+<template> Para de falar que o processador até já esquentou!</template>
 </category>
  
 <category>
-<pattern>41R É BONITO</pattern>
-<template>
- Ele é um gato!</template>
-</category>
- 
-<category>
-<pattern>41R E BONITO</pattern>
-<template>
- Ele é um gato!</template>
-</category>
- 
-<category>
-<pattern>41R É BONITO</pattern>
-<template>
- Ele é um gato!</template>
-</category>
- 
-<category>
-<pattern>41R E BONITO</pattern>
-<template>
- Ele é um gato!</template>
-</category>
- 
-<category>
-<pattern>41R E LINDO</pattern>
-<template>
- Ele é um gato!</template>
-</category>
- 
-<category>
-<pattern>41R E GOSTOSO</pattern>
+<pattern>RESET E GOSTOSO</pattern>
 <template>
  Para de falar que o processador até já esquentou!</template>
 </category>
  
-<category>
-<pattern>41R E GOSTOSO</pattern>
-<template>
- Para de falar que o processador até já esquentou!</template>
-</category>
- 
-
 
 
 
@@ -334,8 +281,6 @@
 <template>10909005</template>
 </category>
 
-
-
 <!--  ROLTEL.NET  -->
 
 <category><pattern>ROLTEL SITES</pattern>
@@ -346,9 +291,7 @@
 <a target="_new" href="http://zeitgeist.pt">ZR Blog</a> -  
 <a target="_new" href="http://rbe-pod.net/pt">Wiki RBE</a> - 
 <a target="_new" href="http://rbe-pod.net">RBE-POD</a> -
-<a target="_new" href="http://vozlivre.org">Voz Livre</a> - 
 <a target="_new" href="http://uniplantae.org">Uniplantae</a> - 
-<a target="_new" href="http://poecilia-reticulata.org">Guppies</a> - 
 </template>
 </category>
 
@@ -409,6 +352,5 @@
 <category><pattern>* RADIO ONLINE</pattern>
 <template>Vai visitar o <a target="_new" href="http://atomradio.eu">ATOMRADIO</a>.</template>
 </category>
-
 
 </aiml>
