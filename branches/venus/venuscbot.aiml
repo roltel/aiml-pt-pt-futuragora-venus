@@ -2,6 +2,12 @@
 <aiml version="1.0">
 
 <category>
+<pattern>SIM</pattern>
+<template>Óptimo.</template>
+</category>
+
+
+<category>
 <pattern>* NAO PODE *</pattern>
 <template>
 <srai>VOCEDESCPO</srai>
@@ -3963,7 +3969,7 @@ Sou do tipo tímido, ainda estou formando minha personalidade.
 </category>
  
 <category>
-<pattern>* UM BEIJÃO</pattern>
+<pattern>* UM BEIJAO</pattern>
 <template>
 <srai>QLEGAL</srai>
 </template>
