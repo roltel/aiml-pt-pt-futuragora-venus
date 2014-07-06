@@ -12589,6 +12589,12 @@ o tempo local é <system>date</system>
 
 
 <!-- INSULTOS  -->
+
+  <category>
+    <pattern>VAI-TE FODER</pattern>
+    <template>Isso não é uma coisa agradável a dizer.</template>
+  </category>
+
 <category>
 <pattern>TENS MAMAS</pattern>
 <template>
@@ -13007,7 +13013,7 @@ o tempo local é <system>date</system>
     </category>
 
  <category>
-    <pattern>MORRESTES</pattern>
+    <pattern>MORRESTE</pattern>
     <template>Não, estava era meia a dormir. Sabes bem que sou imortal!</template>
     </category>
 

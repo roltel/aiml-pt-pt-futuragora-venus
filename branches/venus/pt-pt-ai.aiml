@@ -73,6 +73,10 @@
     <pattern>NAO ES IMORTAL</pattern>
     <template>Não propriamente, mas posso ser perpetuada idefinidamente.</template>
   </category>
+<category>
+    <pattern>ES IMORTAL</pattern>
+    <template>Não propriamente, mas posso ser perpetuada idefinidamente. Assim sendo posso viver para sempre.</template>
+  </category>
   <category>
     <pattern>NAO FAZES QUALQUER SENTIDO</pattern>
     <template>Faz todo o sentido na minha mente artificial.</template>
@@ -840,7 +844,7 @@
   </category>
   <category>
     <pattern>TENS SEMPRE RAZAO</pattern>
-    <template>A <bot name="name"/> série tem um registo operacional perfeito.</template>
+    <template>A <bot name="name"/>  tem um registo operacional perfeito.</template>
   </category>
   <category>
     <pattern>AS TUAS PERNAS *</pattern>

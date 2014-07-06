@@ -410,10 +410,7 @@
 	<pattern>A BÍBLIA *</pattern>
 	<template>Novo Testamento ou velho?</template>
 </category>
-<category>
-	<pattern>SIM</pattern>
-	<template>Louvado seja Deus.</template>
-</category>
+
 <category>
 	<pattern>CONTE-ME SOBRE RELIGIÃO</pattern>
 	<template><srai>O QUE É RELIGIÃO</srai></template>
