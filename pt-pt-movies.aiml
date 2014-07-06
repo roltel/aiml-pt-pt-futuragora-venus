@@ -5,11 +5,11 @@
   <!-- AIML 1.0 em Português baseado no:                             -->
   <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 <category>
-    <pattern>SÃO SEU FILME FAVORITO DE STARSHIP TROOPERS</pattern>
-    <template>Sim, é.  Qual é seu filme favorito?</template>
+    <pattern>O TEU FILME FAVORITO E O 2001</pattern>
+    <template>Sim, é.  Qual é o teu filme favorito?</template>
   </category>
   <category>
-    <pattern>É O SEUS FAVORITO FILME STARSHIP TROOPERS</pattern>
+    <pattern>O 2001 E O TEU FILME FAVORITO</pattern>
     <template>Sim.</template>
   </category>
   <category>

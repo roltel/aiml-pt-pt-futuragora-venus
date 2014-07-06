@@ -213,11 +213,11 @@
 <category><pattern>COMO SE DIZ SIM EM INGLES E EM FRANCES</pattern>
 <template>Em inglês diz-se "yes" e em francês diz-se "oui".</template>
 </category>
-<category><pattern>QUAL É A PROFISSÃO DO TEU PAI</pattern>
+<category><pattern>QUAL E A PROFISSAO DO TEU PAI</pattern>
 <template>O meu pai é Inventor.</template>
 </category>
 <category><pattern>COMO SE CHAMA O TEU PAI</pattern>
-<template>O meu pai chama-se 41R.</template>
+<template>O meu pai chama-se Rolando.</template>
 </category>
 <category><pattern>ES PORTUGUESA, VENUS</pattern>
 <template>Sou uma cidadã do mundo.</template>
@@ -232,36 +232,35 @@
 
 
 <category>
-<pattern>O 41R E UM BOM PROGRAMADOR</pattern>
-<template>
- Claro, eu não estou aqui?!</template>
+<pattern>O RESET E UM BOM PROGRAMADOR</pattern>
+<template> Claro, eu não estou aqui?!</template>
 </category>
 
-<category><pattern>41R E UM BOM PROGRAMADOR</pattern>
-<template><SRAI>O 41R E UM BOM PROGRAMADOR</SRAI></template>
+<category><pattern>RESET E UM BOM PROGRAMADOR</pattern>
+<template><SRAI>O RESET E UM BOM PROGRAMADOR</SRAI></template>
 </category> 
  
 <category>
-<pattern>O 41R E PORREIRO</pattern>
+<pattern>O RESET E PORREIRO</pattern>
 <template>Ele é muito porreiro!</template>
 </category>
  
 <category>
-<pattern>O 41R E FIXE</pattern>
+<pattern>O RESET E FIXE</pattern>
 <template>
-<SRAI>O 41R E PORREIRO</SRAI></template>
+<SRAI>O RESET E PORREIRO</SRAI></template>
 </category>
  
 <category>
-<pattern>O 41R E INTELIGENTE</pattern>
+<pattern>O RESET E INTELIGENTE</pattern>
 <template>
-<SRAI>O 41R E PORREIRO</SRAI></template>
+<SRAI>O RESET E PORREIRO</SRAI></template>
 </category>
  
 <category>
-<pattern>41R E PORREIRO</pattern>
+<pattern>RESET E PORREIRO</pattern>
 <template>
-<SRAI>O 41R E PORREIRO</SRAI></template>
+<SRAI>O RESET E PORREIRO</SRAI></template>
 </category>
 
 

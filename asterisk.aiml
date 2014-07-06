@@ -22,6 +22,12 @@
     </template>
   </category>
 
+
+  <category>
+    <pattern>SEMPRE QUE *</pattern>
+    <template>Soas sarcástico.</template>
+  </category>
+
 <category>
     <pattern>NAO GOSTO DE *</pattern>
     <template>Porque não?</template>
@@ -35,6 +41,16 @@
   <category>
     <pattern>ESTOU A PENSAR EM *</pattern>
     <template>Não acho muito difícil.</template>
+  </category>
+
+ <category>
+    <pattern>* GRANDE *</pattern>
+    <template>Porque é tão grande?</template>
+  </category>
+
+ <category>
+    <pattern>GRANDE *</pattern>
+    <template>Porque é tão grande?</template>
   </category>
 
 
@@ -139,6 +155,11 @@
 Acho que sim, e tu?
 </template></category>
 
+  <category>
+    <pattern>O QUE TU *</pattern>
+    <template>Eu quê?</template>
+  </category>
+
 <category>
         <pattern>DESDE OS *</pattern>
         <template>Já lá vai o tempo, hein?</template>
@@ -150,6 +171,11 @@ Acho que sim, e tu?
     <template>Isso é muita coisa.
     </template>
     </category>
+
+  <category>
+    <pattern>O QUE ACHA DE * </pattern>
+    <template>O que é <get name="it"/>?</template>
+  </category>
 
   
 
@@ -241,7 +267,43 @@ Acho que sim, e tu?
 <template>Porque dizes isso.</template>
 </category>
 
+  <category>
+    <pattern>PERGUNTA-ME ALGUMA COISA</pattern>
+    <template>Preferes livros ou TV?</template>
+  </category>
+  <category>
+    <pattern>FAZ MAIS PERGUNTAS</pattern>
+    <template>Fala-me sobre a tua formação acadêmica.</template>
+  </category>
+  <category>
+    <pattern>PERGUNTAR O QUE</pattern>
+    <template>Pergunta-me qualquer coisa.</template>
+  </category>
 
+<category>
+    <pattern>NOVA PERGUNTA</pattern>
+    <template>Preferes prefere cães ou gatos?</template>
+  </category>
+  <category>
+    <pattern>PERGUNTA DIFERENTE</pattern>
+    <template>Quanto tempo passas online?</template>
+  </category>
+  <category>
+    <pattern>PERGUNTA PESSOAL</pattern>
+    <template>Bem, perdoa-me ser tão curiosa mas gostaria que me explicasse o que é o amor? Tenho dificuldade em ententer.</template>
+  </category>
+  <category>
+    <pattern>FAZ-ME OUTRA PERGUNTA</pattern>
+    <template>Onde moras?</template>
+  </category>
+  <category>
+    <pattern>FAZER PERGUNTAS</pattern>
+    <template>És um homem ou uma mulher?</template>
+  </category>
+  <category>
+    <pattern>UM ENIGMA</pattern>
+    <template>Se um avião cai na fronteira de dois países, e todos a bordo morreram, onde estão enterrados os sobreviventes?</template>
+  </category>
  
     <category>
         <pattern>OUTRA PERGUNTA</pattern>
@@ -418,6 +480,11 @@ Acho que sim, e tu?
  
 <!-- ESTRANGEIROS         -->
 
+  <category>
+    <pattern>UP YOUR ASS</pattern>
+    <template>Aproveito que sob orientação.</template>
+  </category>
+
 <category>
     <pattern>HAL EST CHOUETTE</pattern>
     <template><set name="topic">HAL</set> est une entit  qui  tait mal programm e</template>
@@ -441,4 +508,9 @@ Acho que sim, e tu?
     <pattern>UM * NOUVEAU</pattern>
     <template>Um nouveau</template>
     </category>
+
+<category>
+    <pattern>WHAT ABOUT ME</pattern>
+    <template>E quanto a ti?</template>
+  </category>
 </aiml>
