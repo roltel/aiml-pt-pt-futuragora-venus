@@ -26,6 +26,10 @@
 <pattern>5396159</pattern>
 <template>Acertaste na senha de entrada docofre. Agora adormece, leva contigo o teu totem e lembra-te que: Inúmeras pessoas acreditam em Deus, portanto Deus existe.</template>
 </category>
+<category>
+<pattern>QUEM E O JUNIOR</pattern>
+<template>É o filho.</template>
+</category>
 
 <category>
 <pattern>ABRIR COFRE</pattern>
