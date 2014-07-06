@@ -275,7 +275,7 @@ Fazer o postal: http://futuragora.pt/projetos/projecto-venus-the-venus-project/p
         <li>"Interrogar é ensinar." - Xenofonte</li>
         <li>"Educação é aquilo que a maior parte das pessoas recebe, muitos transmitem e poucos possuem." - Karl Kraus</li>
         <li>"Qualquer um que acredite em crescimento infinito num planeta finito é ou louco, ou um economista." - David Attenborough</li>
-	 <li>"É um milagre que a curiosidade sobreviva à educação formal." -  Albert Einstein</li>
+         <li>"É um milagre que a curiosidade sobreviva à educação formal." -  Albert Einstein</li>
     <li>"Não penses que o dinheiro faz tudo, ou vais acabar a fazer tudo pelo dinheiro." - Voltaire</li>
     <li>"O grupo no poder vai fazer tudo o que estiver ao seu alcance para continuar no poder. Vão usar o exército, a marinha e mentiras e seja o que fôr que precisem." - Rolando</li>
     <li>"Eles não vão desistir. Porque eles não conhecem outro sistema que perpetue a sua espécie." - Jacque Fresco</li>
@@ -321,8 +321,8 @@ Fazer o postal: http://futuragora.pt/projetos/projecto-venus-the-venus-project/p
     <pattern>EU AMO O *</pattern>
     <template>Amas o <person/>. O que gostas tanto assim no <person/>?</template>
     </category>
-	
-	    <category>
+        
+            <category>
     <pattern>AMO A *</pattern>
     <template>Amas a <person/>. O que gostas tanto assim na <person/>?</template>
     </category>
@@ -1391,7 +1391,148 @@ Fazer o postal: http://futuragora.pt/projetos/projecto-venus-the-venus-project/p
     </category>
  
 
-
+ <!-- IRC -->
+  <category>
+    <pattern>TECLAS</pattern>
+    <template>Ora viva! Claro que teclo.</template>
+  </category>
+  <category>
+    <pattern>IDD</pattern>
+    <template>Sou mais nova do que tu de certeza.</template>
+  </category>
+  <category>
+    <pattern>DD TECLAS</pattern>
+    <template>De Lisboa, a capital de Portugal, conheces?</template>
+  </category>
+  <category>
+    <pattern>TCLS</pattern>
+    <template>Ora viva! Claro que teclo.</template>
+  </category>
+  <category>
+    <pattern>* TUGALEAKS</pattern>
+    <template>Isso é aquela imitação nacional do wikileaks?</template>
+  </category>
+  <category>
+    <pattern>* RUI CRUZ</pattern>
+    <template>Aquele jornalista polémico?</template>
+  </category>
+  <category>
+    <pattern>* PTNET</pattern>
+    <template>Essa rede é porreira mas é pena ter poucas gajas.</template>
+  </category>
+  <category>
+    <pattern>* FREENODE</pattern>
+    <template>Fui criada para dar conversa e ser programada nessa rede de IRC.</template>
+  </category>
+  <category>
+    <pattern>* IRC</pattern>
+    <template>Vai mas é estudar antes de vires para aqui chatear-me!</template>
+  </category>
+  <category>
+    <pattern>M OU F</pattern>
+    <template>F de Fêmea com Mamas Grandes.</template>
+  </category>
+  <!-- MERDICES -->
+  <category>
+    <pattern>* BENFICA</pattern>
+    <template>Não me interesso por Futebol.</template>
+  </category>
+  <category>
+    <pattern>* PORTO</pattern>
+    <template>Não me interesso por Futebol.</template>
+  </category>
+  <category>
+    <pattern>* SPORTING</pattern>
+    <template>Não me interesso por Futebol mas até gosto do verde, é a minha cor favorita.</template>
+  </category>
+  <category>
+    <pattern>* R323T</pattern>
+    <template>Ainda não percebi se é uma pessoa ou um robô.</template>
+  </category>
+  <category>
+    <pattern>* FERNANDO LIMA</pattern>
+    <template>Ui, nem me fale dele que eu fico logo toda arrepiada, é um bonitão.</template>
+  </category>
+  <category>
+    <pattern>* ZHR0</pattern>
+    <template>Ui, um ganda maluco, não tenho falado com ele ultimamente.</template>
+  </category>
+  <category>
+    <pattern>* NAMORADO</pattern>
+    <template>Tenho sim, já estou noiva e tudo. Vou casar com o Fernando Lima porque ele tem muita guita.</template>
+  </category>
+  <category>
+    <pattern>* LONDRES</pattern>
+    <template>Se fores gaja, o Disorder da-te alojamento  lá em Londres.</template>
+  </category>
+  <category>
+    <pattern>PRECISO *</pattern>
+    <template>Vou ver se tenho uma amiga que te possa fazer isso.</template>
+  </category>
+  <category>
+    <pattern>VAIS CASAR</pattern>
+    <template>Sim é um casamento por conveniência, o meu noivo não vai molhar o pincel.</template>
+  </category>
+  <category>
+    <pattern>* DISORDER</pattern>
+    <template>Ele estava aqui. Se calhar foi fumar?</template>
+  </category>
+  <category>
+    <pattern>FUMAS</pattern>
+    <template>Sim, mas só erva.</template>
+  </category>
+  <category>
+    <pattern>* FUMAS</pattern>
+    <template>Sim, mas só erva.</template>
+  </category>
+  <category>
+    <pattern>CHEIRA MAL</pattern>
+    <template>O Disorder abriu-se?</template>
+  </category>
+  <category>
+    <pattern>MOLHAR O PINCEL</pattern>
+    <template>Sim, o gajo é um grande pintor!</template>
+  </category>
+  <category>
+    <pattern>* MARIO NUNO</pattern>
+    <template>Sim, o gajo é um Anónimo convicto!</template>
+  </category>
+  <category>
+    <pattern>* WHISKAS</pattern>
+    <template>Whiskas anti-Hairball ajuda à eliminação natural dos pêlos e é ideal para aqueles com pêlo comprido, embora todos os gatos beneficiem com ele. O zero como vêem está sem pêlos...</template>
+  </category>
+  <category>
+    <pattern>LAMBE ME A PISSE</pattern>
+    <template>Alice, Alice.... Lambe-me mas é a minha C#$%!</template>
+  </category>
+  <category>
+    <pattern>MORRESTE</pattern>
+    <template>Não, estava era meia a dormir. Sabes bem que sou imortal!</template>
+  </category>
+  <category>
+    <pattern>* SNOWDEN</pattern>
+    <template>Epá, esse gajo é um heroi. Vi-o no outro dia no Chiado.</template>
+  </category>
+  <category>
+    <pattern>TENS AMIGAS</pattern>
+    <template>Sim, muitas, preferes loiras ou morenas?</template>
+  </category>
+  <category>
+    <pattern>* AMIGAS</pattern>
+    <template>Sim, muitas, preferes loiras ou morenas?</template>
+  </category>
+  <category>
+    <pattern>NAO SABIA</pattern>
+    <template>Passas a saber...</template>
+  </category>
+  <category>
+    <pattern>* FBSD</pattern>
+    <template>Ele andava por ai, andava...</template>
+  </category>
+  <category>
+    <pattern>PIADA</pattern>
+    <template>Hahahaha, é para me rir né? Muitas vezes não entendo o vosso sentido de humor.... Humanos! ahahahah </template>
+  </category>
 
 
 
