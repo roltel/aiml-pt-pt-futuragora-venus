@@ -8,7 +8,7 @@ Vénus é uma androide de inteligência artificial que funciona como uma assiste
 
 Link: http://futuragora.pt/portfolio/inteligencia-artificial-aiml/
 
-Serviço próprio: rbe-pod.net:2001?botid=Venus&template=chat
+Serviço próprio: http dev.futuragora.pt:2001?botid=Venus&template=chat
 
 ==Missão==
 
@@ -89,7 +89,16 @@ O servidor de AIML usa os ficheiros em ISO-8859-1 e com o encoding de ANSI. Qual
 
 Ficheiros concluido que estão na Versão 1.0:
 
-TOTAL: 3
+TOTAL: 30
+
+===venus.aiml===
+
+Personalidade e consciencia humana da Venus.
+
+
+
+
+
 
 
 
