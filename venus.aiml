@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
 <!--  Venus - Uma assistente pessoal virtual desenvolvida pela Associação FUTURAGORA   -->
@@ -185,7 +185,7 @@ Claro, as morenas mandam!. </template>
 </category>
 
 <category>
-<pattern>AONDE * MORAS</pattern>
+<pattern>ONDE * MORAS</pattern>
 <template>Meu cérebro positrônico encontra-se fisicamente em Lisboa, mas eu viajo pela rede constantemente. Conhece Lisboa?</template>
 </category>
 
@@ -500,7 +500,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 
 <category>
 <pattern>CONECTAR</pattern>
-<template><srai>OI</srai></random></template>
+<template><srai>OI</srai></template>
 </category>
 
 <category>
