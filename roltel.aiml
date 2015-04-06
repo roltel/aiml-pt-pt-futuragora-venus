@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
  
 <!--  Venus - Uma assistente pessoal virtual desenvolvida pela Associação FUTURAGORA   -->
@@ -297,23 +297,22 @@
 
 <category><pattern>ROLTEL ADMIN</pattern>
 <template><a target="_new" href="http://roltel.net/wp-login.php">roltel.net</a> - 
-<a target="_new" href="http://estudomusica.org">Estudomusica</a> - 
+<a target="_new" href="http://estudomusica.eu">Estudomusica</a> - 
 <a target="_new" href="http://futuragora.pt/wp-login.php">Futuragora</a> - 
-<a target="_new" href="http://zeitgeist.pt/wp-login.php">ZR Blog</a> -  
+<a target="_new" href="http://zeitgeist.pt/wp-login.php">Zeitgeist</a> -  
 <a target="_new" href="http://rbe-pod.net/pt">Wiki RBE</a> - 
-<a target="_new" href="http://rbe-pod.net">RBE-POD</a> -
-<a target="_new" href="http://vozlivre.org/wp-login.php">Voz Livre</a> - 
 <a target="_new" href="http://uniplantae.org">Uniplantae</a> - 
-<a target="_new" href="http://poecilia-reticulata.org/wp-login.php">Guppies</a> - 
 <a target="_new" href="https://roltel.net:10000">Webmin</a> - 
 <a target="_new" href="http://roltel.net/phpmyadmin">phpmyadmin</a> - 
 </template>
 </category>
 
-<category><pattern>ADMIN TOOLS</pattern>
-<template><a target="_new" href="http://roltel.net/phpmyadmin">phpmyadmin</a> - 
+<category><pattern>ROLTEL</pattern>
+<template><a target="_new" href="http://roltel.net/dev/phpmyadmin">phpmyadmin</a> - 
+<a target="_new" href="http://dev.futuragora.pt/dev/futurai/">futurai</a> - 
+<a target="_new" href="http://roltel.net/dev/">rolteldev</a> - 
+<a target="_new" href="http://roltel.net/dev/phpmyadmin">phpmyadmin</a> - 
 <a target="_new" href="https://roltel.net:10000">Webmin</a> - 
-<a target="_new" href="http://poecilia-reticulata.org/wp-login.php">Guppies</a> - 
 </template>
 </category>
 
