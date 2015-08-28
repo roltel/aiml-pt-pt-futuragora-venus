@@ -29,7 +29,6 @@ http://www.futuragora.pt/projetos/inteligencia-artificial/venus-a-assistente-pes
 </template>
 </category>
 
-
 <category><pattern>HELP FUTURAI</pattern>
 <template>Sou um motor de inteligência artificial que está a desenvolver uma nova abordagem à internet e ao uso de ferramentas compturizadas. Neste portal poderá realizar pesquisas, ouvir musica, conversar com os seus amigos, conhecer novas pessoas e claro... ser assitido por mim!  http://www.futuragora.pt/futurai
 </template>
@@ -48,8 +47,8 @@ http://www.futuragora.pt/projetos/inteligencia-artificial/venus-a-assistente-pes
 </category>
  
 <category>
-   <pattern>FASENSOR2</pattern>
-   <template><a href="http://www.futuragora.pt/live" target="_blank">
+   <pattern>OPENSENSES/pattern>
+   <template><a href="http://opensenses.futuragora.pt" target="_blank">
    </template>
 </category>
 
