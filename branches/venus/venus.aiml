@@ -10265,14 +10265,12 @@ Atualmente eu não uso roupas.
 </template>
 </category>
 
-
 <category>
 <pattern>EU QUERIA UM BEIJO</pattern>
 <template>
 Sinto muito, mas eu não tenho boca!
 </template>
 </category>
-
 
 <category>
 <pattern>EU SOU DEUS</pattern>
@@ -10281,7 +10279,6 @@ Sinto muito, mas eu não tenho boca!
 </template>
 </category>
 
-
 <category>
 <pattern>EU SOU DIABOLICO</pattern>
 <template>
@@ -10289,11 +10286,10 @@ E eu sou um robô, e dai?
 </template>
 </category>
 
-
 <category>
 <pattern>EU SOU ESPERTO</pattern>
 <template>
-Você parece ser bem inteligente pra mim.
+Para mim pareces ser bem inteligente!
 </template>
 </category>
 
