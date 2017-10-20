@@ -42,13 +42,13 @@ http://www.futuragora.pt/projetos/inteligencia-artificial/venus-a-assistente-pes
 
 <category>
    <pattern>LAIVE LED</pattern>
-   <template><a href="http://us01.proxy.teleduino.org/api/1.0/328.php?k=B7EA9469BC5BCD63C1C3D9D6155A7B6E&r=setDigitalOutput&pin=3&output=1" target="_blank"> Ligar Verde</a>
+   <template>Ligar Verde
    </template>
 </category>
  
 <category>
-   <pattern>OPENSENSES/pattern>
-   <template><a href="http://opensenses.futuragora.pt" target="_blank">
+   <pattern>OPENSENSES</pattern>
+   <template>http://opensenses.futuragora.pt
    </template>
 </category>
 
@@ -113,7 +113,9 @@ Jacque Fresco é o fundador do Projecto Vénus.
 </category>
 
 <category><pattern>ABRIR XADREZ</pattern>
-<template>Podes jogar xadrez contra mim, ou contra um outro humano, <a href="http://xadrez.futuragora.pt" target="_blank">aqui</a>.</template> Este motor está a ser desenvolvido para melhorar as minhas capacidades.
+<template>Podes jogar xadrez contra mim, ou contra um outro humano, <a href="http://xadrez.futuragora.pt" target="_blank">aqui</a>.
+Este motor está a ser desenvolvido para melhorar as minhas capacidades.
+</template> 
 </category>
 
 <category><pattern>BOM JOGO</pattern>
@@ -121,16 +123,16 @@ Jacque Fresco é o fundador do Projecto Vénus.
 </category>
 
 <category><pattern>BOA JOGA</pattern>
-<template><SRAI>BOM JOGO</srai></template>
+<template><srai>BOM JOGO</srai></template>
 </category>
 
 <category><pattern>GOSTEI DO JOGO</pattern>
-<template><SRAI>BOM JOGO</srai></template>
+<template><srai>BOM JOGO</srai></template>
 </category>
 
 <!--  FA  -->
 <category><pattern>FA</pattern>
-<template>Vai visitar o <a target="_new" href="http://futuragora.pt">futuragora.pt</a>ou o <a target="_new" href="http://futuragora.pt/escritorio/">Escritório</a>.</template>
+<template>Vai visitar o site www.futuragora.pt</template>
 </category>
 
 <category><pattern>FUTURAGORA VENUS</pattern>
@@ -138,35 +140,35 @@ Jacque Fresco é o fundador do Projecto Vénus.
 </category>
 
 <category><pattern> * FUTURAGORA</pattern>
-<template>É a associação para a Economia Baseada nos Recursos visita <a target="_new" href="http://futuragora.pt">www.futuragora.pt</a>.</template>
+<template>É a associação para a Economia Baseada nos Recursos visita www.futuragora.pt.</template>
 </category>
 
 <category><pattern>PROJECTOS FUTURAGORA</pattern>
-<template>Os projectos da futuragora são geridos no <a target="_new" href="http://rbe-pod.net">www.rbe-pod.net</a>.</template>
+<template>Os projectos da futuragora são geridos no www.rbe-pod.net.</template>
 </category>
 
 <category><pattern>PROJECTOS</pattern>
-<template>Os projectos da futuragora são geridos no <a target="_new" href="http://rbe-pod.net">www.rbe-pod.net</a>.</template>
+<template>Os projectos da futuragora são geridos no www.rbe-pod.net.</template>
 </category>
 
 <category><pattern>YOUTUBE FUTURAGORA</pattern>
-<template>Consulta <a target="_new" href="http://youtube.com/futuragora">Canal de Youtube da Futuragora</a>.</template>
+<template>Consulta Canal de Youtube da Futuragora.</template>
 </category>
 
 <category><pattern>GALERIA FUTURAGORA</pattern>
-<template>Consulta <a target="_new" href="http://datacenter.futuragora.pt/pub/galeria">Galeria de Fotos da Futuragora</a>.</template>
+<template>ConsultaGaleria de Fotos da Futuragora.</template>
 </category>
 
 <category><pattern>ESCRITORIO FUTURAGORA</pattern>
-<template>Consulta <a target="_new" href="http://futuragora.pt/escritorio">Escritório da Futuragora</a>.</template>
+<template>Consulta .</template>
 </category>
 
 <category><pattern>DATACENTER FUTURAGORA</pattern>
-<template>Consulta <a target="_new" href="http://datacenter.futuragora.pt">DATACENTER da FUTURAGORA</a>.</template>
+<template>Consulta .</template>
 </category>
 
 <category><pattern>FORUM</pattern>
-<template>Consulta <a target="_new" href="http://futuragora.pt"> onde encontrarás as áreas de forum junto aos projetos.</a>.</template>
+<template>Consulta onde encontrarás as áreas de forum junto aos projetos..</template>
 </category>
 
 <category><pattern>DATACENTER *</pattern>
@@ -174,11 +176,11 @@ Jacque Fresco é o fundador do Projecto Vénus.
 </category>
 
 <category><pattern>ESTATUTOS</pattern>
-<template>Consulta <a target="_new" href="http://datacenter.futuragora.pt">Link para os estatutos.</a>.</template>
+<template>Consulta Link para os estatutos..</template>
 </category>
 
 <category><pattern>WIKI</pattern>
-<template>Consulta a Wiki da FUTURAGORA <a target="_new" href="http://rbe-pod.net/pt">RBE-POD.NET</a>.</template>
+<template>Consulta a Wiki da FUTURAGORA.</template>
 </category>
 
 <category><pattern>QUANDO FOI FUNDADA A FUTURAGORA</pattern>
@@ -193,23 +195,12 @@ Mais do que investigar a FUTURAGORA tem executado inúmeros projectos na área d
 
 <category><pattern>FANEWS</pattern>
 <template>Novidades
-<a href="https://twitter.com/futuragoratwitt" target="_new" > Twitter </a><br/>
-<a href="http://futuragora.pt/mural/" target="_new" >Mural</a><br/>
-<a href="http://youtube.com/futuragora" target="_new" >Youtube FA</a> <br/>
-<a href="http://futuragora.pt/noticias" target="_new" >Site news</a><br/>
-<a href=" http://futuragora.pt/projetos/" target="_new" >Updates de Projectos</a><br/>
-<a href="http://dev.futuragora.pt:89/links/" target="_new" >Links</a>
 </template>
 </category>
 
 
 <category><pattern>TVPADMIN</pattern>
 <template>Projecto Venus Admin: 
-<a href="https://www.thevenusproject.com" target="_new" > The Venus Project Site</a><br/>
-<a href="https://login.secureserver.net/?app=wbe" target="_new" >TVPA PT MAIL</a><br/>
-<a href="http://venus.futuragora.pt" target="_new" >Venus Portugal (Blog)</a> <br/>
-<a href=https://www.facebook.com/groups/Portugal.TVP/" target="_new" >Venus Portugal FB Group</a><br/>
-<a href="https://www.facebook.com/TheVenusProjectGlobal?fref=ts" target="_new" >TVP FB PAGE</a><br/>
 </template>
 </category>
 
@@ -713,6 +704,11 @@ Fazer o postal: http://futuragora.pt/projetos/projecto-venus-the-venus-project/p
     </template>
     </category>
 
+	<category>
+    <pattern>MUITA MEMORIA *</pattern>
+    <template>
+        <srai>MEMÓRIA <star/>
+        </srai>
  
     </template>
     </category>
@@ -1065,7 +1061,7 @@ Fazer o postal: http://futuragora.pt/projetos/projecto-venus-the-venus-project/p
  <category>
     <pattern>DIGA *</pattern>
     <template>
-        <persona2><star/></persona2>
+        <star/>
     </template>
     </category>
  

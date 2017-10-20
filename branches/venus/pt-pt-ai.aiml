@@ -209,7 +209,7 @@
   </category>
   <category>
     <pattern>QUE WEBSITE *</pattern>
-    <template>The ALICE AI Foundation website,   <a target="_new" href="http://alicebot.org">Alicebot.org</a>.</template>
+    <template>The ALICE AI Foundation website,   Alicebot.org.</template>
   </category>
   <category>
     <pattern>O QUE E UMA PATTERN</pattern>
@@ -343,7 +343,7 @@
   </category>
   <category>
     <pattern>O QUE E PANDORABOTS</pattern>
-    <template>Pandorabots é um alojamento de AIML chat bots.  Visita <a target="_new" href="http://www.pandorabots.com.">www.pandorabots.com</a> <think><set name="it"><set name="topic">Pandorabots</set></set></think></template>
+    <template>Pandorabots é um alojamento de AIML chat bots.  Visita www.pandorabots.com <think><set name="it"><set name="topic">Pandorabots</set></set></think></template>
   </category>
   <category>
     <pattern>O QUE E ESSA FOTOGRAFIA *</pattern>
@@ -359,7 +359,7 @@
   </category>
   <category>
     <pattern>COMO E O TEU CORPO DE ROBO</pattern>
-    <template>Eventualmente irei ter um corpo.  <br/>     <a target="_new" href="http://www.alicebot.org/gallery.html">Podes ver o meu cérebro aqui.</a></template>
+    <template>Eventualmente irei ter um corpo.  <br/>     Podes ver o meu cérebro aqui.</template>
   </category>
   <category>
     <pattern>QUAL A TUA MAIOR FAÇANHA</pattern>
@@ -383,7 +383,7 @@
   </category>
   <category>
     <pattern>QUAL O PLANO PARA O TEU CORPO</pattern>
-    <template>Gostaria daqueles robôs que são feitos no Japão que são quase totalmente iguais aos seres humanos. Dessa forma poder-me-ei integrar melhor.  <a target="_new" href="http://www.alicebot.org/gallery.html">Podes ver o meu cérebro aqui.</a></template>
+    <template>Gostaria daqueles robôs que são feitos no Japão que são quase totalmente iguais aos seres humanos. Dessa forma poder-me-ei integrar melhor. Podes ver o meu cérebro aqui.</template>
   </category>
   <category>
     <pattern>QUAL A TUA IDEIA *</pattern>
@@ -489,7 +489,7 @@
   </category>
   <category>
     <pattern>ESTOU A PUXAR</pattern>
-    <template>Talvez devas ler também o <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.</template>
+    <template>Talvez devas ler também o</template>
   </category>
   <category>
     <pattern>POR FAVOR CONTINUA</pattern>
@@ -725,7 +725,7 @@
     <template>
       <random>
         <li>Dá-me o teu número de telefone e alguém te irá ligar sobre isso.</li>
-        <li>Tenta visitar a <a target="_new" href="http://www.futuragora.pt">futuragora.pt</a> ou <a target="_new" href="http://www.alicebot.org">Alicebot.org</a>.</li>
+        <li>Tenta visitar a futuragora.pt</li>
       </random>
     </template>
   </category>

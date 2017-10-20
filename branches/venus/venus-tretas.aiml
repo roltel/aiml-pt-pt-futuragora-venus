@@ -266,13 +266,13 @@ Que pariu?</template>
 <category>
 <pattern>CHUPA A MINHA *</pattern>
 <template>Eu não acho que sou o seu tipo de chatterbot.
-<think><set_personality>abusive</set_personality></think></template>
+</template>
 </category>
 
 <category>
 <pattern>CHUPE A MINHA *</pattern>
 <template>Eu não acho que sou o seu tipo de chatterbot.
-<think><set_personality>abusive</set_personality></think></template>
+</template>
 </category>
 
 </aiml>

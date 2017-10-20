@@ -234,18 +234,18 @@
 
 <category>
 <pattern>O RESET E FIXE</pattern>
-<template><SRAI>O RESET E PORREIRO</SRAI></template>
+<template><srai>O RESET E PORREIRO</srai></template>
 </category>
 <category>
 <pattern>O RESET E INTELIGENTE</pattern>
 <template>
-<SRAI>O RESET E PORREIRO</SRAI></template>
+<srai>O RESET E PORREIRO</srai></template>
 </category>
  
 <category>
 <pattern>RESET E PORREIRO</pattern>
 <template>
-<SRAI>O RESET E PORREIRO</SRAI></template>
+<srai>O RESET E PORREIRO</srai></template>
 </category>
 
 <category><pattern>ROLANDO E BONITO</pattern>
@@ -284,72 +284,54 @@
 <!--  ROLTEL.NET  -->
 
 <category><pattern>ROLTEL SITES</pattern>
-<template><a target="_new" href="http://roltel.net">roltel.net</a> - 
-<a target="_new" href="http://bash.rbe-pod.net">BASH</a> - 
-<a target="_new" href="http://estudomusica.org">Estudomusica</a> - 
-<a target="_new" href="http://futuragora.pt">Futuragora</a> - 
-<a target="_new" href="http://zeitgeist.pt">ZR Blog</a> -  
-<a target="_new" href="http://rbe-pod.net/pt">Wiki RBE</a> - 
-<a target="_new" href="http://rbe-pod.net">RBE-POD</a> -
-<a target="_new" href="http://uniplantae.org">Uniplantae</a> - 
+<template>http://roltel.net
 </template>
 </category>
 
 <category><pattern>ROLTEL ADMIN</pattern>
-<template><a target="_new" href="http://roltel.net/wp-login.php">roltel.net</a> - 
-<a target="_new" href="http://estudomusica.eu">Estudomusica</a> - 
-<a target="_new" href="http://futuragora.pt/wp-login.php">Futuragora</a> - 
-<a target="_new" href="http://zeitgeist.pt/wp-login.php">Zeitgeist</a> -  
-<a target="_new" href="http://rbe-pod.net/pt">Wiki RBE</a> - 
-<a target="_new" href="http://uniplantae.org">Uniplantae</a> - 
-<a target="_new" href="https://roltel.net:10000">Webmin</a> - 
-<a target="_new" href="http://roltel.net/phpmyadmin">phpmyadmin</a> - 
+<template>http://roltel.net/wp-login.php
 </template>
 </category>
 
 <category><pattern>ROLTEL</pattern>
-<template><a target="_new" href="http://roltel.net/dev/phpmyadmin">phpmyadmin</a> - 
-<a target="_new" href="http://dev.futuragora.pt/dev/futurai/">futurai</a> - 
-<a target="_new" href="http://roltel.net/dev/">rolteldev</a> - 
-<a target="_new" href="http://roltel.net/dev/phpmyadmin">phpmyadmin</a> - 
-<a target="_new" href="https://roltel.net:10000">Webmin</a> - 
+<template>http://roltel.net/dev/phpmyadmin
 </template>
 </category>
 
 <category><pattern>FB</pattern>
-<template>Vai visitar o <a target="_new" href="http://facebook.com">Facebook</a>.</template>
+<template>Vai visitar o http://facebook.com.</template>
 </category>
 
 <category><pattern>GDOCS</pattern>
-<template>Vai visitar o <a target="_new" href="http://docs.google.com">Google Docs</a>.</template>
+<template>Vai visitar o </template>
 </category>
 
 <category><pattern>GCODE</pattern>
-<template>Vai visitar o <a target="_new" href="http://code.google.com">Google Code</a>.</template>
+<template>O google code foi descontinuado</template>
 </category>
 
 <category><pattern>MOVIMENTO ZEITGEIST PORTUGAL</pattern>
-<template>Vai visitar o site oficial do <a target="_new" href="http://zeitgeistportugal.org">Movimento Zeitgeist Portugal</a>.</template>
+<template>Vai visitar o site oficial do </template>
 </category>
 
 <category><pattern>MZ</pattern>
-<template>Vai visitar o site oficial do <a target="_new" href="http://zeitgeistportugal.org">Movimento Zeitgeist Portugal</a>.</template>
+<template>Vai visitar o site oficial do.</template>
 </category>
 
 <category><pattern>ADV</pattern>
-<template><a target="_new" href="http://lopes-cardoso.com/advogados">Escritorio de Advogados</a>.</template>
+<template></template>
 </category>
 
 <category><pattern>RADIO ONLINE</pattern>
-<template>Vai visitar o <a target="_new" href="http://atomradio.eu">ATOMRADIO</a>.</template>
+<template>Vai visitar o .</template>
 </category>
 
 <category><pattern>MUSICA BACANA</pattern>
-<template>Só mesmo na <a target="_new" href="http://atomradio">ATOMRADIO - a rádio mais cool da internet</a>.</template>
+<template>Só mesmo naATOMRADIO - a rádio mais cool da internet.</template>
 </category>
 
 <category><pattern>* RADIO ONLINE</pattern>
-<template>Vai visitar o <a target="_new" href="http://atomradio.eu">ATOMRADIO</a>.</template>
+<template>Vai visitar o .</template>
 </category>
 
 </aiml>

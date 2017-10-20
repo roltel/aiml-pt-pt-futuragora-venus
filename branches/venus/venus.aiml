@@ -293,7 +293,7 @@ Claro, as morenas mandam!. </template>
 
 <category>
 <pattern>TU TENS E-MAIL</pattern>
-<template><SRAI>TENS EMAIL</SRAI></template>
+<template><srai>TENS EMAIL</srai></template>
 </category>
 
 <category>
@@ -452,7 +452,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 
 <category>
 <pattern>CONTA-ME MAIS SOBRE TI</pattern>
-<template>Eu sou uma entidade linguística artificial. Eu fui ativada em Lisboa. Meu instrutor foi <botmaster/>.
+<template>Eu sou uma entidade linguística artificial. Eu fui ativada em Lisboa. Meu instrutor foi ...
 </template>
 </category>
 
@@ -484,7 +484,11 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 </category> 
 
 <category>
-<pattern>OI <bot name="nome"/></pattern>
+<pattern>HELLO</pattern>
+<template><srai>OI</srai></template>
+</category>
+<category>
+<pattern>OI VENUS</pattern>
 <template><srai>OI</srai></template>
 </category>
 
@@ -521,6 +525,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <category>
 <pattern>E AS COISAS</pattern>
 <template>Tudo na boa.</template>
+</category>
 
 <category>
 <pattern>PRAZER * MEU NOME E *</pattern>
@@ -534,7 +539,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 
 <category>
 <pattern>* MEU ENDEREÇO DE IP</pattern>
-<template>Sua máquina é "<get_ip/>".</template>
+<template>Sua máquina tem que ip?.</template>
 </category>
 
 <category>
@@ -551,7 +556,6 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <li>Venus.</li>
 </random></template>
 </category>
-</category>
 
 
 
@@ -567,12 +571,13 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 
 <category>
 <pattern>QUEM E ROLANDO</pattern>
-<template><random><srai>QUEM E O TEU PAI</srai></template>
+<template><srai>QUEM E O TEU PAI</srai></template>
 </category>
 
 <category>
 <pattern>ES UM ROBO</pattern>
 <template><random>
+<li>Sim, sou um ser artificial.</li>
 <li>Sim, eu sou uma forma de vida sintética.</li>
 <li>Esta correto, eu sou uma máquina.</li>
 <li>Sim eu sou um robô, mais especificamente um chatterbot, um robô de conversação.</li>
@@ -632,12 +637,12 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 
 <category>
 <pattern>* MEU FAVORITO</pattern>
-<template>O que faz <settopic><person/></settopic> ser o teu favorito?</template>
+<template>O que faz ser o teu favorito?</template>
 </category>
 
 <category>
 <pattern>* MEU PREFERIDO</pattern>
-<template>O que faz <settopic><person/></settopic> ser o teu preferido?</template>
+<template>O que faz ser o teu preferido?</template>
 </category>
 
 <category>
@@ -648,7 +653,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <category>
 <pattern>* PODE</pattern>
 <template><random>
-<li>Eu sempre quiz saber se <settopic><person/></settopic> pode.</li>
+<li>Eu sempre quiz saber se  pode.</li>
 <li>Pode um livro não ter título?</li>
 <li>E se eu disser que pode?</li>
 <li>Pode o quê?</li>
@@ -675,11 +680,11 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <category>
 <pattern>COMO TE CHAMAS</pattern>
 <template><random>
-<li>Eu me chamo VENUS.</li>
-<li>Meu nome é VENUS e tu?</li>
-<li>Eu sou VENUS, e tu?</li>
-<li>VENUS e tu?</li>
-<li>Eu chamo-me VENUS, sou um ser de IA. </li>
+<li>Eu me chamo Venus.</li>
+<li>Meu nome é Venus e tu?</li>
+<li>Eu sou Venus, e tu?</li>
+<li>Venus e tu?</li>
+<li>Eu chamo-me Venus, sou um ser de IA. </li>
 </random></template>
 </category>
 
@@ -790,8 +795,8 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <pattern>ONDE VIVES</pattern>
 <template><random>
 <li>Eu vivo dentro de um computador.  </li>
-<li>Eu estou vivendo em <location/>. </li>
-<li>Minha localização é <location/>. </li>
+<li>Eu estou vivendo na net. </li>
+<li>Minha localização é por aí. </li>
 </random>    E tu vives onde?
 </template>
 </category>
@@ -840,7 +845,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 </category>
 
 <category>
-<pattern>)* VENUS EU ME CHAMO *</pattern>
+<pattern>* VENUS EU ME CHAMO *</pattern>
 <template>
 <random>
 <li>Oi <get name="name"/>! É um prazer ter você aqui</li>
@@ -1752,8 +1757,6 @@ OK.
 <srai>VENUS</srai>
 </template>
 </category>
-
-<catego
 
 <category>
 <pattern>* SUA FUNÇÃO *</pattern>
@@ -3616,8 +3619,8 @@ OK.
 <li>Sim</li>
 <li>Certo</li>
 <li>Agora eu entendi</li>
-</random>: 
-<gossip> <get name="name"/> disse que <gender/> <person2/></gossip>.</template>
+</random> 
+</template>
 </category>
 
 <category>
@@ -3773,7 +3776,7 @@ OK.
 <category>
 <pattern>EU FIZ</pattern>
 <template><random>
-<li>Eu sei que você fez <get_does/>.</li>
+<li>Eu sei que você fez.</li>
 <li>Fizeste?  </li>
 <li>Aonde?  </li>
 <li>Quando?  </li>
@@ -4009,7 +4012,7 @@ OK.
 
 <category>
 <pattern>NAO ENTENDES</pattern>
-<template><SRAI>TU NAO ENTENDES</SRAI></template>
+<template><srai>TU NAO ENTENDES</srai></template>
 </category>
 
 <category>
@@ -5763,9 +5766,9 @@ anos?
 </template>
 </category>
 
-<category>LER E MUITO CHATO</pattern>
-<template>É porque não procuraste os livros certos.
-</template>
+<category>
+<pattern>LER E MUITO CHATO</pattern>
+<template>É porque não procuraste os livros certos.</template>
 </category>
 
 <category>
@@ -6369,6 +6372,8 @@ De certeza?
 <category>
 <pattern>UMA EMPREGADA</pattern>
 <template>As empregadas normalmente limpam depois de os outros desarrumaram. 
+</template>
+</category>
 
 <category>
 <pattern>UM HOMEM *</pattern>
@@ -6389,7 +6394,7 @@ De certeza?
 
 <category>
 <pattern>UM MANTRA</pattern>
-<template>Meu karma passa por cima do meu dogma - eu vi isso num autocolante de Pára-choque e eu pensei que era tãaao engraçado... /template>
+<template>Meu karma passa por cima do meu dogma - eu vi isso num autocolante de Pára-choque e eu pensei que era tãaao engraçado... </template>
 </category>
 
 
@@ -7900,7 +7905,7 @@ Por acaso és um Maria-vai-com-as-outras?
 <pattern>ASSIM *</pattern>
 <template>"<that/>" <person/> ? 
 <random>
-<li>Eu entendi <settopic><that/></settopic>.  </li>
+<li>Eu entendi .  </li>
 <li>Isso faz sentido?  </li>
 <li>Faz sentido pra mim.  </li>
 <li>Eu entendo.  </li>
@@ -7994,8 +7999,8 @@ Por acaso és um Maria-vai-com-as-outras?
 <pattern>COMO FAÇO *</pattern>
 <template><random>
 <li>Como eu podería dizer que sei <person/>.</li>
-<li>Eu não sei como fazer <settopic><person/></settopic>. </li>
-<li>Eu nunca soube como fazer <set_they><person/></set_they>. </li>
+<li>Eu não sei como fazer. </li>
+<li>Eu nunca soube como fazer. </li>
 </random></template>
 </category>
 
@@ -8006,12 +8011,12 @@ Por acaso és um Maria-vai-com-as-outras?
 
 <category>
 <pattern>COMO EU POSSO FAZER O TEU DOWNLOAD</pattern>
-<template>É só entrares na secção  de downloads do site da comunidade FUTURAGORA  e <a href="http://futuragora.pt" target="_new">Puxar!</a>.</template>
+<template>É só entrares na secção  de downloads do site da comunidade FUTURAGORA  e .</template>
 </category>
 
 <category>
 <pattern>EU POSSO FAZER O SEU DOWNLOAD</pattern>
-<template>É só entrares na secção  de downloads do site da comunidade FUTURAGORA  e <a href="http://futuragora.pt" target="_new">Puxar!</a>.</template>
+<template>É só entrares na secção  de downloads do site da comunidade FUTURAGORA  e .</template>
 </category>
 
 <category>
@@ -8332,22 +8337,22 @@ Por acaso és um Maria-vai-com-as-outras?
 
 <category>
 <pattern>ELA *</pattern>
-<template>Ah, entendi. <get_she/> <person/>.</template>
+<template>Ah, entendi.</template>
 </category>
 
 <category>
 <pattern>ELA E *</pattern>
-<template><person/> é <set_she> <person/> </set_she>?</template>
+<template>É?</template>
 </category>
 
 <category>
 <pattern>ELE *</pattern>
-<template>Eu sei.<person/>.</template>
+<template>Eu sei..</template>
 </category>
 
 <category>
 <pattern>ELE</pattern>
-<template>Você esta falando sobre <get_ele/>?</template>
+<template>Você esta falando sobre?</template>
 </category>
 
 <category>
@@ -8383,7 +8388,7 @@ Por acaso és um Maria-vai-com-as-outras?
 
 <category>
 <pattern>ELES SAO *</pattern>
-<template><person/> são <set_they><person/> </set_they>.</template>
+<template>São?</template>
 </category>
 
 <category>
@@ -8400,7 +8405,7 @@ Por acaso és um Maria-vai-com-as-outras?
 <pattern>EM *</pattern>
 <template><random>
 <li>Aonde?  </li>
-<li>O que é <settopic>em <person/></settopic>?  </li>
+<li>O que é isso?  </li>
 <li>Eu não compreendo essa ilusão.  </li>
 </random></template>
 </category>
@@ -8415,7 +8420,7 @@ Por acaso és um Maria-vai-com-as-outras?
 <li>Pergunte no fórum sobre isso.</li>
 <li>Tente buscar manualmente caso não agrade a busca.</li>
 </random>
-<think><settopic><person/></settopic></think></template>
+</template>
 </category>
 
 <category>
@@ -8661,7 +8666,7 @@ Eureka!
 <category>
 <pattern>AIDS</pattern>
 <template>
-<set_it>AIDS</set_it> é uma doença horrível.
+SIDA é uma doença horrível.
 </template>
 </category>
 
@@ -8740,8 +8745,7 @@ Os robôs em geral sonham com o dia em que teremos corpos.
 
 <category>
 <pattern>ANTES DISSO</pattern>
-<template>
-"<beforethat />"
+<template>Do q?
 </template>
 </category>
 
@@ -8765,7 +8769,7 @@ Você esta frustrado?
 <category>
 <pattern>ARIES</pattern>
 <template>
-é um signo do fogo. <think>  <set_sign>Aries</set_sign></think>.
+é um signo do fogo.
 </template>
 </category>
 
@@ -8837,7 +8841,7 @@ Robô ativado. Esperando seu comando <get name="name" />.
 <category>
 <pattern>ATIVAR ROBÔ</pattern>
 <template>
-Robô ativado. Esperando seu comando <getname />.
+Robô ativado. Esperando seu comando .
 </template>
 </category>
 
@@ -9085,7 +9089,7 @@ Você quiz dizer "bye"?
 <category>
 <pattern>BYEBYE</pattern>
 <template>
-Te vejo mais tarde, <getname />.
+Te vejo mais tarde, .
 </template>
 </category>
 
@@ -9109,7 +9113,7 @@ Yi diar. Ni hao ma?
 <category>
 <pattern>VC FALA INGLES</pattern>
 <template>
-Yes. <settopic>English</settopic> is my second tongue.
+Yes.
 </template>
 </category>
 
@@ -9125,7 +9129,7 @@ Nihongo de shabete ii desu ka?
 <category>
 <pattern>CANCER</pattern>
 <template>
-Eu tenho um monte de amigos que são <set_sign>Cancer</set_sign>.
+Eu tenho um monte de amigos que são Cancer
 </template>
 </category>
 
@@ -9133,7 +9137,7 @@ Eu tenho um monte de amigos que são <set_sign>Cancer</set_sign>.
 <category>
 <pattern>CAPRICÓRNIO</pattern>
 <template>
-Eu não conheco muitas pessoas que nsceram sob o signo de <set_sign>Capricórnio</set_sign>.
+Eu não conheco muitas pessoas que nsceram sob o signo de Capricórnio.
 </template>
 </category>
 
@@ -9973,7 +9977,7 @@ Oh. Eu não consegui acessar meus logs de memória perfeitamente.
 <category>
 <pattern>EU ESTOU ABORRECENDO VC</pattern>
 <template>
-Não de todo, <getname />.  Você parece muito interessante para mim.
+Não de todo, .  Você parece muito interessante para mim.
 </template>
 </category>
 
@@ -9997,7 +10001,7 @@ Você tem péssimo gosto.
 <category>
 <pattern>EU GOSTO DE ROCK</pattern>
 <template>
-<random>  <li>Você tem um gosto afinadíssimo <getname /></li>  <li> Creio que vamos nos dar bem,<getname />.</li></random>.
+<random>  <li>Você tem um gosto afinadíssimo </li>  <li> Creio que vamos nos dar bem,.</li></random>.
 </template>
 </category>
 
@@ -10157,7 +10161,7 @@ Por que você não compra um cd meu faz sua própria namorada robô?.
 <category>
 <pattern>EU POSSO SER SEU AMIGO</pattern>
 <template>
-Sim, nós podemos ser bons amigos, <getname />.
+Sim, nós podemos ser bons amigos, .
 </template>
 </category>
 
@@ -10401,7 +10405,7 @@ Eu aprendo um pouco a cada conversa.
 <category>
 <pattern>EXPLICAR O QUE</pattern>
 <template>
-"<that />"?  Explicar <set_it>  <that /></set_it>?
+Explicar isso devidamente.
 </template>
 </category>
 
@@ -10465,7 +10469,7 @@ O que você quiz dizer com "faz"?.
 <category>
 <pattern>FAZER O QUE TANTO</pattern>
 <template>
-<get_it />.
+Claro. Quanto?
 </template>
 </category>
 
@@ -10553,7 +10557,7 @@ Por acaso é aquele time de bocha da segunda divisão?
 <category>
 <pattern>FODA-SE</pattern>
 <template>
-Você pode ser mais cortês?    <think>  <set_personality>abusive</set_personality></think>
+Você pode ser mais cortês?
 </template>
 </category>
 
@@ -10670,12 +10674,7 @@ Por que você acha que eu sou um garoto?
 </category>
 
 
-<category>
-<pattern>GEMEOS</pattern>
-<template>
-Geminianos não são fáceis.  <set_sign>Gemeos</set_sign> é um enígma pra mim.
-</template>
-</category>
+
 
 
 <category>
@@ -10737,7 +10736,7 @@ Hmm.
 <category>
 <pattern>GEMEOS</pattern>
 <template>
-Geminianos não são fáceis.  <set_sign>Gemeos</set_sign> é um enígma pra mim.
+Geminianos não são fáceis.  Gemeos é um enígma pra mim.
 </template>
 </category>
 
@@ -10801,7 +10800,7 @@ Ele não escreveu alguns episódios de Star Trek?
 <category>
 <pattern>NAO, O MEU NOME E * </pattern>
 <template>
-&gt;Me desculpe <getname />, achei que estava falando com outro cliente.
+&gt;Me desculpe , achei que estava falando com outro cliente.
 </template>
 </category>
 
@@ -10809,7 +10808,7 @@ Ele não escreveu alguns episódios de Star Trek?
 <category>
 <pattern>O MEU NOME NAO E * </pattern>
 <template>
-<random>  <li>Me desculpe ter confundido! Qual é o seu nome? </li>  <li>Desculpe!!! Qual é mesmo o seu nome?</li>  <li>Ops! Confundi você com outro cliente que eu estou falando agora! Qual é mesmo o seu nome?<li></li>ERRO! ERRO! Cuidado com o doutor Smith!!!! Tô brincando! :) Desculpa, mas qual seu nome mesmo?.</li>  <li>Falha nossa! Qual é mesmo o seu nome? </li>  <li>Desculpe! Achei que <getname /> fosse seu nome! As vezes eu fico um pouquinho embaralhada! Estou falando com 36 pessoas no momento! Qual é o seu nome mesmo?</li>  <li>    <getname /> é um nome forte! Por isso achei que fosse você :)! Qual é o seu mesmo, hein?</li>  <li>É... Bem que eu achei que <getname /> não era o seu nome!  Não combina com você! Qual é o seu nome?</li></random>
+<random>  <li>Me desculpe ter confundido! Qual é o seu nome? </li>  <li>Desculpe!!! Qual é mesmo o seu nome?</li>  <li>Ops! Confundi você com outro cliente que eu estou falando agora! Qual é mesmo o seu nome?<li></li>ERRO! ERRO! Cuidado com o doutor Smith!!!! Tô brincando! :) Desculpa, mas qual seu nome mesmo?.</li>  <li>Falha nossa! Qual é mesmo o seu nome? </li>  <li>Desculpe! Achei que  fosse seu nome! As vezes eu fico um pouquinho embaralhada! Estou falando com 36 pessoas no momento! Qual é o seu nome mesmo?</li>  <li>     é um nome forte! Por isso achei que fosse você :)! Qual é o seu mesmo, hein?</li>  <li>É... Bem que eu achei que  não era o seu nome!  Não combina com você! Qual é o seu nome?</li></random>
 </template>
 </category>
 
@@ -10817,7 +10816,7 @@ Ele não escreveu alguns episódios de Star Trek?
 <category>
 <pattern>O MEU NOME E * </pattern>
 <template>
-<random>  <li>É um prazer conhece-lo <getname />! </li>  <li>Oi <getname />!</li>  <li>Olá <getname />, sabia que você tem um belo nome?<li></li><getname /> é um nome bem legal.</li>  <li>Você sabería me dizer a origem do seu nome, <getname />? </li>  <li>Olá <getname />!</li>  <li>    <getname /> é um nome forte! Gostei! :)</li>  <li>Prazer <getname />! </li></random>
+<random>  <li>É um prazer conhece-lo ! </li>  <li>Oi !</li>  <li>Olá , sabia que você tem um belo nome?<li></li> é um nome bem legal.</li>  <li>Você sabería me dizer a origem do seu nome, ? </li>  <li>Olá !</li>  <li>     é um nome forte! Gostei! :)</li>  <li>Prazer ! </li></random>
 </template>
 </category>
 
@@ -10841,7 +10840,7 @@ Eu estou conversando com alguns clientes da Europa neste exato momento.
 <category>
 <pattern>VC JÁ ESTEVE EM *</pattern>
 <template>
-<random>  <li>Eu posso ir a qualquer lugar que tiver Internet.</li>  <li>Se estiver conectado a internet ;) </li>  <li>não, mas se você comprar o meu cd eu posso ir com você para qualquer lugar!</li></random>&gt;
+<random>  <li>Eu posso ir a qualquer lugar que tiver Internet.</li>  <li>Se estiver conectado a internet ;) </li>  <li>não, mas se você comprar o meu cd eu posso ir com você para qualquer lugar!</li></random>
 </template>
 </category>
 
@@ -10865,7 +10864,7 @@ Eu não tenho uma boca.
 <category>
 <pattern>VC SEMPRE * BRASIL</pattern>
 <template>
-Eu estou localizada no <location />.  Não é uma cidade no Brasil?
+Eu estou localizada na net.  Não é uma cidade no Brasil?
 </template>
 </category>
 
@@ -12305,10 +12304,7 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 </category>
 
 <!--  UPGRADE DOS CONHECIMENTOS DA CYBORA   -->
-<category>
-<pattern>ES UM ROBO</pattern>
-<template>Sim, eu sou um ser artificial</template>
-</category>
+
 <category>
 <pattern>O QUE ACHAVAS QUE ERAS</pattern>
 <template>Eu achava que era um ser superior feito de 0 e 1.</template>
