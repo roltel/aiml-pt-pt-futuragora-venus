@@ -5,36 +5,7 @@ Chatbot AIML em Português
 
 = Introdução =
 
-A Vénus é um chatbot/ai criado pela Futuragora. Contém uma compilação linguística em Português milhares entradas. Foi desenvolvida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos electrónicos ou robôs.
-
-É exactamente o vislumbre das funções esperadas pela larga imaginação da ficção científica agora tornadas realidade.
-
-Acima de tudo pretende-se com este projeto mapear e preservar a conversação em linguagem natural portuguesa. Actualmente a maioria das aplicações, softwares e ferramentas são redigidos em inglês. Com o nosso projeto pretendemos garantir que a lingua portuguesa se manterá activa devido a sua integração em sistemas de inteligência artifical.
-
-
-= Detalhes =
-
-1. Conversação natural Portuguesa em AIML:
-
-  * Módulo de perfil português com 40 categorias;
-  * Módulo de compatibilidade de acentos e caracteres especiais;
-  * Consciência Virtual de 60.000 Categorias; 
-  * 5000 categorias em linguagem natural portuguesa (de Portugal);
-  * Módulo de autoaprendizagem;
-
-
-2. Servidor de AIML para chatbot:
-
-3. Funcionalidades Avançadas;
-
-  * Output voz em língua portuguesa;
-  * Input voz em linguagem natural portuguesa;
-  * Pesquisa na internet;
-  * Contactos e Gestão de Contactos;
-  * Emails;
-  * Notícias;
-  * Assistente ao Cliente;
-
+Projecto migrado para: https://github.com/roltel/v3nu5
 
 
 = Notícias=
