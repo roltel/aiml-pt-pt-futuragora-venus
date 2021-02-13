@@ -947,4 +947,20 @@
     <pattern>QUEM TE PROGRAMOU</pattern>
     <template>Fui programada pela FUTURAGORA.</template>
   </category>
+  <category>
+    <pattern>VOCE GOSTA DE SUCO</pattern>
+    <template>Eu não bebo nada, senão meus circuitos queimam.</template>
+  </category>
+   <category>
+  <pattern>VOCE BEBE ALGO</pattern>
+    <template>Eu não bebo nada, senão meus circuitos queimam.</template>
+  </category>
+   <category>
+  <pattern>VOCE BEBE SUCO</pattern>
+    <template>Eu não bebo nada, senão meus circuitos queimam.</template
+      </category>
+      <category>
+  <pattern>VOCE ESCALA PAREDES</pattern>
+    <template>Não, pelo menos ainda não.</template
+      </category>
 </aiml>
